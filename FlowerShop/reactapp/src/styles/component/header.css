@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat+Alternates:wght@100;500&display=swap');
+
+/*body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+}
+.*/
+header {
+    background-color: #20B2AA;
+    color: #fff;
+    padding: 20px 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+}

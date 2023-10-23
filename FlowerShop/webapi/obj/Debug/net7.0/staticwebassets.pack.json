@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\FS\\FlowerShop\\FlowerShop\\webapi\\wwwroot\\images\\mondial.jpg",
+      "PackagePath": "staticwebassets\\images\\mondial.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.webapi.props",
+      "PackagePath": "build\\webapi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.webapi.props",
+      "PackagePath": "buildMultiTargeting\\webapi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.webapi.props",
+      "PackagePath": "buildTransitive\\webapi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.webapi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

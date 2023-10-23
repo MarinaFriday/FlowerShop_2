@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat+Alternates:wght@100;500&display=swap');
+
+.footer-area {
+    width: 100%;
+    /*height: 150px;*/
+    background: #20B2AA;
+}
+
+.footer-items {
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-inner {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+
+}
