@@ -1,22 +1,26 @@
 ﻿import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-route-dom';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
+import Home from './components/Home/Home';
+import Flowers from './components/Flower/Flowers';
+import Statistics from './components/Statistics/Statistics';
+import Tools from './components/Tools/Tools';
+
 
 export default class App extends Component {    
     render() {
 
         return (
-            <div>
-            <Header title="Мята FlowerShop"/>
-                <Router>
-                    <NavBar />   
-                    <Switch>
-                    <Route path="/"/>
-                    </Switch>
-                </Router>
-            <Footer />
+            <div className="container">
+                <div>
+                    <NavBar />
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/flowers' element={<Flowers />} />
+                        <Route path='/statistics' element={<Statistics />} />
+                        <Route path='/tools' element={<Tools />} />
+                    </Routes>
+                </div>
             </div>
         );
     }   

@@ -3473,19 +3473,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marin\\.nuget\\packages\\": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marin\\OneDrive\\Desktop\\ex_1\\FlowerShop\\FlowerShop\\webapi\\webapi.csproj",
+      "projectUniqueName": "D:\\koko\\FS\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "C:\\Users\\marin\\OneDrive\\Desktop\\ex_1\\FlowerShop\\FlowerShop\\webapi\\webapi.csproj",
-      "packagesPath": "C:\\Users\\marin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marin\\OneDrive\\Desktop\\ex_1\\FlowerShop\\FlowerShop\\webapi\\obj\\",
+      "projectPath": "D:\\koko\\FS\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "D:\\koko\\FS\\FlowerShop_2\\FlowerShop\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3493,7 +3493,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.309\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3584,7 +3583,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.309\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

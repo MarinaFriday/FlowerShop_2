@@ -1,32 +1,27 @@
-import React from 'react';
-import * as FaIcons from 'react-icons/fa';
-import { NavLink, Link } from "react-router-dom";
+п»їimport React from 'react';
+//import * as FaIcons from 'react-icons/fa';
+import { NavLink } from "react-router-dom";
 
-export default class NavBar extends React.Component {
+const NavBar = () => {
 
-    render() { 
         return (
-            <nav className="nav nav-underline justify-content-between mb-2">
-                <Link to='#' className='menu-bars'>
-                    <FaIcons.FaBars/>
-                </Link>
-
-                {/*<NavLink className='nav-item nav-link link-body-emphasis' to="/">*/}
-                {/*    Главная*/}
-                {/*</NavLink>*/}
-                {/*<NavLink className='nav-item nav-link link-body-emphasis' to="/flowers">*/}
-                {/*    Каталог цветов*/}
-                {/*</NavLink>               */}
+            <nav className="nav nav-underline justify-content-between mb-2">             
+                <NavLink className='nav-item nav-link link-body-emphasis' to="/">
+                   Р“Р»Р°РІРЅР°СЏ
+                </NavLink>
+                <NavLink className='nav-item nav-link link-body-emphasis' to="/flowers">
+                   РЎРїРёСЃРѕРє С†РІРµС‚РѕРІ
+                </NavLink>               
+                <NavLink className='nav-item nav-link link-body-emphasis' to="/statistics">
+                    РЎС‚Р°С‚РёСЃС‚РёРєР°
+                </NavLink>
+                <NavLink className='nav-item nav-link link-body-emphasis' to="/tools">
+                    РРЅСЃС‚СЂСѓРјРµРЅС‚С‹
+                </NavLink>
                 {/*<NavLink className='nav-item nav-link link-body-emphasis' to="/cart">*/}
-                {/*    Статистика*/}
-                {/*</NavLink>*/}
-                {/*<NavLink className='nav-item nav-link link-body-emphasis' to="/cart">*/}
-                {/*    Инструменты*/}
-                {/*</NavLink>*/}
-                {/*<NavLink className='nav-item nav-link link-body-emphasis' to="/cart">*/}
-                {/*    Задачи*/}
+                {/*    Р—Р°РґР°С‡Рё*/}
                 {/*</NavLink>*/}
             </nav>
         );
-    }
 }
+export default NavBar;

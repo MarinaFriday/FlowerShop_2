@@ -12,12 +12,7 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\build</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\components\Flower\" />
-    <Folder Include="src\components\Header\" />
-    <Folder Include="src\components\NavBar\" />
     <Folder Include="src\components\Home\" />
-    <Folder Include="src\components\Statistics\" />
-    <Folder Include="src\components\Tools\" />
     <Folder Include="src\hooks\" />
     <Folder Include="src\styles\component\" />
     <Folder Include="src\urls\" />
