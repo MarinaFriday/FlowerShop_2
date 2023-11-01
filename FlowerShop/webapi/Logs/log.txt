@@ -1866,3 +1866,6 @@ System.Text.Json.JsonException: A possible object cycle was detected. This can e
 10/22/2023 15:53:18 HTTP "POST" "/api/Countries" responded 200 in 2582.7247 ms
 10/22/2023 15:54:15 HTTP "POST" "/api/Flowers" responded 200 in 716.8095 ms
 10/22/2023 15:54:55 HTTP "GET" "/api/Countries" responded 200 in 211.0042 ms
+11/01/2023 19:51:37 Приложение запущено
+11/01/2023 19:51:47 HTTP "GET" "/swagger/index.html" responded 200 in 711.2435 ms
+11/01/2023 19:51:48 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 533.5203 ms
