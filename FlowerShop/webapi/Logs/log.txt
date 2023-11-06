@@ -1869,3 +1869,223 @@ System.Text.Json.JsonException: A possible object cycle was detected. This can e
 11/01/2023 19:51:37 Приложение запущено
 11/01/2023 19:51:47 HTTP "GET" "/swagger/index.html" responded 200 in 711.2435 ms
 11/01/2023 19:51:48 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 533.5203 ms
+11/04/2023 13:06:15 Приложение запущено
+11/04/2023 13:06:21 HTTP "GET" "/swagger/index.html" responded 200 in 985.2112 ms
+11/04/2023 13:06:22 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 598.1935 ms
+11/04/2023 13:07:07 Failed to determine the https port for redirect.
+11/04/2023 13:07:10 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 13:07:10 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 13:07:14 HTTP "GET" "/api/Colors" responded 200 in 6775.3677 ms
+11/04/2023 13:07:14 HTTP "GET" "/favicon.ico" responded 404 in 0.3924 ms
+11/04/2023 13:39:47 Приложение запущено
+11/04/2023 13:41:27 Приложение запущено
+11/04/2023 13:41:33 HTTP "GET" "/swagger/index.html" responded 200 in 1099.2982 ms
+11/04/2023 13:41:35 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 541.2911 ms
+11/04/2023 13:45:20 Failed to determine the https port for redirect.
+11/04/2023 13:45:23 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 13:45:23 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 13:45:25 HTTP "GET" "/api/Colors" responded 200 in 5045.6071 ms
+11/04/2023 13:45:25 HTTP "GET" "/api/Colors" responded 200 in 144.7488 ms
+11/04/2023 14:26:58 Приложение запущено
+11/04/2023 14:27:14 HTTP "GET" "/swagger/index.html" responded 200 in 1386.3235 ms
+11/04/2023 14:27:16 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 603.0664 ms
+11/04/2023 14:27:40 Failed to determine the https port for redirect.
+11/04/2023 14:27:42 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:27:42 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:27:45 HTTP "GET" "/api/Colors" responded 200 in 4650.7319 ms
+11/04/2023 14:27:45 HTTP "GET" "/api/Colors" responded 200 in 91.8657 ms
+11/04/2023 14:30:16 HTTP "GET" "/api/Colors" responded 200 in 366.0523 ms
+11/04/2023 14:30:16 HTTP "GET" "/api/Colors" responded 200 in 13.2257 ms
+11/04/2023 14:31:03 Приложение запущено
+11/04/2023 14:31:07 HTTP "GET" "/swagger/index.html" responded 200 in 513.3126 ms
+11/04/2023 14:31:11 Failed to determine the https port for redirect.
+11/04/2023 14:31:11 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 563.5092 ms
+11/04/2023 14:31:12 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:31:12 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:31:14 HTTP "GET" "/api/Colors" responded 200 in 3548.5049 ms
+11/04/2023 14:31:15 HTTP "GET" "/api/Colors" responded 200 in 82.2643 ms
+11/04/2023 14:32:32 HTTP "GET" "/swagger/index.html" responded 200 in 30.4889 ms
+11/04/2023 14:32:32 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 43.4836 ms
+11/04/2023 14:33:12 Приложение запущено
+11/04/2023 14:33:19 HTTP "GET" "/swagger/index.html" responded 200 in 1334.5186 ms
+11/04/2023 14:33:20 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 620.0312 ms
+11/04/2023 14:33:22 Failed to determine the https port for redirect.
+11/04/2023 14:33:25 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:33:25 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:33:28 HTTP "GET" "/api/Colors" responded 200 in 6113.8374 ms
+11/04/2023 14:33:29 HTTP "GET" "/api/Colors" responded 200 in 64.4192 ms
+11/04/2023 14:37:55 Приложение запущено
+11/04/2023 14:37:59 HTTP "GET" "/swagger/index.html" responded 200 in 565.5748 ms
+11/04/2023 14:38:01 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 379.5589 ms
+11/04/2023 14:38:03 Failed to determine the https port for redirect.
+11/04/2023 14:38:05 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:38:07 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:38:09 HTTP "GET" "/api/Colors" responded 200 in 6292.1423 ms
+11/04/2023 14:38:09 HTTP "GET" "/api/Colors" responded 200 in 80.6880 ms
+11/04/2023 14:46:31 Приложение запущено
+11/04/2023 14:46:36 HTTP "GET" "/swagger/index.html" responded 200 in 451.3209 ms
+11/04/2023 14:46:38 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 474.0201 ms
+11/04/2023 14:49:50 Приложение запущено
+11/04/2023 14:49:56 HTTP "GET" "/swagger/index.html" responded 200 in 2844.4529 ms
+11/04/2023 14:49:57 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 394.7619 ms
+11/04/2023 14:50:09 Failed to determine the https port for redirect.
+11/04/2023 14:50:12 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:50:12 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:50:15 HTTP "GET" "/api/Colors" responded 200 in 5926.1811 ms
+11/04/2023 14:50:15 HTTP "GET" "/api/Colors" responded 200 in 117.2113 ms
+11/04/2023 14:53:52 HTTP "GET" "/swagger/index.html" responded 200 in 32.6871 ms
+11/04/2023 14:53:53 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 64.1214 ms
+11/04/2023 14:54:47 Приложение запущено
+11/04/2023 14:54:48 HTTP "GET" "/swagger/index.html" responded 200 in 482.5484 ms
+11/04/2023 14:54:48 HTTP "GET" "/swagger/swagger-ui.css" responded 304 in 38.9830 ms
+11/04/2023 14:54:48 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 304 in 39.0947 ms
+11/04/2023 14:54:48 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 304 in 41.0039 ms
+11/04/2023 14:54:49 HTTP "GET" "/swagger/favicon-32x32.png" responded 304 in 0.4216 ms
+11/04/2023 14:54:50 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 481.8443 ms
+11/04/2023 14:56:50 Приложение запущено
+11/04/2023 14:56:50 HTTP "GET" "/swagger" responded 301 in 121.3320 ms
+11/04/2023 14:56:51 HTTP "GET" "/swagger/index.html" responded 200 in 582.0193 ms
+11/04/2023 14:56:51 HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 26.1771 ms
+11/04/2023 14:56:51 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 23.0850 ms
+11/04/2023 14:56:51 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 57.1460 ms
+11/04/2023 14:56:52 HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.7581 ms
+11/04/2023 14:56:52 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 524.6031 ms
+11/04/2023 14:57:05 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:57:05 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 14:57:07 HTTP "GET" "/api/Colors" responded 200 in 3027.1893 ms
+11/04/2023 14:57:07 HTTP "GET" "/favicon.ico" responded 404 in 0.9931 ms
+11/04/2023 14:58:35 HTTP "GET" "/api/Colors" responded 200 in 150.4730 ms
+11/04/2023 14:58:35 HTTP "GET" "/api/Colors" responded 200 in 264.7665 ms
+11/04/2023 14:59:31 HTTP "GET" "/api/Colors" responded 200 in 175.8719 ms
+11/04/2023 15:00:25 HTTP "GET" "/api/Colors" responded 200 in 23.3952 ms
+11/04/2023 15:00:27 HTTP "GET" "/api/Colors" responded 200 in 307.3740 ms
+11/04/2023 15:00:28 HTTP "GET" "/api/Colors" responded 200 in 74.9064 ms
+11/04/2023 15:13:25 Приложение запущено
+11/04/2023 15:13:31 HTTP "GET" "/swagger/index.html" responded 200 in 5111.8214 ms
+11/04/2023 15:13:34 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 683.8318 ms
+11/04/2023 15:13:36 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 15:13:36 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 15:13:42 HTTP "GET" "/api/Colors" responded 200 in 8438.0125 ms
+11/04/2023 15:13:42 HTTP "GET" "/api/Colors" responded 200 in 82.6580 ms
+11/04/2023 15:15:16 HTTP "GET" "/api/Colors" responded 200 in 266.1531 ms
+11/04/2023 15:15:16 HTTP "GET" "/api/Colors" responded 200 in 15.0521 ms
+11/04/2023 15:17:26 Приложение запущено
+11/04/2023 15:17:27 HTTP "GET" "/swagger/index.html" responded 200 in 736.7240 ms
+11/04/2023 15:17:28 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 343.5094 ms
+11/04/2023 15:18:12 Приложение запущено
+11/04/2023 15:18:13 HTTP "GET" "/swagger/index.html" responded 200 in 629.6255 ms
+11/04/2023 15:18:14 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 326.9424 ms
+11/04/2023 15:18:15 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 15:18:15 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 15:18:17 HTTP "GET" "/api/Colors" responded 200 in 3648.6501 ms
+11/04/2023 15:18:18 HTTP "GET" "/api/Colors" responded 200 in 157.2691 ms
+11/04/2023 15:19:03 Приложение запущено
+11/04/2023 15:19:04 HTTP "GET" "/swagger/index.html" responded 200 in 617.3554 ms
+11/04/2023 15:19:06 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 15:19:06 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+11/04/2023 15:19:06 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 307.4549 ms
+11/04/2023 15:19:09 HTTP "GET" "/api/Colors" responded 200 in 4783.2734 ms
+11/04/2023 15:19:09 HTTP "GET" "/api/Colors" responded 200 in 169.9954 ms
+11/04/2023 20:06:34 HTTP "GET" "/api/Colors" responded 200 in 2041.6509 ms
+11/04/2023 20:06:34 HTTP "GET" "/api/Colors" responded 200 in 129.4875 ms
+11/04/2023 20:06:37 HTTP "GET" "/api/Colors" responded 200 in 10.6369 ms
+11/04/2023 20:58:41 HTTP "GET" "/api/Colors" responded 200 in 1563.6292 ms
+11/04/2023 20:58:41 HTTP "GET" "/api/Colors" responded 200 in 73.6914 ms
+11/04/2023 21:00:47 HTTP "GET" "/api/Colors" responded 200 in 2709.2316 ms
+11/04/2023 21:00:48 HTTP "GET" "/api/Colors" responded 200 in 361.6831 ms
+11/04/2023 21:13:23 HTTP "GET" "/api/Colors" responded 200 in 2037.4908 ms
+11/04/2023 21:13:24 HTTP "GET" "/api/Colors" responded 200 in 361.1357 ms
+11/04/2023 21:14:08 HTTP "GET" "/api/Colors" responded 200 in 269.1999 ms
+11/04/2023 21:14:08 HTTP "GET" "/api/Colors" responded 200 in 9.3706 ms
+11/04/2023 21:16:17 HTTP "GET" "/api/Colors" responded 200 in 220.2782 ms
+11/04/2023 21:16:17 HTTP "GET" "/api/Colors" responded 200 in 33.9108 ms
+11/04/2023 21:20:41 HTTP "GET" "/api/Colors" responded 200 in 859.8086 ms
+11/04/2023 21:20:41 HTTP "GET" "/api/Colors" responded 200 in 9.8453 ms
+11/04/2023 21:21:18 HTTP "GET" "/api/Colors" responded 200 in 245.2760 ms
+11/04/2023 21:21:19 HTTP "GET" "/api/Colors" responded 200 in 68.2071 ms
+11/04/2023 21:22:26 HTTP "GET" "/api/Colors" responded 200 in 132.4709 ms
+11/04/2023 21:22:26 HTTP "GET" "/api/Colors" responded 200 in 200.4233 ms
+11/04/2023 21:23:24 HTTP "GET" "/api/Colors" responded 200 in 73.2805 ms
+11/04/2023 21:23:24 HTTP "GET" "/api/Colors" responded 200 in 30.9878 ms
+11/04/2023 21:23:38 HTTP "GET" "/api/Colors" responded 200 in 267.4518 ms
+11/04/2023 21:23:39 HTTP "GET" "/api/Colors" responded 200 in 171.4113 ms
+11/04/2023 21:26:14 HTTP "GET" "/api/Colors" responded 200 in 430.4868 ms
+11/04/2023 21:26:15 HTTP "GET" "/api/Colors" responded 200 in 49.9281 ms
+11/04/2023 21:26:21 HTTP "GET" "/api/Colors" responded 200 in 225.8766 ms
+11/04/2023 21:26:21 HTTP "GET" "/api/Colors" responded 200 in 41.2138 ms
+11/04/2023 21:26:49 HTTP "GET" "/api/Colors" responded 200 in 112.5404 ms
+11/04/2023 21:26:49 HTTP "GET" "/api/Colors" responded 200 in 30.1175 ms
+11/04/2023 21:26:57 HTTP "GET" "/api/Colors" responded 200 in 316.2441 ms
+11/04/2023 21:26:57 HTTP "GET" "/api/Colors" responded 200 in 26.7192 ms
+11/04/2023 21:30:07 HTTP "GET" "/api/Colors" responded 200 in 345.5836 ms
+11/04/2023 21:30:07 HTTP "GET" "/api/Colors" responded 200 in 64.5674 ms
+11/04/2023 21:30:14 HTTP "GET" "/api/Colors" responded 200 in 226.2788 ms
+11/04/2023 21:30:14 HTTP "GET" "/api/Colors" responded 200 in 18.7294 ms
+11/04/2023 21:30:57 HTTP "GET" "/api/Colors" responded 200 in 84.6570 ms
+11/04/2023 21:30:57 HTTP "GET" "/api/Colors" responded 200 in 22.4628 ms
+11/04/2023 21:31:00 HTTP "GET" "/api/Colors" responded 200 in 129.6844 ms
+11/04/2023 21:31:00 HTTP "GET" "/api/Colors" responded 200 in 222.7684 ms
+11/04/2023 21:32:57 HTTP "GET" "/api/Colors" responded 200 in 115.3075 ms
+11/04/2023 21:32:58 HTTP "GET" "/api/Colors" responded 200 in 61.8162 ms
+11/04/2023 21:33:02 HTTP "GET" "/api/Colors" responded 200 in 115.9441 ms
+11/04/2023 21:33:02 HTTP "GET" "/api/Colors" responded 200 in 49.8934 ms
+11/04/2023 21:34:02 HTTP "GET" "/api/Colors" responded 200 in 299.9871 ms
+11/04/2023 21:34:02 HTTP "GET" "/api/Colors" responded 200 in 19.7864 ms
+11/04/2023 21:37:10 HTTP "GET" "/api/Colors" responded 200 in 645.7239 ms
+11/04/2023 21:37:11 HTTP "GET" "/api/Colors" responded 200 in 9.5775 ms
+11/04/2023 21:37:54 HTTP "GET" "/api/Colors" responded 200 in 225.8412 ms
+11/04/2023 21:37:54 HTTP "GET" "/api/Colors" responded 200 in 7.6511 ms
+11/04/2023 21:41:57 HTTP "GET" "/api/Colors" responded 200 in 207.3000 ms
+11/04/2023 21:41:57 HTTP "GET" "/api/Colors" responded 200 in 31.5396 ms
+11/04/2023 21:42:19 HTTP "GET" "/api/Colors" responded 200 in 111.0881 ms
+11/04/2023 21:42:19 HTTP "GET" "/api/Colors" responded 200 in 9.3355 ms
+11/04/2023 21:42:59 HTTP "GET" "/api/Colors" responded 200 in 142.6172 ms
+11/04/2023 21:42:59 HTTP "GET" "/api/Colors" responded 200 in 43.4373 ms
+11/04/2023 21:43:13 HTTP "GET" "/api/Colors" responded 200 in 83.5623 ms
+11/04/2023 21:43:13 HTTP "GET" "/api/Colors" responded 200 in 9.8465 ms
+11/04/2023 21:43:33 HTTP "GET" "/api/Colors" responded 200 in 110.0582 ms
+11/04/2023 21:43:33 HTTP "GET" "/api/Colors" responded 200 in 10.5184 ms
+11/04/2023 21:44:02 HTTP "GET" "/api/Colors" responded 200 in 542.5314 ms
+11/04/2023 21:44:03 HTTP "GET" "/api/Colors" responded 200 in 306.8452 ms
+11/04/2023 21:44:14 HTTP "GET" "/api/Colors" responded 200 in 64.4336 ms
+11/04/2023 21:44:14 HTTP "GET" "/api/Colors" responded 200 in 12.6115 ms
+11/04/2023 21:46:53 HTTP "GET" "/api/Colors" responded 200 in 136.5337 ms
+11/04/2023 21:46:53 HTTP "GET" "/api/Colors" responded 200 in 15.2079 ms
+11/04/2023 21:47:43 HTTP "GET" "/api/Colors" responded 200 in 282.7853 ms
+11/04/2023 21:47:44 HTTP "GET" "/api/Colors" responded 200 in 102.8329 ms
+11/04/2023 21:51:03 HTTP "GET" "/api/Colors" responded 200 in 307.0130 ms
+11/04/2023 21:51:03 HTTP "GET" "/api/Colors" responded 200 in 8.4440 ms
+11/04/2023 21:54:44 HTTP "GET" "/api/Colors" responded 200 in 203.8498 ms
+11/04/2023 21:54:44 HTTP "GET" "/api/Colors" responded 200 in 53.5477 ms
+11/04/2023 21:57:26 HTTP "GET" "/api/Colors" responded 200 in 463.7649 ms
+11/04/2023 21:57:26 HTTP "GET" "/api/Colors" responded 200 in 18.8551 ms
+11/04/2023 22:08:38 HTTP "GET" "/api/Colors" responded 200 in 3428.3826 ms
+11/04/2023 22:08:38 HTTP "GET" "/api/Colors" responded 200 in 9.5461 ms
+11/04/2023 22:12:18 HTTP "GET" "/api/Colors" responded 200 in 95.8025 ms
+11/04/2023 22:12:18 HTTP "GET" "/api/Colors" responded 200 in 10.4897 ms
+11/04/2023 22:29:17 HTTP "GET" "/api/Colors" responded 200 in 3969.6545 ms
+11/04/2023 22:29:17 HTTP "GET" "/api/Colors" responded 200 in 168.3713 ms
+11/04/2023 22:41:45 HTTP "GET" "/api/Colors" responded 200 in 1167.9221 ms
+11/04/2023 22:41:45 HTTP "GET" "/api/Colors" responded 200 in 27.7966 ms
+11/04/2023 23:13:03 HTTP "GET" "/api/Colors" responded 200 in 671.1042 ms
+11/04/2023 23:13:03 HTTP "GET" "/api/Colors" responded 200 in 12.1557 ms
+11/04/2023 23:19:30 HTTP "GET" "/api/Colors" responded 200 in 736.5720 ms
+11/04/2023 23:19:30 HTTP "GET" "/api/Colors" responded 200 in 18.8125 ms
+11/04/2023 23:28:05 HTTP "GET" "/api/Colors" responded 200 in 471.2316 ms
+11/04/2023 23:28:05 HTTP "GET" "/api/Colors" responded 200 in 33.0422 ms
+11/04/2023 23:39:08 HTTP "GET" "/api/Colors" responded 200 in 279.9821 ms
+11/04/2023 23:39:08 HTTP "GET" "/api/Colors" responded 200 in 8.0058 ms
+11/04/2023 23:50:01 HTTP "GET" "/api/Colors" responded 200 in 222.3111 ms
+11/04/2023 23:50:01 HTTP "GET" "/api/Colors" responded 200 in 5.0960 ms
+11/04/2023 23:50:24 HTTP "GET" "/api/Colors" responded 200 in 13.8977 ms
+11/04/2023 23:50:24 HTTP "GET" "/api/Colors" responded 200 in 44.0783 ms
+11/04/2023 23:50:55 HTTP "GET" "/api/Colors" responded 200 in 85.8525 ms
+11/04/2023 23:50:55 HTTP "GET" "/api/Colors" responded 200 in 8.2671 ms
+11/05/2023 11:52:49 Приложение запущено
+11/05/2023 11:52:51 HTTP "GET" "/swagger" responded 301 in 40.7478 ms
+11/05/2023 11:52:52 HTTP "GET" "/swagger/index.html" responded 200 in 747.4984 ms
+11/05/2023 11:52:52 HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 25.1388 ms
+11/05/2023 11:52:52 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 32.9275 ms
+11/05/2023 11:52:52 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 38.4745 ms
+11/05/2023 11:52:53 HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.4305 ms
+11/05/2023 11:52:53 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 556.9651 ms

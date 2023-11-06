@@ -13,7 +13,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="src\components\Home\" />
-    <Folder Include="src\hooks\" />
     <Folder Include="src\styles\component\" />
     <Folder Include="src\urls\" />
   </ItemGroup>
