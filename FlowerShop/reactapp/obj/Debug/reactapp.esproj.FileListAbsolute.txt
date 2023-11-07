@@ -6,3 +6,4 @@ C:\Users\marin\OneDrive\Desktop\FS\FlowerShop\FlowerShop\reactapp\obj\Debug\reac
 D:\koko\FS\FlowerShop_2\FlowerShop\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
 C:\Users\marin\OneDrive\Desktop\FlowerShop2\FlowerShop\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
 C:\Users\marin\OneDrive\Desktop\FlowerShop2\FlowerShop\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
+D:\koko\FlowerShop_2\FlowerShop\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache

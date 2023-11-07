@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Montserrat+Alternates:wght@100;500&display=swap');
-
+@import '~mdb-ui-kit/css/mdb.min.css';
 .footer-area {
     width: 100%;
     /*height: 150px;*/

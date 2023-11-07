@@ -1,12 +1,6 @@
 ﻿import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
 import logo from "../../img/logo_myata.png";
-import Home from '../Home/Home';
-import Flowers from '../Flower/Flowers';
-import Statistics from '../Statistics/Statistics';
-import Tools from '../Tools/Tools';
-
 
 
 const NavBar = () => {
@@ -43,12 +37,7 @@ const NavBar = () => {
                 </Navbar.Collapse>
             </Container>
             </Navbar>
-            <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/flowers' element={<Flowers />} />
-                <Route path='/statistics' element={<Statistics />} />
-                <Route path='/tools' element={<Tools />} />
-            </Routes> 
+            
         </>
     );
 }
