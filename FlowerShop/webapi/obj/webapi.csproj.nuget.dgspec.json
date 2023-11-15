@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\koko\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj": {}
+    "C:\\Users\\marin\\OneDrive\\Desktop\\fs3\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "D:\\koko\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj": {
+    "C:\\Users\\marin\\OneDrive\\Desktop\\fs3\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\koko\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
+        "projectUniqueName": "C:\\Users\\marin\\OneDrive\\Desktop\\fs3\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "D:\\koko\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "D:\\koko\\FlowerShop_2\\FlowerShop\\webapi\\obj\\",
+        "projectPath": "C:\\Users\\marin\\OneDrive\\Desktop\\fs3\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
+        "packagesPath": "C:\\Users\\marin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marin\\OneDrive\\Desktop\\fs3\\FlowerShop_2\\FlowerShop\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

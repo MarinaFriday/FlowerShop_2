@@ -31,9 +31,11 @@ namespace webapi.Services
         //Получение списка цветов
         public async Task<ActionResult<IEnumerable<Flower>>> ListFlowers() 
         { 
-
-        return await _context.Flowers.ToListAsync();
-
+        return await _context.Flowers
+                .Include(flower=>flower.Color)
+                .Include(flower => flower.Country)
+                .Include(flower =>flower.Category)
+                .ToListAsync();
         }
         //Получение цветка по id
         public async Task<ActionResult<Flower>> GetFlower(int id) {

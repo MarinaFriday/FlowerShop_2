@@ -4,6 +4,10 @@
     "chart.js": "^4.4.0",
     "mdb-react-ui-kit": "^6.3.0",
     "mdb-ui-kit": "^6.4.2",
-    "react-bootstrap": "^2.9.1"
+    "react-bootstrap": "^2.9.1",
+    "react-chartjs-2": "^5.2.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0"
   }
 }

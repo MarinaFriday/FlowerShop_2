@@ -14,7 +14,7 @@ class Home extends React.Component {
                     <CardGroup>
                     <Row xs={1} md={2} className="g-4">
                         <Card   style={{ width: '18rem' }}
-                            className="mb-2">7
+                            className="mb-2">
                             <Card.Img variant="top" src={ fl } />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
