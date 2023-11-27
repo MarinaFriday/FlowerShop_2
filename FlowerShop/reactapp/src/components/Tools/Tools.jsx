@@ -2,6 +2,7 @@
 import { Container, Tab, Row, Col, Nav } from 'react-bootstrap';
 import FlowerAddTools from "../Flower/FlowerAddTools"
 import FlowerEditTools from "../Flower/FlowerEditTools"
+import FlowersCatalogList from "../Flower/FlowersCatalogList"
 import ColorAddTools from "../Color/ColorAddTools"
 import ColorEditTools from "../Color/ColorEditTools"
 import CategoryAddTools from "../Category/CategoryAddTools"
@@ -52,6 +53,7 @@ const Tools =() => {
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <FlowerAddTools />
+                                    <FlowersCatalogList />
                                 </Tab.Pane>
                             </Tab.Content>
                             <Tab.Content>

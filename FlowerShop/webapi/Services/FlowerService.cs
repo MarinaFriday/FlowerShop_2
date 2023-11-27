@@ -11,8 +11,12 @@ namespace webapi.Services
     public class FlowerService
     {
         private DataContext _context;
-        public FlowerService(DataContext context) {
-            _context=context;
+        //
+        IWebHostEnvironment _appEnvironment;
+
+        public FlowerService(DataContext context, IWebHostEnvironment appEnvironment) {
+            _context = context;
+            _appEnvironment = appEnvironment;
         }
         //Добавление цветка
         public async Task<ActionResult<Flower>> AddFlower(Flower flower) 
@@ -23,18 +27,19 @@ namespace webapi.Services
             var country = _context.Countries.FindAsync(flower.CountryId);
             if (country != null) flower.Country = country.Result;
             var category = _context.FlowersCategories.FindAsync(flower.CategoryId);
-            if (category != null) flower.Category = category.Result;
+            if (category != null) flower.Category = category.Result;       
             await _context.Flowers.AddAsync(flower);   
             await _context.SaveChangesAsync();
             return flower;
         }
+
         //Получение списка цветов
         public async Task<ActionResult<IEnumerable<Flower>>> ListFlowers() 
         { 
         return await _context.Flowers
                 .Include(flower=>flower.Color)
                 .Include(flower => flower.Country)
-                .Include(flower =>flower.Category)
+                .Include(flower =>flower.Category)                
                 .ToListAsync();
         }
         //Получение цветка по id

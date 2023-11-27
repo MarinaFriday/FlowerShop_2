@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Reflection;
 
 namespace webapi.Models.Flowers
 {
@@ -10,7 +11,9 @@ namespace webapi.Models.Flowers
         //количество
         public int Count { get; set; }
         //public int? ImageId { get; set; }
-        public ICollection<Image>? Images { get; set; }       
+        public ICollection<Image>? Images { get; set; }
+        [NotMapped]
+        public IList<FormFile>? FileImages { get; set; }
         public int ColorId { get; set; }
         public Color? Color { get; set; } 
         public int CategoryId { get; set; } 
