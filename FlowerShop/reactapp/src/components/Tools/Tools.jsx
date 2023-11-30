@@ -1,7 +1,6 @@
 ﻿import React from 'react';
 import { Container, Tab, Row, Col, Nav } from 'react-bootstrap';
 import FlowerAddTools from "../Flower/FlowerAddTools"
-import FlowerEditTools from "../Flower/FlowerEditTools"
 import ColorAddTools from "../Color/ColorAddTools"
 import CategoryAddTools from "../Category/CategoryAddTools"
 import CountryAddTools from "../Country/CountryAddTools"
@@ -21,18 +20,15 @@ const Tools =() => {
                             <Nav variant="pills" className="flex-column mt-2">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Добавление цветка</Nav.Link>
-                                </Nav.Item>
+                                </Nav.Item>                                                              
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Редактирование/удаление цветка</Nav.Link>
-                                </Nav.Item>                               
-                                <Nav.Item>
-                                    <Nav.Link eventKey="third">Настройки категорий</Nav.Link>
+                                    <Nav.Link eventKey="second">Настройки категорий</Nav.Link>
                                 </Nav.Item>                                                     
                                 <Nav.Item>
-                                    <Nav.Link eventKey="fourth">Настройки цвета</Nav.Link>
+                                    <Nav.Link eventKey="third">Настройки цвета</Nav.Link>
                                 </Nav.Item>                             
                                 <Nav.Item>
-                                    <Nav.Link eventKey="fifth">Настройки стран</Nav.Link>
+                                    <Nav.Link eventKey="fourth">Настройки стран</Nav.Link>
                                 </Nav.Item>                              
                              
                             </Nav>
@@ -42,24 +38,19 @@ const Tools =() => {
                                 <Tab.Pane eventKey="first">
                                     <FlowerAddTools />
                                 </Tab.Pane>
-                            </Tab.Content>
+                            </Tab.Content>                                                                         
                             <Tab.Content>
                                 <Tab.Pane eventKey="second">
-                                    <FlowerEditTools />
-                                </Tab.Pane>
-                            </Tab.Content>                                              
-                            <Tab.Content>
-                                <Tab.Pane eventKey="third">
                                     <CategoryAddTools />
                                 </Tab.Pane>
                             </Tab.Content>                           
                             <Tab.Content>
-                                <Tab.Pane eventKey="fourth">
+                                <Tab.Pane eventKey="third">
                                     <ColorAddTools />
                                 </Tab.Pane>
                             </Tab.Content>                         
                             <Tab.Content>
-                                <Tab.Pane eventKey="fifth">
+                                <Tab.Pane eventKey="fourth">
                                     <CountryAddTools />
                                 </Tab.Pane>
                             </Tab.Content>                          
