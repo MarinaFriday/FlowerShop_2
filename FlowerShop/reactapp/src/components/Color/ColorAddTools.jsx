@@ -1,6 +1,5 @@
 ﻿import React, { useState } from 'react';
 import { Container, InputGroup, Form, Button } from 'react-bootstrap';
-import DropdownButtonColor from './DropdownButtonColor';
 import axios from "axios";
 import { urlColors } from "../../urls/urlList"
 
@@ -10,8 +9,7 @@ const ColorAddTools = () => {
     });
     return (        
             <Container>
-            <h2 className="text-center">Добавление цвета</h2>                
-            <DropdownButtonColor />
+            <h2 className="text-center">Настройки цвета</h2>                           
                 <InputGroup size="sm" className="mb-3">
                     <InputGroup.Text id="inputGroup-sizing-sm">Введите название</InputGroup.Text>
                     <Form.Control
@@ -24,9 +22,10 @@ const ColorAddTools = () => {
             <Button disabled={inputValue.colorName.length === 0}
                 onClick={async () => {
                     try {                       
-                        await axios.post(urlColors, inputValue)
+                        await axios.post(urlColors, inputValue);
+                        alert('Успешно!')
                     }
-                    catch (e) { console.log('Ошибка добавления цвета', e) }
+                    catch (e) { alert('Ошибка добавления цвета', e) }
                 }}
             >Добавить</Button>
             </Container>           

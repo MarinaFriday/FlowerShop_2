@@ -9,7 +9,7 @@ export const urlFlowersById = BASE_URL + '/api/Flowers'
 
 //Categories
 export const urlCategories = BASE_URL + '/api/FlowerCategories'
-export const urlcategoriesById = BASE_URL + '/api/FlowerCategories'
+export const urlCategoryById = BASE_URL + '/api/FlowerCategories'
 
 //Colors
 export const urlColors = BASE_URL + '/api/Colors'
@@ -17,5 +17,5 @@ export const urlColorById = BASE_URL + '/api/Colors'
 
 //Countries
 export const urlCountries = BASE_URL + '/api/Countries'
-export const urlCountriesById = BASE_URL + '/api/Countries'
+export const urlCountryById = BASE_URL + '/api/Countries'
 

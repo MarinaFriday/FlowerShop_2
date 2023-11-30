@@ -49,7 +49,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "eslint-config-react-app": "^7.0.1",
     "jest-editor-support": "^31.1.1"
   }

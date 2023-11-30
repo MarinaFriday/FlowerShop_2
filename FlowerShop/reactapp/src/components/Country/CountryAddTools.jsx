@@ -1,8 +1,9 @@
 ﻿import { Container, InputGroup, Form, Button } from 'react-bootstrap';
-import DropdownButtonCountry from './DropdownButtonCountry';
+/*import DropdownButtonCountry from './DropdownButtonCountry';*/
 import React, { useState } from 'react';
 import axios from 'axios';
 import { urlCountries } from "../../urls/urlList";
+import CountriesList from './CountriesList';
 
 
 const CountryAddTools = () => {
@@ -11,8 +12,8 @@ const CountryAddTools = () => {
     });
     return (
         <Container>
-            <h2 className="text-center">Добавление страны</h2>
-            <DropdownButtonCountry />
+            <h2 className="text-center">Настройки стран</h2>
+            {/*<DropdownButtonCountry />*/}
             <InputGroup size="sm" className="mb-3">
                 <InputGroup.Text id="inputGroup-sizing-sm">Введите название</InputGroup.Text>
                 <Form.Control
@@ -30,6 +31,8 @@ const CountryAddTools = () => {
                     catch (e) { console.log('Ошибка добавления страны', e) }
                 }}
             >Добавить</Button>
+            <CountriesList />
+
         </Container>
     );
 }

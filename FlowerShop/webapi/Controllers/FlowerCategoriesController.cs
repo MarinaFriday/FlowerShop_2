@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.Metrics;
 using webapi.Data;
 using webapi.Models.Flowers;
 
@@ -29,11 +30,22 @@ namespace webapi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutFlowerCategory(int id, FlowerCategory category) { 
-            if (id != category.Id) return BadRequest(); 
-            _context.Entry(category).State = EntityState.Modified;            
+        public async Task<IActionResult> PutFlowerCategory(int id, FlowerCategory category) {
+            //if (id != category.Id) return BadRequest(); 
+            //_context.Entry(category).State = EntityState.Modified;            
+            //await _context.SaveChangesAsync();
+            //return Ok();
+            var categoryDb = await _context.Countries.FirstOrDefaultAsync(categoryDb => categoryDb.Id == id);
+            if (categoryDb is null)
+            {
+                return NotFound("User is not found!");
+            }
+
+            categoryDb.Title = categoryDb.Title;
+
             await _context.SaveChangesAsync();
-            return Ok();
+
+            return Ok("User is successfully updated!");
         }
         [HttpPost]
         public async Task<ActionResult<FlowerCategory>> PostFlowerCategory(FlowerCategory category) { 

@@ -1,8 +1,8 @@
 ﻿import { Container, InputGroup, Form, Button } from 'react-bootstrap';
-import DropdownButtonCategory from './DropdownButtonCategory';
 import React, { useState } from 'react';
 import axios from 'axios';
 import { urlCategories } from "../../urls/urlList";
+import CategoryList from './CategoryList';
 
 
 const CategoryAddTools = () => {
@@ -11,8 +11,7 @@ const CategoryAddTools = () => {
     });
     return (
         <Container>
-            <h2 className="text-center">Добавление категории</h2>
-            <DropdownButtonCategory />
+            <h2 className="text-center">Настройки категорий</h2>
             <InputGroup size="sm" className="mb-3">
                 <InputGroup.Text id="inputGroup-sizing-sm">Введите название</InputGroup.Text>
                 <Form.Control
@@ -26,10 +25,12 @@ const CategoryAddTools = () => {
                 onClick={async () => {
                     try {
                         await axios.post(urlCategories, inputValue)
+                        alert('Успешно!')
                     }
-                    catch (e) { console.log('Ошибка добавления категории', e) }
+                    catch (e) { alert('Ошибка добавления категории', e) }
                 }}
             >Добавить</Button>
+            <CategoryList/>
         </Container>
     );
 }

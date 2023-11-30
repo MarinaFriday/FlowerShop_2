@@ -34,10 +34,21 @@ namespace webapi.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutFlowerCountry(int id, Country country)
         {
-            if (id != country.Id) return BadRequest();
-            _context.Entry(country).State = EntityState.Modified;
+            //if (id != country.Id) return BadRequest();
+            //_context.Entry(country).State = EntityState.Modified;
+            //await _context.SaveChangesAsync();
+            //return Ok();
+            var countryDb = await _context.Countries.FirstOrDefaultAsync(countryDb => countryDb.Id == id);
+            if (countryDb is null)
+            {
+                return NotFound("User is not found!");
+            }
+
+            countryDb.Title = country.Title;            
+
             await _context.SaveChangesAsync();
-            return Ok();
+
+            return Ok("User is successfully updated!");
         }
         [HttpPost]
         public async Task<ActionResult<Country>> PostFlowerCountry(Country country)

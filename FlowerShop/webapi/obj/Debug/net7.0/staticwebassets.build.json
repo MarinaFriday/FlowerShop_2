@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aPabajfW06pZTapJ4pqVJUlrItOAXHIKQODmZRdAeO0=",
+  "Hash": "w3dYxdrNPczyxx6tGS+Bm5GTmnasgXyxzZxsejOYOIE=",
   "Source": "webapi",
   "BasePath": "_content/webapi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "webapi\\wwwroot",
       "Source": "webapi",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs3\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs5\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs3\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\mondial.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs5\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\mondial.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs3\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs5\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/mondial.jpg",
       "AssetKind": "All",
