@@ -6,9 +6,6 @@ import FlowersCatalogList from './components/Flower/FlowersCatalogList';
 import Statistics from './components/Statistics/Statistics';
 import Tools from './components/Tools/Tools';
 import 'bootstrap/dist/css/bootstrap.min.css';
-/*import Color from './components/Color/Color';*/
-
-
 
 export default class App extends Component {    
     render() {
@@ -23,8 +20,7 @@ export default class App extends Component {
                         <Route path='/statistics' element={<Statistics />} />
                         <Route path='/tools' element={<Tools />} />                       
                     </Routes>                    
-                </div>
-                {/*<Color />*/}
+                </div>               
             </div>
         );
     }   

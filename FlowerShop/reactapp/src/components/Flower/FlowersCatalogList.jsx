@@ -4,16 +4,20 @@ import { urlFlowers } from "../../urls/urlList";
 
 const FlowerCatalogList = () => {
 
-    const [flowers, setData] = useState([]);
+    const [flowers, setData] = useState([]);  
 
-    useEffect(() => {
+    useEffect(
+        () => { (async () => await GetAllFlowers())() }
+        , []);
+
+    async function GetAllFlowers() {
         const fetchData = async () => {
             const result = await axios.get(urlFlowers);
             setData(result.data);
             console.log(result.data);
         };
         fetchData();
-    }, []);
+    }
 
         return (
             <>               

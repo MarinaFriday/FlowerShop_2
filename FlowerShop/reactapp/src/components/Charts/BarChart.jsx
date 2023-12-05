@@ -31,31 +31,6 @@ const BarChart = () => {
 
     }
 
-//    var myChart = new Chart(ctx, {
-//        type: 'bar',
-//        data: {
-//            labels: ["Red", "Blue", "Black", "Green"],
-//            datasets: [{
-//                label: '#',
-//                data: [12, 14, 15, 12],
-//                backgroundColor: ['green', 'black', 'blue', 'red'],
-//                borderColor: ['red', 'bkue', 'black', 'green'],
-//                borderWidth: 2
-//            }]
-//        },
-//        options: {
-//            scales: {
-//                yAxes: [{
-//                    ticks: {
-//                        beginAtZero: true
-//                    }
-//                }]
-//            }
-//        }
-//    });
-  
-
-  
     return (
         <>
            <h1>Статистика</h1><br/>                    

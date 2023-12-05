@@ -19,7 +19,7 @@ const Tools =() => {
                         <Col sm={3}>
                             <Nav variant="pills" className="flex-column mt-2">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Добавление цветка</Nav.Link>
+                                    <Nav.Link eventKey="first">Настройки цветка</Nav.Link>
                                 </Nav.Item>                                                              
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">Настройки категорий</Nav.Link>

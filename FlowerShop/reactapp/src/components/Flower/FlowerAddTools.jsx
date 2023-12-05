@@ -5,6 +5,7 @@ import DropdownButtonCategory from '../Category/DropdownButtonCategory';
 import DropdownButtonColor from '../Color/DropdownButtonColor';
 import DropdownButtonCountry from '../Country/DropdownButtonCountry';
 import { urlFlowers } from '../../urls/urlList';
+import FlowerCatalogList from './FlowersCatalogList';
 
 
 const FlowerTools = () => {
@@ -12,8 +13,33 @@ const FlowerTools = () => {
         title: '',
         price: '',
         count: ''
-    });
-    
+    });    
+
+    async function postFlower() {       
+            try {
+                var dBcategory = document.getElementById("dropdownButtonCategory")
+                var dBcolor = document.getElementById("dropdownButtonColor")
+                var dBCountry = document.getElementById("dropdownButonCountry")
+                //console.log(dBcategory.dataset.idcategory)
+                //console.log(dBcolor.dataset.idcolor)
+                //console.log(dBCountry.dataset.idcountry)
+
+                var flower = {
+                    title: inputValueFlower.title,
+                    price: inputValueFlower.price,
+                    count: inputValueFlower.count,
+                    categoryId: dBcategory.dataset.idcategory,
+                    colorId: dBcolor.dataset.idcolor,
+                    countryId: dBCountry.dataset.idcountry
+                };
+                await axios.post(urlFlowers, flower);
+            }
+            catch (e) {
+                alert('Ошибка добавления цветка')
+            }    
+            alert('Цветок успешно добавлен')
+    }
+
 
     return (       
             <Container>
@@ -60,32 +86,10 @@ const FlowerTools = () => {
             {/*    />*/}
             {/*</InputGroup>*/}
             <Button 
-                disabled={inputValueFlower.title.length === 0}                               
-            
-                onClick={async () => {
-                    
-                    try {
-                        var dBcategory = document.getElementById("dropdownButtonCategory")
-                        var dBcolor = document.getElementById("dropdownButtonColor")
-                        var dBCountry = document.getElementById("dropdownButonCountry")
-                        //console.log(dBcategory.dataset.idcategory)
-                        //console.log(dBcolor.dataset.idcolor)
-                        //console.log(dBCountry.dataset.idcountry)
-
-                        var flower = {
-                            title: inputValueFlower.title,
-                            price: inputValueFlower.price,
-                            count: inputValueFlower.count,
-                            categoryId: dBcategory.dataset.idcategory,
-                            colorId: dBcolor.dataset.idcolor,
-                            countryId: dBCountry.dataset.idcountry
-                        };
-                        await axios.post(urlFlowers, flower)
-                        console.log('Цветок успешно добавлен')
-                    }
-                    catch(e){ console.log('Ошибка добавления цветка')}
-                }}
+                disabled={inputValueFlower.title.length === 0}                                           
+                onClick={postFlower}
             >Добавить</Button><h1> </h1> 
+            <FlowerCatalogList />
             </Container>        
     );
 }

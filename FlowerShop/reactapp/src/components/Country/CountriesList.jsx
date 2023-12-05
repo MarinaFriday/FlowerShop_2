@@ -44,8 +44,6 @@ const CountriesList = () => {
         e.preventDefault()
         setIsEditing(false)
     }
-    //async function deleteCountry() {
-    //}
     async function deleteCountry(id) {
         try {
             await axios.delete(urlCountryById + '/' + id);

@@ -11,10 +11,10 @@ const CategoriesList = () => {
     const [modifiedCategory, setModifiedCategory] = useState({ title: '' });
 
     useEffect(
-        () => { (async () => await GetAllCategories())() }
+        () => { (async () => await getAllCategories())() }
         , []);
 
-    async function GetAllCategories() {
+    async function getAllCategories() {
         const fetchData = async () => {
             const result = await axios.get(urlCategories);
             setData(result.data);
@@ -31,7 +31,7 @@ const CategoriesList = () => {
             });
             alert("Категория изменена");
             setModifiedCategory({ title: '' });
-            GetAllCategories();
+            getAllCategories();
         } catch (error) {
             alert(error);
         }
@@ -49,7 +49,7 @@ const CategoriesList = () => {
             await axios.delete(urlCategoryById + '/' + id);
             alert("Категория удалена");
             setModifiedCategory({ title: '' });
-            GetAllCategories();
+            getAllCategories();
         } catch (error) {
             alert(error);
         }

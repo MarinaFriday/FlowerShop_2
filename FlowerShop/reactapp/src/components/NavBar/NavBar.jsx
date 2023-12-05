@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import { Navbar, Container, Nav, /*Form, FormControl, Button*/ } from 'react-bootstrap';
+import { Navbar, Container, Nav} from 'react-bootstrap';
 import logo from "../../img/logo_myata.png";
 
 
@@ -24,7 +24,7 @@ const NavBar = () => {
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/flowers">Flower List</Nav.Link>
                         <Nav.Link href="/statistics">Statistics</Nav.Link>
-                        <Nav.Link href="/tools">Tools</Nav.Link>
+                        <Nav.Link href="/tools">Настройки</Nav.Link>
                     </Nav>
                     {/*<Form className="d-flex">*/}
                     {/*    <FormControl*/}

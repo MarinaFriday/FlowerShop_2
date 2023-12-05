@@ -1,7 +1,8 @@
 ﻿import React, { useState } from 'react';
 import { Container, InputGroup, Form, Button } from 'react-bootstrap';
 import axios from "axios";
-import { urlColors } from "../../urls/urlList"
+import { urlColors } from "../../urls/urlList";
+import ColorList from './ColorList';
 
 const ColorAddTools = () => {
     const [inputValue, setInputValue] = useState({
@@ -28,6 +29,7 @@ const ColorAddTools = () => {
                     catch (e) { alert('Ошибка добавления цвета', e) }
                 }}
             >Добавить</Button>
+            <ColorList/>
             </Container>           
     );
 }
