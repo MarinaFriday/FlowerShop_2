@@ -1,44 +1,55 @@
 ﻿import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import CarouselBox from '../CarouselBox/CarouselBox';
+import OurFlowers from './OurFlowers';
+import OurBouquets from './OurBouquets';
+import OurCompositions from './OurCompositions';
+
+
 /*import FlowerCards from '../Flower/FlowerCards';*/
 
 const Home = () => {
-    const [ourFlowers, setOurFlowers] = useState(false);
+    const [ourFlowers, setOurFlowers] = useState(true);
     const [ourBouquets, setOurBouquets] = useState(false);
     const [ourCompositions, setOurCompositions] = useState(false);
-
+    
         return (
             <>
                 <h1> </h1><br/>
                 <h1> </h1><br />   
                 <h1> </h1>    
                 <CarouselBox />
-                <Container>                    
+                <Container >                    
                     <h2 className="text-center m-4"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
-                        setOurFlowers(!ourFlowers)
-                        console.log(ourFlowers)
+                            setOurFlowers(true)
+                            setOurBouquets(false)
+                            setOurCompositions(false)
+                        //    console.log(ourFlowers)                            
                         }}
                     >Цветы</h2>
                     <h2 className="text-center m-4"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
-                            setOurBouquets(!ourBouquets)
-                            console.log(ourBouquets)
+                            setOurFlowers(false)
+                            setOurBouquets(true)
+                            setOurCompositions(false)
+                        //    console.log(ourBouquets)
                         }}
                     >Букеты</h2>
                     <h2 className="text-center m-4"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
-                            setOurCompositions(!ourCompositions)
-                            console.log(ourCompositions)
+                            setOurFlowers(false)
+                            setOurBouquets(false)
+                            setOurCompositions(true)
+                        //    console.log(ourCompositions)                            
                         }}
                     >Композиции</h2>
-                    <div ></div>
-                   
-                   
+                    {(ourFlowers === true) ? <OurFlowers /> : null}
+                    {(ourBouquets === true) ? <OurBouquets />  : null}
+                    {(ourCompositions === true) ? <OurCompositions />  : null}                                      
                 </Container>
             </>
         );

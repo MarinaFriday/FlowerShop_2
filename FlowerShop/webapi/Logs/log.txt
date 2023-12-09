@@ -4598,3 +4598,22 @@ System.Text.Json.JsonException: A possible object cycle was detected. This can e
 12/05/2023 21:16:35 HTTP "GET" "/swagger/index.html" responded 200 in 644.6814 ms
 12/05/2023 21:16:38 HTTP "GET" "/swagger/favicon-32x32.png" responded 304 in 47.9779 ms
 12/05/2023 21:16:38 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 356.5426 ms
+12/09/2023 13:00:08 Приложение запущено
+12/09/2023 13:00:12 HTTP "GET" "/swagger/index.html" responded 200 in 1406.3763 ms
+12/09/2023 13:00:14 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 320.5065 ms
+12/09/2023 17:28:41 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+12/09/2023 17:28:41 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+12/09/2023 17:28:45 HTTP "GET" "/api/FlowerCategories" responded 200 in 8094.0645 ms
+12/09/2023 17:28:45 HTTP "GET" "/api/Colors" responded 200 in 8093.6595 ms
+12/09/2023 17:28:45 HTTP "GET" "/api/Flowers" responded 200 in 8094.0686 ms
+12/09/2023 17:28:45 HTTP "GET" "/api/Countries" responded 200 in 8093.7395 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/Colors" responded 200 in 285.3395 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/Flowers" responded 200 in 272.0745 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/Countries" responded 200 in 286.7535 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/FlowerCategories" responded 200 in 289.5554 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/Colors" responded 200 in 24.6842 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/FlowerCategories" responded 200 in 10.5198 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/Countries" responded 200 in 19.8531 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/Colors" responded 200 in 16.7117 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/FlowerCategories" responded 200 in 24.8793 ms
+12/09/2023 17:28:46 HTTP "GET" "/api/Countries" responded 200 in 22.5507 ms
