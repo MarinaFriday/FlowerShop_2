@@ -19,6 +19,8 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+    "react-image-upload-s3": "^1.1.3",
+    "react-images-uploading": "^3.1.7",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -49,7 +51,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.54.0",
+    "eslint": "^8.56.0",
     "eslint-config-react-app": "^7.0.1",
     "jest-editor-support": "^31.1.1"
   }

@@ -6,6 +6,7 @@ import DropdownButtonColor from '../Color/DropdownButtonColor';
 import DropdownButtonCountry from '../Country/DropdownButtonCountry';
 import { urlFlowers } from '../../urls/urlList';
 import FlowerCatalogList from './FlowersCatalogList';
+import ImagesUpload from '../ImagesUpload/ImagesUpload';
 
 
 const FlowerTools = () => {
@@ -43,7 +44,9 @@ const FlowerTools = () => {
 
     return (       
             <Container>
-            <h2 className="text-center">Добавление цветка</h2>                        
+            <h2 className="text-center">Добавление цветка</h2>
+            <ImagesUpload />
+            <h1>  </h1>
             <DropdownButtonCategory id="dropdownButtonCategory" /><h1> </h1>            
             <DropdownButtonColor /><h1> </h1>                        
             <DropdownButtonCountry /><h1> </h1> 
