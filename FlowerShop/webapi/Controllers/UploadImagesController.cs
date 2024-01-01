@@ -14,6 +14,7 @@ namespace webapi.Controllers
     {
         private readonly DataContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
+
         public UploadImagesController(DataContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context=context;
@@ -26,6 +27,7 @@ namespace webapi.Controllers
         {            
             return await _context.Images.ToListAsync(); 
         }
+
         //POST
         [HttpPost]
         public async Task<ActionResult<IEnumerable<int>>> PostUploadImages(IEnumerable<IFormFile> images)
@@ -35,7 +37,7 @@ namespace webapi.Controllers
             {
                 foreach (var image in images)
                 {
-                    string imagePath = "/images/"+image.FileName;
+                    string imagePath = "/images/" + image.FileName;
                     using (var fileStream = new FileStream(_webHostEnvironment.WebRootPath+imagePath, FileMode.Create))
                     {
                         await image.CopyToAsync(fileStream);
@@ -44,18 +46,19 @@ namespace webapi.Controllers
                     Console.WriteLine(img.ImagePath);
                     await _context.Images.AddAsync(img);
                     await _context.SaveChangesAsync();
-                    var imgIdDb = await _context.Images.FirstOrDefaultAsync(imgDB=>imgDB.ImagePath==img.ImagePath);
+                    var imgIdDb = await _context.Images.FirstOrDefaultAsync(imgDB => imgDB.ImagePath==img.ImagePath);
                     Console.WriteLine(imgIdDb.Id + " " + imgIdDb.ImagePath);
                     imgId.Add(imgIdDb.Id);
                 }
 
-                foreach (var imageId in imgId) {
+                foreach (var imageId in imgId)
+                {
                     Console.WriteLine(imageId + ",");
                 }
             }
+            else return Problem("Ошибка отправки изображений");
 
             return Ok(imgId);
-
         }
     }
 }

@@ -12,7 +12,6 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\build</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\components\ImagesUpload\" />
     <Folder Include="src\styles\component\" />
     <Folder Include="src\urls\" />
   </ItemGroup>

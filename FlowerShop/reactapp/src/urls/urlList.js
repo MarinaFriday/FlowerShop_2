@@ -19,3 +19,5 @@ export const urlColorById = BASE_URL + '/api/Colors'
 export const urlCountries = BASE_URL + '/api/Countries'
 export const urlCountryById = BASE_URL + '/api/Countries'
 
+//UploadImages
+export const urlUploadImages = BASE_URL + '/api/UploadImages'

@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\2 — копия.JPG",
+      "PackagePath": "staticwebassets\\images\\2 — копия.JPG"
+    },
+    {
+      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\3 — копия — копия.JPG",
+      "PackagePath": "staticwebassets\\images\\3 — копия — копия.JPG"
+    },
+    {
+      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\9e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
+      "PackagePath": "staticwebassets\\images\\9e7b76b0-d77f-4706-9245-8eedc1064824.jpg"
+    },
+    {
       "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\mondial.jpg",
       "PackagePath": "staticwebassets\\images\\mondial.jpg"
     },

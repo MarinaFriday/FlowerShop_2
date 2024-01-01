@@ -1,4 +1,4 @@
-﻿import React, { Component } from 'react';
+﻿import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from "./components/NavBar/NavBar"
 import Home from './components/Home/Home';
@@ -7,9 +7,8 @@ import Statistics from './components/Statistics/Statistics';
 import Tools from './components/Tools/Tools';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default class App extends Component {    
-    render() {
-
+const App = () => {
+   
         return (
             <div className="container">
             <NavBar />
@@ -20,9 +19,10 @@ export default class App extends Component {
                         <Route path='/statistics' element={<Statistics />} />
                         <Route path='/tools' element={<Tools />} />                       
                     </Routes>                    
-                </div>               
+                </div>
             </div>
         );
-    }   
-}
+}   
+export default App;
+
 
