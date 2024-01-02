@@ -7,6 +7,7 @@ import DropdownButtonCountry from '../Country/DropdownButtonCountry';
 import { urlFlowers } from '../../urls/urlList';
 import FlowerCatalogList from './FlowersCatalogList';
 import ImageUpload from '../ImagesUpload/ImageUpload';
+import ImagesUpload from '../ImagesUpload/ImagesUpload';
 
 
 const FlowerTools = () => {
@@ -46,6 +47,8 @@ const FlowerTools = () => {
             <Container>
             <h2 className="text-center">Добавление цветка</h2>
             <ImageUpload />
+            <h1>  </h1>
+            <ImagesUpload />
             <h1>  </h1>
             <DropdownButtonCategory id="dropdownButtonCategory" /><h1> </h1>            
             <DropdownButtonColor /><h1> </h1>                        

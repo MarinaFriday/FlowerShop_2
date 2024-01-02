@@ -25,7 +25,7 @@ namespace webapi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Image>>> GetAllImages()
         {            
-            return await _context.Images.ToListAsync(); 
+            return Ok(await _context.Images.ToListAsync()); 
         }
 
         //POST
@@ -37,7 +37,10 @@ namespace webapi.Controllers
             {
                 foreach (var image in images)
                 {
-                    string imagePath = "/images/" + image.FileName;
+                    string date = DateTime.Now.ToString();
+                    date = date.Replace(".", string.Empty);
+                    date = date.Replace(":", string.Empty);
+                    string imagePath = "/images/" + date + image.FileName;
                     using (var fileStream = new FileStream(_webHostEnvironment.WebRootPath+imagePath, FileMode.Create))
                     {
                         await image.CopyToAsync(fileStream);
@@ -57,8 +60,22 @@ namespace webapi.Controllers
                 }
             }
             else return Problem("Ошибка отправки изображений");
-
+            //code 200
             return Ok(imgId);
+        }
+
+        //DELETE
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteImage(int id)
+        {
+            var image = await _context.Images.FindAsync(id);
+            if (image == null) return NotFound();
+            _context.Images.Remove(image);
+            await _context.SaveChangesAsync();
+            //code 204
+            //return NoContent();
+            //code 200
+            return Ok("Изображение удалено из базы данных");
         }
     }
 }

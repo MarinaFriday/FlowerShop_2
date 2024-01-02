@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+﻿import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import axios from 'axios';
 import { urlUploadImages } from '../../urls/urlList';
@@ -13,12 +13,7 @@ const ImageUpload = () => {
         await setImage(event.target.files[0]);
         console.log(image);
     }
-    //function createFormData() {
-    //    const formData = new FormData();
-        
-    //}
 
-    useEffect(() => {console.log("useEffect")});
     
     async function postImage() {
         console.log("postImage");
@@ -28,11 +23,11 @@ const ImageUpload = () => {
         for (const data of formData) {
             console.log(data);
         } 
-        try {
-            axios.post(urlUploadImages, formData).then((res) => { console.log(res) });
-            alert('Успешно')
-        }
-        catch (e) { alert('Ошибка добавления изображения') }
+        //try {
+        //    await axios.post(urlUploadImages, formData).then((res) => { console.log(res) });
+        //    alert('Успешно')
+        //}
+        //catch (e) { alert('Ошибка добавления изображения') }
     }
 
     return (

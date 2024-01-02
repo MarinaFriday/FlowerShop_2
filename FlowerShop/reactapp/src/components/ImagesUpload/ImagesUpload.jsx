@@ -1,8 +1,8 @@
 ﻿import React, { useState } from 'react';
-//import axios from 'axios';
+import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import ImageUploading from 'react-images-uploading';
-//import { urlUploadImages } from '../../urls/urlList';
+import { urlUploadImages } from '../../urls/urlList';
 
 
 const ImagesUpload = () => {
@@ -10,29 +10,46 @@ const ImagesUpload = () => {
     const [images, setImages] = useState([]);
     const maxNumber = 3;
 
-    const onChange = (imageList, addUpdateIndex) => {
+    async function handleImages (imageList, addUpdateIndex) {
         // data for submit
         console.log(imageList, addUpdateIndex);
-        setImages(imageList);
-        console.log(images);
-    };
-    //const imagesUpload = (images) => {
-    //    const formData = new FormData();
-    //    formData.append('images', images[0]);
-    //    console.log(formData);
-    //    try { axios.post(urlUploadImages, formData).then((res) => { console.log(res) }) }
-    //    catch (e) {
-    //        alert('Ошибка добавления изображений')
-    //    }
-    //    alert('Изображения успешно добавлены') 
-    //}
+        console.log("начало цикла")
+
+        for (const file of imageList) {
+            console.log(file.file)
+        }
+        console.log("конец цикла")
+        await setImages(imageList);        
+};
+    async function postImages()  {
+        const formData = new FormData();
+        //for (const data of images) {
+        //    console.log(data);
+        //}
+        for (let i = 0; i < images.length; i++) {
+            formData.append('images', images[i].file);
+        }                    
+        
+        for (const data of formData) {
+            console.log(data);
+        } 
+        try {
+            await axios.post(urlUploadImages, formData)
+                .then((res) => { console.log(res) })
+            alert('Изображения успешно добавлены') 
+        }
+        catch (e) {
+            alert('Ошибка добавления изображений')
+        }
+    }
 
     return (
         <div className="App">
             <ImageUploading
                 multiple
                 value={images}
-                onChange={onChange}
+                type="file"
+                onChange={handleImages}
                 maxNumber={maxNumber}
                 dataURLKey="data_url"
             >
@@ -68,7 +85,8 @@ const ImagesUpload = () => {
                     </div>
                 )}
             </ImageUploading><h1> </h1>
-            
+            <Button onClick={postImages}>Отправить на сервер</Button>
+
         </div>);  
 }
 

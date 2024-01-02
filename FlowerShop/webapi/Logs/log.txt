@@ -6840,3 +6840,630 @@ Error Number:2714,State:6,Class:16
 01/01/2024 15:38:52 HTTP "GET" "/api/Countries" responded 200 in 47.6330 ms
 01/01/2024 15:38:52 HTTP "GET" "/api/Colors" responded 200 in 29.4825 ms
 01/01/2024 15:39:05 HTTP "POST" "/api/UploadImages" responded 200 in 576.0787 ms
+01/01/2024 16:20:04 Приложение запущено
+01/01/2024 16:20:10 HTTP "GET" "/swagger/index.html" responded 200 in 548.5832 ms
+01/01/2024 16:20:34 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/01/2024 16:20:34 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/01/2024 16:20:36 HTTP "GET" "/api/Flowers" responded 200 in 4594.5709 ms
+01/01/2024 16:20:36 HTTP "GET" "/api/Countries" responded 200 in 4594.5187 ms
+01/01/2024 16:20:36 HTTP "GET" "/api/FlowerCategories" responded 200 in 4594.7421 ms
+01/01/2024 16:20:36 HTTP "GET" "/api/Colors" responded 200 in 4594.7069 ms
+01/01/2024 16:20:36 HTTP "GET" "/api/FlowerCategories" responded 200 in 258.7485 ms
+01/01/2024 16:20:36 HTTP "GET" "/api/Countries" responded 200 in 247.6545 ms
+01/01/2024 16:20:36 HTTP "GET" "/api/Colors" responded 200 in 250.1786 ms
+01/01/2024 16:20:37 HTTP "GET" "/api/Flowers" responded 200 in 264.8715 ms
+01/01/2024 16:20:37 HTTP "GET" "/api/FlowerCategories" responded 200 in 18.2635 ms
+01/01/2024 16:20:37 HTTP "GET" "/api/Countries" responded 200 in 22.6666 ms
+01/01/2024 16:20:37 HTTP "GET" "/api/Colors" responded 200 in 17.9080 ms
+01/01/2024 16:20:37 HTTP "GET" "/api/FlowerCategories" responded 200 in 21.2982 ms
+01/01/2024 16:20:37 HTTP "GET" "/api/Colors" responded 200 in 21.7519 ms
+01/01/2024 16:20:37 HTTP "GET" "/api/Countries" responded 200 in 23.6466 ms
+01/01/2024 16:20:47 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 363.2224 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Colors" responded 200 in 192.5901 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Countries" responded 200 in 217.0011 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Flowers" responded 200 in 213.2491 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 250.4900 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Colors" responded 200 in 27.1405 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Countries" responded 200 in 25.7008 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 34.7585 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Flowers" responded 200 in 39.9573 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Colors" responded 200 in 22.8622 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Countries" responded 200 in 25.4392 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 13.8796 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Colors" responded 200 in 25.7603 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/Countries" responded 200 in 21.0625 ms
+01/01/2024 16:21:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 26.6028 ms
+01/01/2024 16:22:02 HTTP "POST" "/api/UploadImages" responded 200 in 1076.1020 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Countries" responded 200 in 229.8220 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Colors" responded 200 in 231.6887 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 239.2404 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Flowers" responded 200 in 246.0560 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.1474 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Colors" responded 200 in 20.8599 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Countries" responded 200 in 20.0034 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Flowers" responded 200 in 14.3422 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Colors" responded 200 in 13.6171 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.4681 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Countries" responded 200 in 10.9130 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Colors" responded 200 in 9.1266 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 9.4199 ms
+01/01/2024 21:05:13 HTTP "GET" "/api/Countries" responded 200 in 12.0391 ms
+01/01/2024 21:07:42 HTTP "POST" "/api/UploadImages" responded 200 in 80.2823 ms
+01/01/2024 21:29:29 HTTP "GET" "/api/FlowerCategories" responded 200 in 383.0058 ms
+01/01/2024 21:29:29 HTTP "GET" "/api/Colors" responded 200 in 395.2330 ms
+01/01/2024 21:29:29 HTTP "GET" "/api/Countries" responded 200 in 387.4940 ms
+01/01/2024 21:29:29 HTTP "GET" "/api/Flowers" responded 200 in 448.6899 ms
+01/01/2024 21:29:29 HTTP "GET" "/api/FlowerCategories" responded 200 in 71.6221 ms
+01/01/2024 21:29:29 HTTP "GET" "/api/Colors" responded 200 in 71.6729 ms
+01/01/2024 21:29:29 HTTP "GET" "/api/Countries" responded 200 in 42.2466 ms
+01/01/2024 21:29:29 HTTP "GET" "/api/Flowers" responded 200 in 32.4081 ms
+01/01/2024 21:29:30 HTTP "GET" "/api/FlowerCategories" responded 200 in 151.5888 ms
+01/01/2024 21:29:30 HTTP "GET" "/api/Colors" responded 200 in 140.1325 ms
+01/01/2024 21:29:30 HTTP "GET" "/api/Countries" responded 200 in 155.7379 ms
+01/01/2024 21:29:30 HTTP "GET" "/api/FlowerCategories" responded 200 in 14.7229 ms
+01/01/2024 21:29:30 HTTP "GET" "/api/Colors" responded 200 in 15.7128 ms
+01/01/2024 21:29:30 HTTP "GET" "/api/Countries" responded 200 in 18.0742 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 314.9086 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Colors" responded 200 in 262.5641 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Countries" responded 200 in 159.3502 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Flowers" responded 200 in 187.8926 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 44.2003 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Colors" responded 200 in 41.5212 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Flowers" responded 200 in 40.1502 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Countries" responded 200 in 36.7147 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Colors" responded 200 in 30.8642 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 19.8555 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Countries" responded 200 in 16.0761 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Colors" responded 200 in 7.9594 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/Countries" responded 200 in 8.4439 ms
+01/01/2024 21:30:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 12.9596 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/FlowerCategories" responded 200 in 167.8983 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Countries" responded 200 in 179.3126 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Colors" responded 200 in 175.0248 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Flowers" responded 200 in 212.2152 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Countries" responded 200 in 24.5266 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/FlowerCategories" responded 200 in 28.3967 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Colors" responded 200 in 24.3232 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Flowers" responded 200 in 68.3584 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Countries" responded 200 in 56.8497 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/FlowerCategories" responded 200 in 35.6657 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Colors" responded 200 in 22.3514 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Colors" responded 200 in 18.9537 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/FlowerCategories" responded 200 in 21.9161 ms
+01/01/2024 21:32:52 HTTP "GET" "/api/Countries" responded 200 in 23.4640 ms
+01/01/2024 21:33:07 HTTP "POST" "/api/UploadImages" responded 200 in 25.7320 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/FlowerCategories" responded 200 in 79.6098 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Colors" responded 200 in 78.0250 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Flowers" responded 200 in 83.4830 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Countries" responded 200 in 83.6574 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Flowers" responded 200 in 34.9939 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/FlowerCategories" responded 200 in 80.9360 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Colors" responded 200 in 37.1996 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Countries" responded 200 in 35.2832 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Colors" responded 200 in 13.8899 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Countries" responded 200 in 18.4108 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/FlowerCategories" responded 200 in 26.9258 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Colors" responded 200 in 44.0594 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/Countries" responded 200 in 32.9035 ms
+01/01/2024 21:35:27 HTTP "GET" "/api/FlowerCategories" responded 200 in 18.3611 ms
+01/01/2024 21:35:41 HTTP "POST" "/api/UploadImages" responded 200 in 168.2690 ms
+01/01/2024 21:36:12 HTTP "POST" "/api/UploadImages" responded 200 in 69.8967 ms
+01/01/2024 21:36:27 HTTP "POST" "/api/UploadImages" responded 200 in 19.8843 ms
+01/01/2024 21:41:30 HTTP "POST" "/api/UploadImages" responded 200 in 171.9380 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/FlowerCategories" responded 200 in 105.4685 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/FlowerCategories" responded 200 in 38.7409 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Countries" responded 200 in 71.1062 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Flowers" responded 200 in 102.4980 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Countries" responded 200 in 92.8411 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Colors" responded 200 in 176.2894 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Flowers" responded 200 in 26.9644 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/FlowerCategories" responded 200 in 135.3961 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Countries" responded 200 in 22.6706 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Colors" responded 200 in 27.9390 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/FlowerCategories" responded 200 in 43.3488 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Colors" responded 200 in 29.2261 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Countries" responded 200 in 27.9297 ms
+01/01/2024 21:41:57 HTTP "GET" "/api/Colors" responded 200 in 7.2160 ms
+01/01/2024 21:44:04 HTTP "POST" "/api/UploadImages" responded 200 in 74.7208 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/FlowerCategories" responded 200 in 246.8264 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Colors" responded 200 in 178.6030 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Countries" responded 200 in 274.2482 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Flowers" responded 200 in 212.1428 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Colors" responded 200 in 78.3616 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/FlowerCategories" responded 200 in 91.9993 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Countries" responded 200 in 101.2970 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Flowers" responded 200 in 112.7488 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Colors" responded 200 in 36.4564 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/FlowerCategories" responded 200 in 36.5680 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Countries" responded 200 in 30.2350 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Colors" responded 200 in 24.1954 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/FlowerCategories" responded 200 in 19.3328 ms
+01/01/2024 21:46:15 HTTP "GET" "/api/Countries" responded 200 in 18.5297 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 155.5973 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/Colors" responded 200 in 157.8786 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/Countries" responded 200 in 45.2715 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/Flowers" responded 200 in 56.4816 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 19.8617 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/Colors" responded 200 in 17.0855 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/Countries" responded 200 in 20.0172 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/Flowers" responded 200 in 20.3186 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 31.2771 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/Colors" responded 200 in 28.4158 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/Countries" responded 200 in 34.8828 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 27.4544 ms
+01/01/2024 21:49:09 HTTP "GET" "/api/Colors" responded 200 in 76.7300 ms
+01/01/2024 21:49:10 HTTP "GET" "/api/Countries" responded 200 in 104.1688 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Countries" responded 200 in 343.9152 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Colors" responded 200 in 343.6006 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 352.7516 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Flowers" responded 200 in 388.9039 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Colors" responded 200 in 13.3209 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Countries" responded 200 in 13.6438 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 20.4496 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Flowers" responded 200 in 28.5991 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Colors" responded 200 in 19.3006 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 18.1270 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Countries" responded 200 in 20.3424 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Colors" responded 200 in 15.1448 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/Countries" responded 200 in 17.1769 ms
+01/01/2024 21:53:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 25.2233 ms
+01/01/2024 21:54:12 HTTP "POST" "/api/UploadImages" responded 200 in 64.4029 ms
+01/01/2024 21:54:38 HTTP "POST" "/api/UploadImages" responded 200 in 50.3407 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Countries" responded 200 in 188.8741 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Colors" responded 200 in 187.9315 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 210.5980 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Flowers" responded 200 in 242.6103 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Countries" responded 200 in 28.3237 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Colors" responded 200 in 28.4795 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 40.6997 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Flowers" responded 200 in 28.4751 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Countries" responded 200 in 22.7722 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Colors" responded 200 in 25.1936 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 26.8961 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Colors" responded 200 in 22.6335 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/Countries" responded 200 in 22.6478 ms
+01/01/2024 21:55:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 8.0502 ms
+01/01/2024 21:56:03 HTTP "POST" "/api/UploadImages" responded 200 in 56.0193 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/FlowerCategories" responded 200 in 37.3420 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/Flowers" responded 200 in 36.5169 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/Countries" responded 200 in 25.8075 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/Colors" responded 200 in 25.1921 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/FlowerCategories" responded 200 in 111.4789 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/Flowers" responded 200 in 94.5905 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/Countries" responded 200 in 126.5160 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/Colors" responded 200 in 126.0104 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/Countries" responded 200 in 58.3641 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/Colors" responded 200 in 57.7997 ms
+01/01/2024 21:56:21 HTTP "GET" "/api/FlowerCategories" responded 200 in 58.2366 ms
+01/01/2024 21:56:22 HTTP "GET" "/api/Countries" responded 200 in 16.8038 ms
+01/01/2024 21:56:22 HTTP "GET" "/api/Colors" responded 200 in 12.1695 ms
+01/01/2024 21:56:22 HTTP "GET" "/api/FlowerCategories" responded 200 in 10.9014 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Colors" responded 200 in 286.6551 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Countries" responded 200 in 286.9885 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/FlowerCategories" responded 200 in 291.1000 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Flowers" responded 200 in 300.7422 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/FlowerCategories" responded 200 in 69.3446 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Countries" responded 200 in 37.2776 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Colors" responded 200 in 50.9891 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Flowers" responded 200 in 22.6498 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/FlowerCategories" responded 200 in 38.1273 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Countries" responded 200 in 19.1657 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Colors" responded 200 in 19.2464 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/FlowerCategories" responded 200 in 17.7656 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Colors" responded 200 in 19.6541 ms
+01/01/2024 22:02:30 HTTP "GET" "/api/Countries" responded 200 in 22.8799 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/Colors" responded 200 in 231.4351 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 230.2486 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/Countries" responded 200 in 262.9008 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/Flowers" responded 200 in 262.4241 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/Colors" responded 200 in 93.4232 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 30.7328 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/Flowers" responded 200 in 33.4526 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/Countries" responded 200 in 38.3297 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/Colors" responded 200 in 39.8228 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 16.6875 ms
+01/01/2024 22:05:34 HTTP "GET" "/api/Countries" responded 200 in 14.3785 ms
+01/01/2024 22:05:35 HTTP "GET" "/api/Colors" responded 200 in 30.8065 ms
+01/01/2024 22:05:35 HTTP "GET" "/api/FlowerCategories" responded 200 in 17.1217 ms
+01/01/2024 22:05:35 HTTP "GET" "/api/Countries" responded 200 in 17.2672 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/Countries" responded 200 in 191.6637 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/Flowers" responded 200 in 187.5842 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/FlowerCategories" responded 200 in 170.9051 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/Colors" responded 200 in 115.2847 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/Countries" responded 200 in 33.4025 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/Flowers" responded 200 in 65.0617 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/Colors" responded 200 in 119.7423 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/FlowerCategories" responded 200 in 123.1237 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/Countries" responded 200 in 11.0537 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/Colors" responded 200 in 11.4623 ms
+01/01/2024 22:05:39 HTTP "GET" "/api/FlowerCategories" responded 200 in 11.6336 ms
+01/01/2024 22:05:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 100.1748 ms
+01/01/2024 22:05:40 HTTP "GET" "/api/Countries" responded 200 in 100.4310 ms
+01/01/2024 22:05:40 HTTP "GET" "/api/Colors" responded 200 in 65.6257 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 99.1132 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/Colors" responded 200 in 75.3033 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/Countries" responded 200 in 34.7371 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/Flowers" responded 200 in 56.3630 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/Colors" responded 200 in 96.5284 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 101.9706 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/Countries" responded 200 in 52.5031 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/Flowers" responded 200 in 69.7502 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 56.5478 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/Colors" responded 200 in 64.7383 ms
+01/01/2024 22:06:26 HTTP "GET" "/api/Countries" responded 200 in 123.5104 ms
+01/01/2024 22:06:27 HTTP "GET" "/api/FlowerCategories" responded 200 in 69.8531 ms
+01/01/2024 22:06:27 HTTP "GET" "/api/Countries" responded 200 in 8.1065 ms
+01/01/2024 22:06:27 HTTP "GET" "/api/Colors" responded 200 in 13.4161 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Colors" responded 200 in 347.0336 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Flowers" responded 200 in 363.4866 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Countries" responded 200 in 345.0303 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 352.5713 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Colors" responded 200 in 36.9642 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Flowers" responded 200 in 26.6542 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Countries" responded 200 in 9.6870 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.4976 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Colors" responded 200 in 13.9292 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Countries" responded 200 in 10.5969 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 10.0968 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Colors" responded 200 in 8.8219 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/Countries" responded 200 in 9.7933 ms
+01/01/2024 22:09:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 11.7231 ms
+01/01/2024 22:12:37 HTTP "POST" "/api/UploadImages" responded 200 in 25.4569 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/FlowerCategories" responded 200 in 266.2216 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Colors" responded 200 in 211.4727 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Countries" responded 200 in 182.2581 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/FlowerCategories" responded 200 in 16.8791 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Flowers" responded 200 in 204.8971 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Colors" responded 200 in 112.1913 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Colors" responded 200 in 96.8362 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Colors" responded 200 in 6.8604 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Flowers" responded 200 in 117.1012 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/FlowerCategories" responded 200 in 135.2700 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Countries" responded 200 in 234.6880 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/FlowerCategories" responded 200 in 6.9104 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Countries" responded 200 in 17.2325 ms
+01/01/2024 22:13:56 HTTP "GET" "/api/Countries" responded 200 in 221.6987 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Colors" responded 200 in 41.0388 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 200.7393 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Countries" responded 200 in 38.2310 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Flowers" responded 200 in 51.3359 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Colors" responded 200 in 23.3003 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Countries" responded 200 in 24.8701 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Flowers" responded 200 in 101.8562 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 103.4953 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Countries" responded 200 in 89.0869 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Colors" responded 200 in 146.5614 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 125.5588 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Countries" responded 200 in 56.1997 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/Colors" responded 200 in 96.1441 ms
+01/01/2024 22:14:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 76.9981 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 164.6120 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Colors" responded 200 in 161.0630 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Countries" responded 200 in 83.2218 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Flowers" responded 200 in 88.3439 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Colors" responded 200 in 29.7851 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 44.5670 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Colors" responded 200 in 24.3964 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Countries" responded 200 in 37.0436 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Flowers" responded 200 in 24.9407 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 31.6521 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 8.1602 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Colors" responded 200 in 20.2362 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Countries" responded 200 in 34.8242 ms
+01/01/2024 22:17:50 HTTP "GET" "/api/Countries" responded 200 in 6.7559 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Colors" responded 200 in 146.8183 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Countries" responded 200 in 148.5609 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Colors" responded 200 in 20.2095 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Countries" responded 200 in 18.1239 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/FlowerCategories" responded 200 in 292.3112 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Flowers" responded 200 in 291.1582 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Colors" responded 200 in 34.9146 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Countries" responded 200 in 38.7138 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/FlowerCategories" responded 200 in 33.7228 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Flowers" responded 200 in 34.1949 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/FlowerCategories" responded 200 in 81.4931 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Colors" responded 200 in 81.0104 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/Countries" responded 200 in 81.0559 ms
+01/01/2024 22:19:02 HTTP "GET" "/api/FlowerCategories" responded 200 in 12.9661 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Countries" responded 200 in 160.3503 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Colors" responded 200 in 122.7771 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/FlowerCategories" responded 200 in 207.5421 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Flowers" responded 200 in 156.5277 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Countries" responded 200 in 23.4952 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Colors" responded 200 in 78.5060 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/FlowerCategories" responded 200 in 69.5694 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Countries" responded 200 in 40.9770 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Flowers" responded 200 in 52.7626 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Colors" responded 200 in 35.6470 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Countries" responded 200 in 39.7592 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/FlowerCategories" responded 200 in 40.7848 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/Colors" responded 200 in 16.7429 ms
+01/01/2024 22:20:15 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.2914 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 401.9974 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Countries" responded 200 in 285.0670 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Colors" responded 200 in 200.6785 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Flowers" responded 200 in 336.0677 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 30.8555 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Countries" responded 200 in 29.9345 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Colors" responded 200 in 39.5113 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Flowers" responded 200 in 67.1406 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Countries" responded 200 in 27.0980 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 27.4295 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Colors" responded 200 in 38.8295 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Countries" responded 200 in 98.0733 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 98.0733 ms
+01/01/2024 22:21:05 HTTP "GET" "/api/Colors" responded 200 in 28.5204 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 135.6675 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Colors" responded 200 in 71.9490 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Flowers" responded 200 in 62.0700 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Countries" responded 200 in 72.3703 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 46.9649 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Flowers" responded 200 in 59.7067 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Colors" responded 200 in 57.8400 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Countries" responded 200 in 46.3362 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 52.1860 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Colors" responded 200 in 38.6101 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Countries" responded 200 in 40.5034 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 26.9205 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Colors" responded 200 in 31.6649 ms
+01/01/2024 22:22:40 HTTP "GET" "/api/Countries" responded 200 in 29.7427 ms
+01/01/2024 22:34:41 HTTP "GET" "/api/Countries" responded 200 in 2146.6265 ms
+01/01/2024 22:34:41 HTTP "GET" "/api/FlowerCategories" responded 200 in 2131.9765 ms
+01/01/2024 22:34:41 HTTP "GET" "/api/Colors" responded 200 in 2099.4939 ms
+01/01/2024 22:34:41 HTTP "GET" "/api/Flowers" responded 200 in 2156.0543 ms
+01/01/2024 22:34:41 HTTP "GET" "/api/Countries" responded 200 in 31.3122 ms
+01/01/2024 22:34:41 HTTP "GET" "/api/Colors" responded 200 in 14.4678 ms
+01/01/2024 22:34:41 HTTP "GET" "/api/FlowerCategories" responded 200 in 26.7598 ms
+01/01/2024 22:34:41 HTTP "GET" "/api/Flowers" responded 200 in 31.7308 ms
+01/01/2024 22:34:42 HTTP "GET" "/api/Colors" responded 200 in 141.9206 ms
+01/01/2024 22:34:42 HTTP "GET" "/api/Countries" responded 200 in 166.4535 ms
+01/01/2024 22:34:42 HTTP "GET" "/api/FlowerCategories" responded 200 in 139.1602 ms
+01/01/2024 22:34:42 HTTP "GET" "/api/Colors" responded 200 in 47.4936 ms
+01/01/2024 22:34:42 HTTP "GET" "/api/Countries" responded 200 in 30.2956 ms
+01/01/2024 22:34:42 HTTP "GET" "/api/FlowerCategories" responded 200 in 36.9633 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/FlowerCategories" responded 200 in 122.6659 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Colors" responded 200 in 44.8653 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Flowers" responded 200 in 141.4777 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Countries" responded 200 in 90.7955 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/FlowerCategories" responded 200 in 81.9097 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Colors" responded 200 in 60.1661 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Flowers" responded 200 in 36.3455 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Countries" responded 200 in 26.0715 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/FlowerCategories" responded 200 in 36.9883 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Colors" responded 200 in 17.2379 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Countries" responded 200 in 15.9326 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/FlowerCategories" responded 200 in 14.7424 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Countries" responded 200 in 101.7677 ms
+01/01/2024 22:38:45 HTTP "GET" "/api/Colors" responded 200 in 104.3019 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/FlowerCategories" responded 200 in 71.7129 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Flowers" responded 200 in 79.2972 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Colors" responded 200 in 177.5957 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/FlowerCategories" responded 200 in 85.3894 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Countries" responded 200 in 198.5164 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Flowers" responded 200 in 78.1286 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Colors" responded 200 in 19.5442 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Countries" responded 200 in 27.3392 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/FlowerCategories" responded 200 in 26.3938 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Colors" responded 200 in 21.4284 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/FlowerCategories" responded 200 in 44.6021 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Countries" responded 200 in 41.5682 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Colors" responded 200 in 15.7391 ms
+01/01/2024 22:39:31 HTTP "GET" "/api/Countries" responded 200 in 8.2351 ms
+01/01/2024 22:39:40 HTTP "POST" "/api/UploadImages" responded 200 in 64.9409 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 483.5809 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Colors" responded 200 in 468.3052 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Countries" responded 200 in 469.9889 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Flowers" responded 200 in 507.6688 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 39.2337 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Colors" responded 200 in 39.0405 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Countries" responded 200 in 33.0603 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Flowers" responded 200 in 30.3133 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 22.4599 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Colors" responded 200 in 29.6901 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Countries" responded 200 in 38.6745 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 29.3235 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Colors" responded 200 in 25.8870 ms
+01/01/2024 22:50:58 HTTP "GET" "/api/Countries" responded 200 in 29.2586 ms
+01/01/2024 22:51:00 HTTP "GET" "/swagger/index.html" responded 200 in 3.8568 ms
+01/01/2024 22:51:01 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 56.8305 ms
+01/01/2024 22:52:05 Приложение запущено
+01/01/2024 22:52:07 HTTP "GET" "/swagger/index.html" responded 200 in 386.7468 ms
+01/01/2024 22:52:08 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 452.5960 ms
+01/01/2024 22:52:21 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/01/2024 22:52:21 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/01/2024 22:52:23 HTTP "GET" "/api/Flowers" responded 200 in 3920.6067 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/FlowerCategories" responded 200 in 3920.6771 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/Countries" responded 200 in 3920.6911 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/Colors" responded 200 in 3920.6990 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/Colors" responded 200 in 214.4864 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/Colors" responded 200 in 9.6483 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/Colors" responded 200 in 8.1237 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/FlowerCategories" responded 200 in 248.4759 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/Countries" responded 200 in 248.4755 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/Flowers" responded 200 in 256.4956 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/FlowerCategories" responded 200 in 58.9810 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/Countries" responded 200 in 59.8797 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/FlowerCategories" responded 200 in 62.1652 ms
+01/01/2024 22:52:23 HTTP "GET" "/api/Countries" responded 200 in 62.8354 ms
+01/01/2024 22:52:47 HTTP "POST" "/api/UploadImages" responded 500 in 146.4128 ms
+System.IO.IOException: Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'C:\Users\marin\OneDrive\Desktop\fs6\FlowerShop_2\FlowerShop\webapi\wwwroot\images\01.01.2024 22:52:47_kokorina.JPG'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at webapi.Controllers.UploadImagesController.PostUploadImages(IEnumerable`1 images) in C:\Users\marin\OneDrive\Desktop\fs6\FlowerShop_2\FlowerShop\webapi\Controllers\UploadImagesController.cs:line 42
+   at lambda_method118(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/01/2024 22:52:47 An unhandled exception has occurred while executing the request.
+System.IO.IOException: Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'C:\Users\marin\OneDrive\Desktop\fs6\FlowerShop_2\FlowerShop\webapi\wwwroot\images\01.01.2024 22:52:47_kokorina.JPG'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at webapi.Controllers.UploadImagesController.PostUploadImages(IEnumerable`1 images) in C:\Users\marin\OneDrive\Desktop\fs6\FlowerShop_2\FlowerShop\webapi\Controllers\UploadImagesController.cs:line 42
+   at lambda_method118(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/01/2024 23:08:18 Приложение запущено
+01/01/2024 23:08:20 HTTP "GET" "/swagger/index.html" responded 200 in 435.0279 ms
+01/01/2024 23:08:21 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 549.2560 ms
+01/01/2024 23:08:36 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/01/2024 23:08:36 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/01/2024 23:08:39 HTTP "GET" "/api/FlowerCategories" responded 200 in 5746.7314 ms
+01/01/2024 23:08:39 HTTP "GET" "/api/Colors" responded 200 in 5751.5301 ms
+01/01/2024 23:08:39 HTTP "GET" "/api/Countries" responded 200 in 5751.8875 ms
+01/01/2024 23:08:39 HTTP "GET" "/api/Flowers" responded 200 in 5746.9443 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 218.8977 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/Countries" responded 200 in 230.7196 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/Flowers" responded 200 in 232.6797 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/Colors" responded 200 in 233.5045 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/Countries" responded 200 in 30.8192 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/Colors" responded 200 in 20.6146 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 31.3526 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 28.5863 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/Colors" responded 200 in 19.3229 ms
+01/01/2024 23:08:40 HTTP "GET" "/api/Countries" responded 200 in 19.4914 ms
+01/01/2024 23:08:50 HTTP "POST" "/api/UploadImages" responded 500 in 5712.5444 ms
+System.IO.IOException: Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'C:\Users\marin\OneDrive\Desktop\fs6\FlowerShop_2\FlowerShop\webapi\wwwroot\images\01.01.2024 23:08:48kokorina.JPG'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at webapi.Controllers.UploadImagesController.PostUploadImages(IEnumerable`1 images) in C:\Users\marin\OneDrive\Desktop\fs6\FlowerShop_2\FlowerShop\webapi\Controllers\UploadImagesController.cs:line 42
+   at lambda_method118(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/01/2024 23:08:50 An unhandled exception has occurred while executing the request.
+System.IO.IOException: Синтаксическая ошибка в имени файла, имени папки или метке тома. : 'C:\Users\marin\OneDrive\Desktop\fs6\FlowerShop_2\FlowerShop\webapi\wwwroot\images\01.01.2024 23:08:48kokorina.JPG'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at webapi.Controllers.UploadImagesController.PostUploadImages(IEnumerable`1 images) in C:\Users\marin\OneDrive\Desktop\fs6\FlowerShop_2\FlowerShop\webapi\Controllers\UploadImagesController.cs:line 42
+   at lambda_method118(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/01/2024 23:15:39 Приложение запущено
+01/01/2024 23:15:40 HTTP "GET" "/swagger/index.html" responded 200 in 429.2099 ms
+01/01/2024 23:15:42 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 359.4254 ms
+01/01/2024 23:15:46 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/01/2024 23:15:46 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/01/2024 23:15:48 HTTP "GET" "/api/FlowerCategories" responded 200 in 3014.0579 ms
+01/01/2024 23:15:48 HTTP "GET" "/api/Flowers" responded 200 in 3014.3109 ms
+01/01/2024 23:15:48 HTTP "GET" "/api/Colors" responded 200 in 3014.6684 ms
+01/01/2024 23:15:48 HTTP "GET" "/api/Countries" responded 200 in 3017.6344 ms
+01/01/2024 23:15:48 HTTP "GET" "/api/Colors" responded 200 in 149.8836 ms
+01/01/2024 23:15:48 HTTP "GET" "/api/Countries" responded 200 in 149.4135 ms
+01/01/2024 23:15:48 HTTP "GET" "/api/FlowerCategories" responded 200 in 150.4276 ms
+01/01/2024 23:15:48 HTTP "GET" "/api/Flowers" responded 200 in 155.0963 ms
+01/01/2024 23:15:49 HTTP "GET" "/api/Colors" responded 200 in 24.3457 ms
+01/01/2024 23:15:49 HTTP "GET" "/api/Countries" responded 200 in 26.9366 ms
+01/01/2024 23:15:49 HTTP "GET" "/api/FlowerCategories" responded 200 in 17.3545 ms
+01/01/2024 23:15:49 HTTP "GET" "/api/Countries" responded 200 in 11.1617 ms
+01/01/2024 23:15:49 HTTP "GET" "/api/Colors" responded 200 in 15.3048 ms
+01/01/2024 23:15:49 HTTP "GET" "/api/FlowerCategories" responded 200 in 7.9645 ms
+01/01/2024 23:15:53 HTTP "POST" "/api/UploadImages" responded 200 in 574.7467 ms
+01/02/2024 11:03:31 Приложение запущено
+01/02/2024 11:03:34 HTTP "GET" "/swagger/index.html" responded 200 in 291.1474 ms
+01/02/2024 11:03:34 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 439.9278 ms
+01/02/2024 11:03:49 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/02/2024 11:03:49 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/02/2024 11:03:51 HTTP "GET" "/api/UploadImages" responded 200 in 3943.6518 ms
+01/02/2024 11:04:29 HTTP "DELETE" "/api/UploadImages/12" responded 204 in 434.1099 ms
+01/02/2024 11:06:38 HTTP "DELETE" "/api/UploadImages/11" responded 204 in 193.8801 ms
+01/02/2024 11:07:02 Приложение запущено
+01/02/2024 11:07:05 HTTP "GET" "/swagger/index.html" responded 200 in 227.7502 ms
+01/02/2024 11:07:05 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 304 in 28.8617 ms
+01/02/2024 11:07:05 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 304 in 27.2650 ms
+01/02/2024 11:07:05 HTTP "GET" "/swagger/swagger-ui.css" responded 304 in 43.4579 ms
+01/02/2024 11:07:06 HTTP "GET" "/swagger/favicon-32x32.png" responded 304 in 0.3809 ms
+01/02/2024 11:07:06 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 246.6681 ms
+01/02/2024 11:10:18 Failed to determine the https port for redirect.
+01/02/2024 11:10:19 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/02/2024 11:10:19 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/02/2024 11:10:20 HTTP "GET" "/api/UploadImages" responded 200 in 2166.5964 ms
+01/02/2024 11:10:41 HTTP "DELETE" "/api/UploadImages/10" responded 200 in 427.3981 ms
+01/02/2024 11:12:10 Приложение запущено
+01/02/2024 11:12:13 HTTP "GET" "/swagger/index.html" responded 200 in 221.8769 ms
+01/02/2024 11:12:14 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 271.9031 ms
+01/02/2024 11:12:46 Failed to determine the https port for redirect.
+01/02/2024 11:12:48 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/02/2024 11:12:48 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/02/2024 11:12:50 HTTP "GET" "/api/UploadImages" responded 200 in 4006.8914 ms
