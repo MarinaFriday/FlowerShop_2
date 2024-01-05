@@ -7467,3 +7467,181 @@ System.IO.IOException: Синтаксическая ошибка в имени �
 01/02/2024 11:12:48 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
 01/02/2024 11:12:48 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
 01/02/2024 11:12:50 HTTP "GET" "/api/UploadImages" responded 200 in 4006.8914 ms
+01/03/2024 13:44:21 Приложение запущено
+01/03/2024 13:44:24 HTTP "GET" "/swagger/index.html" responded 200 in 277.5681 ms
+01/03/2024 13:44:25 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 393.4095 ms
+01/03/2024 13:45:20 Failed to determine the https port for redirect.
+01/03/2024 13:45:22 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 13:45:22 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 13:45:24 HTTP "DELETE" "/api/UploadImages/10" responded 404 in 4142.2902 ms
+01/03/2024 14:05:07 Приложение запущено
+01/03/2024 14:05:10 HTTP "GET" "/swagger/index.html" responded 200 in 249.1504 ms
+01/03/2024 14:05:11 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 250.3804 ms
+01/03/2024 14:06:33 Failed to determine the https port for redirect.
+01/03/2024 14:06:34 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:06:34 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:06:35 HTTP "DELETE" "/api/UploadImages/10" responded 404 in 2266.9912 ms
+01/03/2024 14:16:30 Приложение запущено
+01/03/2024 14:16:34 HTTP "GET" "/swagger/index.html" responded 200 in 206.0517 ms
+01/03/2024 14:16:35 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 271.5065 ms
+01/03/2024 14:16:50 Failed to determine the https port for redirect.
+01/03/2024 14:16:51 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:16:51 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:16:52 HTTP "GET" "/api/UploadImages" responded 200 in 2122.0013 ms
+01/03/2024 14:18:24 HTTP "GET" "/api/UploadImages" responded 200 in 63.3167 ms
+01/03/2024 14:18:50 HTTP "DELETE" "/api/UploadImages/1" responded 200 in 362.4098 ms
+01/03/2024 14:21:46 Приложение запущено
+01/03/2024 14:21:50 HTTP "GET" "/swagger/index.html" responded 200 in 310.2478 ms
+01/03/2024 14:21:51 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 282.0691 ms
+01/03/2024 14:22:05 Failed to determine the https port for redirect.
+01/03/2024 14:22:06 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:22:06 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:22:07 HTTP "GET" "/api/UploadImages" responded 200 in 2194.6441 ms
+01/03/2024 14:22:33 HTTP "DELETE" "/api/UploadImages/1" responded 200 in 441.7826 ms
+01/03/2024 14:24:08 Приложение запущено
+01/03/2024 14:24:10 HTTP "GET" "/swagger/index.html" responded 200 in 221.4701 ms
+01/03/2024 14:24:11 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 268.0555 ms
+01/03/2024 14:24:26 Failed to determine the https port for redirect.
+01/03/2024 14:24:27 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:24:27 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:24:29 HTTP "GET" "/api/UploadImages" responded 200 in 2302.2934 ms
+01/03/2024 14:24:44 HTTP "DELETE" "/api/UploadImages/2" responded 200 in 417.8311 ms
+01/03/2024 14:25:44 Приложение запущено
+01/03/2024 14:25:53 HTTP "GET" "/swagger/index.html" responded 200 in 642.8002 ms
+01/03/2024 14:25:54 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 639.1871 ms
+01/03/2024 14:26:45 Failed to determine the https port for redirect.
+01/03/2024 14:26:46 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:26:46 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:29:43 Приложение запущено
+01/03/2024 14:29:46 HTTP "GET" "/swagger/index.html" responded 200 in 245.6023 ms
+01/03/2024 14:29:46 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 269.8249 ms
+01/03/2024 14:29:56 Failed to determine the https port for redirect.
+01/03/2024 14:29:57 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:29:57 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:29:58 HTTP "DELETE" "/api/UploadImages/3" responded 200 in 2493.1810 ms
+01/03/2024 14:31:02 Приложение запущено
+01/03/2024 14:31:05 HTTP "GET" "/swagger/index.html" responded 200 in 225.5601 ms
+01/03/2024 14:31:05 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 290.8521 ms
+01/03/2024 14:31:13 Failed to determine the https port for redirect.
+01/03/2024 14:31:15 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:31:15 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:31:16 HTTP "DELETE" "/api/UploadImages/3" responded 200 in 2282.8587 ms
+01/03/2024 14:33:34 Приложение запущено
+01/03/2024 14:33:35 HTTP "GET" "/swagger/index.html" responded 200 in 190.4618 ms
+01/03/2024 14:33:36 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 227.6184 ms
+01/03/2024 14:33:44 Failed to determine the https port for redirect.
+01/03/2024 14:33:45 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:33:45 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:33:46 HTTP "DELETE" "/api/UploadImages/3" responded 200 in 2243.4896 ms
+01/03/2024 14:42:04 Приложение запущено
+01/03/2024 14:42:07 HTTP "GET" "/swagger/index.html" responded 200 in 215.7911 ms
+01/03/2024 14:42:07 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 336.8601 ms
+01/03/2024 14:42:21 Failed to determine the https port for redirect.
+01/03/2024 14:42:22 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:42:22 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:42:24 HTTP "DELETE" "/api/UploadImages/3" responded 200 in 2470.1902 ms
+01/03/2024 14:44:13 Приложение запущено
+01/03/2024 14:44:16 HTTP "GET" "/swagger/index.html" responded 200 in 235.7059 ms
+01/03/2024 14:44:17 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 270.1441 ms
+01/03/2024 14:44:28 Failed to determine the https port for redirect.
+01/03/2024 14:44:29 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:44:29 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:44:30 HTTP "DELETE" "/api/UploadImages/3" responded 200 in 2311.8139 ms
+01/03/2024 14:46:44 Приложение запущено
+01/03/2024 14:46:47 HTTP "GET" "/swagger/index.html" responded 200 in 225.2488 ms
+01/03/2024 14:46:48 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 268.3729 ms
+01/03/2024 14:46:56 Failed to determine the https port for redirect.
+01/03/2024 14:46:58 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:46:58 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:47:00 HTTP "GET" "/api/UploadImages" responded 200 in 3995.9798 ms
+01/03/2024 14:47:17 HTTP "DELETE" "/api/UploadImages/3" responded 200 in 506.4960 ms
+01/03/2024 14:50:29 Приложение запущено
+01/03/2024 14:50:30 HTTP "GET" "/swagger/index.html" responded 200 in 198.3514 ms
+01/03/2024 14:50:31 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 249.2750 ms
+01/03/2024 14:50:37 Failed to determine the https port for redirect.
+01/03/2024 14:50:38 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:50:38 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:50:40 HTTP "GET" "/api/UploadImages" responded 200 in 2212.7573 ms
+01/03/2024 14:50:59 HTTP "DELETE" "/api/UploadImages/4" responded 200 in 306.2533 ms
+01/03/2024 14:58:00 Приложение запущено
+01/03/2024 14:58:03 HTTP "GET" "/swagger/index.html" responded 200 in 272.6601 ms
+01/03/2024 14:58:04 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 341.5120 ms
+01/03/2024 14:58:15 Failed to determine the https port for redirect.
+01/03/2024 14:58:16 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:58:16 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 14:58:17 HTTP "DELETE" "/api/UploadImages/3" responded 404 in 2422.1974 ms
+01/03/2024 14:58:47 Приложение запущено
+01/03/2024 14:58:50 HTTP "GET" "/swagger/index.html" responded 200 in 208.8311 ms
+01/03/2024 14:58:51 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 257.9523 ms
+01/03/2024 15:06:50 Failed to determine the https port for redirect.
+01/03/2024 15:06:51 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:06:51 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:06:53 HTTP "GET" "/api/UploadImages" responded 200 in 2458.0795 ms
+01/03/2024 15:07:01 HTTP "DELETE" "/api/UploadImages/4" responded 200 in 292.3016 ms
+01/03/2024 15:08:15 Приложение запущено
+01/03/2024 15:08:18 HTTP "GET" "/swagger/index.html" responded 200 in 245.3039 ms
+01/03/2024 15:08:18 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 299.8245 ms
+01/03/2024 15:08:29 Failed to determine the https port for redirect.
+01/03/2024 15:08:30 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:08:30 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:08:31 HTTP "DELETE" "/api/UploadImages/4" responded 200 in 2347.5584 ms
+01/03/2024 15:09:09 Приложение запущено
+01/03/2024 15:09:09 HTTP "GET" "/swagger/index.html" responded 200 in 169.2477 ms
+01/03/2024 15:09:10 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 306.8573 ms
+01/03/2024 15:09:24 Failed to determine the https port for redirect.
+01/03/2024 15:09:25 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:09:25 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:09:26 HTTP "DELETE" "/api/UploadImages/4" responded 200 in 2229.5944 ms
+01/03/2024 15:10:54 Приложение запущено
+01/03/2024 15:10:55 HTTP "GET" "/swagger/index.html" responded 200 in 153.6061 ms
+01/03/2024 15:10:55 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 248.4792 ms
+01/03/2024 15:11:11 Failed to determine the https port for redirect.
+01/03/2024 15:11:12 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:11:12 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:11:13 HTTP "DELETE" "/api/UploadImages/4" responded 200 in 2426.1514 ms
+01/03/2024 15:12:42 Приложение запущено
+01/03/2024 15:12:43 HTTP "GET" "/swagger/index.html" responded 200 in 158.3501 ms
+01/03/2024 15:12:43 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 252.7115 ms
+01/03/2024 15:12:55 Failed to determine the https port for redirect.
+01/03/2024 15:12:56 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:12:56 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:12:57 HTTP "DELETE" "/api/UploadImages/4" responded 200 in 2339.2719 ms
+01/03/2024 15:14:39 Приложение запущено
+01/03/2024 15:14:40 HTTP "GET" "/swagger/index.html" responded 200 in 163.4505 ms
+01/03/2024 15:14:40 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 243.9388 ms
+01/03/2024 15:14:54 Failed to determine the https port for redirect.
+01/03/2024 15:14:55 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:14:55 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:14:56 HTTP "DELETE" "/api/UploadImages/4" responded 200 in 2431.2097 ms
+01/03/2024 15:15:23 HTTP "GET" "/api/UploadImages" responded 200 in 370.0005 ms
+01/03/2024 15:17:07 Приложение запущено
+01/03/2024 15:17:08 HTTP "GET" "/swagger/index.html" responded 200 in 193.1118 ms
+01/03/2024 15:17:09 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 337.4361 ms
+01/03/2024 15:17:19 Failed to determine the https port for redirect.
+01/03/2024 15:17:20 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:17:20 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:17:21 HTTP "DELETE" "/api/UploadImages/4" responded 200 in 2512.9437 ms
+01/03/2024 15:17:30 HTTP "GET" "/api/UploadImages" responded 200 in 273.8250 ms
+01/03/2024 15:18:18 HTTP "DELETE" "/api/UploadImages/9" responded 200 in 284.4814 ms
+01/03/2024 15:20:34 Приложение запущено
+01/03/2024 15:20:35 HTTP "GET" "/swagger/index.html" responded 200 in 169.9061 ms
+01/03/2024 15:20:36 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 463.2483 ms
+01/03/2024 15:25:17 Failed to determine the https port for redirect.
+01/03/2024 15:25:18 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:25:18 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/03/2024 15:25:20 HTTP "POST" "/api/UploadImages" responded 200 in 3207.6235 ms
+01/03/2024 15:25:31 HTTP "GET" "/api/UploadImages" responded 200 in 146.7152 ms
+01/03/2024 15:26:03 HTTP "DELETE" "/api/UploadImages/13" responded 200 in 247.4834 ms
+01/04/2024 12:31:47 Приложение запущено
+01/04/2024 12:31:49 HTTP "GET" "/swagger/index.html" responded 200 in 234.4977 ms
+01/04/2024 12:31:50 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 255.1780 ms
+01/04/2024 12:32:12 Failed to determine the https port for redirect.
+01/04/2024 12:32:14 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/04/2024 12:32:14 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/04/2024 12:32:15 HTTP "GET" "/api/UploadImages" responded 200 in 3030.1678 ms
+01/04/2024 12:32:43 HTTP "DELETE" "/api/UploadImages/3" responded 404 in 427.8014 ms
+01/04/2024 12:32:51 HTTP "GET" "/api/UploadImages" responded 200 in 254.4467 ms
+01/04/2024 12:33:01 HTTP "DELETE" "/api/UploadImages/8" responded 200 in 278.6468 ms
+01/04/2024 12:40:42 Приложение запущено
+01/04/2024 12:40:51 HTTP "GET" "/swagger/index.html" responded 200 in 400.8517 ms
+01/04/2024 12:40:53 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 1338.7051 ms

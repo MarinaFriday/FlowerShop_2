@@ -5,6 +5,9 @@ using webapi.Services;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Metrics;
+using System.Net;
+using Microsoft.AspNetCore.Hosting.Server;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace webapi.Controllers
 {
@@ -70,6 +73,42 @@ namespace webapi.Controllers
         {
             var image = await _context.Images.FindAsync(id);
             if (image == null) return NotFound();
+            DirectoryInfo directory = new DirectoryInfo(_webHostEnvironment.WebRootPath+"/images/");
+            var files = directory.GetFiles().ToList();
+
+            foreach (var deletedFile in files)
+            {
+                Console.WriteLine("Путь из FileInfo");
+                Console.WriteLine(deletedFile);
+                string deleteFileString = deletedFile.ToString();
+                //deleteFileString = deleteFileString.Replace("\\", string.Empty);
+                //deleteFileString = deleteFileString.Replace(":", string.Empty);
+                //deleteFileString = deleteFileString.Replace(".", string.Empty);
+                //string imagePathReplace = image.ImagePath.Replace("/", string.Empty);
+                //imagePathReplace = imagePathReplace.Replace(".", string.Empty);
+                deleteFileString = deleteFileString.Replace("\\","/");
+                Console.WriteLine("Измененный путь из FileInfo");
+                Console.WriteLine(deleteFileString);
+                Console.WriteLine("Путь из БД");
+                Console.WriteLine(image.ImagePath);                
+                bool imagePathDbInDirectoryPath = deleteFileString.Contains(image.ImagePath);
+                Console.WriteLine(imagePathDbInDirectoryPath);
+
+                if (deleteFileString.Contains(image.ImagePath))
+                {
+                    try
+                    {
+                        System.IO.File.Delete(deletedFile.FullName);
+                        Console.WriteLine("Файл удален с сервера");
+                        break;
+                    }
+                    catch (Exception e)
+                    {
+                        return Problem("Error" + e);
+                    }
+                    
+                }
+            }                                        
             _context.Images.Remove(image);
             await _context.SaveChangesAsync();
             //code 204

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w9qZPbQxb9GtNn58CxEn82vUrUZd4ZVat5QqDf+3mI4=",
+  "Hash": "Lp7Qi0ikg+A+aJ/cc6MZnnBc3kdpVqHZRaUr2/1NGQU=",
   "Source": "webapi",
   "BasePath": "_content/webapi",
   "Mode": "Default",
@@ -16,25 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\01012024 231553kokorina.JPG",
-      "SourceId": "webapi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
-      "BasePath": "_content/webapi",
-      "RelativePath": "images/01012024 231553kokorina.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\01012024 231553kokorina.JPG"
-    },
     {
       "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\01012024 231553kokorina1.JPG",
       "SourceId": "webapi",
@@ -112,25 +93,6 @@
       "OriginalItemSpec": "wwwroot\\images\\3 — копия — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\3.JPG",
-      "SourceId": "webapi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
-      "BasePath": "_content/webapi",
-      "RelativePath": "images/3.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\3.JPG"
-    },
-    {
       "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\9e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
@@ -148,25 +110,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\9e7b76b0-d77f-4706-9245-8eedc1064824.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\kokorina.JPG",
-      "SourceId": "webapi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
-      "BasePath": "_content/webapi",
-      "RelativePath": "images/kokorina.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\kokorina.JPG"
     },
     {
       "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\kokorina1.JPG",
@@ -224,25 +167,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\mondial.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\vfhbyf.JPG",
-      "SourceId": "webapi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
-      "BasePath": "_content/webapi",
-      "RelativePath": "images/vfhbyf.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\vfhbyf.JPG"
     }
   ]
 }

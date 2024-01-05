@@ -46,7 +46,6 @@ const FlowerTools = () => {
     return (       
             <Container>
             <h2 className="text-center">Добавление цветка</h2>
-            <ImageUpload />
             <h1>  </h1>
             <ImagesUpload />
             <h1>  </h1>

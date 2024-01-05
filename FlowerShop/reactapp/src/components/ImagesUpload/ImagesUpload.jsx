@@ -13,12 +13,12 @@ const ImagesUpload = () => {
     async function handleImages (imageList, addUpdateIndex) {
         // data for submit
         console.log(imageList, addUpdateIndex);
-        console.log("начало цикла")
+        //console.log("начало цикла")
 
         for (const file of imageList) {
             console.log(file.file)
         }
-        console.log("конец цикла")
+        //console.log("конец цикла")
         await setImages(imageList);        
 };
     async function postImages()  {
@@ -69,7 +69,7 @@ const ImagesUpload = () => {
                             onClick={onImageUpload}
                             {...dragProps}
                         >
-                            Нажмите или перетащите
+                            Нажмите или перетащите изображение
                         </Button>
                         &nbsp;
                         <Button onClick={onImageRemoveAll}>Удалить все изображения</Button>
@@ -85,7 +85,7 @@ const ImagesUpload = () => {
                     </div>
                 )}
             </ImageUploading><h1> </h1>
-            <Button onClick={postImages}>Отправить на сервер</Button>
+            <Button onClick={postImages}>Отправить изображения на сервер</Button>
 
         </div>);  
 }

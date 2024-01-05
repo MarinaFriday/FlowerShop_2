@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\01012024 231553kokorina.JPG",
-      "PackagePath": "staticwebassets\\images\\01012024 231553kokorina.JPG"
-    },
-    {
       "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\01012024 231553kokorina1.JPG",
       "PackagePath": "staticwebassets\\images\\01012024 231553kokorina1.JPG"
     },
@@ -21,16 +17,8 @@
       "PackagePath": "staticwebassets\\images\\3 — копия — копия.JPG"
     },
     {
-      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\3.JPG",
-      "PackagePath": "staticwebassets\\images\\3.JPG"
-    },
-    {
       "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\9e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "PackagePath": "staticwebassets\\images\\9e7b76b0-d77f-4706-9245-8eedc1064824.jpg"
-    },
-    {
-      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\kokorina.JPG",
-      "PackagePath": "staticwebassets\\images\\kokorina.JPG"
     },
     {
       "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\kokorina1.JPG",
@@ -43,10 +31,6 @@
     {
       "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\mondial.jpg",
       "PackagePath": "staticwebassets\\images\\mondial.jpg"
-    },
-    {
-      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\vfhbyf.JPG",
-      "PackagePath": "staticwebassets\\images\\vfhbyf.JPG"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.webapi.props",
