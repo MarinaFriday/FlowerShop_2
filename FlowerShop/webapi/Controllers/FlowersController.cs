@@ -3,6 +3,7 @@ using webapi.Data;
 using webapi.Models.Flowers;
 using webapi.Services;
 using System.Threading.Tasks;
+using webapi.Models.DTO;
 
 
 namespace webapi.Controllers
@@ -31,9 +32,9 @@ namespace webapi.Controllers
         }
         //POST
         [HttpPost]
-        public async Task<ActionResult<Flower>> PostFlower(Flower flower) {
+        public async Task<ActionResult<Flower>> PostFlower(FlowerDTO flowerDTO) {
             FlowerService fs = new FlowerService(_context);
-            var result = fs.AddFlower(flower);
+            var result = fs.AddFlower(flowerDTO);
             return await result == null ? BadRequest("Ошибка в цветке") : await result;
         }
         //PUT {id}

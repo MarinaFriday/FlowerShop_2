@@ -20,7 +20,8 @@ const DropdownButtonCategory = () => {
     return (
         <div id="dropdownButonCountry" data-IdCountry={ idCountry }>
         <DropdownButton title={titleDropdownBtn}>
-            {countries.map((country, index) =>
+            {
+                countries.map((country, index) =>
                 <Dropdown.Item onClick={() => {
                     setTitle(country.title);
                     setIdCountryData(country.id)

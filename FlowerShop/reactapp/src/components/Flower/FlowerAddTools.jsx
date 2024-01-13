@@ -6,7 +6,7 @@ import DropdownButtonColor from '../Color/DropdownButtonColor';
 import DropdownButtonCountry from '../Country/DropdownButtonCountry';
 import { urlFlowers } from '../../urls/urlList';
 import FlowerCatalogList from './FlowersCatalogList';
-import ImageUpload from '../ImagesUpload/ImageUpload';
+//import ImageUpload from '../ImagesUpload/ImageUpload';
 import ImagesUpload from '../ImagesUpload/ImagesUpload';
 
 
@@ -15,8 +15,20 @@ const FlowerTools = () => {
         title: '',
         price: '',
         count: ''
-    });    
+    });
+    const [dataResponseImage, setDataResponseImage] = useState([]);
 
+    const handleDataImages = (data) => {
+        console.log('data');
+        console.log(data);
+        setDataResponseImage(data);
+        console.log('Родитель');
+        console.log(dataResponseImage)
+    }
+    const click = () => {
+        console.log('Родитель');
+        console.log(dataResponseImage)
+    }
     async function postFlower() {       
             try {
                 var dBcategory = document.getElementById("dropdownButtonCategory")
@@ -32,7 +44,8 @@ const FlowerTools = () => {
                     count: inputValueFlower.count,
                     categoryId: dBcategory.dataset.idcategory,
                     colorId: dBcolor.dataset.idcolor,
-                    countryId: dBCountry.dataset.idcountry
+                    countryId: dBCountry.dataset.idcountry,
+
                 };
                 await axios.post(urlFlowers, flower);
             }
@@ -47,7 +60,7 @@ const FlowerTools = () => {
             <Container>
             <h2 className="text-center">Добавление цветка</h2>
             <h1>  </h1>
-            <ImagesUpload />
+            <ImagesUpload arrayImages={handleDataImages} />            
             <h1>  </h1>
             <DropdownButtonCategory id="dropdownButtonCategory" /><h1> </h1>            
             <DropdownButtonColor /><h1> </h1>                        
@@ -95,6 +108,7 @@ const FlowerTools = () => {
                 onClick={postFlower}
             >Добавить</Button><h1> </h1> 
             <FlowerCatalogList />
+            <Button onClick={click}>Консоль</Button>
             </Container>        
     );
 }

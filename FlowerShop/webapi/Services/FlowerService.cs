@@ -5,6 +5,7 @@ using System.Diagnostics.Eventing.Reader;
 using webapi.Data;
 using webapi.Models.Flowers;
 using System.Threading.Tasks;
+using webapi.Models.DTO;
 
 namespace webapi.Services
 {
@@ -15,16 +16,42 @@ namespace webapi.Services
             _context=context;
         }
         //Добавление цветка
-        public async Task<ActionResult<Flower>> AddFlower(Flower flower) 
-        { 
-            flower.Title = flower.Title.Trim();
+        //public async Task<ActionResult<Flower>> AddFlower(Flower flower) 
+        //{ 
+        //    flower.Title = flower.Title.Trim();
+        //    var color = _context.Colors.FindAsync(flower.ColorId);
+        //    if (color != null) flower.Color = color.Result;
+        //    var country = _context.Countries.FindAsync(flower.CountryId);
+        //    if (country != null) flower.Country = country.Result;
+        //    var category = _context.FlowersCategories.FindAsync(flower.CategoryId);
+        //    if (category != null) flower.Category = category.Result;
+        //    await _context.Flowers.AddAsync(flower);   
+        //    await _context.SaveChangesAsync();
+        //    return flower;
+        //}
+
+        //Добавление цветка через DTO
+        public async Task<ActionResult<Flower>> AddFlower(FlowerDTO flowerDTO) {
+            var flower = new Flower();              
+            flower.Title = flowerDTO.Title.Trim();
+            flower.Price = flowerDTO.Price;
+            flower.Count = flowerDTO.Count;
+            List<Image> images = new List<Image>();
+            foreach (var imageId in flowerDTO.ImagesId) {
+                var image = _context.Images.FindAsync(imageId);
+                if (image != null) images.Add(image.Result);
+            }
+            flower.Images = images;
+            flower.ColorId = flowerDTO.ColorId;
             var color = _context.Colors.FindAsync(flower.ColorId);
-            if (color != null) flower.Color = color.Result;
-            var country = _context.Countries.FindAsync(flower.CountryId);
-            if (country != null) flower.Country = country.Result;
+                if (color != null) flower.Color = color.Result;
+            flower.CategoryId = flowerDTO.CategoryId;
             var category = _context.FlowersCategories.FindAsync(flower.CategoryId);
-            if (category != null) flower.Category = category.Result;
-            await _context.Flowers.AddAsync(flower);   
+                if (category != null) flower.Category = category.Result;
+            flower.CountryId = flowerDTO.CountryId;
+            var country = _context.Countries.FindAsync(flower.CountryId);
+                if(country != null) flower.Country = country.Result;    
+            await _context.Flowers.AddAsync(flower);
             await _context.SaveChangesAsync();
             return flower;
         }

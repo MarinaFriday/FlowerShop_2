@@ -1,4 +1,4 @@
-const BASE_URL = 'https://localhost:44378';
+const BASE_URL = 'https://localhost:7241';
 
 //Authentication
 //export const urlAuth = BASE_URL + '/api/Authentication'

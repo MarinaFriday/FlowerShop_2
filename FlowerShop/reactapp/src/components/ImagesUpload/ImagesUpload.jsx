@@ -5,10 +5,15 @@ import ImageUploading from 'react-images-uploading';
 import { urlUploadImages } from '../../urls/urlList';
 
 
-const ImagesUpload = () => {
+const ImagesUpload = ({arrayImages}) => {
 
     const [images, setImages] = useState([]);
+    var imagesArray;
     const maxNumber = 3;
+
+    const dataImagesFunction = () => {
+        arrayImages(imagesArray);
+    }
 
     async function handleImages (imageList, addUpdateIndex) {
         // data for submit
@@ -35,23 +40,28 @@ const ImagesUpload = () => {
         } 
         try {
             await axios.post(urlUploadImages, formData)
-                .then((res) => { console.log(res) })
-            alert('Изображения успешно добавлены') 
-        }
+                .then((res) => {
+                    //выводим ответ от сервера (массив id изображений)
+                    console.log(res.data);
+                    imagesArray = res.data;
+                })  
+            alert('Изображения успешно добавлены');                       
+        }        
         catch (e) {
             alert('Ошибка добавления изображений')
         }
+        dataImagesFunction(); 
     }
 
     return (
-        <div className="App">
+        <div className="App" >
             <ImageUploading
                 multiple
                 value={images}
                 type="file"
                 onChange={handleImages}
                 maxNumber={maxNumber}
-                dataURLKey="data_url"
+                dataURLKey="data_url"                
             >
                 {({
                     imageList,
@@ -86,7 +96,6 @@ const ImagesUpload = () => {
                 )}
             </ImageUploading><h1> </h1>
             <Button onClick={postImages}>Отправить изображения на сервер</Button>
-
         </div>);  
 }
 
