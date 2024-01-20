@@ -1,26 +1,49 @@
-﻿import React from 'react';
-import { CardGroup, Card, Button, Row } from 'react-bootstrap';
-import fl from "../../img/miss.jpg"
+﻿import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { Card, Row } from 'react-bootstrap';
+import { urlFlowers } from "../../urls/urlList";
+//import { BASE_URL } from "../../urls/urlList";
+
 
 
 const FlowerCards = () => {
+    const [flowers, setData] = useState([]);
+
+    useEffect(
+        () => { (async () => await GetAllFlowers())() }
+        , []);
+
+    async function GetAllFlowers() {
+        const fetchData = async () => {
+            const result = await axios.get(urlFlowers);
+            setData(result.data);
+            //console.log(result.data);
+        };
+        fetchData();
+    }
+    //console.log(flowers.images);
+
+
     return (
-        <CardGroup> 
-         <Row xs={1} md={2} className="g-4"> 
-        <Card   style={{ width: '18rem' }} 
-            className="mb-2"> 
-            <Card.Img variant="top" src={ fl } /> 
-            <Card.Body> 
-                <Card.Title>Card Title</Card.Title> 
-                    <Card.Text> 
-                        Some quick example text to build on the card title and make up the 
-                        bulk of the card's content. 
-                    </Card.Text> 
-                <Button variant="primary">Go somewhere</Button> 
-            </Card.Body> 
-        </Card>     
-     </Row> 
-    </CardGroup> 
+        <>  
+        <Row>
+            {flowers.map((f, index) => (
+                <Card   style={{ width: '18rem' }}
+                        className="col-12 col-md-6 col-lg-4" >
+                    {/*<Card.Img variant="top" src={BASE_URL+f.images.imagesPath[0]} />*/}
+                    <Card.Body>
+                        <Card.Title> {f.title} </Card.Title>
+                        <Card.Title> Стоимость: {f.price}  </Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            ))
+            }
+        </Row>
+        </>
     );
 }
 

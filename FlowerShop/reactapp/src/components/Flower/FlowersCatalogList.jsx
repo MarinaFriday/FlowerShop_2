@@ -43,7 +43,7 @@ const FlowerCatalogList = () => {
                             {flowers.map((f, index) => (
                              <tr key={f.id}>
                                 <td>{index + 1}</td>
-                                <td>{f.images}</td>
+                               {/* <td>{f.images}</td>*/}
                                 <td>{f.title}</td>
                                 <td>{f.category.title}</td>
                                 <td>{f.color.colorName}</td>

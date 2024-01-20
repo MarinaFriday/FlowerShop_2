@@ -1,10 +1,10 @@
 ﻿import React, { useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import CarouselBox from '../CarouselBox/CarouselBox';
 import OurFlowers from './OurFlowers';
 import OurBouquets from './OurBouquets';
 import OurCompositions from './OurCompositions';
-
+import ImagesGetAll from '../ImagesUpload/ImagesGetAll';
 
 /*import FlowerCards from '../Flower/FlowerCards';*/
 
@@ -19,7 +19,8 @@ const Home = () => {
                 <h1> </h1><br />   
                 <h1> </h1>    
                 <CarouselBox />
-                <Container >                    
+                <Container >
+                <Row>
                     <h2 className="text-center m-4"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
@@ -49,7 +50,9 @@ const Home = () => {
                     >Композиции</h2>
                     {(ourFlowers === true) ? <OurFlowers /> : null}
                     {(ourBouquets === true) ? <OurBouquets />  : null}
-                    {(ourCompositions === true) ? <OurCompositions />  : null}                                      
+                    {(ourCompositions === true) ? <OurCompositions /> : null}   
+                    </Row>
+                    <ImagesGetAll/>
                 </Container>
             </>
         );

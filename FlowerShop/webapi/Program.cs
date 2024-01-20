@@ -44,9 +44,10 @@ if (app.Environment.IsDevelopment())
 else {
     //настраивается отправка статических веб-страниц по умолчанию без обращения к ним по полному пути
     app.UseDefaultFiles();
-    app.UseStaticFiles();
-
 }
+
+app.UseStaticFiles();
+
 app.UseCors(nameCors);
 
 app.UseHttpsRedirection();

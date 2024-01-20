@@ -5,9 +5,10 @@ import DropdownButtonCategory from '../Category/DropdownButtonCategory';
 import DropdownButtonColor from '../Color/DropdownButtonColor';
 import DropdownButtonCountry from '../Country/DropdownButtonCountry';
 import { urlFlowers } from '../../urls/urlList';
+import { urlUploadImages } from '../../urls/urlList';
 import FlowerCatalogList from './FlowersCatalogList';
 //import ImageUpload from '../ImagesUpload/ImageUpload';
-import ImagesUpload from '../ImagesUpload/ImagesUpload';
+import ImagesUpload2 from '../ImagesUpload/ImagesUpload2';
 
 
 const FlowerTools = () => {
@@ -17,20 +18,49 @@ const FlowerTools = () => {
         count: ''
     });
     const [dataResponseImage, setDataResponseImage] = useState([]);
+    const [imagesArray, setImagesArray] = useState([]);    
 
     const handleDataImages = (data) => {
-        console.log('data');
+        console.log('что получила из imagesupload');
         console.log(data);
         setDataResponseImage(data);
-        console.log('Родитель');
+        console.log('положилось ли информация куда надо ');
         console.log(dataResponseImage)
     }
-    const click = () => {
-        console.log('Родитель');
-        console.log(dataResponseImage)
+
+    async function postImages()  {
+        const formData = new FormData();
+        for (const data of dataResponseImage) {
+            console.log(data);
+        }
+        for (let i = 0; i < dataResponseImage.length; i++) {
+            formData.append('images', dataResponseImage[i].file);
+        }
+        console.log("смотрим что лежит в формДате");
+        for (const data of formData) {
+            console.log(data);
+        }
+        try {
+            await axios.post(urlUploadImages, formData)
+                .then((res) => {
+                    //выводим ответ от сервера (массив id изображений)
+                    console.log("выводим ответ от сервера (массив id изображений)");
+                    console.log(res.data);
+                    setImagesArray(res.data);
+                    console.log("выводи что лежит в ответе (массиве imagesArray)");
+                    console.log(imagesArray);
+                })
+            console.log('Изображения успешно добавлены');
+        }
+        catch (e) {
+            console.log('Ошибка добавления изображений')
+        }
     }
-    async function postFlower() {       
-            try {
+    console.log("вышли из метода postImages, что делит в imagesArray?");
+    console.log(imagesArray);
+    async function postFlower() {   
+        postImages();
+        try {
                 var dBcategory = document.getElementById("dropdownButtonCategory")
                 var dBcolor = document.getElementById("dropdownButtonColor")
                 var dBCountry = document.getElementById("dropdownButonCountry")
@@ -45,8 +75,9 @@ const FlowerTools = () => {
                     categoryId: dBcategory.dataset.idcategory,
                     colorId: dBcolor.dataset.idcolor,
                     countryId: dBCountry.dataset.idcountry,
-
+                    imagesId: imagesArray
                 };
+                console.log(flower);
                 await axios.post(urlFlowers, flower);
             }
             catch (e) {
@@ -60,7 +91,7 @@ const FlowerTools = () => {
             <Container>
             <h2 className="text-center">Добавление цветка</h2>
             <h1>  </h1>
-            <ImagesUpload arrayImages={handleDataImages} />            
+            <ImagesUpload2 arrayImages={handleDataImages} />            
             <h1>  </h1>
             <DropdownButtonCategory id="dropdownButtonCategory" /><h1> </h1>            
             <DropdownButtonColor /><h1> </h1>                        
@@ -108,7 +139,6 @@ const FlowerTools = () => {
                 onClick={postFlower}
             >Добавить</Button><h1> </h1> 
             <FlowerCatalogList />
-            <Button onClick={click}>Консоль</Button>
             </Container>        
     );
 }

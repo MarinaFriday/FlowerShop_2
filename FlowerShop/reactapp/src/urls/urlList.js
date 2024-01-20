@@ -1,4 +1,4 @@
-const BASE_URL = 'https://localhost:7241';
+export const BASE_URL = 'https://localhost:7241';
 
 //Authentication
 //export const urlAuth = BASE_URL + '/api/Authentication'
@@ -21,3 +21,5 @@ export const urlCountryById = BASE_URL + '/api/Countries'
 
 //UploadImages
 export const urlUploadImages = BASE_URL + '/api/UploadImages'
+
+//

@@ -36,12 +36,11 @@ namespace webapi.Services
             flower.Title = flowerDTO.Title.Trim();
             flower.Price = flowerDTO.Price;
             flower.Count = flowerDTO.Count;
-            List<Image> images = new List<Image>();
+            //List<Image> images = new List<Image>();
             foreach (var imageId in flowerDTO.ImagesId) {
                 var image = _context.Images.FindAsync(imageId);
-                if (image != null) images.Add(image.Result);
-            }
-            flower.Images = images;
+                if (image != null) flower.Images.Add(image.Result);                
+            }            
             flower.ColorId = flowerDTO.ColorId;
             var color = _context.Colors.FindAsync(flower.ColorId);
                 if (color != null) flower.Color = color.Result;
@@ -62,6 +61,7 @@ namespace webapi.Services
                 .Include(flower=>flower.Color)
                 .Include(flower => flower.Country)
                 .Include(flower =>flower.Category)
+                .Include(flower => flower.Images)
                 .ToListAsync();
         }
         //Получение цветка по id
