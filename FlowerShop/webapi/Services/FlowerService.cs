@@ -36,28 +36,34 @@ namespace webapi.Services
             flower.Title = flowerDTO.Title.Trim();
             flower.Price = flowerDTO.Price;
             flower.Count = flowerDTO.Count;
-            //List<Image> images = new List<Image>();
+            //List<Image> imagesFlower = new List<Image>();
+            flower.Images = new List<Image>();
             foreach (var imageId in flowerDTO.ImagesId) {
-                var image = _context.Images.FindAsync(imageId);
-                if (image != null) flower.Images.Add(image.Result);                
+                Console.WriteLine(imageId);                
+                try { 
+                    var image = await _context.Images.FindAsync(imageId);
+                    if (image != null)  flower.Images.Add(image);
+                }
+                catch { Console.WriteLine("Возникло исключение"); }                                
             }            
             flower.ColorId = flowerDTO.ColorId;
-            var color = _context.Colors.FindAsync(flower.ColorId);
-                if (color != null) flower.Color = color.Result;
+            var color = await _context.Colors.FindAsync(flower.ColorId);
+                if (color != null) flower.Color = color;
             flower.CategoryId = flowerDTO.CategoryId;
-            var category = _context.FlowersCategories.FindAsync(flower.CategoryId);
-                if (category != null) flower.Category = category.Result;
+            var category = await _context.FlowersCategories.FindAsync(flower.CategoryId);
+                if (category != null) flower.Category = category;
             flower.CountryId = flowerDTO.CountryId;
-            var country = _context.Countries.FindAsync(flower.CountryId);
-                if(country != null) flower.Country = country.Result;    
+            var country = await _context.Countries.FindAsync(flower.CountryId);
+                if(country != null) flower.Country = country;    
             await _context.Flowers.AddAsync(flower);
             await _context.SaveChangesAsync();
             return flower;
         }
+
         //Получение списка цветов
         public async Task<ActionResult<IEnumerable<Flower>>> ListFlowers() 
-        { 
-        return await _context.Flowers
+        {
+            return await _context.Flowers
                 .Include(flower=>flower.Color)
                 .Include(flower => flower.Country)
                 .Include(flower =>flower.Category)

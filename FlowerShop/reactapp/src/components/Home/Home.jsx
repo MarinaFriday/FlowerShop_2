@@ -52,7 +52,7 @@ const Home = () => {
                     {(ourBouquets === true) ? <OurBouquets />  : null}
                     {(ourCompositions === true) ? <OurCompositions /> : null}   
                     </Row>
-                    <ImagesGetAll/>
+                    {/*<ImagesGetAll/>*/}
                 </Container>
             </>
         );

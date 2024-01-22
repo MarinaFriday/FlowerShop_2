@@ -49,18 +49,18 @@ namespace webapi.Controllers
                         await image.CopyToAsync(fileStream);
                     }
                     Image img = new Image { ImagePath = imagePath };
-                    Console.WriteLine(img.ImagePath);
+                    //Console.WriteLine(img.ImagePath);
                     await _context.Images.AddAsync(img);
                     await _context.SaveChangesAsync();
                     var imgIdDb = await _context.Images.FirstOrDefaultAsync(imgDB => imgDB.ImagePath==img.ImagePath);
-                    Console.WriteLine(imgIdDb.Id + " " + imgIdDb.ImagePath);
+                    //Console.WriteLine(imgIdDb.Id + " " + imgIdDb.ImagePath);
                     imgId.Add(imgIdDb.Id);
                 }
 
-                foreach (var imageId in imgId)
-                {
-                    Console.WriteLine(imageId + ",");
-                }
+                //foreach (var imageId in imgId)
+                //{
+                //    Console.WriteLine(imageId + ",");
+                //}
             }
             else return Problem("Ошибка отправки изображений");
             //code 200

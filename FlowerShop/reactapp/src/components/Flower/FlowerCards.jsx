@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { Card, Row } from 'react-bootstrap';
 import { urlFlowers } from "../../urls/urlList";
-//import { BASE_URL } from "../../urls/urlList";
+import { BASE_URL } from "../../urls/urlList";
 
 
 
@@ -21,8 +21,16 @@ const FlowerCards = () => {
         };
         fetchData();
     }
+    //console.log("Картинка")
     //console.log(flowers.images);
+    flowers.map((f, index) => (
+        console.log(f.title),
+        //console.log(f.images),
+        //console.log(f.images.length),
 
+        (f.images.length !== 0) ? f.images.map((i, x) => (
+            console.log(i.imagePath))) : console.log("пусто")
+    ))
 
     return (
         <>  
@@ -30,7 +38,7 @@ const FlowerCards = () => {
             {flowers.map((f, index) => (
                 <Card   style={{ width: '18rem' }}
                         className="col-12 col-md-6 col-lg-4" >
-                    {/*<Card.Img variant="top" src={BASE_URL+f.images.imagesPath[0]} />*/}
+                   {/* <Card.Img variant="top" src={BASE_URL + f.images.imagesPath[0]} />*/}
                     <Card.Body>
                         <Card.Title> {f.title} </Card.Title>
                         <Card.Title> Стоимость: {f.price}  </Card.Title>

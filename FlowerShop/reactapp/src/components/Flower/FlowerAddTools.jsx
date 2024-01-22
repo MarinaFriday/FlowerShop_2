@@ -18,8 +18,8 @@ const FlowerTools = () => {
         count: ''
     });
     const [dataResponseImage, setDataResponseImage] = useState([]);
-    const [imagesArray, setImagesArray] = useState([]);    
-
+    /*const [imagesArray, setImagesArray] = useState([]); */   
+    var imagesArray;
     const handleDataImages = (data) => {
         console.log('что получила из imagesupload');
         console.log(data);
@@ -45,9 +45,9 @@ const FlowerTools = () => {
                 .then((res) => {
                     //выводим ответ от сервера (массив id изображений)
                     console.log("выводим ответ от сервера (массив id изображений)");
-                    console.log(res.data);
-                    setImagesArray(res.data);
-                    console.log("выводи что лежит в ответе (массиве imagesArray)");
+                    console.log(res.data);                   
+                    imagesArray = res.data;
+                    console.log("выводи что лежит в ответе (массиве imagesArray1)");
                     console.log(imagesArray);
                 })
             console.log('Изображения успешно добавлены');
@@ -56,34 +56,38 @@ const FlowerTools = () => {
             console.log('Ошибка добавления изображений')
         }
     }
-    console.log("вышли из метода postImages, что делит в imagesArray?");
-    console.log(imagesArray);
-    async function postFlower() {   
-        postImages();
+    
+    function postFlower() {
         try {
-                var dBcategory = document.getElementById("dropdownButtonCategory")
-                var dBcolor = document.getElementById("dropdownButtonColor")
-                var dBCountry = document.getElementById("dropdownButonCountry")
-                //console.log(dBcategory.dataset.idcategory)
-                //console.log(dBcolor.dataset.idcolor)
-                //console.log(dBCountry.dataset.idcountry)
+            var dBcategory = document.getElementById("dropdownButtonCategory")
+            var dBcolor = document.getElementById("dropdownButtonColor")
+            var dBCountry = document.getElementById("dropdownButonCountry")
+            //console.log(dBcategory.dataset.idcategory)
+            //console.log(dBcolor.dataset.idcolor)
+            //console.log(dBCountry.dataset.idcountry)
 
-                var flower = {
-                    title: inputValueFlower.title,
-                    price: inputValueFlower.price,
-                    count: inputValueFlower.count,
-                    categoryId: dBcategory.dataset.idcategory,
-                    colorId: dBcolor.dataset.idcolor,
-                    countryId: dBCountry.dataset.idcountry,
-                    imagesId: imagesArray
-                };
-                console.log(flower);
-                await axios.post(urlFlowers, flower);
-            }
-            catch (e) {
-                alert('Ошибка добавления цветка')
-            }    
-            alert('Цветок успешно добавлен')
+            var flower = {
+                title: inputValueFlower.title,
+                price: inputValueFlower.price,
+                count: inputValueFlower.count,
+                categoryId: dBcategory.dataset.idcategory,
+                colorId: dBcolor.dataset.idcolor,
+                countryId: dBCountry.dataset.idcountry,
+                imagesId: imagesArray
+            };
+            console.log(flower);
+            axios.post(urlFlowers, flower);
+        }
+        catch (e) {
+            alert('Ошибка добавления цветка')
+        }
+        alert('Цветок успешно добавлен')
+    }
+    async function addFlower() {   
+        await postImages();
+        console.log("вышли из метода postImages, что лежит в imagesArray?");
+        console.log(imagesArray);
+        postFlower();
     }
 
 
@@ -125,18 +129,10 @@ const FlowerTools = () => {
                     value={inputValueFlower.count}
                     onChange={e => setInputValueFlower({ ...inputValueFlower, count: e.target.value })}
                 />
-            </InputGroup>
-            { /*В разработке */}
-            {/*<InputGroup size="sm" className="mb-3">*/}
-            {/*    <InputGroup.Text id="inputGroup-sizing-sm">Поставка (в разработке)</InputGroup.Text>*/}
-            {/*    <Form.Control*/}
-            {/*        aria-label="Small"*/}
-            {/*        aria-describedby="inputGroup-sizing-sm"*/}
-            {/*    />*/}
-            {/*</InputGroup>*/}
+            </InputGroup>           
             <Button 
                 disabled={inputValueFlower.title.length === 0}                                           
-                onClick={postFlower}
+                onClick={addFlower}
             >Добавить</Button><h1> </h1> 
             <FlowerCatalogList />
             </Container>        
