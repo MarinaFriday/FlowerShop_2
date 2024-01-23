@@ -10996,3 +10996,48 @@ System.InvalidOperationException: A second operation was started on this context
 01/21/2024 16:55:19 HTTP "GET" "/api/Flowers" responded 200 in 123.5754 ms
 01/21/2024 16:55:59 HTTP "GET" "/api/Flowers" responded 200 in 109.3744 ms
 01/21/2024 16:55:59 HTTP "GET" "/api/Flowers" responded 200 in 12.9305 ms
+01/22/2024 19:26:28 Приложение запущено
+01/22/2024 19:26:35 HTTP "GET" "/swagger/index.html" responded 200 in 352.8514 ms
+01/22/2024 19:26:36 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 487.8490 ms
+01/22/2024 19:26:36 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/22/2024 19:26:36 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/22/2024 19:26:38 HTTP "GET" "/api/Flowers" responded 200 in 6481.2756 ms
+01/22/2024 19:26:39 HTTP "GET" "/api/Flowers" responded 200 in 107.3478 ms
+01/22/2024 19:49:00 HTTP "GET" "/api/Flowers" responded 200 in 1768.5624 ms
+01/22/2024 19:49:00 HTTP "GET" "/api/Flowers" responded 200 in 53.4344 ms
+01/22/2024 19:49:01 HTTP "GET" "/images/3.JPG" responded 404 in 2.8632 ms
+01/22/2024 19:49:01 HTTP "GET" "/images/2.JPG" responded 200 in 74.3294 ms
+01/22/2024 19:49:01 HTTP "GET" "/images/14012024 1348132 — копия.JPG" responded 200 in 102.0172 ms
+01/22/2024 19:49:01 HTTP "GET" "/images/14012024 1242162 — копия.JPG" responded 200 in 107.4303 ms
+01/22/2024 19:49:01 HTTP "GET" "/images/21012024 160439photo_5287686246044390462_y.jpg" responded 200 in 628.0804 ms
+01/22/2024 19:50:23 HTTP "GET" "/api/Flowers" responded 200 in 445.8133 ms
+01/22/2024 19:50:23 HTTP "GET" "/api/Flowers" responded 200 in 62.7959 ms
+01/22/2024 19:50:24 HTTP "GET" "/images/3.JPG" responded 200 in 234.9221 ms
+01/22/2024 19:51:40 HTTP "GET" "/api/Flowers" responded 200 in 96.9936 ms
+01/22/2024 19:51:40 HTTP "GET" "/api/Flowers" responded 200 in 89.4518 ms
+01/22/2024 20:03:27 HTTP "GET" "/api/Flowers" responded 200 in 326.7808 ms
+01/22/2024 20:03:27 HTTP "GET" "/api/Flowers" responded 200 in 32.5138 ms
+01/22/2024 20:11:40 HTTP "GET" "/api/Flowers" responded 200 in 351.0335 ms
+01/22/2024 20:11:40 HTTP "GET" "/api/Flowers" responded 200 in 15.6037 ms
+01/22/2024 20:13:00 HTTP "GET" "/api/Flowers" responded 200 in 136.1792 ms
+01/22/2024 20:13:00 HTTP "GET" "/api/Flowers" responded 200 in 17.9442 ms
+01/22/2024 20:14:23 HTTP "GET" "/api/Flowers" responded 200 in 163.1609 ms
+01/22/2024 20:14:23 HTTP "GET" "/api/Flowers" responded 200 in 102.7254 ms
+01/22/2024 20:18:16 HTTP "GET" "/api/Flowers" responded 200 in 176.2505 ms
+01/22/2024 20:18:16 HTTP "GET" "/api/Flowers" responded 200 in 14.9080 ms
+01/22/2024 20:19:12 HTTP "GET" "/api/Flowers" responded 200 in 115.5202 ms
+01/22/2024 20:19:12 HTTP "GET" "/api/Flowers" responded 200 in 26.3808 ms
+01/22/2024 20:20:07 HTTP "GET" "/api/Flowers" responded 200 in 267.9532 ms
+01/22/2024 20:20:07 HTTP "GET" "/api/Flowers" responded 200 in 16.5086 ms
+01/22/2024 20:22:25 HTTP "GET" "/api/Flowers" responded 200 in 337.9676 ms
+01/22/2024 20:22:25 HTTP "GET" "/api/Flowers" responded 200 in 13.2625 ms
+01/22/2024 20:24:59 HTTP "GET" "/api/Flowers" responded 200 in 95.6290 ms
+01/22/2024 20:24:59 HTTP "GET" "/api/Flowers" responded 200 in 19.1482 ms
+01/22/2024 20:30:41 HTTP "GET" "/api/Flowers" responded 200 in 220.3457 ms
+01/22/2024 20:30:41 HTTP "GET" "/api/Flowers" responded 200 in 8.8235 ms
+01/22/2024 20:31:43 HTTP "GET" "/api/Flowers" responded 200 in 67.0630 ms
+01/22/2024 20:31:43 HTTP "GET" "/api/Flowers" responded 200 in 18.6257 ms
+01/22/2024 20:32:00 HTTP "GET" "/api/Flowers" responded 200 in 51.0103 ms
+01/22/2024 20:32:01 HTTP "GET" "/api/Flowers" responded 200 in 55.1011 ms
+01/22/2024 20:32:54 HTTP "GET" "/api/Flowers" responded 200 in 92.4528 ms
+01/22/2024 20:32:54 HTTP "GET" "/api/Flowers" responded 200 in 11.6000 ms
