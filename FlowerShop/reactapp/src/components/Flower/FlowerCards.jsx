@@ -3,7 +3,8 @@ import axios from 'axios';
 import { Card, Row, Carousel, Image, Col } from 'react-bootstrap';
 import { urlFlowers } from "../../urls/urlList";
 import { BASE_URL } from "../../urls/urlList";
-import CarouselBox from '../CarouselBox/CarouselBox';
+import noimage from "../../img/noimage.jpg";
+
 
 
 const FlowerCards = () => {
@@ -17,20 +18,9 @@ const FlowerCards = () => {
         const fetchData = async () => {
             const result = await axios.get(urlFlowers);
             setData(result.data);
-            //console.log(result.data);
         };
         fetchData();
     }
-    //console.log("Картинка")
-    //console.log(flowers.images);
-    //flowers.map((f, index) => (
-    //    console.log(f.title),
-    //    //console.log(f.images),
-    //    //console.log(f.images.length),
-
-    //    (f.images.length !== 0) ? f.images.map((i, x) => (
-    //        console.log(i.imagePath))) : console.log("пусто")
-    //))
 
     return (
         <>  
@@ -39,15 +29,15 @@ const FlowerCards = () => {
                 <Card   style={{ width: '18rem' }}
                     className="col-12 col-md-6 col-lg-4" >
                     <Carousel slide ={ false }>
-                    {(f.images.length !== 0) ? f.images.map((i, x) => /*<Card.Img variant="top" src={BASE_URL +  i.imagePath} />*/                        
+                    {(f.images.length !== 0) ? f.images.map((i, x) => 
                         <Carousel.Item>
                             <Col xs={6} md={4}>
                                 <Image
-                                    style={{ height: 100, width: 100 }}                                    
+                                    style={{ height: 250, width: 250 }}                                    
                                     src={BASE_URL + i.imagePath} />
                             </Col>
                             </Carousel.Item>                        
-                    ) : <>нет картинки</>}                                                  
+                        ) :  <Image src={noimage} style={{ height: 250, width: 250 }} />}                                                  
                     </Carousel>
                     <Card.Body>
                         <Card.Title> {f.title} </Card.Title>
@@ -56,26 +46,12 @@ const FlowerCards = () => {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
+                        <Card.Link href={'/flowers/' + f.id}>Читать далее</Card.Link>
                     </Card.Body>
                 </Card>
             ))
                 }
-                <Card style={{ width: '18rem' }}
-                    className="col-12 col-md-6 col-lg-4">
-                    <Carousel>
-                        <Carousel.Item>
-                            
-                        </Carousel.Item>
-                    </Carousel>
-                    <Card.Body>
-                        <Card.Title> Карточка </Card.Title>
-                        <Card.Title> Стоимость:  </Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+                
         </Row>
         </>
     );

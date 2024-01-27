@@ -3478,11 +3478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
+      "projectUniqueName": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
+      "projectPath": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\webapi.csproj",
       "packagesPath": "C:\\Users\\marin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\obj\\",
+      "outputPath": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marin\\AppData\\Roaming\\NuGet\\NuGet.Config",

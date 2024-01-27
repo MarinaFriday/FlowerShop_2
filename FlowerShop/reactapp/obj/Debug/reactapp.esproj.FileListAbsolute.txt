@@ -10,3 +10,4 @@ D:\koko\FlowerShop_2\FlowerShop\reactapp\obj\Debug\reactapp.esproj.CoreCompileIn
 C:\Users\marin\OneDrive\Desktop\fs3\FlowerShop_2\FlowerShop\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
 C:\Users\marin\OneDrive\Desktop\fs5\FlowerShop_2\FlowerShop\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
 C:\Users\marin\OneDrive\Desktop\fs6\FlowerShop_2\FlowerShop\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
+C:\Users\marin\OneDrive\Desktop\fs7\FlowerShop_2\FlowerShop\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache

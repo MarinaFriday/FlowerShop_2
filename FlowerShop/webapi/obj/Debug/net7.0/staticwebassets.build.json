@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Kdssbb8HYYGeM8pUMj6rBPM0Lxma3JgVWh507sP+LVU=",
+  "Hash": "nkAcFyEatOhbwuDvyicO+UfB4Muvvz6l+x1f5eghwas=",
   "Source": "webapi",
   "BasePath": "_content/webapi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "webapi\\wwwroot",
       "Source": "webapi",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\01012024 231553kokorina1.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\01012024 231553kokorina1.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/01012024 231553kokorina1.JPG",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\images\\01012024 231553kokorina1.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\05012024 1816512 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\05012024 1816512 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/05012024 1816512 — копия.JPG",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\05012024 1816512 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1447045 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1447045 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1447045 — копия.JPG",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1447045 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1447045.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1447045.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1447045.JPG",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1447045.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1448313 — копия — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1448313 — копия — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1448313 — копия — копия.JPG",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1448313 — копия — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1448313 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1448313 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1448313 — копия.JPG",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1448313 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 144944Снимок.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 144944Снимок.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 144944Снимок.JPG",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 144944Снимок.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 144945Снимок1 — копия (2) — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 144945Снимок1 — копия (2) — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 144945Снимок1 — копия (2) — копия.JPG",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 144945Снимок1 — копия (2) — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1451035.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1451035.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1451035.JPG",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1451035.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1451039e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1451039e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1451039e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1451039e7b76b0-d77f-4706-9245-8eedc1064824.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 145211Снимок1 — копия (2) — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 145211Снимок1 — копия (2) — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 145211Снимок1 — копия (2) — копия.JPG",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 145211Снимок1 — копия (2) — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 145211Снимок1 — копия (2).JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 145211Снимок1 — копия (2).JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 145211Снимок1 — копия (2).JPG",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 145211Снимок1 — копия (2).JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 145223Снимок1 — копия (2) — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 145223Снимок1 — копия (2) — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 145223Снимок1 — копия (2) — копия.JPG",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 145223Снимок1 — копия (2) — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 145223Снимок1 — копия (2).JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 145223Снимок1 — копия (2).JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 145223Снимок1 — копия (2).JPG",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 145223Снимок1 — копия (2).JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1453263.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1453263.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1453263.JPG",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1453263.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1453265 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1453265 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1453265 — копия.JPG",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1453265 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1453265.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1453265.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1453265.JPG",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1453265.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1543583.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1543583.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1543583.JPG",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1543583.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1543595 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1543595 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1543595 — копия.JPG",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1543595 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1545483.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1545483.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1545483.JPG",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1545483.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1545485 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1545485 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1545485 — копия.JPG",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1545485 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1551063.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1551063.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1551063.JPG",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1551063.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1551065 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1551065 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1551065 — копия.JPG",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1551065 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1552443.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1552443.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1552443.JPG",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1552443.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1552445 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1552445 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1552445 — копия.JPG",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1552445 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1555185 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1555185 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1555185 — копия.JPG",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1555185 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1555185.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1555185.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1555185.JPG",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1555185.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1604323.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1604323.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1604323.JPG",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1604323.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1604325 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\06012024 1604325 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/06012024 1604325 — копия.JPG",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\06012024 1604325 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 200128Снимок.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 200128Снимок.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 200128Снимок.JPG",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 200128Снимок.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 200129Снимок1 — копия (2) — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 200129Снимок1 — копия (2) — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 200129Снимок1 — копия (2) — копия.JPG",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 200129Снимок1 — копия (2) — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 200129Снимок1 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 200129Снимок1 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 200129Снимок1 — копия.JPG",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 200129Снимок1 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2005345 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2005345 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2005345 — копия.JPG",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2005345 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2005345.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2005345.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2005345.JPG",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2005345.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2006245.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2006245.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2006245.JPG",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2006245.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2007203 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2007203 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2007203 — копия.JPG",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2007203 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2009115 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2009115 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2009115 — копия.JPG",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2009115 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2011055 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2011055 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2011055 — копия.JPG",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2011055 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2015145.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2015145.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2015145.JPG",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2015145.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2018185.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2018185.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2018185.JPG",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2018185.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2019045.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2019045.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2019045.JPG",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2019045.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2019395.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2019395.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2019395.JPG",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2019395.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2020085.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2020085.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2020085.JPG",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2020085.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2022153 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\09012024 2022153 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/09012024 2022153 — копия.JPG",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\09012024 2022153 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1222015 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1222015 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1222015 — копия.JPG",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1222015 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1222015.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1222015.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1222015.JPG",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1222015.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1222019e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1222019e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1222019e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1222019e7b76b0-d77f-4706-9245-8eedc1064824.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1225463.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1225463.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1225463.JPG",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1225463.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1225465 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1225465 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1225465 — копия.JPG",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1225465 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1225465.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1225465.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1225465.JPG",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1225465.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1227305 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1227305 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1227305 — копия.JPG",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1227305 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1227305.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1227305.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1227305.JPG",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1227305.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1229105 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1229105 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1229105 — копия.JPG",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1229105 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1231275 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1231275 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1231275 — копия.JPG",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1231275 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1231365 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1231365 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1231365 — копия.JPG",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1231365 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1231535 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1231535 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1231535 — копия.JPG",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1231535 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1235569e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1235569e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1235569e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1235569e7b76b0-d77f-4706-9245-8eedc1064824.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1238109e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1238109e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1238109e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1238109e7b76b0-d77f-4706-9245-8eedc1064824.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1242162 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1242162 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1242162 — копия.JPG",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1242162 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1256535 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1256535 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1256535 — копия.JPG",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1256535 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1333513.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1333513.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1333513.JPG",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1333513.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1335343.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1335343.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1335343.JPG",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1335343.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1337443.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1337443.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1337443.JPG",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1337443.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1338552.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1338552.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1338552.JPG",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1338552.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1346165 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1346165 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1346165 — копия.JPG",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1346165 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1348132 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1348132 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1348132 — копия.JPG",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1348132 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1355205 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1355205 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/14012024 1355205 — копия.JPG",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\14012024 1355205 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\2 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\2 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/2 — копия.JPG",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\2.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\2.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/2.JPG",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 130222photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 130222photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 130222photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 130222photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 130222photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 130222photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 130222photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 130222photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 155037photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 155037photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 155037photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 155037photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 155037photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 155037photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 155037photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 155037photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 161948photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 161948photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 161948photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 161948photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 161948photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 161948photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 161948photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 161948photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 185439photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 185439photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 185439photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 185439photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 185439photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 185439photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 185439photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 185439photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 185643photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 185643photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 185643photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 185643photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 185643photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 185643photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 185643photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 185643photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 190345photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 190345photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 190345photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 190345photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 190345photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20012024 190345photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/20012024 190345photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20012024 190345photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 122213photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 122213photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 122213photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 122213photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 122213photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 122213photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 122213photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 122213photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 125624photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 125624photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 125624photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 125624photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 130041photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 130041photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 130041photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 130041photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 130626photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 130626photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 130626photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 130626photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 131657photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 131657photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 131657photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 131657photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 131829photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 131829photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 131829photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 131829photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 1324382 — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 1324382 — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 1324382 — копия.JPG",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 1324382 — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 1329453.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 1329453.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 1329453.JPG",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 1329453.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 133319photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 133319photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 133319photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 133319photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 134037photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 134037photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 134037photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 134037photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 140936photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 140936photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 140936photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 140936photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 141445photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 141445photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 141445photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 141445photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 142604photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 142604photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 142604photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 142604photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 143737photo_5287686246044390461_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 143737photo_5287686246044390461_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 143737photo_5287686246044390461_y.jpg",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 143737photo_5287686246044390461_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 151324photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 151324photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 151324photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 151324photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 155124photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 155124photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 155124photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 155124photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 160439photo_5287686246044390462_y.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\21012024 160439photo_5287686246044390462_y.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/21012024 160439photo_5287686246044390462_y.jpg",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\images\\21012024 160439photo_5287686246044390462_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\3 — копия — копия.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\3 — копия — копия.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/3 — копия — копия.JPG",
       "AssetKind": "All",
@@ -1917,10 +1917,29 @@
       "OriginalItemSpec": "wwwroot\\images\\3 — копия — копия.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\9e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\3.jpg",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "BasePath": "_content/webapi",
+      "RelativePath": "images/3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\9e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
+      "SourceId": "webapi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/9e7b76b0-d77f-4706-9245-8eedc1064824.jpg",
       "AssetKind": "All",
@@ -1936,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\9e7b76b0-d77f-4706-9245-8eedc1064824.jpg"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\kokorina1.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\kokorina1.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/kokorina1.JPG",
       "AssetKind": "All",
@@ -1955,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\images\\kokorina1.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\marina.JPG",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\marina.JPG",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "images/marina.JPG",
       "AssetKind": "All",
@@ -1974,29 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\images\\marina.JPG"
     },
     {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\mondial.jpg",
+      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\text.html",
       "SourceId": "webapi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
-      "BasePath": "_content/webapi",
-      "RelativePath": "images/mondial.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mondial.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\text.html",
-      "SourceId": "webapi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs6\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
       "RelativePath": "text.html",
       "AssetKind": "All",
