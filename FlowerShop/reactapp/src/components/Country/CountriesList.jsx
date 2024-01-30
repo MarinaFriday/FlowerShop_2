@@ -25,12 +25,13 @@ const CountriesList = () => {
     
     async function editCountry (e)  {
         e.preventDefault()   
-        console.log(currentCountry.id)
-
+        //console.log(currentCountry.id)
+        var country = {
+            id: currentCountry.id,
+            title: modifiedCountry.title
+        }
         try {
-            await axios.put(urlCountryById + '/' + currentCountry.id, {
-                title: modifiedCountry.title                                
-            });
+            await axios.put(urlCountryById + currentCountry.id, country);
             alert("Страна изменена");
             setModifiedCountry({ title: '' });            
             GetAllCountries();

@@ -24,11 +24,13 @@ const CategoriesList = () => {
     }
 
     async function editCategory(e) {
-        e.preventDefault()        
+        e.preventDefault()  
+        var category = {
+            id: currentCategory.id,
+            title: modifiedCategory.title
+        }
         try {
-            await axios.put(urlCategoryById + '/' + currentCategory.id, {
-                title: modifiedCategory.title
-            });
+            await axios.put(urlCategoryById + currentCategory.id, category);
             alert("Категория изменена");
             setModifiedCategory({ title: '' });
             getAllCategories();

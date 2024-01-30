@@ -42,7 +42,7 @@ namespace webapi.Controllers
         public async Task<IActionResult> PutFlower(int id, Flower flower) {
             FlowerService fs = new FlowerService(_context);
             var result = fs.UpdateFlower(id, flower);
-            if (result == null) return NotFound();
+            if (result == null) return NotFound("Flower is not found");
             return Ok(result);
         }
         //DELETE {id}

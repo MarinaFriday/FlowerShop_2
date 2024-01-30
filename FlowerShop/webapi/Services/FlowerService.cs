@@ -6,6 +6,7 @@ using webapi.Data;
 using webapi.Models.Flowers;
 using System.Threading.Tasks;
 using webapi.Models.DTO;
+using webapi.Controllers;
 
 namespace webapi.Services
 {
@@ -14,21 +15,7 @@ namespace webapi.Services
         private DataContext _context;
         public FlowerService(DataContext context) {
             _context=context;
-        }
-        //Добавление цветка
-        //public async Task<ActionResult<Flower>> AddFlower(Flower flower) 
-        //{ 
-        //    flower.Title = flower.Title.Trim();
-        //    var color = _context.Colors.FindAsync(flower.ColorId);
-        //    if (color != null) flower.Color = color.Result;
-        //    var country = _context.Countries.FindAsync(flower.CountryId);
-        //    if (country != null) flower.Country = country.Result;
-        //    var category = _context.FlowersCategories.FindAsync(flower.CategoryId);
-        //    if (category != null) flower.Category = category.Result;
-        //    await _context.Flowers.AddAsync(flower);   
-        //    await _context.SaveChangesAsync();
-        //    return flower;
-        //}
+        }       
 
         //Добавление цветка через DTO
         public async Task<ActionResult<Flower>> AddFlower(FlowerDTO flowerDTO) {
@@ -72,10 +59,14 @@ namespace webapi.Services
         }
         //Получение цветка по id
         public async Task<ActionResult<Flower>> GetFlower(int id) {
+            
             var flower = await _context.Flowers.FindAsync(id);
             if (id != flower.Id) return null;
+            List<Image> images =  _context.Images.Where(i => i.FlowerId == flower.Id).ToList();
+            flower.Images = images;
             return flower;  
         }
+
         //Обновление цветка 
         public async Task<Flower> UpdateFlower(int id, Flower flower) { 
             _context.Entry(flower).State = EntityState.Modified; 

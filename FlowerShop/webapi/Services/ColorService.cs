@@ -43,12 +43,12 @@ namespace webapi.Services
             return color;        
         }
         //редактирование цвета 
-        public Color UpdateColor(int id, Color color) { 
-            _context.Entry(color).State = EntityState.Modified;
-            _context.SaveChanges(); 
+        public async Task<Color> UpdateColor(int id, Color color) {
+            var colorDb = _context.Colors.FirstOrDefault(colorDb => colorDb.Id == id);
+            if (colorDb == null) return null;
+            colorDb.ColorName = color.ColorName;
+            await _context.SaveChangesAsync();
             return color;   
-        }
-
-        //
+        }        
     }
 }

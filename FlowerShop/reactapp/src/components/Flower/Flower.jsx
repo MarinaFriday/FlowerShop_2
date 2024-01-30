@@ -1,9 +1,9 @@
 ﻿import React, { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
-import { urlFlowersById, urlCountryById, urlColorById, urlCategoryById } from "../../urls/urlList";
+import { BASE_URL, urlFlowersById, urlCountryById, urlColorById, urlCategoryById } from "../../urls/urlList";
 import axios from 'axios';
 import noimage from "../../img/noimage.jpg";
-import { Image } from 'react-bootstrap';
+import { Image, Carousel, Col } from 'react-bootstrap';
 
 const Flower = () => {
     const params = useParams();
@@ -14,16 +14,16 @@ const Flower = () => {
     const [category, setCategory] = useState([]);
     //var flower;
     //var country;
-
+    
 
     useEffect(() => { (async () => await GetFlowerById())(); }, []);
-    console.log(flower);
+    //console.log(flower);
     useEffect(() => { (async () => await GetCountryById())(); }, [flower]);
-    console.log(country);
+    //console.log(country);
     useEffect(() => { (async () => await GetColorById())(); }, [flower]);
-    console.log(color);
+    //console.log(color);
     useEffect(() => { (async () => await GetCategoryById())(); }, [flower]);
-    console.log(category);
+    //console.log(category);
 
     async function GetFlowerById() {
         const fetchData = async () => {
@@ -76,8 +76,19 @@ const Flower = () => {
     console.log(noimage);
 
     return (
-        <div>             
-            <Image src={noimage} style={{ height: 250, width: 250, marginTop: '70px' }} />            
+        <div>  
+            <Carousel slide={false}>
+                {(flower.images !== undefined) ? flower.images.map((i, x) =>
+                    <Carousel.Item>
+                        <Col xs={6} md={4}>
+                            <Image
+                                style={{ height: 250, width: 250, marginTop: '70px' }}
+                                src={BASE_URL + i.imagePath} />
+                        </Col>
+                    </Carousel.Item>
+                ) : <Image src={noimage} style={{ height: 250, width: 250, marginTop: '50px' }} />}
+            </Carousel>
+
             <div style={{ marginTop: '50px'}} className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
 
                 <div className="col p-4 d-flex flex-column position-static">                    

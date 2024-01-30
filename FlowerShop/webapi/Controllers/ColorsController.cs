@@ -20,7 +20,7 @@ namespace webapi.Controllers
         [HttpPost]
         public async Task<ActionResult<Color>> PostColor(Color color) {
             ColorService cs = new ColorService(_context);
-            var result =  cs.AddColor(color);
+            var result = cs.AddColor(color);
             return result==null ? BadRequest("Ошибка в цвете") : result;
         }
         //GET
@@ -36,16 +36,24 @@ namespace webapi.Controllers
             ColorService cs = new ColorService(_context);
             Color color = await cs.GetColor(id);
             if (color == null) NotFound();
-            return  color;
+            return Ok(color);
         }
         //PUT {id}
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Color>> PutColor(int id, Color color)
+        {
+            ColorService cs = new ColorService(_context);
+            var result = await cs.UpdateColor(id, color);
+            if (result == null) return NotFound("Color is not found");
+            return Ok(result);            
+        }
 
         //DELETE {id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteColor(int id) {
             ColorService cs = new ColorService(_context);
             var color = cs.DeleteColor(id);
-            if (color != null) return Ok();
+            if (color != null) return Ok("Цвет успешно удален");
             //??????
             return NoContent();
         }

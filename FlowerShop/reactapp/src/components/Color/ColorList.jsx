@@ -8,7 +8,7 @@ const ColorList1 = () => {
     const [colors, setData] = useState([]);
     const [isEditing, setIsEditing] = useState(false);
     const [currentColor, setCurrentColor] = useState();
-    const [modifiedColor, setModifiedColor] = useState({ colorName: '' });
+    const [modifiedColor, setModifiedColor] = useState({colorName: ""});
 
     useEffect(
         () => { (async () => await getAllColors())() }
@@ -26,9 +26,11 @@ const ColorList1 = () => {
     async function editColor(e) {
         e.preventDefault()
         try {
-            await axios.put(urlColorById + '/' + currentColor.id, {
-                title: modifiedColor.colorName
-            });
+            var color = {
+                id: currentColor.id,
+                colorName: modifiedColor.colorName
+            }
+            await axios.put(urlColorById + currentColor.id, color)
             alert("Цвет изменен");
             setModifiedColor({ colorName: '' });
             getAllColors();
@@ -99,7 +101,7 @@ const ColorList1 = () => {
                                         />
                                     </td>
                                     <td className='btnSetting'>
-                                        <button className='btn btn-outline-success' onClick={editColor}>Сохранить</button>
+                                        <Button className='btn btn-outline-success' onClick={editColor}>Сохранить</Button>
                                         <button className='btn btn-outline-danger' onClick={cancelUpdate}>Отмена</button>
                                     </td>
                                 </tr>

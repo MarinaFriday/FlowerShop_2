@@ -24564,3 +24564,581 @@ System.InvalidOperationException: A second operation was started on this context
 01/27/2024 21:12:16 HTTP "GET" "/api/FlowerCategories/2" responded 200 in 74.2220 ms
 01/27/2024 21:12:16 HTTP "GET" "/api/Countries/2" responded 200 in 29.0821 ms
 01/27/2024 21:12:16 HTTP "GET" "/api/Colors/2" responded 200 in 24.9510 ms
+01/28/2024 12:18:23 Приложение запущено
+01/28/2024 12:18:32 HTTP "GET" "/swagger/index.html" responded 200 in 447.6909 ms
+01/28/2024 12:18:34 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 336.3844 ms
+01/28/2024 12:18:35 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/28/2024 12:18:35 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/28/2024 12:18:38 HTTP "GET" "/api/Flowers" responded 200 in 4641.9289 ms
+01/28/2024 12:18:38 HTTP "GET" "/api/Flowers" responded 200 in 66.0107 ms
+01/28/2024 12:18:38 HTTP "GET" "/images/3.JPG" responded 304 in 9.8534 ms
+01/28/2024 12:18:38 HTTP "GET" "/images/21012024 160439photo_5287686246044390462_y.jpg" responded 304 in 8.4880 ms
+01/28/2024 12:18:38 HTTP "GET" "/images/14012024 1348132 — копия.JPG" responded 304 in 8.8126 ms
+01/28/2024 12:18:38 HTTP "GET" "/images/2.JPG" responded 304 in 9.9574 ms
+01/28/2024 12:18:38 HTTP "GET" "/images/14012024 1242162 — копия.JPG" responded 304 in 0.3897 ms
+01/28/2024 12:21:14 HTTP "GET" "/api/Flowers" responded 200 in 292.9289 ms
+01/28/2024 12:21:14 HTTP "GET" "/api/Flowers" responded 200 in 46.2422 ms
+01/28/2024 12:23:32 HTTP "GET" "/api/Flowers/20" responded 200 in 384.1570 ms
+01/28/2024 12:23:32 HTTP "GET" "/api/Flowers/20" responded 200 in 20.9817 ms
+01/28/2024 12:23:32 HTTP "GET" "/api/Countries/2" responded 200 in 234.9718 ms
+01/28/2024 12:23:32 HTTP "GET" "/api/Colors/2" responded 200 in 354.4893 ms
+01/28/2024 12:23:32 HTTP "GET" "/api/FlowerCategories/2" responded 200 in 554.1143 ms
+01/28/2024 12:23:33 HTTP "GET" "/api/Countries/2" responded 200 in 176.4951 ms
+01/28/2024 12:23:33 HTTP "GET" "/api/Colors/2" responded 200 in 371.8040 ms
+01/28/2024 12:23:33 HTTP "GET" "/api/FlowerCategories/2" responded 200 in 153.0097 ms
+01/28/2024 12:27:03 HTTP "GET" "/api/Flowers" responded 200 in 71.9513 ms
+01/28/2024 12:27:03 HTTP "GET" "/api/Flowers" responded 200 in 36.5734 ms
+01/28/2024 12:27:14 HTTP "GET" "/api/Flowers" responded 200 in 77.7373 ms
+01/28/2024 12:27:14 HTTP "GET" "/api/Flowers" responded 200 in 20.0080 ms
+01/28/2024 12:27:54 HTTP "GET" "/api/Flowers/3" responded 200 in 83.7534 ms
+01/28/2024 12:27:55 HTTP "GET" "/api/Flowers/3" responded 200 in 25.0910 ms
+01/28/2024 12:27:55 HTTP "GET" "/api/Colors/1" responded 200 in 124.8082 ms
+01/28/2024 12:27:55 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 125.3593 ms
+01/28/2024 12:27:55 HTTP "GET" "/api/Countries/1" responded 200 in 159.6650 ms
+01/28/2024 12:27:55 HTTP "GET" "/api/Colors/1" responded 200 in 92.2328 ms
+01/28/2024 12:27:55 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 220.8770 ms
+01/28/2024 12:27:55 HTTP "GET" "/api/Countries/1" responded 200 in 204.4502 ms
+01/28/2024 12:28:42 HTTP "GET" "/api/Flowers/20" responded 200 in 100.0557 ms
+01/28/2024 12:30:17 HTTP "GET" "/api/Flowers" responded 200 in 92.7854 ms
+01/28/2024 12:30:42 HTTP "GET" "/api/Flowers/3" responded 200 in 10.7583 ms
+01/28/2024 12:58:20 Приложение запущено
+01/28/2024 12:58:26 HTTP "GET" "/swagger/index.html" responded 200 in 230.1598 ms
+01/28/2024 12:58:26 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 294.5805 ms
+01/28/2024 12:59:59 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/28/2024 12:59:59 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/28/2024 13:00:01 HTTP "GET" "/api/Flowers" responded 200 in 3361.8754 ms
+01/28/2024 13:00:01 HTTP "GET" "/api/Flowers" responded 200 in 54.8226 ms
+01/28/2024 13:00:16 HTTP "GET" "/api/Flowers/3" responded 200 in 416.4536 ms
+01/28/2024 13:00:35 HTTP "GET" "/api/Flowers/4" responded 200 in 34.2270 ms
+01/28/2024 13:00:35 HTTP "GET" "/api/Flowers/4" responded 200 in 24.2675 ms
+01/28/2024 13:00:35 HTTP "GET" "/api/Countries/1" responded 200 in 62.2784 ms
+01/28/2024 13:00:35 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 61.1179 ms
+01/28/2024 13:00:35 HTTP "GET" "/api/Colors/1" responded 200 in 100.4840 ms
+01/28/2024 13:00:35 HTTP "GET" "/api/Countries/1" responded 200 in 36.8492 ms
+01/28/2024 13:00:35 HTTP "GET" "/api/Colors/1" responded 200 in 17.8907 ms
+01/28/2024 13:00:35 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 63.5522 ms
+01/28/2024 13:01:54 HTTP "GET" "/api/Flowers" responded 200 in 152.6157 ms
+01/28/2024 13:01:54 HTTP "GET" "/api/Flowers" responded 200 in 15.5722 ms
+01/28/2024 13:01:58 HTTP "GET" "/api/Flowers" responded 200 in 269.5053 ms
+01/28/2024 13:01:59 HTTP "GET" "/api/Flowers" responded 200 in 70.0324 ms
+01/28/2024 13:02:53 HTTP "GET" "/api/Flowers/4" responded 200 in 128.2296 ms
+01/28/2024 13:02:53 HTTP "GET" "/api/Flowers/4" responded 200 in 66.0042 ms
+01/28/2024 13:02:53 HTTP "GET" "/api/Countries/1" responded 200 in 26.7366 ms
+01/28/2024 13:02:53 HTTP "GET" "/api/Colors/1" responded 200 in 32.0124 ms
+01/28/2024 13:02:53 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 163.9509 ms
+01/28/2024 13:02:54 HTTP "GET" "/api/Colors/1" responded 200 in 64.7038 ms
+01/28/2024 13:02:54 HTTP "GET" "/api/Countries/1" responded 200 in 97.7399 ms
+01/28/2024 13:02:54 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 71.3004 ms
+01/28/2024 13:03:55 HTTP "GET" "/api/Flowers/4" responded 200 in 166.8269 ms
+01/28/2024 13:03:55 HTTP "GET" "/api/Flowers/4" responded 200 in 96.7208 ms
+01/28/2024 13:03:55 HTTP "GET" "/api/Colors/1" responded 200 in 59.3039 ms
+01/28/2024 13:03:55 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 63.4668 ms
+01/28/2024 13:03:55 HTTP "GET" "/api/Countries/1" responded 200 in 83.7818 ms
+01/28/2024 13:03:55 HTTP "GET" "/api/Colors/1" responded 200 in 37.2284 ms
+01/28/2024 13:03:55 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 16.3960 ms
+01/28/2024 13:03:55 HTTP "GET" "/api/Countries/1" responded 200 in 83.9571 ms
+01/28/2024 13:04:47 HTTP "GET" "/api/Flowers/4" responded 200 in 112.6140 ms
+01/28/2024 13:04:47 HTTP "GET" "/api/Countries/1" responded 200 in 50.1965 ms
+01/28/2024 13:04:47 HTTP "GET" "/api/Flowers/4" responded 200 in 65.0176 ms
+01/28/2024 13:04:47 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 38.6084 ms
+01/28/2024 13:04:47 HTTP "GET" "/api/Colors/1" responded 200 in 38.7462 ms
+01/28/2024 13:04:47 HTTP "GET" "/api/Colors/1" responded 200 in 76.3698 ms
+01/28/2024 13:04:47 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 92.5344 ms
+01/28/2024 13:04:47 HTTP "GET" "/api/Countries/1" responded 200 in 98.3390 ms
+01/28/2024 13:05:02 HTTP "GET" "/api/Flowers/4" responded 200 in 74.3016 ms
+01/28/2024 13:05:02 HTTP "GET" "/api/Flowers/4" responded 200 in 25.4679 ms
+01/28/2024 13:05:03 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 20.1669 ms
+01/28/2024 13:05:03 HTTP "GET" "/api/Countries/1" responded 200 in 44.2292 ms
+01/28/2024 13:05:03 HTTP "GET" "/api/Colors/1" responded 200 in 28.8981 ms
+01/28/2024 13:05:03 HTTP "GET" "/api/FlowerCategories/1" responded 200 in 189.6104 ms
+01/28/2024 13:05:03 HTTP "GET" "/api/Countries/1" responded 200 in 171.8006 ms
+01/28/2024 13:05:03 HTTP "GET" "/api/Colors/1" responded 200 in 31.2081 ms
+01/28/2024 15:27:13 HTTP "GET" "/api/Flowers" responded 200 in 246.4929 ms
+01/28/2024 15:27:13 HTTP "GET" "/api/Flowers" responded 200 in 23.0465 ms
+01/28/2024 15:30:49 HTTP "GET" "/api/Flowers" responded 200 in 134.7256 ms
+01/28/2024 15:30:49 HTTP "GET" "/api/Flowers" responded 200 in 19.1603 ms
+01/28/2024 15:30:50 HTTP "GET" "/images/3.JPG" responded 304 in 10.3579 ms
+01/28/2024 15:30:50 HTTP "GET" "/images/21012024 160439photo_5287686246044390462_y.jpg" responded 304 in 1.6755 ms
+01/28/2024 15:30:50 HTTP "GET" "/images/14012024 1242162 — копия.JPG" responded 304 in 8.2049 ms
+01/28/2024 15:30:50 HTTP "GET" "/images/2.JPG" responded 304 in 0.3164 ms
+01/28/2024 15:30:50 HTTP "GET" "/images/14012024 1348132 — копия.JPG" responded 304 in 2.5276 ms
+01/28/2024 15:35:26 HTTP "GET" "/api/Flowers" responded 200 in 548.1684 ms
+01/28/2024 15:35:26 HTTP "GET" "/api/Flowers" responded 200 in 41.1518 ms
+01/28/2024 15:35:57 HTTP "GET" "/api/Flowers" responded 200 in 40.4224 ms
+01/28/2024 15:57:14 HTTP "GET" "/api/Flowers" responded 200 in 351.1077 ms
+01/28/2024 15:57:14 HTTP "GET" "/api/Flowers" responded 200 in 42.1361 ms
+01/28/2024 15:58:19 HTTP "GET" "/api/Flowers" responded 200 in 196.4416 ms
+01/28/2024 15:58:19 HTTP "GET" "/api/Flowers" responded 200 in 15.7464 ms
+01/28/2024 16:06:52 HTTP "GET" "/api/Flowers" responded 200 in 398.1251 ms
+01/28/2024 16:06:52 HTTP "GET" "/api/Flowers" responded 200 in 178.7744 ms
+01/28/2024 16:09:12 HTTP "GET" "/api/Flowers" responded 200 in 91.2097 ms
+01/28/2024 16:09:12 HTTP "GET" "/api/Flowers" responded 200 in 212.7328 ms
+01/28/2024 16:09:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 117.5445 ms
+01/28/2024 16:09:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 9.3209 ms
+01/28/2024 16:10:07 HTTP "GET" "/api/Flowers" responded 200 in 162.9016 ms
+01/28/2024 16:10:07 HTTP "GET" "/api/Colors" responded 200 in 226.8485 ms
+01/28/2024 16:10:07 HTTP "GET" "/api/Colors" responded 200 in 42.0502 ms
+01/28/2024 16:10:25 HTTP "GET" "/api/Flowers" responded 200 in 207.5095 ms
+01/28/2024 16:10:25 HTTP "GET" "/api/Flowers" responded 200 in 18.2940 ms
+01/28/2024 16:10:28 HTTP "GET" "/api/FlowerCategories" responded 200 in 181.2419 ms
+01/28/2024 16:10:28 HTTP "GET" "/api/Colors" responded 200 in 178.8650 ms
+01/28/2024 16:10:28 HTTP "GET" "/api/FlowerCategories" responded 200 in 71.2102 ms
+01/28/2024 16:10:28 HTTP "GET" "/api/Colors" responded 200 in 66.9487 ms
+01/28/2024 16:11:49 HTTP "GET" "/api/Flowers" responded 200 in 104.9163 ms
+01/28/2024 16:11:49 HTTP "GET" "/api/Flowers" responded 200 in 27.5795 ms
+01/28/2024 16:12:23 HTTP "GET" "/api/FlowerCategories" responded 200 in 18.0441 ms
+01/28/2024 16:12:23 HTTP "GET" "/api/Colors" responded 200 in 20.5500 ms
+01/28/2024 16:12:23 HTTP "GET" "/api/FlowerCategories" responded 200 in 38.2729 ms
+01/28/2024 16:12:23 HTTP "GET" "/api/Colors" responded 200 in 51.9215 ms
+01/28/2024 16:12:23 HTTP "GET" "/api/Countries" responded 200 in 126.1651 ms
+01/28/2024 16:12:23 HTTP "GET" "/api/Countries" responded 200 in 13.2329 ms
+01/28/2024 16:51:03 HTTP "GET" "/api/Countries" responded 200 in 179.9327 ms
+01/28/2024 16:52:42 HTTP "PUT" "/api/Countries/5" responded 400 in 88.0814 ms
+01/28/2024 16:53:01 HTTP "PUT" "/api/Countries/5" responded 200 in 457.0639 ms
+01/28/2024 16:53:21 HTTP "GET" "/api/Countries" responded 200 in 37.8535 ms
+01/28/2024 18:49:07 Приложение запущено
+01/28/2024 18:49:34 Приложение запущено
+01/28/2024 18:49:41 HTTP "GET" "/swagger/index.html" responded 200 in 513.9385 ms
+01/28/2024 18:49:42 HTTP "GET" "/swagger/v1/swagger.json" responded 500 in 380.7329 ms
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/28/2024 18:49:43 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/28/2024 18:50:42 Приложение запущено
+01/28/2024 18:50:45 HTTP "GET" "/swagger/index.html" responded 200 in 274.3469 ms
+01/28/2024 18:50:45 HTTP "GET" "/swagger/v1/swagger.json" responded 500 in 259.0020 ms
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/28/2024 18:50:46 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/28/2024 18:52:03 Приложение запущено
+01/28/2024 18:52:06 HTTP "GET" "/swagger/index.html" responded 200 in 266.0494 ms
+01/28/2024 18:52:06 HTTP "GET" "/swagger/v1/swagger.json" responded 500 in 258.6555 ms
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/28/2024 18:52:06 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/28/2024 18:53:32 Приложение запущено
+01/28/2024 18:53:33 HTTP "GET" "/swagger/index.html" responded 200 in 202.7459 ms
+01/28/2024 18:53:34 HTTP "GET" "/swagger/v1/swagger.json" responded 500 in 127.6383 ms
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/28/2024 18:53:34 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/28/2024 18:54:17 Приложение запущено
+01/28/2024 18:54:18 HTTP "GET" "/swagger/index.html" responded 200 in 184.3664 ms
+01/28/2024 18:54:18 HTTP "GET" "/swagger/v1/swagger.json" responded 500 in 133.4422 ms
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/28/2024 18:54:18 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/29/2024 19:21:24 Приложение запущено
+01/29/2024 19:21:28 HTTP "GET" "/swagger/index.html" responded 200 in 496.2679 ms
+01/29/2024 19:21:29 HTTP "GET" "/swagger/v1/swagger.json" responded 500 in 317.0511 ms
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/29/2024 19:21:29 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/29/2024 19:31:42 Приложение запущено
+01/29/2024 19:31:46 HTTP "GET" "/swagger/index.html" responded 200 in 232.0800 ms
+01/29/2024 19:31:47 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 297.4491 ms
+01/29/2024 19:33:09 Приложение запущено
+01/29/2024 19:33:13 HTTP "GET" "/swagger/index.html" responded 200 in 385.2271 ms
+01/29/2024 19:33:14 HTTP "GET" "/swagger/v1/swagger.json" responded 500 in 348.4394 ms
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/29/2024 19:33:14 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/29/2024 19:36:41 Приложение запущено
+01/29/2024 19:36:44 HTTP "GET" "/swagger/index.html" responded 200 in 306.8905 ms
+01/29/2024 19:36:45 HTTP "GET" "/swagger/v1/swagger.json" responded 500 in 280.6682 ms
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+01/29/2024 19:36:45 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - webapi.Controllers.ColorsController.PutColor (webapi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+01/29/2024 19:40:06 Приложение запущено
+01/29/2024 19:40:07 HTTP "GET" "/swagger/index.html" responded 200 in 220.0692 ms
+01/29/2024 19:40:08 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 269.3895 ms
+01/29/2024 19:40:36 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/29/2024 19:40:36 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/29/2024 19:40:38 HTTP "GET" "/api/Colors" responded 200 in 3045.6445 ms
+01/29/2024 19:41:00 HTTP "PUT" "/api/Colors/1" responded 200 in 520.4834 ms
+01/29/2024 19:43:47 HTTP "GET" "/api/Colors" responded 200 in 207.0333 ms
+01/29/2024 19:44:15 HTTP "PUT" "/api/Colors/4" responded 200 in 99.0195 ms
+01/29/2024 19:44:27 HTTP "GET" "/api/Colors" responded 200 in 14.0400 ms
+01/29/2024 19:45:54 Приложение запущено
+01/29/2024 19:46:01 HTTP "GET" "/swagger/index.html" responded 200 in 776.3158 ms
+01/29/2024 19:46:05 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 465.0742 ms
+01/29/2024 19:51:19 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/29/2024 19:51:19 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/29/2024 19:51:20 HTTP "GET" "/api/Flowers" responded 200 in 2600.4703 ms
+01/29/2024 19:51:20 HTTP "GET" "/api/Flowers" responded 200 in 64.5682 ms
+01/29/2024 19:51:20 HTTP "GET" "/images/3.JPG" responded 304 in 13.6855 ms
+01/29/2024 19:51:20 HTTP "GET" "/images/14012024 1242162 — копия.JPG" responded 304 in 9.1071 ms
+01/29/2024 19:51:20 HTTP "GET" "/images/21012024 160439photo_5287686246044390462_y.jpg" responded 304 in 8.9197 ms
+01/29/2024 19:51:20 HTTP "GET" "/images/2.JPG" responded 304 in 13.7503 ms
+01/29/2024 19:51:20 HTTP "GET" "/images/14012024 1348132 — копия.JPG" responded 304 in 11.7476 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 458.4088 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Countries" responded 200 in 463.1738 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Flowers" responded 200 in 447.1858 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Colors" responded 200 in 471.5220 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Countries" responded 200 in 12.9354 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 20.1557 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Colors" responded 200 in 22.6416 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Flowers" responded 200 in 31.7484 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Countries" responded 200 in 19.3233 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 20.7238 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Colors" responded 200 in 22.1227 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Countries" responded 200 in 15.5192 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 12.9378 ms
+01/29/2024 20:03:26 HTTP "GET" "/api/Colors" responded 200 in 15.1219 ms
+01/29/2024 20:03:38 HTTP "OPTIONS" "/api/Colors//4" responded 204 in 2.0297 ms
+01/29/2024 20:03:38 HTTP "PUT" "/api/Colors//4" responded 404 in 0.1404 ms
+01/29/2024 20:05:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 58.7510 ms
+01/29/2024 20:05:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 16.3683 ms
+01/29/2024 20:05:26 HTTP "GET" "/api/Flowers" responded 200 in 83.8100 ms
+01/29/2024 20:05:26 HTTP "GET" "/api/Countries" responded 200 in 94.4976 ms
+01/29/2024 20:05:26 HTTP "GET" "/api/Colors" responded 200 in 97.5593 ms
+01/29/2024 20:05:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 11.1506 ms
+01/29/2024 20:05:26 HTTP "GET" "/api/Flowers" responded 200 in 17.2368 ms
+01/29/2024 20:05:27 HTTP "GET" "/api/Countries" responded 200 in 32.6109 ms
+01/29/2024 20:05:27 HTTP "GET" "/api/Colors" responded 200 in 65.1911 ms
+01/29/2024 20:05:27 HTTP "GET" "/api/FlowerCategories" responded 200 in 75.9024 ms
+01/29/2024 20:05:27 HTTP "GET" "/api/Countries" responded 200 in 27.5061 ms
+01/29/2024 20:05:27 HTTP "GET" "/api/Colors" responded 200 in 22.0470 ms
+01/29/2024 20:05:27 HTTP "GET" "/api/Countries" responded 200 in 20.9802 ms
+01/29/2024 20:05:27 HTTP "GET" "/api/Colors" responded 200 in 20.0795 ms
+01/29/2024 20:06:16 HTTP "GET" "/api/Colors" responded 200 in 134.6586 ms
+01/29/2024 20:06:16 HTTP "GET" "/api/Countries" responded 200 in 140.6488 ms
+01/29/2024 20:06:16 HTTP "GET" "/api/Colors" responded 200 in 13.9398 ms
+01/29/2024 20:06:16 HTTP "GET" "/api/Countries" responded 200 in 12.2156 ms
+01/29/2024 20:06:16 HTTP "GET" "/api/FlowerCategories" responded 200 in 191.1116 ms
+01/29/2024 20:06:16 HTTP "GET" "/api/Colors" responded 200 in 25.6715 ms
+01/29/2024 20:06:17 HTTP "GET" "/api/Flowers" responded 200 in 181.4258 ms
+01/29/2024 20:06:17 HTTP "GET" "/api/Countries" responded 200 in 24.8259 ms
+01/29/2024 20:06:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.8353 ms
+01/29/2024 20:06:17 HTTP "GET" "/api/Countries" responded 200 in 38.4366 ms
+01/29/2024 20:06:17 HTTP "GET" "/api/Colors" responded 200 in 39.6289 ms
+01/29/2024 20:06:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 11.5964 ms
+01/29/2024 20:06:17 HTTP "GET" "/api/Flowers" responded 200 in 23.1376 ms
+01/29/2024 20:06:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.4127 ms
+01/29/2024 20:06:49 HTTP "OPTIONS" "/api/Countries" responded 204 in 0.4666 ms
+01/29/2024 20:06:50 HTTP "POST" "/api/Countries" responded 200 in 323.1426 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 11.5443 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Colors" responded 200 in 19.2531 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Countries" responded 200 in 21.2418 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 9.7180 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Flowers" responded 200 in 21.4918 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Colors" responded 200 in 13.3562 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Countries" responded 200 in 20.2896 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.9492 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/FlowerCategories" responded 200 in 21.0272 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Colors" responded 200 in 14.2749 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Colors" responded 200 in 12.3810 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Countries" responded 200 in 10.8726 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Flowers" responded 200 in 29.5011 ms
+01/29/2024 20:06:58 HTTP "GET" "/api/Countries" responded 200 in 9.0842 ms
+01/29/2024 20:07:08 HTTP "OPTIONS" "/api/Countries//6" responded 204 in 0.0995 ms
+01/29/2024 20:07:08 HTTP "PUT" "/api/Countries//6" responded 404 in 0.0458 ms
+01/29/2024 20:14:26 HTTP "OPTIONS" "/api/Colors" responded 204 in 0.1191 ms
+01/29/2024 20:14:26 HTTP "POST" "/api/Colors" responded 200 in 205.0014 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 38.3161 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/Countries" responded 200 in 34.0155 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/Colors" responded 200 in 41.9669 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 18.4180 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 10.7924 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/Colors" responded 200 in 23.6389 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/Countries" responded 200 in 29.9898 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 28.6535 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/Flowers" responded 200 in 111.2864 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/Colors" responded 200 in 20.2458 ms
+01/29/2024 20:14:34 HTTP "GET" "/api/Countries" responded 200 in 98.7780 ms
+01/29/2024 20:14:35 HTTP "GET" "/api/Flowers" responded 200 in 96.5815 ms
+01/29/2024 20:14:35 HTTP "GET" "/api/Countries" responded 200 in 14.1689 ms
+01/29/2024 20:14:35 HTTP "GET" "/api/Colors" responded 200 in 26.9197 ms
+01/29/2024 20:15:03 HTTP "GET" "/api/Flowers" responded 200 in 60.5439 ms
+01/29/2024 20:15:03 HTTP "GET" "/api/Flowers" responded 200 in 12.8691 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Colors" responded 200 in 28.1639 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 34.9373 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Flowers" responded 200 in 25.4939 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Countries" responded 200 in 33.0326 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 89.7386 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Colors" responded 200 in 95.6399 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Countries" responded 200 in 39.9887 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Flowers" responded 200 in 50.3370 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Countries" responded 200 in 26.7104 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Countries" responded 200 in 32.0577 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 20.2060 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Colors" responded 200 in 18.5471 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 23.5599 ms
+01/29/2024 20:15:05 HTTP "GET" "/api/Colors" responded 200 in 26.8197 ms
+01/29/2024 20:15:13 HTTP "OPTIONS" "/api/FlowerCategories//4" responded 204 in 0.0603 ms
+01/29/2024 20:15:13 HTTP "PUT" "/api/FlowerCategories//4" responded 404 in 0.0330 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 234.1182 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/Countries" responded 200 in 226.0972 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/Colors" responded 200 in 295.5967 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/Countries" responded 200 in 18.5081 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/Flowers" responded 200 in 331.2595 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 105.3297 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/Colors" responded 200 in 67.9451 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/Countries" responded 200 in 118.1608 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/Flowers" responded 200 in 137.7197 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/Colors" responded 200 in 38.3363 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 50.2475 ms
+01/29/2024 20:18:17 HTTP "GET" "/api/Countries" responded 200 in 39.2151 ms
+01/29/2024 20:18:18 HTTP "GET" "/api/Colors" responded 200 in 162.9268 ms
+01/29/2024 20:18:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 279.4321 ms
+01/29/2024 20:18:33 HTTP "OPTIONS" "/api/Colors/5" responded 204 in 0.1835 ms
+01/29/2024 20:18:33 HTTP "PUT" "/api/Colors/5" responded 400 in 24.3186 ms
+01/29/2024 20:23:53 HTTP "GET" "/api/Colors/5" responded 200 in 385.5576 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 119.1538 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Colors" responded 200 in 105.3784 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Flowers" responded 200 in 109.5251 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Countries" responded 200 in 133.2437 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 20.4036 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Colors" responded 200 in 32.2436 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 23.9401 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 28.3752 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Flowers" responded 200 in 60.9626 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Countries" responded 200 in 35.5064 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Colors" responded 200 in 18.6325 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Colors" responded 200 in 20.5408 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Countries" responded 200 in 13.3865 ms
+01/29/2024 20:25:13 HTTP "GET" "/api/Countries" responded 200 in 11.4573 ms
+01/29/2024 20:25:23 HTTP "OPTIONS" "/api/Colors/5" responded 204 in 0.0721 ms
+01/29/2024 20:25:23 HTTP "PUT" "/api/Colors/5" responded 400 in 15.5297 ms
+01/29/2024 20:25:40 HTTP "GET" "/api/Colors/5" responded 200 in 43.8871 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 278.3391 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Colors" responded 200 in 251.6409 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Countries" responded 200 in 245.8066 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Flowers" responded 200 in 312.7611 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Countries" responded 200 in 20.4968 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 30.8135 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Colors" responded 200 in 50.6899 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Flowers" responded 200 in 35.0371 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Countries" responded 200 in 32.1237 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Countries" responded 200 in 22.3596 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 18.4646 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Colors" responded 200 in 21.2467 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/FlowerCategories" responded 200 in 21.4413 ms
+01/29/2024 20:27:40 HTTP "GET" "/api/Colors" responded 200 in 31.6279 ms
+01/29/2024 20:27:51 HTTP "OPTIONS" "/api/Colors/5" responded 204 in 0.0905 ms
+01/29/2024 20:27:51 HTTP "PUT" "/api/Colors/5" responded 400 in 9.8775 ms
+01/29/2024 20:28:04 HTTP "GET" "/api/Colors/5" responded 200 in 273.4756 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/FlowerCategories" responded 200 in 224.2212 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Colors" responded 200 in 211.2907 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Countries" responded 200 in 137.2316 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Flowers" responded 200 in 139.4774 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/FlowerCategories" responded 200 in 25.3762 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Colors" responded 200 in 23.8240 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Countries" responded 200 in 45.3053 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Flowers" responded 200 in 49.0245 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/FlowerCategories" responded 200 in 47.8088 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Colors" responded 200 in 53.6806 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Countries" responded 200 in 50.5505 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Countries" responded 200 in 10.9553 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/FlowerCategories" responded 200 in 31.1462 ms
+01/29/2024 20:30:24 HTTP "GET" "/api/Colors" responded 200 in 17.5638 ms
+01/29/2024 20:30:42 HTTP "OPTIONS" "/api/Colors/5" responded 204 in 0.1945 ms
+01/29/2024 20:30:42 HTTP "PUT" "/api/Colors/5" responded 200 in 63.3136 ms
+01/29/2024 20:30:45 HTTP "GET" "/api/Colors" responded 200 in 5.2454 ms
+01/29/2024 20:36:27 HTTP "OPTIONS" "/api/Countries//6" responded 204 in 0.1939 ms
+01/29/2024 20:36:27 HTTP "PUT" "/api/Countries//6" responded 404 in 0.0530 ms
+01/29/2024 20:38:12 HTTP "GET" "/api/Colors" responded 200 in 614.4233 ms
+01/29/2024 20:38:12 HTTP "GET" "/api/Countries" responded 200 in 610.0748 ms
+01/29/2024 20:38:12 HTTP "GET" "/api/FlowerCategories" responded 200 in 622.4278 ms
+01/29/2024 20:38:12 HTTP "GET" "/api/Colors" responded 200 in 14.4492 ms
+01/29/2024 20:38:12 HTTP "GET" "/api/Flowers" responded 200 in 626.2274 ms
+01/29/2024 20:38:12 HTTP "GET" "/api/Countries" responded 200 in 15.5931 ms
+01/29/2024 20:38:12 HTTP "GET" "/api/FlowerCategories" responded 200 in 10.8936 ms
+01/29/2024 20:38:13 HTTP "GET" "/api/Colors" responded 200 in 16.4179 ms
+01/29/2024 20:38:13 HTTP "GET" "/api/Countries" responded 200 in 14.9042 ms
+01/29/2024 20:38:13 HTTP "GET" "/api/Countries" responded 200 in 11.1431 ms
+01/29/2024 20:38:13 HTTP "GET" "/api/Colors" responded 200 in 9.5938 ms
+01/29/2024 20:38:13 HTTP "GET" "/api/Flowers" responded 200 in 22.8389 ms
+01/29/2024 20:38:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 8.4516 ms
+01/29/2024 20:38:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 7.3005 ms
+01/29/2024 20:38:21 HTTP "OPTIONS" "/api/Countries/6" responded 204 in 0.0735 ms
+01/29/2024 20:38:22 HTTP "PUT" "/api/Countries/6" responded 200 in 44.3402 ms
+01/29/2024 20:38:23 HTTP "GET" "/api/Countries" responded 200 in 7.4028 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 226.8007 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/Colors" responded 200 in 193.9839 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 23.8979 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/Countries" responded 200 in 204.1762 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/Flowers" responded 200 in 58.8666 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 24.5825 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/Colors" responded 200 in 26.3286 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 34.5331 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/Countries" responded 200 in 16.1222 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/Colors" responded 200 in 23.9398 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/Countries" responded 200 in 19.3799 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/Flowers" responded 200 in 37.0550 ms
+01/29/2024 20:40:11 HTTP "GET" "/api/Countries" responded 200 in 29.0095 ms
+01/29/2024 20:40:12 HTTP "GET" "/api/Colors" responded 200 in 225.8510 ms
+01/29/2024 20:40:30 HTTP "OPTIONS" "/api/FlowerCategories/4" responded 204 in 0.2996 ms
+01/29/2024 20:40:30 HTTP "PUT" "/api/FlowerCategories/4" responded 400 in 15.1857 ms
+01/29/2024 20:43:16 HTTP "GET" "/api/FlowerCategories" responded 200 in 558.9610 ms
+01/29/2024 20:43:16 HTTP "GET" "/api/Countries" responded 200 in 500.2716 ms
+01/29/2024 20:43:16 HTTP "GET" "/api/FlowerCategories" responded 200 in 101.2368 ms
+01/29/2024 20:43:16 HTTP "GET" "/api/Colors" responded 200 in 629.6245 ms
+01/29/2024 20:43:16 HTTP "GET" "/api/Flowers" responded 200 in 629.5784 ms
+01/29/2024 20:43:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 433.6010 ms
+01/29/2024 20:43:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 406.8626 ms
+01/29/2024 20:43:17 HTTP "GET" "/api/Countries" responded 200 in 638.0265 ms
+01/29/2024 20:43:17 HTTP "GET" "/api/Colors" responded 200 in 218.6598 ms
+01/29/2024 20:43:17 HTTP "GET" "/api/Countries" responded 200 in 217.2863 ms
+01/29/2024 20:43:17 HTTP "GET" "/api/Flowers" responded 200 in 420.7502 ms
+01/29/2024 20:43:17 HTTP "GET" "/api/Colors" responded 200 in 35.1113 ms
+01/29/2024 20:43:17 HTTP "GET" "/api/Countries" responded 200 in 38.3657 ms
+01/29/2024 20:43:17 HTTP "GET" "/api/Colors" responded 200 in 79.2628 ms
+01/29/2024 20:43:29 HTTP "OPTIONS" "/api/FlowerCategories/4" responded 204 in 0.1213 ms
+01/29/2024 20:43:30 HTTP "PUT" "/api/FlowerCategories/4" responded 400 in 29.3223 ms
+01/29/2024 20:44:14 Приложение запущено
+01/29/2024 20:44:16 HTTP "GET" "/swagger/index.html" responded 200 in 187.8286 ms
+01/29/2024 20:44:16 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 267.9666 ms
+01/29/2024 20:50:21 Приложение запущено
+01/29/2024 20:50:28 HTTP "GET" "/swagger/index.html" responded 200 in 549.5415 ms
+01/29/2024 20:50:29 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 605.2438 ms
+01/29/2024 20:53:02 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/29/2024 20:53:02 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/29/2024 20:53:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 1586.5405 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Colors" responded 200 in 1574.7037 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Countries" responded 200 in 932.5791 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Flowers" responded 200 in 3706.2630 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Flowers" responded 200 in 1775.5209 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Countries" responded 200 in 130.8871 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 152.1985 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Colors" responded 200 in 136.5198 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Flowers" responded 200 in 40.8853 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 17.9152 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Countries" responded 200 in 16.1588 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Colors" responded 200 in 18.7786 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/FlowerCategories" responded 200 in 21.9106 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Countries" responded 200 in 19.5795 ms
+01/29/2024 20:53:05 HTTP "GET" "/api/Colors" responded 200 in 20.3172 ms
+01/29/2024 20:53:13 HTTP "OPTIONS" "/api/FlowerCategories/4" responded 204 in 1.0593 ms
+01/29/2024 20:53:13 HTTP "PUT" "/api/FlowerCategories/4" responded 400 in 152.9195 ms
+01/29/2024 20:53:46 HTTP "GET" "/api/FlowerCategories" responded 200 in 40.0265 ms
+01/29/2024 20:54:05 HTTP "PUT" "/api/FlowerCategories/4" responded 200 in 221.4286 ms
+01/29/2024 20:54:16 HTTP "GET" "/api/FlowerCategories" responded 200 in 13.8447 ms
+01/29/2024 20:59:07 HTTP "GET" "/api/Countries" responded 200 in 332.8087 ms
+01/29/2024 20:59:07 HTTP "GET" "/api/Flowers" responded 200 in 339.0466 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/FlowerCategories" responded 200 in 458.2733 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/Colors" responded 200 in 458.5779 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/Countries" responded 200 in 32.5661 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/Flowers" responded 200 in 34.1929 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/Colors" responded 200 in 53.2773 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/Countries" responded 200 in 57.0388 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/FlowerCategories" responded 200 in 64.8366 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/Colors" responded 200 in 59.6644 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/Countries" responded 200 in 196.2638 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/FlowerCategories" responded 200 in 32.1127 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/Colors" responded 200 in 15.7586 ms
+01/29/2024 20:59:08 HTTP "GET" "/api/FlowerCategories" responded 200 in 55.6599 ms
+01/29/2024 20:59:27 HTTP "OPTIONS" "/api/FlowerCategories/1" responded 204 in 0.9559 ms
+01/29/2024 20:59:27 HTTP "PUT" "/api/FlowerCategories/1" responded 200 in 18.2775 ms
+01/29/2024 20:59:29 HTTP "GET" "/api/FlowerCategories" responded 200 in 42.2666 ms

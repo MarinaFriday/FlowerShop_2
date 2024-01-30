@@ -30,22 +30,19 @@ namespace webapi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutFlowerCategory(int id, FlowerCategory category) {
-            //if (id != category.Id) return BadRequest(); 
-            //_context.Entry(category).State = EntityState.Modified;            
-            //await _context.SaveChangesAsync();
-            //return Ok();
-            var categoryDb = await _context.Countries.FirstOrDefaultAsync(categoryDb => categoryDb.Id == id);
+        public async Task<IActionResult> PutFlowerCategory(int id, FlowerCategory category) {  
+            
+            var categoryDb = await _context.FlowersCategories.FirstOrDefaultAsync(categoryDb => categoryDb.Id == id);            
             if (categoryDb is null)
             {
-                return NotFound("User is not found!");
+                return NotFound("Category is not found!");
             }
 
-            categoryDb.Title = categoryDb.Title;
+            categoryDb.Title = category.Title;
 
             await _context.SaveChangesAsync();
 
-            return Ok("User is successfully updated!");
+            return Ok("Category is successfully updated!");
         }
         [HttpPost]
         public async Task<ActionResult<FlowerCategory>> PostFlowerCategory(FlowerCategory category) { 
@@ -61,10 +58,5 @@ namespace webapi.Controllers
             await _context.SaveChangesAsync();
             return NoContent();
         }
-
-
-       
-        
-
     }
 }
