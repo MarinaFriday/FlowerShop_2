@@ -4,9 +4,11 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import axios from "axios";
 import { urlCategories } from "../../urls/urlList";
 
-const DropdownButtonCategory = () => {
+const DropdownButtonCategory = ({ currentFlowerDataCategory }) => {
+    (currentFlowerDataCategory !== undefined ? console.log(currentFlowerDataCategory) : console.log("Категория") ) ;
+    
     const [categories, setData] = useState([]);
-    const [titleDropdownBtn, setTitle] = useState("Категория");
+    const [titleDropdownBtn, setTitle] = useState((currentFlowerDataCategory !== undefined ?  currentFlowerDataCategory  : "Категория"));
     const [idCategory, setIdCategoryData] = useState("Категория");
 
     useEffect(() => {

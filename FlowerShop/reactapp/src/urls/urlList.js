@@ -21,5 +21,6 @@ export const urlCountryById = BASE_URL + '/api/Countries/'
 
 //UploadImages
 export const urlUploadImages = BASE_URL + '/api/UploadImages'
+export const urlUploadImagesId = BASE_URL + '/api/UploadImages/'
 
 //

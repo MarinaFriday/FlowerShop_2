@@ -39,11 +39,11 @@ namespace webapi.Controllers
         }
         //PUT {id}
         [HttpPut ("{id}")]
-        public async Task<IActionResult> PutFlower(int id, Flower flower) {
+        public async Task<IActionResult> PutFlower(int id, FlowerDTO flowerDTO) {
             FlowerService fs = new FlowerService(_context);
-            var result = fs.UpdateFlower(id, flower);
+            var result = fs.UpdateFlower(id, flowerDTO);
             if (result == null) return NotFound("Flower is not found");
-            return Ok(result);
+            return Ok();
         }
         //DELETE {id}
         [HttpDelete("{id}")]

@@ -23,16 +23,19 @@ namespace webapi.Services
             flower.Title = flowerDTO.Title.Trim();
             flower.Price = flowerDTO.Price;
             flower.Count = flowerDTO.Count;
-            //List<Image> imagesFlower = new List<Image>();
-            flower.Images = new List<Image>();
-            foreach (var imageId in flowerDTO.ImagesId) {
-                Console.WriteLine(imageId);                
-                try { 
-                    var image = await _context.Images.FindAsync(imageId);
-                    if (image != null)  flower.Images.Add(image);
+            
+                flower.Images = new List<Image>();
+                foreach (var imageId in flowerDTO.ImagesId)
+                {
+                    Console.WriteLine(imageId);
+                    try
+                    {
+                        var image = await _context.Images.FindAsync(imageId);
+                        if (image != null) flower.Images.Add(image);
+                    }
+                    catch { Console.WriteLine("Возникло исключение"); }
                 }
-                catch { Console.WriteLine("Возникло исключение"); }                                
-            }            
+            
             flower.ColorId = flowerDTO.ColorId;
             var color = await _context.Colors.FindAsync(flower.ColorId);
                 if (color != null) flower.Color = color;
@@ -58,8 +61,7 @@ namespace webapi.Services
                 .ToListAsync();
         }
         //Получение цветка по id
-        public async Task<ActionResult<Flower>> GetFlower(int id) {
-            
+        public async Task<ActionResult<Flower>> GetFlower(int id) {            
             var flower = await _context.Flowers.FindAsync(id);
             if (id != flower.Id) return null;
             List<Image> images =  _context.Images.Where(i => i.FlowerId == flower.Id).ToList();
@@ -68,10 +70,25 @@ namespace webapi.Services
         }
 
         //Обновление цветка 
-        public async Task<Flower> UpdateFlower(int id, Flower flower) { 
-            _context.Entry(flower).State = EntityState.Modified; 
+        public async Task<ActionResult<Flower>> UpdateFlower(int id, FlowerDTO flowerDTO) {
+            var flowerDb = _context.Flowers.FirstOrDefault(flowerDb => flowerDb.Id == id);
+            if (flowerDb == null) return null;
+            flowerDb.Title = flowerDTO.Title.Trim();
+            flowerDb.Price = flowerDTO.Price;
+            flowerDb.Count = flowerDTO.Count;
+            flowerDb.ColorId = flowerDTO.ColorId;
+            var color = _context.Colors.FirstOrDefault(color => color.Id == flowerDb.ColorId);
+            if(color!=null) flowerDb.Color = color;
+            flowerDb.CategoryId = flowerDTO.CategoryId;
+            var category = _context.FlowersCategories.FirstOrDefault(category => category.Id == flowerDb.CategoryId);
+            if (category != null) flowerDb.Category = category;
+            flowerDb.CountryId = flowerDTO.CountryId;
+            var country = _context.Countries.FirstOrDefault(country => country.Id == flowerDb.CountryId);
+            if (country != null) flowerDb.Country = country;       
+            //_context.Entry(flowerDb).State = EntityState.Modified;
             await _context.SaveChangesAsync();  
-            return flower;  
+            return flowerDb;  
+
         }
         //Удаление цветка
         public Flower DeleteFlower(int id) {

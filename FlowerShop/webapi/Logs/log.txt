@@ -25142,3 +25142,1530 @@ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP meth
 01/29/2024 20:59:27 HTTP "OPTIONS" "/api/FlowerCategories/1" responded 204 in 0.9559 ms
 01/29/2024 20:59:27 HTTP "PUT" "/api/FlowerCategories/1" responded 200 in 18.2775 ms
 01/29/2024 20:59:29 HTTP "GET" "/api/FlowerCategories" responded 200 in 42.2666 ms
+01/30/2024 20:20:03 Приложение запущено
+01/30/2024 20:20:12 HTTP "GET" "/swagger/index.html" responded 200 in 410.0689 ms
+01/30/2024 20:20:14 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 430.8575 ms
+01/30/2024 20:20:24 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/30/2024 20:20:24 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+01/30/2024 20:20:27 HTTP "GET" "/api/Flowers" responded 200 in 4673.0637 ms
+01/30/2024 20:20:27 HTTP "GET" "/api/Flowers" responded 200 in 102.6664 ms
+01/30/2024 20:20:27 HTTP "GET" "/images/3.JPG" responded 304 in 28.0772 ms
+01/30/2024 20:20:27 HTTP "GET" "/images/2.JPG" responded 304 in 28.0402 ms
+01/30/2024 20:20:27 HTTP "GET" "/images/14012024 1348132 — копия.JPG" responded 304 in 24.1744 ms
+01/30/2024 20:20:27 HTTP "GET" "/images/14012024 1242162 — копия.JPG" responded 304 in 26.5219 ms
+01/30/2024 20:20:27 HTTP "GET" "/images/21012024 160439photo_5287686246044390462_y.jpg" responded 304 in 27.0627 ms
+01/30/2024 20:20:31 HTTP "GET" "/api/Countries" responded 200 in 302.1222 ms
+01/30/2024 20:20:31 HTTP "GET" "/api/FlowerCategories" responded 200 in 302.0062 ms
+01/30/2024 20:20:31 HTTP "GET" "/api/Colors" responded 200 in 324.9623 ms
+01/30/2024 20:20:31 HTTP "GET" "/api/FlowerCategories" responded 200 in 36.8937 ms
+01/30/2024 20:20:31 HTTP "GET" "/api/Countries" responded 200 in 189.0272 ms
+01/30/2024 20:20:31 HTTP "GET" "/api/Colors" responded 200 in 155.3423 ms
+01/30/2024 20:23:19 HTTP "GET" "/api/Flowers" responded 200 in 162.2813 ms
+01/30/2024 20:23:19 HTTP "GET" "/api/Flowers" responded 200 in 113.8756 ms
+01/30/2024 20:23:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 71.1900 ms
+01/30/2024 20:23:26 HTTP "GET" "/api/FlowerCategories" responded 200 in 32.1049 ms
+01/30/2024 20:23:26 HTTP "GET" "/api/Countries" responded 200 in 28.2185 ms
+01/30/2024 20:23:26 HTTP "GET" "/api/Countries" responded 200 in 91.6255 ms
+01/30/2024 20:23:26 HTTP "GET" "/api/Colors" responded 200 in 120.3888 ms
+01/30/2024 20:23:26 HTTP "GET" "/api/Colors" responded 200 in 36.7871 ms
+01/30/2024 20:26:09 HTTP "GET" "/api/Colors" responded 200 in 105.1569 ms
+01/30/2024 20:26:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 109.4045 ms
+01/30/2024 20:26:09 HTTP "GET" "/api/Countries" responded 200 in 164.4195 ms
+01/30/2024 20:26:09 HTTP "GET" "/api/Colors" responded 200 in 56.2628 ms
+01/30/2024 20:26:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 16.9948 ms
+01/30/2024 20:26:09 HTTP "GET" "/api/Countries" responded 200 in 28.4131 ms
+01/30/2024 20:27:21 HTTP "GET" "/api/FlowerCategories" responded 200 in 167.1609 ms
+01/30/2024 20:27:21 HTTP "GET" "/api/Countries" responded 200 in 63.5047 ms
+01/30/2024 20:27:21 HTTP "GET" "/api/Colors" responded 200 in 142.8319 ms
+01/30/2024 20:27:21 HTTP "GET" "/api/Flowers" responded 200 in 119.9964 ms
+01/30/2024 20:27:21 HTTP "GET" "/api/FlowerCategories" responded 200 in 44.1099 ms
+01/30/2024 20:27:21 HTTP "GET" "/api/Countries" responded 200 in 34.9848 ms
+01/30/2024 20:27:21 HTTP "GET" "/api/Colors" responded 200 in 42.8560 ms
+01/30/2024 20:27:21 HTTP "GET" "/api/Flowers" responded 200 in 117.0434 ms
+01/30/2024 20:27:22 HTTP "GET" "/api/Countries" responded 200 in 416.1406 ms
+01/30/2024 20:27:22 HTTP "GET" "/api/Countries" responded 200 in 17.2456 ms
+01/30/2024 20:27:22 HTTP "GET" "/api/Colors" responded 200 in 37.7053 ms
+01/30/2024 20:27:22 HTTP "GET" "/api/FlowerCategories" responded 200 in 461.8600 ms
+01/30/2024 20:27:22 HTTP "GET" "/api/FlowerCategories" responded 200 in 37.9404 ms
+01/30/2024 20:27:22 HTTP "GET" "/api/Colors" responded 200 in 441.6703 ms
+01/30/2024 20:30:02 HTTP "GET" "/api/Flowers" responded 200 in 159.5592 ms
+01/30/2024 20:30:02 HTTP "GET" "/api/Flowers" responded 200 in 51.1160 ms
+01/30/2024 20:30:06 HTTP "GET" "/api/FlowerCategories" responded 200 in 126.2982 ms
+01/30/2024 20:30:06 HTTP "GET" "/api/Colors" responded 200 in 113.3291 ms
+01/30/2024 20:30:06 HTTP "GET" "/api/Colors" responded 200 in 73.9973 ms
+01/30/2024 20:30:06 HTTP "GET" "/api/Countries" responded 200 in 102.9809 ms
+01/30/2024 20:30:06 HTTP "GET" "/api/FlowerCategories" responded 200 in 42.7693 ms
+01/30/2024 20:30:06 HTTP "GET" "/api/Countries" responded 200 in 31.0168 ms
+01/30/2024 20:30:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 26.9114 ms
+01/30/2024 20:30:11 HTTP "GET" "/api/Countries" responded 200 in 20.8605 ms
+01/30/2024 20:30:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 95.4957 ms
+01/30/2024 20:30:11 HTTP "GET" "/api/Colors" responded 200 in 23.6517 ms
+01/30/2024 20:30:11 HTTP "GET" "/api/Countries" responded 200 in 95.1587 ms
+01/30/2024 20:30:11 HTTP "GET" "/api/Colors" responded 200 in 96.6861 ms
+01/30/2024 20:41:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 349.6927 ms
+01/30/2024 20:41:13 HTTP "GET" "/api/Colors" responded 200 in 340.9157 ms
+01/30/2024 20:41:13 HTTP "GET" "/api/Countries" responded 200 in 29.6472 ms
+01/30/2024 20:41:13 HTTP "GET" "/api/Colors" responded 200 in 58.5049 ms
+01/30/2024 20:41:13 HTTP "GET" "/api/Countries" responded 200 in 311.5575 ms
+01/30/2024 20:41:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 42.9848 ms
+01/30/2024 20:42:16 HTTP "GET" "/api/Flowers" responded 200 in 142.6755 ms
+01/30/2024 20:42:16 HTTP "GET" "/api/Flowers" responded 200 in 30.4070 ms
+01/30/2024 20:42:18 HTTP "GET" "/api/Countries" responded 200 in 121.7360 ms
+01/30/2024 20:42:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 129.9285 ms
+01/30/2024 20:42:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 84.4719 ms
+01/30/2024 20:42:18 HTTP "GET" "/api/Colors" responded 200 in 138.7522 ms
+01/30/2024 20:42:18 HTTP "GET" "/api/Colors" responded 200 in 43.0391 ms
+01/30/2024 20:42:18 HTTP "GET" "/api/Countries" responded 200 in 84.6184 ms
+01/30/2024 20:42:21 HTTP "GET" "/api/FlowerCategories" responded 200 in 68.8892 ms
+01/30/2024 20:42:21 HTTP "GET" "/api/Colors" responded 200 in 24.1164 ms
+01/30/2024 20:42:21 HTTP "GET" "/api/Countries" responded 200 in 23.1826 ms
+01/30/2024 20:42:21 HTTP "GET" "/api/Colors" responded 200 in 52.0296 ms
+01/30/2024 20:42:21 HTTP "GET" "/api/FlowerCategories" responded 200 in 52.1273 ms
+01/30/2024 20:42:21 HTTP "GET" "/api/Countries" responded 200 in 54.8687 ms
+01/30/2024 20:43:04 HTTP "GET" "/api/Flowers" responded 200 in 198.5821 ms
+01/30/2024 20:43:04 HTTP "GET" "/api/Flowers" responded 200 in 292.5719 ms
+01/30/2024 20:43:08 HTTP "GET" "/api/FlowerCategories" responded 200 in 72.4451 ms
+01/30/2024 20:43:08 HTTP "GET" "/api/Countries" responded 200 in 78.5290 ms
+01/30/2024 20:43:08 HTTP "GET" "/api/Colors" responded 200 in 61.0913 ms
+01/30/2024 20:43:08 HTTP "GET" "/api/Colors" responded 200 in 43.0676 ms
+01/30/2024 20:43:08 HTTP "GET" "/api/FlowerCategories" responded 200 in 31.0149 ms
+01/30/2024 20:43:08 HTTP "GET" "/api/Countries" responded 200 in 79.5914 ms
+02/03/2024 12:06:42 Приложение запущено
+02/03/2024 12:06:52 HTTP "GET" "/swagger/index.html" responded 200 in 405.2515 ms
+02/03/2024 12:06:54 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 505.0270 ms
+02/03/2024 12:08:01 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/03/2024 12:08:01 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/03/2024 12:08:03 HTTP "GET" "/api/Flowers" responded 200 in 6066.4890 ms
+02/03/2024 12:08:03 HTTP "GET" "/api/Flowers" responded 200 in 1086.5384 ms
+02/03/2024 12:08:03 HTTP "GET" "/images/14012024 1242162 — копия.JPG" responded 304 in 11.6116 ms
+02/03/2024 12:08:03 HTTP "GET" "/images/3.JPG" responded 304 in 13.1277 ms
+02/03/2024 12:08:03 HTTP "GET" "/images/21012024 160439photo_5287686246044390462_y.jpg" responded 304 in 10.1230 ms
+02/03/2024 12:08:03 HTTP "GET" "/images/2.JPG" responded 304 in 4.6133 ms
+02/03/2024 12:08:03 HTTP "GET" "/images/14012024 1348132 — копия.JPG" responded 304 in 9.8281 ms
+02/03/2024 12:08:03 HTTP "GET" "/api/Flowers" responded 200 in 200.7662 ms
+02/03/2024 12:19:12 HTTP "GET" "/api/Flowers" responded 200 in 208.6435 ms
+02/03/2024 12:19:12 HTTP "GET" "/api/Flowers" responded 200 in 13.1696 ms
+02/03/2024 12:19:28 HTTP "GET" "/api/Flowers" responded 200 in 14.3490 ms
+02/03/2024 12:19:28 HTTP "GET" "/api/Flowers" responded 200 in 15.3514 ms
+02/03/2024 12:41:19 HTTP "GET" "/api/Flowers" responded 200 in 730.9479 ms
+02/03/2024 12:41:19 HTTP "GET" "/api/Flowers" responded 200 in 21.7047 ms
+02/03/2024 12:42:15 HTTP "GET" "/api/Flowers" responded 200 in 67.0091 ms
+02/03/2024 12:42:15 HTTP "GET" "/api/Flowers" responded 200 in 12.9670 ms
+02/03/2024 12:42:19 HTTP "GET" "/api/Countries" responded 200 in 54.3892 ms
+02/03/2024 12:42:19 HTTP "GET" "/api/Colors" responded 200 in 65.7834 ms
+02/03/2024 12:42:19 HTTP "GET" "/api/FlowerCategories" responded 200 in 66.3651 ms
+02/03/2024 12:42:19 HTTP "GET" "/api/Countries" responded 200 in 17.9549 ms
+02/03/2024 12:42:19 HTTP "GET" "/api/Colors" responded 200 in 15.0137 ms
+02/03/2024 12:42:19 HTTP "GET" "/api/FlowerCategories" responded 200 in 19.9059 ms
+02/03/2024 12:42:22 HTTP "GET" "/api/Countries" responded 200 in 9.9882 ms
+02/03/2024 12:42:22 HTTP "GET" "/api/FlowerCategories" responded 200 in 17.9595 ms
+02/03/2024 12:42:22 HTTP "GET" "/api/Colors" responded 200 in 15.1915 ms
+02/03/2024 12:42:22 HTTP "GET" "/api/Countries" responded 200 in 14.3920 ms
+02/03/2024 12:42:22 HTTP "GET" "/api/Colors" responded 200 in 11.3502 ms
+02/03/2024 12:42:22 HTTP "GET" "/api/FlowerCategories" responded 200 in 12.6823 ms
+02/03/2024 12:42:59 HTTP "GET" "/api/Flowers" responded 200 in 152.6267 ms
+02/03/2024 12:42:59 HTTP "GET" "/api/Flowers" responded 200 in 90.8997 ms
+02/03/2024 12:43:01 HTTP "GET" "/api/FlowerCategories" responded 200 in 49.3674 ms
+02/03/2024 12:43:01 HTTP "GET" "/api/FlowerCategories" responded 200 in 10.2107 ms
+02/03/2024 12:43:01 HTTP "GET" "/api/Countries" responded 200 in 80.5221 ms
+02/03/2024 12:43:01 HTTP "GET" "/api/Colors" responded 200 in 85.6508 ms
+02/03/2024 12:43:01 HTTP "GET" "/api/Countries" responded 200 in 57.4246 ms
+02/03/2024 12:43:01 HTTP "GET" "/api/Colors" responded 200 in 62.1544 ms
+02/03/2024 12:44:15 Приложение запущено
+02/03/2024 12:44:23 HTTP "GET" "/swagger/index.html" responded 200 in 522.1875 ms
+02/03/2024 12:44:25 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 652.9417 ms
+02/03/2024 12:44:40 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/03/2024 12:44:40 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/03/2024 12:44:42 HTTP "GET" "/api/Flowers" responded 200 in 3232.5616 ms
+02/03/2024 12:44:42 HTTP "GET" "/api/Flowers" responded 200 in 93.4789 ms
+02/03/2024 12:44:45 HTTP "GET" "/api/Flowers" responded 200 in 144.4039 ms
+02/03/2024 12:44:45 HTTP "GET" "/api/Flowers" responded 200 in 16.5250 ms
+02/03/2024 12:44:47 HTTP "GET" "/api/FlowerCategories" responded 200 in 49.7872 ms
+02/03/2024 12:44:47 HTTP "GET" "/api/FlowerCategories" responded 200 in 8.8989 ms
+02/03/2024 12:44:47 HTTP "GET" "/api/Countries" responded 200 in 50.6201 ms
+02/03/2024 12:44:47 HTTP "GET" "/api/Colors" responded 200 in 70.5129 ms
+02/03/2024 12:44:47 HTTP "GET" "/api/Countries" responded 200 in 34.0799 ms
+02/03/2024 12:44:47 HTTP "GET" "/api/Colors" responded 200 in 36.0168 ms
+02/03/2024 12:46:11 HTTP "GET" "/api/Countries" responded 200 in 84.3989 ms
+02/03/2024 12:46:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 88.0591 ms
+02/03/2024 12:46:11 HTTP "GET" "/api/Colors" responded 200 in 93.2476 ms
+02/03/2024 12:46:11 HTTP "GET" "/api/Countries" responded 200 in 10.4741 ms
+02/03/2024 12:46:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 10.9402 ms
+02/03/2024 12:46:11 HTTP "GET" "/api/Colors" responded 200 in 9.2690 ms
+02/03/2024 12:46:19 HTTP "GET" "/api/Flowers" responded 200 in 99.3901 ms
+02/03/2024 12:46:19 HTTP "GET" "/api/Flowers" responded 200 in 24.6529 ms
+02/03/2024 12:46:21 HTTP "GET" "/api/FlowerCategories" responded 200 in 23.9839 ms
+02/03/2024 12:46:21 HTTP "GET" "/api/Colors" responded 200 in 30.8043 ms
+02/03/2024 12:46:21 HTTP "GET" "/api/Countries" responded 200 in 27.6070 ms
+02/03/2024 12:46:21 HTTP "GET" "/api/FlowerCategories" responded 200 in 37.7765 ms
+02/03/2024 12:46:21 HTTP "GET" "/api/Colors" responded 200 in 39.6192 ms
+02/03/2024 12:46:21 HTTP "GET" "/api/Countries" responded 200 in 41.4870 ms
+02/03/2024 12:55:48 HTTP "GET" "/api/Countries" responded 200 in 169.5120 ms
+02/03/2024 12:55:48 HTTP "GET" "/api/Colors" responded 200 in 176.2014 ms
+02/03/2024 12:55:48 HTTP "GET" "/api/FlowerCategories" responded 200 in 176.8606 ms
+02/03/2024 12:55:48 HTTP "GET" "/api/Countries" responded 200 in 10.6054 ms
+02/03/2024 12:55:48 HTTP "GET" "/api/Colors" responded 200 in 8.9214 ms
+02/03/2024 12:55:48 HTTP "GET" "/api/FlowerCategories" responded 200 in 11.3798 ms
+02/03/2024 12:55:55 HTTP "GET" "/api/Colors" responded 200 in 8.2511 ms
+02/03/2024 12:55:55 HTTP "GET" "/api/FlowerCategories" responded 200 in 8.6989 ms
+02/03/2024 12:55:55 HTTP "GET" "/api/Countries" responded 200 in 13.6283 ms
+02/03/2024 12:55:55 HTTP "GET" "/api/Colors" responded 200 in 14.4518 ms
+02/03/2024 12:55:55 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.8070 ms
+02/03/2024 12:55:55 HTTP "GET" "/api/Countries" responded 200 in 24.1958 ms
+02/03/2024 13:09:15 Приложение запущено
+02/03/2024 13:09:23 HTTP "GET" "/swagger/index.html" responded 200 in 675.9735 ms
+02/03/2024 13:09:26 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 584.4483 ms
+02/03/2024 13:09:26 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/03/2024 13:09:26 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/03/2024 13:09:29 HTTP "GET" "/api/Flowers" responded 200 in 6279.7496 ms
+02/03/2024 13:09:29 HTTP "GET" "/api/Flowers" responded 200 in 2675.5887 ms
+02/03/2024 13:09:29 HTTP "GET" "/api/Flowers" responded 200 in 219.4719 ms
+02/03/2024 13:09:31 HTTP "GET" "/api/FlowerCategories" responded 200 in 55.6263 ms
+02/03/2024 13:09:31 HTTP "GET" "/api/Colors" responded 200 in 55.1123 ms
+02/03/2024 13:09:31 HTTP "GET" "/api/Countries" responded 200 in 51.8440 ms
+02/03/2024 13:09:31 HTTP "GET" "/api/Colors" responded 200 in 12.5142 ms
+02/03/2024 13:09:31 HTTP "GET" "/api/FlowerCategories" responded 200 in 14.6620 ms
+02/03/2024 13:09:31 HTTP "GET" "/api/Countries" responded 200 in 14.6499 ms
+02/03/2024 13:09:35 HTTP "OPTIONS" "/api/UploadImages/71" responded 204 in 0.7834 ms
+02/03/2024 13:09:36 HTTP "DELETE" "/api/UploadImages/71" responded 200 in 846.5778 ms
+02/03/2024 13:09:51 HTTP "GET" "/api/Flowers" responded 200 in 18.9984 ms
+02/03/2024 13:09:52 HTTP "GET" "/api/Flowers" responded 200 in 35.5808 ms
+02/03/2024 13:09:55 HTTP "GET" "/api/Countries" responded 200 in 18.5195 ms
+02/03/2024 13:09:55 HTTP "GET" "/api/FlowerCategories" responded 200 in 27.7131 ms
+02/03/2024 13:09:55 HTTP "GET" "/api/Colors" responded 200 in 25.4267 ms
+02/03/2024 13:09:55 HTTP "GET" "/api/Colors" responded 200 in 16.2112 ms
+02/03/2024 13:09:55 HTTP "GET" "/api/Countries" responded 200 in 24.5626 ms
+02/03/2024 13:09:55 HTTP "GET" "/api/FlowerCategories" responded 200 in 29.3854 ms
+02/08/2024 12:42:19 HTTP "GET" "/api/Colors" responded 200 in 577.3396 ms
+02/08/2024 12:42:19 HTTP "GET" "/api/Countries" responded 200 in 574.1856 ms
+02/08/2024 12:42:19 HTTP "GET" "/api/FlowerCategories" responded 200 in 573.7131 ms
+02/08/2024 12:42:19 HTTP "GET" "/api/FlowerCategories" responded 200 in 22.6736 ms
+02/08/2024 12:42:19 HTTP "GET" "/api/Colors" responded 200 in 15.9891 ms
+02/08/2024 12:42:19 HTTP "GET" "/api/Countries" responded 200 in 16.5913 ms
+02/08/2024 18:52:43 Приложение запущено
+02/08/2024 18:52:48 HTTP "GET" "/swagger" responded 301 in 51.4503 ms
+02/08/2024 18:52:49 HTTP "GET" "/swagger/index.html" responded 200 in 336.5966 ms
+02/08/2024 18:52:49 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 85.2310 ms
+02/08/2024 18:52:49 HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 85.2356 ms
+02/08/2024 18:52:49 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 102.2578 ms
+02/08/2024 18:52:50 HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.9627 ms
+02/08/2024 18:52:51 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 904.4822 ms
+02/08/2024 18:54:36 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/08/2024 18:54:36 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/08/2024 18:54:39 HTTP "GET" "/api/Flowers" responded 200 in 4697.0946 ms
+02/08/2024 18:54:39 HTTP "GET" "/api/Flowers" responded 200 in 770.8982 ms
+02/08/2024 18:54:39 HTTP "GET" "/images/14012024 1348132 — копия.JPG" responded 304 in 4.9811 ms
+02/08/2024 18:54:39 HTTP "GET" "/images/3.JPG" responded 304 in 6.4286 ms
+02/08/2024 18:54:39 HTTP "GET" "/images/2.JPG" responded 304 in 0.5743 ms
+02/08/2024 18:54:39 HTTP "GET" "/images/21012024 160439photo_5287686246044390462_y.jpg" responded 304 in 2.6473 ms
+02/08/2024 18:54:39 HTTP "GET" "/api/Flowers" responded 200 in 178.8267 ms
+02/08/2024 18:54:45 HTTP "GET" "/api/Colors" responded 200 in 48.7524 ms
+02/08/2024 18:54:45 HTTP "GET" "/api/FlowerCategories" responded 200 in 48.7692 ms
+02/08/2024 18:54:45 HTTP "GET" "/api/Countries" responded 200 in 108.5059 ms
+02/08/2024 18:54:45 HTTP "GET" "/api/FlowerCategories" responded 200 in 20.8438 ms
+02/08/2024 18:54:45 HTTP "GET" "/api/Colors" responded 200 in 11.8822 ms
+02/08/2024 18:54:45 HTTP "GET" "/api/Countries" responded 200 in 12.3440 ms
+02/08/2024 19:14:05 HTTP "GET" "/api/Flowers" responded 200 in 181.3415 ms
+02/08/2024 19:14:05 HTTP "GET" "/api/Flowers" responded 200 in 8.8736 ms
+02/08/2024 19:14:10 HTTP "GET" "/api/Colors" responded 200 in 16.3199 ms
+02/08/2024 19:14:10 HTTP "GET" "/api/FlowerCategories" responded 200 in 21.7578 ms
+02/08/2024 19:14:10 HTTP "GET" "/api/Countries" responded 200 in 26.5222 ms
+02/08/2024 19:14:10 HTTP "GET" "/api/Colors" responded 200 in 10.4231 ms
+02/08/2024 19:14:10 HTTP "GET" "/api/FlowerCategories" responded 200 in 13.2494 ms
+02/08/2024 19:14:10 HTTP "GET" "/api/Countries" responded 200 in 46.0025 ms
+02/08/2024 19:24:45 HTTP "GET" "/api/Flowers" responded 200 in 223.7198 ms
+02/08/2024 19:24:45 HTTP "GET" "/api/Flowers" responded 200 in 13.4507 ms
+02/08/2024 19:43:12 HTTP "GET" "/api/Flowers" responded 200 in 343.8299 ms
+02/08/2024 19:43:12 HTTP "GET" "/api/Flowers" responded 200 in 16.3433 ms
+02/08/2024 19:45:36 Приложение запущено
+02/08/2024 19:45:41 HTTP "GET" "/swagger/index.html" responded 200 in 648.9968 ms
+02/08/2024 19:45:48 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 431.0226 ms
+02/08/2024 19:50:01 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/08/2024 19:50:01 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/08/2024 19:50:03 HTTP "GET" "/api/Flowers" responded 200 in 3847.0970 ms
+02/08/2024 19:50:03 HTTP "GET" "/api/Flowers" responded 200 in 1591.4270 ms
+02/08/2024 19:50:04 HTTP "GET" "/api/Flowers" responded 200 in 226.4894 ms
+02/08/2024 19:53:41 HTTP "GET" "/api/Flowers" responded 200 in 95.9793 ms
+02/08/2024 19:53:41 HTTP "GET" "/api/Flowers" responded 200 in 15.0656 ms
+02/08/2024 19:54:52 HTTP "GET" "/api/Flowers" responded 200 in 128.8300 ms
+02/08/2024 19:54:52 HTTP "GET" "/api/Flowers" responded 200 in 14.8359 ms
+02/08/2024 19:56:11 HTTP "GET" "/api/Flowers" responded 200 in 81.0585 ms
+02/08/2024 19:56:11 HTTP "GET" "/api/Flowers" responded 200 in 15.4178 ms
+02/08/2024 20:02:50 HTTP "GET" "/api/Flowers" responded 200 in 295.4646 ms
+02/08/2024 20:02:50 HTTP "GET" "/api/Flowers" responded 200 in 19.5355 ms
+02/08/2024 20:03:12 HTTP "GET" "/api/Flowers" responded 200 in 70.0438 ms
+02/08/2024 20:03:12 HTTP "GET" "/api/Flowers" responded 200 in 16.2901 ms
+02/08/2024 20:04:20 HTTP "GET" "/api/Flowers" responded 200 in 68.6467 ms
+02/08/2024 20:04:20 HTTP "GET" "/api/Flowers" responded 200 in 43.3235 ms
+02/08/2024 20:05:13 HTTP "GET" "/api/Flowers" responded 200 in 18.3079 ms
+02/08/2024 20:05:13 HTTP "GET" "/api/Flowers" responded 200 in 14.6743 ms
+02/08/2024 20:25:13 HTTP "GET" "/api/Flowers" responded 200 in 353.2300 ms
+02/08/2024 20:25:13 HTTP "GET" "/api/Flowers" responded 200 in 20.1399 ms
+02/08/2024 20:27:29 HTTP "GET" "/api/Flowers" responded 200 in 248.5658 ms
+02/08/2024 20:27:29 HTTP "GET" "/api/Flowers" responded 200 in 26.0275 ms
+02/08/2024 20:28:31 HTTP "GET" "/api/Flowers" responded 200 in 41.5355 ms
+02/08/2024 20:28:31 HTTP "GET" "/api/Flowers" responded 200 in 13.2877 ms
+02/08/2024 20:28:57 HTTP "GET" "/api/Flowers" responded 200 in 70.2561 ms
+02/08/2024 20:28:57 HTTP "GET" "/api/Flowers" responded 200 in 26.0756 ms
+02/08/2024 20:30:44 HTTP "GET" "/api/Flowers" responded 200 in 178.0108 ms
+02/08/2024 20:30:44 HTTP "GET" "/api/Flowers" responded 200 in 16.5389 ms
+02/08/2024 20:34:07 HTTP "GET" "/api/Flowers" responded 200 in 276.6089 ms
+02/08/2024 20:34:07 HTTP "GET" "/api/Flowers" responded 200 in 16.0590 ms
+02/08/2024 20:34:45 HTTP "GET" "/api/Flowers" responded 200 in 25.3672 ms
+02/08/2024 20:34:45 HTTP "GET" "/api/Flowers" responded 200 in 17.2624 ms
+02/08/2024 20:38:13 HTTP "GET" "/api/Flowers" responded 200 in 459.8226 ms
+02/08/2024 20:38:13 HTTP "GET" "/api/Flowers" responded 200 in 93.8505 ms
+02/08/2024 20:38:51 HTTP "GET" "/api/Flowers" responded 200 in 279.6160 ms
+02/08/2024 20:38:51 HTTP "GET" "/api/Flowers" responded 200 in 52.3148 ms
+02/11/2024 12:21:36 Приложение запущено
+02/11/2024 12:21:40 HTTP "GET" "/swagger" responded 301 in 52.6822 ms
+02/11/2024 12:21:41 HTTP "GET" "/swagger/index.html" responded 200 in 264.1755 ms
+02/11/2024 12:21:41 HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 47.8255 ms
+02/11/2024 12:21:41 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 61.8224 ms
+02/11/2024 12:21:41 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 96.8942 ms
+02/11/2024 12:21:42 HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.4058 ms
+02/11/2024 12:21:42 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 492.1282 ms
+02/11/2024 12:23:20 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/11/2024 12:23:20 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/11/2024 12:23:23 HTTP "GET" "/api/Flowers" responded 200 in 5021.6542 ms
+02/11/2024 12:23:23 HTTP "GET" "/api/Flowers" responded 200 in 78.7380 ms
+02/11/2024 12:23:23 HTTP "GET" "/images/14012024 1348132 — копия.JPG" responded 304 in 6.3356 ms
+02/11/2024 12:23:23 HTTP "GET" "/images/3.JPG" responded 304 in 8.8325 ms
+02/11/2024 12:23:23 HTTP "GET" "/images/2.JPG" responded 304 in 9.1766 ms
+02/11/2024 12:23:23 HTTP "GET" "/images/21012024 160439photo_5287686246044390462_y.jpg" responded 304 in 7.2385 ms
+02/11/2024 12:31:38 HTTP "GET" "/api/Flowers" responded 200 in 427.1470 ms
+02/11/2024 12:31:38 HTTP "GET" "/api/Flowers" responded 200 in 19.0407 ms
+02/11/2024 12:34:23 HTTP "GET" "/api/Flowers" responded 200 in 164.4975 ms
+02/11/2024 12:34:23 HTTP "GET" "/api/Flowers" responded 200 in 356.8909 ms
+02/11/2024 12:37:46 HTTP "GET" "/api/Flowers" responded 200 in 57.2560 ms
+02/11/2024 12:37:46 HTTP "GET" "/api/Flowers" responded 200 in 17.7898 ms
+02/11/2024 12:37:51 HTTP "GET" "/api/Flowers" responded 200 in 81.4272 ms
+02/11/2024 12:37:51 HTTP "GET" "/api/Flowers" responded 200 in 31.0659 ms
+02/11/2024 12:50:58 HTTP "GET" "/api/Flowers" responded 200 in 585.7454 ms
+02/11/2024 12:50:59 HTTP "GET" "/api/Flowers" responded 200 in 16.4884 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Colors" responded 200 in 763.6535 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 885.1997 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Countries" responded 200 in 686.1791 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Flowers" responded 200 in 1020.8948 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Colors" responded 200 in 162.3958 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 94.2427 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Countries" responded 200 in 45.7494 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Colors" responded 200 in 29.9351 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Flowers" responded 200 in 60.7854 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 50.1396 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Colors" responded 200 in 50.8904 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/FlowerCategories" responded 200 in 75.8057 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Countries" responded 200 in 12.0714 ms
+02/11/2024 13:00:09 HTTP "GET" "/api/Countries" responded 200 in 13.2551 ms
+02/11/2024 13:01:35 HTTP "GET" "/api/Flowers" responded 200 in 146.6237 ms
+02/11/2024 13:01:35 HTTP "GET" "/api/Flowers" responded 200 in 37.5380 ms
+02/11/2024 13:02:38 HTTP "GET" "/api/Flowers" responded 200 in 164.7234 ms
+02/11/2024 13:02:38 HTTP "GET" "/api/Flowers" responded 200 in 48.9298 ms
+02/11/2024 13:03:12 HTTP "GET" "/api/Flowers" responded 200 in 174.2086 ms
+02/11/2024 13:03:12 HTTP "GET" "/api/Flowers" responded 200 in 23.0117 ms
+02/11/2024 13:03:17 HTTP "GET" "/api/Flowers" responded 200 in 81.5937 ms
+02/11/2024 13:03:17 HTTP "GET" "/api/Flowers" responded 200 in 28.6534 ms
+02/11/2024 13:04:52 HTTP "GET" "/api/Flowers" responded 200 in 329.1845 ms
+02/11/2024 13:04:52 HTTP "GET" "/api/Flowers" responded 200 in 42.9191 ms
+02/11/2024 13:05:24 HTTP "GET" "/api/Flowers" responded 200 in 106.5306 ms
+02/11/2024 13:05:24 HTTP "GET" "/api/Flowers" responded 200 in 30.7805 ms
+02/11/2024 13:06:16 HTTP "GET" "/api/Flowers" responded 200 in 198.0868 ms
+02/11/2024 13:06:16 HTTP "GET" "/api/Flowers" responded 200 in 35.1133 ms
+02/11/2024 13:07:55 HTTP "GET" "/api/Flowers" responded 200 in 125.9577 ms
+02/11/2024 13:07:55 HTTP "GET" "/api/Flowers" responded 200 in 22.4499 ms
+02/11/2024 13:08:50 HTTP "GET" "/api/Flowers" responded 200 in 215.3103 ms
+02/11/2024 13:08:50 HTTP "GET" "/api/Flowers" responded 200 in 27.2601 ms
+02/11/2024 13:11:34 HTTP "GET" "/api/Flowers" responded 200 in 245.2766 ms
+02/11/2024 13:11:34 HTTP "GET" "/api/Flowers" responded 200 in 22.0393 ms
+02/11/2024 13:12:34 HTTP "GET" "/api/Flowers" responded 200 in 292.6504 ms
+02/11/2024 13:12:34 HTTP "GET" "/api/Flowers" responded 200 in 69.2969 ms
+02/11/2024 13:14:51 HTTP "GET" "/api/Flowers" responded 200 in 132.1463 ms
+02/11/2024 13:14:51 HTTP "GET" "/api/Flowers" responded 200 in 87.1291 ms
+02/11/2024 13:14:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 347.3610 ms
+02/11/2024 13:14:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 101.9250 ms
+02/11/2024 13:17:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 83.8704 ms
+02/11/2024 13:17:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 14.7551 ms
+02/11/2024 13:17:43 HTTP "GET" "/api/Flowers" responded 200 in 336.6700 ms
+02/11/2024 13:17:43 HTTP "GET" "/api/Flowers" responded 200 in 83.8544 ms
+02/11/2024 13:17:44 HTTP "GET" "/api/Countries" responded 200 in 192.3119 ms
+02/11/2024 13:17:44 HTTP "GET" "/api/FlowerCategories" responded 200 in 264.1033 ms
+02/11/2024 13:17:44 HTTP "GET" "/api/Colors" responded 200 in 281.3188 ms
+02/11/2024 13:17:44 HTTP "GET" "/api/Countries" responded 200 in 69.3913 ms
+02/11/2024 13:17:44 HTTP "GET" "/api/FlowerCategories" responded 200 in 66.9513 ms
+02/11/2024 13:17:45 HTTP "GET" "/api/Colors" responded 200 in 113.8930 ms
+02/11/2024 13:21:02 HTTP "GET" "/api/Flowers" responded 200 in 250.7673 ms
+02/11/2024 13:21:02 HTTP "GET" "/api/Flowers" responded 200 in 58.8846 ms
+02/11/2024 13:21:07 HTTP "GET" "/api/FlowerCategories" responded 200 in 138.0772 ms
+02/11/2024 13:21:07 HTTP "GET" "/api/Colors" responded 200 in 138.1805 ms
+02/11/2024 13:21:07 HTTP "GET" "/api/Countries" responded 200 in 98.3778 ms
+02/11/2024 13:21:07 HTTP "GET" "/api/FlowerCategories" responded 200 in 21.3278 ms
+02/11/2024 13:21:07 HTTP "GET" "/api/Colors" responded 200 in 16.9642 ms
+02/11/2024 13:21:07 HTTP "GET" "/api/Countries" responded 200 in 8.5104 ms
+02/11/2024 13:48:24 HTTP "GET" "/api/Colors" responded 200 in 335.5272 ms
+02/11/2024 13:48:24 HTTP "GET" "/api/Countries" responded 200 in 331.4445 ms
+02/11/2024 13:48:24 HTTP "GET" "/api/FlowerCategories" responded 200 in 345.1563 ms
+02/11/2024 13:48:24 HTTP "GET" "/api/Countries" responded 200 in 23.0447 ms
+02/11/2024 13:48:24 HTTP "GET" "/api/Colors" responded 200 in 24.0636 ms
+02/11/2024 13:48:24 HTTP "GET" "/api/FlowerCategories" responded 200 in 9.7502 ms
+02/11/2024 13:48:42 HTTP "GET" "/api/FlowerCategories" responded 200 in 17.1485 ms
+02/11/2024 13:48:42 HTTP "GET" "/api/Countries" responded 200 in 14.1182 ms
+02/11/2024 13:48:42 HTTP "GET" "/api/Colors" responded 200 in 16.0869 ms
+02/11/2024 13:48:42 HTTP "GET" "/api/Countries" responded 200 in 13.6676 ms
+02/11/2024 13:48:42 HTTP "GET" "/api/FlowerCategories" responded 200 in 22.3866 ms
+02/11/2024 13:48:42 HTTP "GET" "/api/Colors" responded 200 in 26.2443 ms
+02/11/2024 14:08:39 HTTP "GET" "/api/Flowers" responded 200 in 531.5992 ms
+02/11/2024 14:08:39 HTTP "GET" "/api/Flowers" responded 200 in 17.9339 ms
+02/11/2024 14:08:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 297.6724 ms
+02/11/2024 14:08:43 HTTP "GET" "/api/Countries" responded 200 in 197.1863 ms
+02/11/2024 14:08:43 HTTP "GET" "/api/Colors" responded 200 in 243.5642 ms
+02/11/2024 14:08:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.1426 ms
+02/11/2024 14:08:43 HTTP "GET" "/api/Colors" responded 200 in 34.4620 ms
+02/11/2024 14:08:43 HTTP "GET" "/api/Countries" responded 200 in 62.6100 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Colors" responded 200 in 555.7675 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Countries" responded 200 in 558.2471 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/FlowerCategories" responded 200 in 638.0298 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Colors" responded 200 in 263.6608 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Countries" responded 200 in 247.2318 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Flowers" responded 200 in 892.6876 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/FlowerCategories" responded 200 in 119.5504 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Colors" responded 200 in 69.1856 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Colors" responded 200 in 83.8924 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Flowers" responded 200 in 38.1621 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Countries" responded 200 in 97.5453 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/Countries" responded 200 in 75.6498 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.7597 ms
+02/11/2024 14:16:16 HTTP "GET" "/api/FlowerCategories" responded 200 in 23.3477 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/FlowerCategories" responded 200 in 93.0845 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Countries" responded 200 in 22.8803 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Colors" responded 200 in 44.8793 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Flowers" responded 200 in 35.3569 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/FlowerCategories" responded 200 in 29.9857 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Countries" responded 200 in 58.7435 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Colors" responded 200 in 59.1570 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/FlowerCategories" responded 200 in 39.6950 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Flowers" responded 200 in 68.4790 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Countries" responded 200 in 25.8566 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Countries" responded 200 in 28.8644 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Colors" responded 200 in 18.8579 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/FlowerCategories" responded 200 in 33.1308 ms
+02/11/2024 14:16:36 HTTP "GET" "/api/Colors" responded 200 in 24.9200 ms
+02/11/2024 14:16:50 HTTP "GET" "/api/Flowers" responded 200 in 40.8486 ms
+02/11/2024 14:16:50 HTTP "GET" "/api/Flowers" responded 200 in 67.4127 ms
+02/11/2024 14:18:40 HTTP "GET" "/api/Flowers" responded 200 in 280.0879 ms
+02/11/2024 14:18:40 HTTP "GET" "/api/Flowers" responded 200 in 85.6053 ms
+02/11/2024 14:18:44 HTTP "GET" "/api/FlowerCategories" responded 200 in 152.7045 ms
+02/11/2024 14:18:44 HTTP "GET" "/api/Colors" responded 200 in 148.9869 ms
+02/11/2024 14:18:44 HTTP "GET" "/api/Countries" responded 200 in 177.6138 ms
+02/11/2024 14:18:44 HTTP "GET" "/api/FlowerCategories" responded 200 in 15.0932 ms
+02/11/2024 14:18:44 HTTP "GET" "/api/Colors" responded 200 in 15.1318 ms
+02/11/2024 14:18:44 HTTP "GET" "/api/Countries" responded 200 in 15.8734 ms
+02/11/2024 14:20:58 HTTP "GET" "/api/Flowers" responded 200 in 120.7392 ms
+02/11/2024 14:20:58 HTTP "GET" "/api/Flowers" responded 200 in 18.3005 ms
+02/11/2024 14:21:03 HTTP "GET" "/api/FlowerCategories" responded 200 in 35.4183 ms
+02/11/2024 14:21:03 HTTP "GET" "/api/Colors" responded 200 in 37.2488 ms
+02/11/2024 14:21:03 HTTP "GET" "/api/Countries" responded 200 in 103.1481 ms
+02/11/2024 14:21:03 HTTP "GET" "/api/FlowerCategories" responded 200 in 72.7312 ms
+02/11/2024 14:21:03 HTTP "GET" "/api/Colors" responded 200 in 60.4460 ms
+02/11/2024 14:21:03 HTTP "GET" "/api/Countries" responded 200 in 18.2075 ms
+02/11/2024 14:22:45 HTTP "GET" "/api/Flowers" responded 200 in 779.2470 ms
+02/11/2024 14:22:45 HTTP "GET" "/api/Flowers" responded 200 in 238.0894 ms
+02/11/2024 14:22:49 HTTP "GET" "/api/FlowerCategories" responded 200 in 624.7168 ms
+02/11/2024 14:22:49 HTTP "GET" "/api/Countries" responded 200 in 235.1462 ms
+02/11/2024 14:22:49 HTTP "GET" "/api/FlowerCategories" responded 200 in 33.7806 ms
+02/11/2024 14:22:49 HTTP "GET" "/api/Colors" responded 200 in 625.1648 ms
+02/11/2024 14:22:49 HTTP "GET" "/api/Countries" responded 200 in 41.0826 ms
+02/11/2024 14:22:49 HTTP "GET" "/api/Colors" responded 200 in 42.5670 ms
+02/11/2024 14:23:15 HTTP "GET" "/api/Flowers" responded 200 in 99.4156 ms
+02/11/2024 14:23:15 HTTP "GET" "/api/Flowers" responded 200 in 49.7307 ms
+02/11/2024 14:23:19 HTTP "GET" "/api/FlowerCategories" responded 200 in 115.7555 ms
+02/11/2024 14:23:19 HTTP "GET" "/api/Colors" responded 200 in 98.1331 ms
+02/11/2024 14:23:19 HTTP "GET" "/api/Countries" responded 200 in 85.1957 ms
+02/11/2024 14:23:19 HTTP "GET" "/api/FlowerCategories" responded 200 in 30.5136 ms
+02/11/2024 14:23:20 HTTP "GET" "/api/Colors" responded 200 in 91.2888 ms
+02/11/2024 14:23:20 HTTP "GET" "/api/Countries" responded 200 in 106.1730 ms
+02/11/2024 14:24:29 HTTP "GET" "/api/Flowers" responded 200 in 283.3997 ms
+02/11/2024 14:24:29 HTTP "GET" "/api/Flowers" responded 200 in 26.1179 ms
+02/11/2024 14:24:36 HTTP "GET" "/api/FlowerCategories" responded 200 in 12.8032 ms
+02/11/2024 14:24:36 HTTP "GET" "/api/Colors" responded 200 in 21.9472 ms
+02/11/2024 14:24:36 HTTP "GET" "/api/Countries" responded 200 in 19.0264 ms
+02/11/2024 14:24:37 HTTP "GET" "/api/Colors" responded 200 in 234.4021 ms
+02/11/2024 14:24:37 HTTP "GET" "/api/FlowerCategories" responded 200 in 266.2447 ms
+02/11/2024 14:24:37 HTTP "GET" "/api/Countries" responded 200 in 265.9645 ms
+02/11/2024 14:25:46 HTTP "GET" "/api/Flowers" responded 200 in 198.2049 ms
+02/11/2024 14:25:47 HTTP "GET" "/api/Flowers" responded 200 in 158.4133 ms
+02/11/2024 14:25:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 43.3786 ms
+02/11/2024 14:25:50 HTTP "GET" "/api/Colors" responded 200 in 48.3308 ms
+02/11/2024 14:25:50 HTTP "GET" "/api/Countries" responded 200 in 48.2334 ms
+02/11/2024 14:25:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 53.5085 ms
+02/11/2024 14:25:50 HTTP "GET" "/api/Countries" responded 200 in 47.7954 ms
+02/11/2024 14:25:50 HTTP "GET" "/api/Colors" responded 200 in 51.3913 ms
+02/11/2024 14:28:19 HTTP "GET" "/api/Flowers" responded 200 in 273.4292 ms
+02/11/2024 14:28:19 HTTP "GET" "/api/Flowers" responded 200 in 22.5502 ms
+02/11/2024 14:30:02 HTTP "GET" "/api/Flowers" responded 200 in 174.3426 ms
+02/11/2024 14:30:02 HTTP "GET" "/api/Flowers" responded 200 in 29.5836 ms
+02/11/2024 14:30:06 HTTP "GET" "/api/Colors" responded 200 in 224.8499 ms
+02/11/2024 14:30:06 HTTP "GET" "/api/FlowerCategories" responded 200 in 238.4061 ms
+02/11/2024 14:30:06 HTTP "GET" "/api/Colors" responded 200 in 21.8399 ms
+02/11/2024 14:30:06 HTTP "GET" "/api/Countries" responded 200 in 62.5598 ms
+02/11/2024 14:30:06 HTTP "GET" "/api/FlowerCategories" responded 200 in 24.8957 ms
+02/11/2024 14:30:06 HTTP "GET" "/api/Countries" responded 200 in 23.2344 ms
+02/11/2024 14:37:25 HTTP "GET" "/api/Flowers" responded 200 in 628.1801 ms
+02/11/2024 14:37:25 HTTP "GET" "/api/Flowers" responded 200 in 20.7755 ms
+02/11/2024 14:38:17 HTTP "GET" "/api/Flowers" responded 200 in 340.8694 ms
+02/11/2024 14:38:17 HTTP "GET" "/api/Flowers" responded 200 in 27.5489 ms
+02/11/2024 14:46:04 HTTP "GET" "/api/Flowers" responded 200 in 699.3780 ms
+02/11/2024 14:46:04 HTTP "GET" "/api/Flowers" responded 200 in 16.5657 ms
+02/11/2024 14:49:34 HTTP "GET" "/api/Flowers" responded 200 in 304.8939 ms
+02/11/2024 14:49:34 HTTP "GET" "/api/Flowers" responded 200 in 21.0789 ms
+02/11/2024 14:50:07 HTTP "GET" "/api/Flowers" responded 200 in 35.4801 ms
+02/11/2024 14:50:07 HTTP "GET" "/api/Flowers" responded 200 in 109.9634 ms
+02/11/2024 14:50:12 HTTP "GET" "/api/FlowerCategories" responded 200 in 93.1530 ms
+02/11/2024 14:50:12 HTTP "GET" "/api/FlowerCategories" responded 200 in 17.7160 ms
+02/11/2024 14:50:12 HTTP "GET" "/api/Countries" responded 200 in 192.1468 ms
+02/11/2024 14:50:12 HTTP "GET" "/api/Colors" responded 200 in 238.7239 ms
+02/11/2024 14:50:12 HTTP "GET" "/api/Colors" responded 200 in 93.8126 ms
+02/11/2024 14:50:12 HTTP "GET" "/api/Countries" responded 200 in 125.7896 ms
+02/11/2024 14:54:30 HTTP "GET" "/api/Flowers" responded 200 in 89.1705 ms
+02/11/2024 14:54:30 HTTP "GET" "/api/Flowers" responded 200 in 18.6077 ms
+02/11/2024 14:54:33 HTTP "GET" "/api/FlowerCategories" responded 200 in 421.9189 ms
+02/11/2024 14:54:34 HTTP "GET" "/api/Countries" responded 200 in 541.3684 ms
+02/11/2024 14:54:34 HTTP "GET" "/api/FlowerCategories" responded 200 in 77.7382 ms
+02/11/2024 14:54:34 HTTP "GET" "/api/Colors" responded 200 in 570.3448 ms
+02/11/2024 14:54:34 HTTP "GET" "/api/Colors" responded 200 in 192.5567 ms
+02/11/2024 14:54:34 HTTP "GET" "/api/Countries" responded 200 in 242.5031 ms
+02/11/2024 15:03:09 HTTP "GET" "/api/Flowers" responded 200 in 486.8915 ms
+02/11/2024 15:03:09 HTTP "GET" "/api/Flowers" responded 200 in 27.6955 ms
+02/11/2024 15:03:12 HTTP "GET" "/api/FlowerCategories" responded 200 in 65.6387 ms
+02/11/2024 15:03:12 HTTP "GET" "/api/Countries" responded 200 in 49.2700 ms
+02/11/2024 15:03:12 HTTP "GET" "/api/Colors" responded 200 in 61.7597 ms
+02/11/2024 15:03:12 HTTP "GET" "/api/Countries" responded 200 in 14.5713 ms
+02/11/2024 15:03:12 HTTP "GET" "/api/FlowerCategories" responded 200 in 36.9842 ms
+02/11/2024 15:03:12 HTTP "GET" "/api/Colors" responded 200 in 15.1474 ms
+02/11/2024 15:09:07 HTTP "GET" "/api/Flowers" responded 200 in 272.2200 ms
+02/11/2024 15:09:07 HTTP "GET" "/api/Flowers" responded 200 in 50.6042 ms
+02/11/2024 15:09:46 HTTP "GET" "/api/FlowerCategories" responded 200 in 16.3246 ms
+02/11/2024 15:09:46 HTTP "GET" "/api/Countries" responded 200 in 13.8858 ms
+02/11/2024 15:09:46 HTTP "GET" "/api/Colors" responded 200 in 18.4180 ms
+02/11/2024 15:09:46 HTTP "GET" "/api/FlowerCategories" responded 200 in 13.6885 ms
+02/11/2024 15:09:46 HTTP "GET" "/api/Colors" responded 200 in 20.8525 ms
+02/11/2024 15:09:46 HTTP "GET" "/api/Countries" responded 200 in 17.0411 ms
+02/12/2024 19:10:18 Приложение запущено
+02/12/2024 19:10:23 HTTP "GET" "/swagger" responded 301 in 2.2230 ms
+02/12/2024 19:10:24 HTTP "GET" "/swagger/index.html" responded 200 in 627.6453 ms
+02/12/2024 19:10:24 HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 125.9120 ms
+02/12/2024 19:10:24 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 129.4046 ms
+02/12/2024 19:10:25 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 1008.7063 ms
+02/12/2024 19:10:26 HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.2160 ms
+02/12/2024 19:10:26 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 688.0496 ms
+02/12/2024 19:10:27 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 19:10:27 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 19:10:31 HTTP "GET" "/api/Flowers" responded 200 in 8297.3019 ms
+02/12/2024 19:11:03 HTTP "GET" "/api/Flowers" responded 200 in 85.2773 ms
+02/12/2024 19:26:37 HTTP "PUT" "/api/Flowers/4" responded 500 in 617.7827 ms
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/12/2024 19:26:37 An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/12/2024 19:27:49 HTTP "PUT" "/api/Flowers/4" responded 500 in 54.5612 ms
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/12/2024 19:27:49 An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/12/2024 19:30:08 Приложение запущено
+02/12/2024 19:30:14 HTTP "GET" "/swagger/index.html" responded 200 in 497.0019 ms
+02/12/2024 19:30:14 HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 31.1672 ms
+02/12/2024 19:30:14 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 23.1073 ms
+02/12/2024 19:30:14 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 4.8606 ms
+02/12/2024 19:30:21 HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.2238 ms
+02/12/2024 19:30:21 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 522.9674 ms
+02/12/2024 19:33:56 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 19:33:56 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 19:33:58 HTTP "GET" "/api/Flowers" responded 200 in 3308.8051 ms
+02/12/2024 19:33:58 HTTP "GET" "/api/Flowers" responded 200 in 69.0585 ms
+02/12/2024 19:35:01 HTTP "PUT" "/api/Flowers/4" responded 200 in 354.8433 ms
+02/12/2024 19:44:34 Приложение запущено
+02/12/2024 19:44:39 HTTP "GET" "/swagger" responded 301 in 59.3569 ms
+02/12/2024 19:44:40 HTTP "GET" "/swagger/index.html" responded 200 in 544.2256 ms
+02/12/2024 19:44:42 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 628.0337 ms
+02/12/2024 19:46:01 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 19:46:01 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 19:46:03 HTTP "GET" "/api/Flowers" responded 200 in 3327.2642 ms
+02/12/2024 19:46:03 HTTP "GET" "/api/Flowers" responded 200 in 1215.6459 ms
+02/12/2024 19:46:03 HTTP "GET" "/api/Flowers" responded 200 in 199.7232 ms
+02/12/2024 19:46:07 HTTP "GET" "/api/Colors" responded 200 in 42.6883 ms
+02/12/2024 19:46:07 HTTP "GET" "/api/FlowerCategories" responded 200 in 43.3024 ms
+02/12/2024 19:46:07 HTTP "GET" "/api/Countries" responded 200 in 43.1843 ms
+02/12/2024 19:46:07 HTTP "GET" "/api/Countries" responded 200 in 11.2596 ms
+02/12/2024 19:46:07 HTTP "GET" "/api/FlowerCategories" responded 200 in 16.3852 ms
+02/12/2024 19:46:07 HTTP "GET" "/api/Colors" responded 200 in 18.2828 ms
+02/12/2024 19:46:34 HTTP "OPTIONS" "/api/Flowers/5" responded 204 in 1.6697 ms
+02/12/2024 19:46:35 HTTP "PUT" "/api/Flowers/5" responded 200 in 283.6360 ms
+02/12/2024 19:46:45 HTTP "GET" "/api/Flowers" responded 200 in 99.0458 ms
+02/12/2024 19:46:45 HTTP "GET" "/api/Flowers" responded 200 in 26.8117 ms
+02/12/2024 19:47:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 8.8622 ms
+02/12/2024 19:47:13 HTTP "GET" "/api/Colors" responded 200 in 9.0748 ms
+02/12/2024 19:47:13 HTTP "GET" "/api/Countries" responded 200 in 12.4179 ms
+02/12/2024 19:47:13 HTTP "GET" "/api/Colors" responded 200 in 11.0587 ms
+02/12/2024 19:47:13 HTTP "GET" "/api/FlowerCategories" responded 200 in 23.9662 ms
+02/12/2024 19:47:13 HTTP "GET" "/api/Countries" responded 200 in 18.1947 ms
+02/12/2024 19:47:28 HTTP "OPTIONS" "/api/Flowers/5" responded 204 in 0.4037 ms
+02/12/2024 19:47:28 HTTP "PUT" "/api/Flowers/5" responded 200 in 71.8264 ms
+02/12/2024 19:47:28 Failed executing DbCommand ("11"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [f].[Id], [f].[Title]
+FROM [FlowersCategories] AS [f]
+WHERE [f].[Id] = @__p_0"
+02/12/2024 19:47:28 An exception occurred while iterating over the results of a query for context type '"webapi.Data.DataContext"'."
+""System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+02/12/2024 19:47:39 HTTP "GET" "/api/Flowers" responded 200 in 90.9703 ms
+02/12/2024 19:47:39 HTTP "GET" "/api/Flowers" responded 200 in 21.7291 ms
+02/12/2024 19:48:41 HTTP "GET" "/api/Flowers" responded 200 in 145.8945 ms
+02/12/2024 19:48:42 HTTP "GET" "/api/Flowers" responded 200 in 167.5731 ms
+02/12/2024 19:48:53 HTTP "GET" "/api/Colors" responded 200 in 87.2556 ms
+02/12/2024 19:48:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 90.3775 ms
+02/12/2024 19:48:53 HTTP "GET" "/api/Countries" responded 200 in 174.0919 ms
+02/12/2024 19:48:53 HTTP "GET" "/api/Colors" responded 200 in 29.3958 ms
+02/12/2024 19:48:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 38.4162 ms
+02/12/2024 19:48:53 HTTP "GET" "/api/Countries" responded 200 in 50.0856 ms
+02/12/2024 19:49:09 HTTP "OPTIONS" "/api/Flowers/5" responded 204 in 0.1137 ms
+02/12/2024 19:49:09 HTTP "PUT" "/api/Flowers/5" responded 200 in 20.6124 ms
+02/12/2024 19:49:09 Failed executing DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [f].[Id], [f].[Title]
+FROM [FlowersCategories] AS [f]
+WHERE [f].[Id] = @__p_0"
+02/12/2024 19:49:09 An exception occurred while iterating over the results of a query for context type '"webapi.Data.DataContext"'."
+""System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+02/12/2024 19:49:59 HTTP "GET" "/api/FlowerCategories" responded 200 in 196.8922 ms
+02/12/2024 19:49:59 HTTP "GET" "/api/Colors" responded 200 in 140.6875 ms
+02/12/2024 19:49:59 HTTP "GET" "/api/Countries" responded 200 in 82.0680 ms
+02/12/2024 19:49:59 HTTP "GET" "/api/FlowerCategories" responded 200 in 24.5352 ms
+02/12/2024 19:49:59 HTTP "GET" "/api/Colors" responded 200 in 25.7405 ms
+02/12/2024 19:49:59 HTTP "GET" "/api/Countries" responded 200 in 16.0999 ms
+02/12/2024 19:50:15 HTTP "OPTIONS" "/api/Flowers/6" responded 204 in 0.0887 ms
+02/12/2024 19:50:15 HTTP "PUT" "/api/Flowers/6" responded 200 in 14.3738 ms
+02/12/2024 19:50:15 Failed executing DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [f].[Id], [f].[Title]
+FROM [FlowersCategories] AS [f]
+WHERE [f].[Id] = @__p_0"
+02/12/2024 19:50:15 An exception occurred while iterating over the results of a query for context type '"webapi.Data.DataContext"'."
+""System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+02/12/2024 19:51:01 HTTP "GET" "/api/Colors" responded 200 in 57.6400 ms
+02/12/2024 19:51:01 HTTP "GET" "/api/FlowerCategories" responded 200 in 241.5413 ms
+02/12/2024 19:51:01 HTTP "GET" "/api/Countries" responded 200 in 83.6276 ms
+02/12/2024 19:51:01 HTTP "GET" "/api/FlowerCategories" responded 200 in 11.2493 ms
+02/12/2024 19:51:01 HTTP "GET" "/api/Colors" responded 200 in 54.5809 ms
+02/12/2024 19:51:01 HTTP "GET" "/api/Countries" responded 200 in 76.1807 ms
+02/12/2024 19:51:18 HTTP "OPTIONS" "/api/Flowers/5" responded 204 in 0.0898 ms
+02/12/2024 19:51:18 HTTP "PUT" "/api/Flowers/5" responded 200 in 16.1211 ms
+02/12/2024 19:51:18 Failed executing DbCommand ("15"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [c].[Id], [c].[ColorName]
+FROM [Colors] AS [c]
+WHERE [c].[Id] = @__p_0"
+02/12/2024 19:51:18 An exception occurred while iterating over the results of a query for context type '"webapi.Data.DataContext"'."
+""System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+02/12/2024 19:53:12 HTTP "GET" "/api/FlowerCategories" responded 200 in 252.5329 ms
+02/12/2024 19:53:12 HTTP "GET" "/api/Colors" responded 200 in 260.6308 ms
+02/12/2024 19:53:12 HTTP "GET" "/api/FlowerCategories" responded 200 in 23.3502 ms
+02/12/2024 19:53:12 HTTP "GET" "/api/Countries" responded 200 in 300.4751 ms
+02/12/2024 19:53:12 HTTP "GET" "/api/Colors" responded 200 in 16.0591 ms
+02/12/2024 19:53:12 HTTP "GET" "/api/Countries" responded 200 in 32.1346 ms
+02/12/2024 19:53:14 HTTP "OPTIONS" "/api/Flowers/5" responded 204 in 0.1599 ms
+02/12/2024 19:53:14 HTTP "PUT" "/api/Flowers/5" responded 400 in 32.0254 ms
+02/12/2024 19:57:18 HTTP "GET" "/api/Colors" responded 200 in 66.7033 ms
+02/12/2024 19:57:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 71.4923 ms
+02/12/2024 19:57:18 HTTP "GET" "/api/Countries" responded 200 in 113.7926 ms
+02/12/2024 19:57:18 HTTP "GET" "/api/Colors" responded 200 in 80.4053 ms
+02/12/2024 19:57:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 67.8291 ms
+02/12/2024 19:57:18 HTTP "GET" "/api/Countries" responded 200 in 17.7809 ms
+02/12/2024 19:57:42 HTTP "OPTIONS" "/api/Flowers/6" responded 204 in 0.0648 ms
+02/12/2024 19:57:42 HTTP "PUT" "/api/Flowers/6" responded 200 in 54.0970 ms
+02/12/2024 19:57:42 Failed executing DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [f].[Id], [f].[Title]
+FROM [FlowersCategories] AS [f]
+WHERE [f].[Id] = @__p_0"
+02/12/2024 19:57:42 An exception occurred while iterating over the results of a query for context type '"webapi.Data.DataContext"'."
+""System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+02/12/2024 19:58:56 HTTP "GET" "/api/Colors" responded 200 in 223.3537 ms
+02/12/2024 19:58:56 HTTP "GET" "/api/FlowerCategories" responded 200 in 290.9447 ms
+02/12/2024 19:58:57 HTTP "GET" "/api/Colors" responded 200 in 22.7646 ms
+02/12/2024 19:58:57 HTTP "GET" "/api/Countries" responded 200 in 206.3012 ms
+02/12/2024 19:58:57 HTTP "GET" "/api/FlowerCategories" responded 200 in 25.3528 ms
+02/12/2024 19:58:57 HTTP "GET" "/api/Countries" responded 200 in 27.1636 ms
+02/12/2024 19:59:09 HTTP "OPTIONS" "/api/Flowers/5" responded 204 in 0.0652 ms
+02/12/2024 19:59:09 HTTP "PUT" "/api/Flowers/5" responded 400 in 6.4159 ms
+02/12/2024 19:59:39 HTTP "GET" "/api/FlowerCategories" responded 200 in 173.4155 ms
+02/12/2024 19:59:39 HTTP "GET" "/api/Countries" responded 200 in 79.2490 ms
+02/12/2024 19:59:39 HTTP "GET" "/api/Colors" responded 200 in 101.7286 ms
+02/12/2024 19:59:39 HTTP "GET" "/api/FlowerCategories" responded 200 in 95.7831 ms
+02/12/2024 19:59:39 HTTP "GET" "/api/Countries" responded 200 in 124.3097 ms
+02/12/2024 19:59:39 HTTP "GET" "/api/Colors" responded 200 in 97.3688 ms
+02/12/2024 19:59:48 HTTP "GET" "/api/Flowers" responded 200 in 263.2188 ms
+02/12/2024 19:59:48 HTTP "GET" "/api/Flowers" responded 200 in 45.1178 ms
+02/12/2024 20:00:00 HTTP "GET" "/api/Colors" responded 200 in 12.8723 ms
+02/12/2024 20:00:00 HTTP "GET" "/api/FlowerCategories" responded 200 in 18.2847 ms
+02/12/2024 20:00:00 HTTP "GET" "/api/Countries" responded 200 in 18.0023 ms
+02/12/2024 20:00:00 HTTP "GET" "/api/FlowerCategories" responded 200 in 62.9836 ms
+02/12/2024 20:00:01 HTTP "GET" "/api/Countries" responded 200 in 149.7455 ms
+02/12/2024 20:00:01 HTTP "GET" "/api/Colors" responded 200 in 160.0084 ms
+02/12/2024 20:00:13 HTTP "OPTIONS" "/api/Flowers/4" responded 204 in 1.7284 ms
+02/12/2024 20:00:13 HTTP "PUT" "/api/Flowers/4" responded 400 in 7.3600 ms
+02/12/2024 20:04:40 HTTP "GET" "/api/Flowers" responded 200 in 139.5076 ms
+02/12/2024 20:04:40 HTTP "GET" "/api/Flowers" responded 200 in 18.6277 ms
+02/12/2024 20:04:46 HTTP "GET" "/api/FlowerCategories" responded 200 in 27.0736 ms
+02/12/2024 20:04:46 HTTP "GET" "/api/Colors" responded 200 in 93.0702 ms
+02/12/2024 20:04:46 HTTP "GET" "/api/Countries" responded 200 in 306.9157 ms
+02/12/2024 20:04:46 HTTP "GET" "/api/FlowerCategories" responded 200 in 193.2959 ms
+02/12/2024 20:04:46 HTTP "GET" "/api/Colors" responded 200 in 104.5771 ms
+02/12/2024 20:04:46 HTTP "GET" "/api/Countries" responded 200 in 121.0940 ms
+02/12/2024 20:04:59 HTTP "OPTIONS" "/api/Flowers/5" responded 204 in 0.0788 ms
+02/12/2024 20:04:59 HTTP "PUT" "/api/Flowers/5" responded 400 in 13.1548 ms
+02/12/2024 20:07:22 HTTP "GET" "/api/Flowers" responded 200 in 67.2278 ms
+02/12/2024 20:10:08 HTTP "PUT" "/api/Flowers/5" responded 400 in 39.9834 ms
+02/12/2024 20:12:16 HTTP "PUT" "/api/Flowers/5" responded 200 in 37.3068 ms
+02/12/2024 20:12:16 Failed executing DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [f].[Id], [f].[Title]
+FROM [FlowersCategories] AS [f]
+WHERE [f].[Id] = @__p_0"
+02/12/2024 20:12:16 An exception occurred while iterating over the results of a query for context type '"webapi.Data.DataContext"'."
+""System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidOperationException: Invalid operation. The connection is closed.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+02/12/2024 20:12:42 HTTP "GET" "/api/Flowers" responded 200 in 501.0925 ms
+02/12/2024 20:12:42 HTTP "GET" "/api/Flowers" responded 200 in 28.3120 ms
+02/12/2024 20:12:44 HTTP "GET" "/api/Colors" responded 200 in 454.1273 ms
+02/12/2024 20:12:45 HTTP "GET" "/api/Countries" responded 200 in 786.6728 ms
+02/12/2024 20:12:45 HTTP "GET" "/api/FlowerCategories" responded 200 in 942.6972 ms
+02/12/2024 20:12:45 HTTP "GET" "/api/Colors" responded 200 in 406.5123 ms
+02/12/2024 20:12:45 HTTP "GET" "/api/Countries" responded 200 in 285.8639 ms
+02/12/2024 20:12:46 HTTP "GET" "/api/FlowerCategories" responded 200 in 236.6557 ms
+02/12/2024 20:12:58 HTTP "OPTIONS" "/api/Flowers/2" responded 204 in 0.1538 ms
+02/12/2024 20:12:58 HTTP "PUT" "/api/Flowers/2" responded 200 in 47.4779 ms
+02/12/2024 20:13:09 HTTP "GET" "/api/Flowers" responded 200 in 104.3047 ms
+02/12/2024 20:13:09 HTTP "GET" "/api/Flowers" responded 200 in 51.3232 ms
+02/12/2024 20:13:24 HTTP "GET" "/api/FlowerCategories" responded 200 in 13.2502 ms
+02/12/2024 20:13:24 HTTP "GET" "/api/Colors" responded 200 in 12.5715 ms
+02/12/2024 20:13:24 HTTP "GET" "/api/Countries" responded 200 in 21.8478 ms
+02/12/2024 20:13:24 HTTP "GET" "/api/FlowerCategories" responded 200 in 22.3038 ms
+02/12/2024 20:13:24 HTTP "GET" "/api/Countries" responded 200 in 16.2997 ms
+02/12/2024 20:13:24 HTTP "GET" "/api/Colors" responded 200 in 46.5124 ms
+02/12/2024 20:13:44 HTTP "OPTIONS" "/api/Flowers/2" responded 204 in 0.0742 ms
+02/12/2024 20:13:44 HTTP "PUT" "/api/Flowers/2" responded 200 in 6.1974 ms
+02/12/2024 20:13:56 HTTP "GET" "/api/Flowers" responded 200 in 213.6281 ms
+02/12/2024 20:13:56 HTTP "GET" "/api/Flowers" responded 200 in 46.5380 ms
+02/12/2024 20:17:37 HTTP "GET" "/api/Flowers" responded 200 in 57.2520 ms
+02/12/2024 20:18:50 HTTP "GET" "/api/Colors" responded 200 in 31.4291 ms
+02/12/2024 20:19:12 HTTP "PUT" "/api/Colors/2" responded 200 in 180.7001 ms
+02/12/2024 20:19:23 HTTP "GET" "/api/Colors" responded 200 in 54.2673 ms
+02/12/2024 20:21:36 Приложение запущено
+02/12/2024 20:21:38 HTTP "GET" "/swagger/index.html" responded 200 in 191.9544 ms
+02/12/2024 20:21:38 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 26.0347 ms
+02/12/2024 20:21:38 HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 44.5273 ms
+02/12/2024 20:21:38 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 40.2654 ms
+02/12/2024 20:21:39 HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.3108 ms
+02/12/2024 20:21:39 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 238.2524 ms
+02/12/2024 20:22:31 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:22:31 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:22:32 HTTP "GET" "/api/Flowers" responded 200 in 3104.6836 ms
+02/12/2024 20:22:32 HTTP "GET" "/api/Flowers" responded 200 in 62.8834 ms
+02/12/2024 20:23:04 HTTP "GET" "/api/Flowers" responded 200 in 174.3587 ms
+02/12/2024 20:23:35 HTTP "PUT" "/api/Flowers/2" responded 200 in 257.2727 ms
+02/12/2024 20:23:35 An exception occurred while iterating over the results of a query for context type '"webapi.Data.DataContext"'."
+""System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'DataContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContext.InitializeStateManager(Boolean standAlone)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'DataContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContext.InitializeStateManager(Boolean standAlone)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+02/12/2024 20:23:43 HTTP "GET" "/api/Flowers" responded 200 in 223.0478 ms
+02/12/2024 20:25:09 HTTP "PUT" "/api/Flowers/2" responded 200 in 63.4731 ms
+02/12/2024 20:25:24 Приложение запущено
+02/12/2024 20:25:28 HTTP "GET" "/swagger/index.html" responded 200 in 339.5421 ms
+02/12/2024 20:25:29 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 230.2975 ms
+02/12/2024 20:26:00 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:26:00 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:26:02 HTTP "GET" "/api/Flowers" responded 200 in 3056.3367 ms
+02/12/2024 20:26:32 HTTP "PUT" "/api/Flowers/2" responded 500 in 238.1059 ms
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/12/2024 20:26:32 An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/12/2024 20:26:32 Failed executing DbCommand ("50"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Flowers] SET [CategoryId] = @p0, [ColorId] = @p1, [Count] = @p2, [CountryId] = @p3, [Price] = @p4, [Title] = @p5
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;"
+02/12/2024 20:27:26 Приложение запущено
+02/12/2024 20:27:31 HTTP "GET" "/swagger/index.html" responded 200 in 326.5379 ms
+02/12/2024 20:27:33 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 665.8605 ms
+02/12/2024 20:27:38 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:27:38 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:27:40 HTTP "GET" "/api/Flowers" responded 200 in 4454.2050 ms
+02/12/2024 20:27:40 HTTP "GET" "/api/Flowers" responded 200 in 106.9795 ms
+02/12/2024 20:27:41 HTTP "GET" "/swagger/index.html" responded 200 in 1.9176 ms
+02/12/2024 20:27:41 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 56.8990 ms
+02/12/2024 20:27:48 HTTP "GET" "/api/Flowers" responded 200 in 217.8051 ms
+02/12/2024 20:28:11 HTTP "PUT" "/api/Flowers/2" responded 500 in 327.8909 ms
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/12/2024 20:28:11 An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/12/2024 20:28:11 Failed executing DbCommand ("19"ms) [Parameters=["@p6='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Flowers] SET [CategoryId] = @p0, [ColorId] = @p1, [Count] = @p2, [CountryId] = @p3, [Price] = @p4, [Title] = @p5
+WHERE [Id] = @p6;
+SELECT @@ROWCOUNT;"
+02/12/2024 20:31:32 Приложение запущено
+02/12/2024 20:31:34 HTTP "GET" "/swagger/index.html" responded 200 in 232.7852 ms
+02/12/2024 20:31:34 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 274.1751 ms
+02/12/2024 20:32:38 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:32:38 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:32:40 HTTP "PUT" "/api/Flowers/2" responded 500 in 2529.7036 ms
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/12/2024 20:32:40 An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/12/2024 20:36:12 HTTP "PUT" "/api/Colors/2" responded 200 in 252.6225 ms
+02/12/2024 20:40:37 Приложение запущено
+02/12/2024 20:40:38 HTTP "GET" "/swagger/index.html" responded 200 in 214.8394 ms
+02/12/2024 20:40:39 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 303.0822 ms
+02/12/2024 20:43:40 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:43:40 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:43:42 HTTP "PUT" "/api/Flowers/2" responded 500 in 2855.0607 ms
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/12/2024 20:43:42 An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/12/2024 20:45:09 Приложение запущено
+02/12/2024 20:45:11 HTTP "GET" "/swagger/index.html" responded 200 in 211.5385 ms
+02/12/2024 20:45:11 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 268.7476 ms
+02/12/2024 20:47:16 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:47:16 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:47:17 HTTP "PUT" "/api/Flowers/2" responded 500 in 2622.4250 ms
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/12/2024 20:47:17 An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported. Path: $.MoveNextAction.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Action' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/12/2024 20:48:07 Приложение запущено
+02/12/2024 20:48:08 HTTP "GET" "/swagger/index.html" responded 200 in 220.8661 ms
+02/12/2024 20:48:09 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 332.9213 ms
+02/12/2024 20:48:37 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:48:37 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:48:38 HTTP "PUT" "/api/Flowers/2" responded 200 in 2476.1950 ms
+02/12/2024 20:48:52 HTTP "GET" "/api/Flowers" responded 200 in 682.4704 ms
+02/12/2024 20:49:28 Приложение запущено
+02/12/2024 20:49:31 HTTP "GET" "/swagger" responded 301 in 68.8284 ms
+02/12/2024 20:49:32 HTTP "GET" "/swagger/index.html" responded 200 in 383.7252 ms
+02/12/2024 20:49:33 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 561.0249 ms
+02/12/2024 20:49:54 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:49:54 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:52:28 HTTP "PUT" "/api/Flowers/2" responded 200 in 155481.4316 ms
+02/12/2024 20:54:10 Приложение запущено
+02/12/2024 20:54:13 HTTP "GET" "/swagger/index.html" responded 200 in 384.9762 ms
+02/12/2024 20:54:14 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 461.3598 ms
+02/12/2024 20:54:53 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:54:53 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 20:55:07 HTTP "PUT" "/api/Flowers/2" responded 200 in 16148.4668 ms
+02/12/2024 20:55:08 An exception occurred while iterating over the results of a query for context type '"webapi.Data.DataContext"'."
+""System.InvalidOperationException: Invalid attempt to call ReadAsync when reader is closed.
+   at Microsoft.Data.Common.ADP.ExceptionWithStackTrace(Exception e)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidOperationException: Invalid attempt to call ReadAsync when reader is closed.
+   at Microsoft.Data.Common.ADP.ExceptionWithStackTrace(Exception e)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+02/12/2024 21:00:52 Приложение запущено
+02/12/2024 21:00:57 HTTP "GET" "/swagger/index.html" responded 200 in 674.8706 ms
+02/12/2024 21:00:58 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 487.3671 ms
+02/12/2024 21:01:28 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 21:01:28 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 21:02:22 HTTP "PUT" "/api/Flowers/2" responded 200 in 55580.2749 ms
+02/12/2024 21:02:22 An exception occurred while iterating over the results of a query for context type '"webapi.Data.DataContext"'."
+""System.InvalidOperationException: Invalid attempt to call ReadAsync when reader is closed.
+   at Microsoft.Data.Common.ADP.ExceptionWithStackTrace(Exception e)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()"
+System.InvalidOperationException: Invalid attempt to call ReadAsync when reader is closed.
+   at Microsoft.Data.Common.ADP.ExceptionWithStackTrace(Exception e)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+02/12/2024 21:07:34 HTTP "GET" "/swagger/index.html" responded 200 in 17.2197 ms
+02/12/2024 21:07:35 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 104.7316 ms
+02/12/2024 21:08:48 Приложение запущено
+02/12/2024 21:08:51 HTTP "GET" "/swagger/index.html" responded 200 in 514.3143 ms
+02/12/2024 21:08:52 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 468.1643 ms
+02/12/2024 21:09:46 Приложение запущено
+02/12/2024 21:09:50 HTTP "GET" "/swagger/index.html" responded 200 in 553.7159 ms
+02/12/2024 21:09:51 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 508.7275 ms
+02/12/2024 21:10:20 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 21:10:20 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 21:10:49 HTTP "PUT" "/api/Flowers/2" responded 200 in 30202.3634 ms
+02/12/2024 21:12:41 Приложение запущено
+02/12/2024 21:12:46 HTTP "GET" "/swagger/index.html" responded 200 in 738.8498 ms
+02/12/2024 21:12:47 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 629.9062 ms
+02/12/2024 21:23:23 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 21:23:23 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/12/2024 21:23:25 HTTP "GET" "/api/Flowers" responded 200 in 3398.2384 ms
+02/12/2024 21:23:25 HTTP "GET" "/api/Flowers" responded 200 in 439.9466 ms
+02/12/2024 21:23:25 HTTP "GET" "/api/Flowers" responded 200 in 195.7105 ms
+02/12/2024 21:23:30 HTTP "GET" "/api/Colors" responded 200 in 43.5695 ms
+02/12/2024 21:23:30 HTTP "GET" "/api/Countries" responded 200 in 42.5392 ms
+02/12/2024 21:23:30 HTTP "GET" "/api/FlowerCategories" responded 200 in 70.0683 ms
+02/12/2024 21:23:30 HTTP "GET" "/api/Colors" responded 200 in 10.8837 ms
+02/12/2024 21:23:30 HTTP "GET" "/api/Countries" responded 200 in 14.5334 ms
+02/12/2024 21:23:30 HTTP "GET" "/api/FlowerCategories" responded 200 in 22.5483 ms
+02/12/2024 21:24:07 HTTP "OPTIONS" "/api/Flowers/2" responded 204 in 4.9433 ms
+02/12/2024 21:24:07 HTTP "PUT" "/api/Flowers/2" responded 200 in 332.2313 ms
+02/12/2024 21:24:07 An error occurred using a transaction.
+02/12/2024 21:24:16 HTTP "GET" "/api/Flowers" responded 200 in 135.6249 ms
+02/12/2024 21:24:16 HTTP "GET" "/api/Flowers" responded 200 in 15.7059 ms
+02/12/2024 21:25:06 HTTP "GET" "/api/Colors" responded 200 in 169.5448 ms
+02/12/2024 21:25:06 HTTP "GET" "/api/Countries" responded 200 in 210.7031 ms
+02/12/2024 21:25:06 HTTP "GET" "/api/FlowerCategories" responded 200 in 274.1292 ms
+02/12/2024 21:25:06 HTTP "GET" "/api/Colors" responded 200 in 17.9022 ms
+02/12/2024 21:25:06 HTTP "GET" "/api/Countries" responded 200 in 37.6267 ms
+02/12/2024 21:25:06 HTTP "GET" "/api/FlowerCategories" responded 200 in 59.1770 ms
+02/12/2024 21:25:25 HTTP "OPTIONS" "/api/Flowers/2" responded 204 in 0.5798 ms
+02/12/2024 21:25:25 HTTP "PUT" "/api/Flowers/2" responded 200 in 100.2642 ms
+02/12/2024 21:26:21 HTTP "GET" "/api/Flowers" responded 200 in 176.9914 ms
+02/12/2024 21:26:21 HTTP "GET" "/api/Flowers" responded 200 in 127.5646 ms
+02/12/2024 21:26:32 HTTP "GET" "/api/Countries" responded 200 in 64.5539 ms
+02/12/2024 21:26:32 HTTP "GET" "/api/FlowerCategories" responded 200 in 70.4464 ms
+02/12/2024 21:26:32 HTTP "GET" "/api/Colors" responded 200 in 100.8213 ms
+02/12/2024 21:26:32 HTTP "GET" "/api/Colors" responded 200 in 78.3040 ms
+02/12/2024 21:26:32 HTTP "GET" "/api/FlowerCategories" responded 200 in 123.1733 ms
+02/12/2024 21:26:32 HTTP "GET" "/api/Countries" responded 200 in 160.8337 ms
+02/12/2024 21:26:52 HTTP "OPTIONS" "/api/Flowers/5" responded 204 in 0.1212 ms
+02/12/2024 21:26:52 HTTP "PUT" "/api/Flowers/5" responded 200 in 69.1293 ms
+02/12/2024 21:27:01 HTTP "GET" "/api/Flowers" responded 200 in 48.8069 ms
+02/12/2024 21:27:01 HTTP "GET" "/api/Flowers" responded 200 in 26.9802 ms

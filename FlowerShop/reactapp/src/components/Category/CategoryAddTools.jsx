@@ -9,6 +9,15 @@ const CategoryAddTools = () => {
     const [inputValue, setInputValue] = useState({
         title: ''
     });
+
+    const postCategory = async () => {
+        try {
+            await axios.post(urlCategories, inputValue)
+            alert('Успешно!')
+        }
+        catch (e) { alert('Ошибка добавления категории', e) }
+    }
+
     return (
         <Container>
             <h2 className="text-center">Настройки категорий</h2>
@@ -22,13 +31,7 @@ const CategoryAddTools = () => {
                 />
             </InputGroup>
             <Button disabled={inputValue.title.length === 0}
-                onClick={async () => {
-                    try {
-                        await axios.post(urlCategories, inputValue)
-                        alert('Успешно!')
-                    }
-                    catch (e) { alert('Ошибка добавления категории', e) }
-                }}
+                onClick={postCategory}
             >Добавить</Button>
             <CategoryList/>
         </Container>

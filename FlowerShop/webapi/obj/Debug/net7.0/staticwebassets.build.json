@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nkAcFyEatOhbwuDvyicO+UfB4Muvvz6l+x1f5eghwas=",
+  "Hash": "qeE7mLBtjuqkWnkK8Tp6xzXmeIgAQCaDsAhKdWwRJQI=",
   "Source": "webapi",
   "BasePath": "_content/webapi",
   "Mode": "Default",
@@ -1117,25 +1117,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\14012024 1238109e7b76b0-d77f-4706-9245-8eedc1064824.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1242162 — копия.JPG",
-      "SourceId": "webapi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
-      "BasePath": "_content/webapi",
-      "RelativePath": "images/14012024 1242162 — копия.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\14012024 1242162 — копия.JPG"
     },
     {
       "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\14012024 1256535 — копия.JPG",

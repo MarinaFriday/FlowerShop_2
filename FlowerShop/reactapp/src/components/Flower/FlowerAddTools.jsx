@@ -18,6 +18,7 @@ const FlowerTools = () => {
         count: ''
     });
     const [dataResponseImage, setDataResponseImage] = useState([]);
+    
     /*const [imagesArray, setImagesArray] = useState([]); */   
     var imagesArray;
     const handleDataImages = (data) => {

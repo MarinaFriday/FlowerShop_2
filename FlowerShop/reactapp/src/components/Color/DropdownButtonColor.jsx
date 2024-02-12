@@ -4,9 +4,9 @@ import axios from "axios";
 import { urlColors } from "../../urls/urlList";
 import Dropdown from 'react-bootstrap/Dropdown';
 
-const DropdownButtonColor = () => {
+const DropdownButtonColor = ({ currentFlowerDataColor }) => {
     const [colors, setData] = useState([]);
-    const [titleDropdownBtn, setTitle] = useState("Цвет");
+    const [titleDropdownBtn, setTitle] = useState((currentFlowerDataColor !== undefined ?  currentFlowerDataColor  : "Цвет"));
     const [idColor, setIdColorData] = useState("Цвет");
 
     useEffect(() => {
