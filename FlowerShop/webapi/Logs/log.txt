@@ -26669,3 +26669,51 @@ System.InvalidOperationException: Invalid attempt to call ReadAsync when reader 
 02/12/2024 21:26:52 HTTP "PUT" "/api/Flowers/5" responded 200 in 69.1293 ms
 02/12/2024 21:27:01 HTTP "GET" "/api/Flowers" responded 200 in 48.8069 ms
 02/12/2024 21:27:01 HTTP "GET" "/api/Flowers" responded 200 in 26.9802 ms
+02/13/2024 19:20:52 Приложение запущено
+02/13/2024 19:21:22 HTTP "GET" "/swagger/index.html" responded 200 in 313.8093 ms
+02/13/2024 19:21:22 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 304 in 44.8621 ms
+02/13/2024 19:21:22 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 304 in 44.7469 ms
+02/13/2024 19:21:22 HTTP "GET" "/swagger/swagger-ui.css" responded 304 in 44.8583 ms
+02/13/2024 19:21:29 HTTP "GET" "/swagger/favicon-32x32.png" responded 304 in 0.5549 ms
+02/13/2024 19:21:30 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 462.1439 ms
+02/13/2024 19:30:22 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/13/2024 19:30:22 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/13/2024 19:30:24 HTTP "GET" "/api/Flowers" responded 200 in 5227.3462 ms
+02/13/2024 19:30:24 HTTP "GET" "/api/Flowers" responded 200 in 2671.5231 ms
+02/13/2024 19:30:25 HTTP "GET" "/images/14012024 1348132 — копия.JPG" responded 304 in 1.1096 ms
+02/13/2024 19:30:25 HTTP "GET" "/images/3.JPG" responded 304 in 2.4685 ms
+02/13/2024 19:30:25 HTTP "GET" "/images/2.JPG" responded 304 in 3.3974 ms
+02/13/2024 19:30:25 HTTP "GET" "/images/21012024 160439photo_5287686246044390462_y.jpg" responded 304 in 0.7703 ms
+02/13/2024 19:30:25 HTTP "GET" "/api/Flowers" responded 200 in 203.8448 ms
+02/13/2024 19:33:04 HTTP "GET" "/api/Flowers" responded 200 in 213.5940 ms
+02/13/2024 19:33:04 HTTP "GET" "/api/Flowers" responded 200 in 34.9067 ms
+02/13/2024 19:33:43 HTTP "GET" "/api/Flowers" responded 200 in 48.7876 ms
+02/13/2024 19:33:49 HTTP "GET" "/api/Flowers" responded 200 in 43.3809 ms
+02/13/2024 19:33:49 HTTP "GET" "/api/Flowers" responded 200 in 55.7666 ms
+02/13/2024 19:34:43 HTTP "GET" "/api/UploadImages" responded 200 in 88.0178 ms
+02/13/2024 19:38:01 HTTP "DELETE" "/api/UploadImages/20" responded 200 in 561.2460 ms
+02/13/2024 19:38:17 HTTP "GET" "/api/UploadImages" responded 200 in 10.7028 ms
+02/13/2024 19:40:15 HTTP "GET" "/api/Flowers" responded 200 in 201.4789 ms
+02/13/2024 19:40:15 HTTP "GET" "/api/Flowers" responded 200 in 17.0220 ms
+02/13/2024 19:40:19 HTTP "OPTIONS" "/api/UploadImages/5" responded 204 in 1.8196 ms
+02/13/2024 19:40:20 HTTP "DELETE" "/api/UploadImages/5" responded 200 in 1232.0687 ms
+02/13/2024 19:40:20 HTTP "OPTIONS" "/api/UploadImages/6" responded 204 in 2.2033 ms
+02/13/2024 19:40:21 HTTP "DELETE" "/api/UploadImages/6" responded 200 in 704.0976 ms
+02/13/2024 19:40:21 HTTP "OPTIONS" "/api/UploadImages/7" responded 204 in 0.0809 ms
+02/13/2024 19:40:22 HTTP "DELETE" "/api/UploadImages/7" responded 200 in 843.7407 ms
+02/13/2024 19:40:28 HTTP "GET" "/api/Flowers" responded 200 in 40.4143 ms
+02/13/2024 19:40:28 HTTP "GET" "/api/Flowers" responded 200 in 49.7542 ms
+02/13/2024 19:46:49 HTTP "GET" "/api/Flowers" responded 200 in 465.1838 ms
+02/13/2024 19:46:49 HTTP "GET" "/api/Flowers" responded 200 in 96.7706 ms
+02/13/2024 19:46:53 HTTP "OPTIONS" "/api/Flowers/2" responded 204 in 0.1052 ms
+02/13/2024 19:46:54 HTTP "DELETE" "/api/Flowers/2" responded 200 in 841.1521 ms
+02/13/2024 19:47:06 HTTP "GET" "/api/Flowers" responded 200 in 36.1845 ms
+02/13/2024 19:47:06 HTTP "GET" "/api/Flowers" responded 200 in 39.4046 ms
+02/13/2024 19:48:18 HTTP "GET" "/api/Flowers" responded 200 in 141.3695 ms
+02/13/2024 19:48:18 HTTP "GET" "/api/Flowers" responded 200 in 16.5967 ms
+02/13/2024 19:48:23 HTTP "OPTIONS" "/api/Flowers/3" responded 204 in 0.0861 ms
+02/13/2024 19:48:23 HTTP "DELETE" "/api/Flowers/3" responded 200 in 31.1265 ms
+02/13/2024 19:48:25 HTTP "GET" "/api/Flowers" responded 200 in 29.8891 ms
+02/13/2024 19:48:27 HTTP "OPTIONS" "/api/Flowers/4" responded 204 in 0.8244 ms
+02/13/2024 19:48:27 HTTP "DELETE" "/api/Flowers/4" responded 200 in 12.8901 ms
+02/13/2024 19:48:29 HTTP "GET" "/api/Flowers" responded 200 in 40.0704 ms

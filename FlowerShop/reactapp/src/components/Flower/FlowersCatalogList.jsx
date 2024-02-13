@@ -14,7 +14,7 @@ const FlowerCatalogList = () => {
 
     const [flowers, setData] = useState([]);  
 
-    const [isEditing, setIsEditing] = useState(false);
+    //const [isEditing, setIsEditing] = useState(false);
     const [currentFlower, setCurrentFlower] = useState();
     //const [modifiedFlowerTitle, setModifiedFlowerTitle] = useState({ flowerTitle: "" });
     //const [modifiedFlowerPrice, setModifiedFlowerPrice] = useState({ flowerPrice: "" });
@@ -34,22 +34,31 @@ const FlowerCatalogList = () => {
     }
     
 
-    const cancelUpdate = (e) => {
-        e.preventDefault()
-        setIsEditing(false)
-    }
-
-    async function deleteImage(id, f) {
+    async function deleteImage(f) {
         try {
-            await axios.delete(urlUploadImagesId + id);
-            alert("Изображение удалено"); 
-
-            setCurrentFlower(f)
-            setIsEditing(true);
-
+            for (const image of f.images) {
+                console.log(image);
+                console.log(urlUploadImagesId + image.id);
+                await axios.delete(urlUploadImagesId + image.id);
+                console.log("изображение удалено");
+                alert("изображение удалено");
+            }            
         } catch (error) {
             alert(error);
         }
+    }
+
+    async function deleteFlower(f) {
+        if (f.images !== undefined) { 
+        deleteImage(f);
+        }
+        try {
+            await axios.delete(urlFlowersById + f.id);
+            console.log("цветок удален");
+            alert("Цветок удален");
+            getAllFlowers();
+        }
+        catch (error) { alert(error) }
     }
 
         return (
@@ -104,7 +113,9 @@ const FlowerCatalogList = () => {
                                     </Button>    
                                 </td>
                                 <td>
-                                    <Button>Удалить</Button>
+                                    <Button onClick={() => {
+                                       deleteFlower(f)
+                                    }}>Удалить</Button>
                                 </td>
                              </tr>                            
                                 ))
