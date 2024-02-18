@@ -5,6 +5,9 @@ using Serilog;
 using webapi.Data;
 using Newtonsoft.Json.Linq;
 using System.Text.Json.Serialization;
+using webapi.Services.PasswordChecker;
+using webapi.Services.Criptographer;
+using webapi.Services.Cryptographer;
 
 var nameCors = "FS3000";
 var builder = WebApplication.CreateBuilder(args);
@@ -28,6 +31,8 @@ builder.Services.AddControllersWithViews().AddJsonOptions(x=>x.JsonSerializerOpt
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddTransient<ICryptographer, md5Cryptographer>();
+builder.Services.AddTransient<IPasswordChecker, PasswordChecker>();
 
 var app = builder.Build();
 

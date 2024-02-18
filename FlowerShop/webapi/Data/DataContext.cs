@@ -2,6 +2,7 @@
 using webapi.Models.Expanses;
 using webapi.Models.Flowers;
 using webapi.Models.Sales;
+using webapi.Models.User;
 
 namespace webapi.Data
 {
@@ -28,6 +29,7 @@ namespace webapi.Data
         public DbSet<Shipment> Shipments { get; set; }
         public DbSet<Models.Sales.Category> SalesCategories { get; set; }  
         public DbSet<Sale> Sales { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

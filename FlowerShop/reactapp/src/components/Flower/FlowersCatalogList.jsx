@@ -41,18 +41,20 @@ const FlowerCatalogList = () => {
                 console.log(urlUploadImagesId + image.id);
                 await axios.delete(urlUploadImagesId + image.id);
                 console.log("изображение удалено");
-                alert("изображение удалено");
+                
             }            
         } catch (error) {
             alert(error);
         }
+        alert("изображения удалены");
     }
 
     async function deleteFlower(f) {
-        if (f.images !== undefined) { 
-        deleteImage(f);
-        }
+        
         try {
+            if (f.images !== undefined) {
+               await deleteImage(f);
+            }
             await axios.delete(urlFlowersById + f.id);
             console.log("цветок удален");
             alert("Цветок удален");

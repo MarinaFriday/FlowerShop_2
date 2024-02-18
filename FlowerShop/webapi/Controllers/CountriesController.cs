@@ -17,7 +17,6 @@ namespace webapi.Controllers
         }
 
         [HttpGet]
-        //?????????
         public async Task<ActionResult<IEnumerable<Country>>> GetFlowerCounties()
         {
             return await _context.Countries.ToListAsync();
