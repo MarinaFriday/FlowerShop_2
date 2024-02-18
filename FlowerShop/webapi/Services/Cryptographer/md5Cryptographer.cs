@@ -5,7 +5,7 @@ namespace webapi.Services.Cryptographer
 {
     public class md5Cryptographer : ICryptographer
     {
-        public string Encript(string password)
+        public string Encrypt(string password)
         {
             byte[] salt = new byte[password.Length];
 

@@ -3,6 +3,6 @@
     //интерфейс для шифрования пароля
     public interface ICryptographer
     {
-        public string Encript(string password);
+        public string Encrypt(string password);
     }
 }

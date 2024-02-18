@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Query.Internal;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using webapi.Data;
 using webapi.Models.User;
+using webapi.Services;
 using webapi.Services.Criptographer;
 using webapi.Services.PasswordChecker;
 
@@ -15,22 +16,19 @@ namespace webapi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly DataContext _context;
-        private readonly ICryptographer _criptographer;
-        private readonly IPasswordChecker _passwordChecker;
+        private UserService userService;
 
-        public UserController(DataContext context, ICryptographer criptografer, IPasswordChecker passwordChecker)
+        public UserController(DataContext context, ICryptographer cryptografer, IPasswordChecker passwordChecker)
         {
-            _context = context;
-            _criptographer = criptografer;
-            _passwordChecker = passwordChecker;
+            userService = new UserService(context, cryptografer, passwordChecker);
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers() {
+        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+        {
             try
             {
-                var userList = await _context.Users.ToListAsync();
+                var userList = await userService.ReadAllUsers();
                 if (userList != null)
                 {
                     return Ok(userList);
@@ -47,14 +45,28 @@ namespace webapi.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<User>> GetUserById(int id)
         {
             try {
-                var user = await _context.Users.FirstOrDefaultAsync(user => user.Id == id);
-                if (user != null) {
-                    return Ok(user);
-                }
+                var result = await userService.ReadUserById(id);
+                if (result != null) return Ok(result);
+                else return NoContent();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                return BadRequest(exception.Message);
+            }
+        }
+
+        [HttpGet("{name}")]
+        public async Task<ActionResult<User>> GetUserByName(string name)
+        {
+            try
+            {
+                var result = await userService.ReadUserByName(name);
+                if (result != null) return Ok(result);
                 else return NoContent();
             }
             catch (Exception exception)
@@ -68,13 +80,8 @@ namespace webapi.Controllers
         public async Task<ActionResult<User>> PostUser(User user)
         {
             try {
-                if (_context.Users.FirstOrDefault(u => u.UserName == user.UserName) != null)
-                    throw new Exception("Пользователь с таким именем уже существует");
-                _passwordChecker.CheckPassword(user.UserPassword);
-                user.UserPassword = _criptographer.Encript(user.UserPassword);
-                _context.Users.Add(user);
-                await _context.SaveChangesAsync();
-                return Ok(user);
+                var userCreate = await userService.CreateUser(user);
+                return Ok(userCreate);
             }
             catch (Exception exception)
             {
@@ -86,12 +93,10 @@ namespace webapi.Controllers
         [HttpPut("PutUserName/{id}")]
         public async Task<ActionResult<User>> PutUserName(int id, User user)
         {
-            try {
-                var userDb = await _context.Users.FirstOrDefaultAsync(userDb => userDb.Id == id);
-                if (userDb is null) return NotFound("User is not found");
-                userDb.UserName = user.UserName;
-                await _context.SaveChangesAsync();
-                return Ok(userDb);
+            try
+            {
+                var resultUser = await userService.EditUserName(id, user);
+                return Ok(resultUser);
             }
             catch (Exception exception)
             {
@@ -105,13 +110,8 @@ namespace webapi.Controllers
         {
             try
             {
-                var userDb = await _context.Users.FirstOrDefaultAsync(userDb => userDb.Id == id);
-                if (userDb is null) return NotFound("User is not found");
-                _passwordChecker.CheckPassword(user.UserPassword);
-                user.UserPassword = _criptographer.Encript(user.UserPassword);
-                if (userDb.UserPassword == user.UserPassword) return BadRequest("Пароли совпадают"); userDb.UserName = user.UserName;
-                await _context.SaveChangesAsync();
-                return Ok(userDb);
+                var resultUser = await userService.EditUserPassword(id, user);
+                return Ok(resultUser);               
             }
             catch (Exception exception)
             {
@@ -123,19 +123,50 @@ namespace webapi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            try {
-                var userDb = await _context.Users.FirstOrDefaultAsync(userDb => userDb.Id == id);
-                if (userDb is null) return NotFound("User is not found");
-                _context.Users.Remove(userDb);
-                await _context.SaveChangesAsync();
+            try
+            {
+                await userService.DeleteUserById(id);
                 return Ok("Пользователь удален");
             }
-            catch (Exception exception) {
+            catch (Exception exception)
+            {
                 Console.WriteLine(exception);
                 return BadRequest(exception.Message);
             }
         }
 
-
+        [HttpPost("IsUserNameAndUserPasswordCorrect")]
+        public async Task<IActionResult> IsUserNameAndUserPasswordCorrect(User user) {
+            try
+            {
+                await userService.IsUserNameAndUserPasswordCorrect(user);
+                return Ok("");
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                return BadRequest(exception.Message);
+            }
+        }
     }
+
+
+
+
+
+
+
+
+
+
+    //public async Task<IActionResult> IsUserNameAndPasswordCorrect(string userName, string userPassword) {
+    //try {
+    //    var user = GetUserByName(userName);
+    //    } 
+    //catch (Exception exception) { 
+
+    //} 
+
+
+    //}    
 }

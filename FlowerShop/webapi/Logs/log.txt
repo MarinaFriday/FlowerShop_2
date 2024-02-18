@@ -27763,3 +27763,302 @@ System.InvalidOperationException: Unable to resolve service for type 'webapi.Ser
 02/17/2024 20:46:10 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
 02/17/2024 20:46:12 HTTP "DELETE" "/api/User/1" responded 200 in 2543.1333 ms
 02/17/2024 20:46:23 HTTP "GET" "/api/User" responded 200 in 91.8499 ms
+02/18/2024 12:41:38 Приложение запущено
+02/18/2024 12:41:45 HTTP "GET" "/swagger/index.html" responded 200 in 334.8206 ms
+02/18/2024 12:41:45 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 304 in 48.0672 ms
+02/18/2024 12:41:45 HTTP "GET" "/swagger/swagger-ui.css" responded 304 in 48.1949 ms
+02/18/2024 12:41:45 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 304 in 48.0671 ms
+02/18/2024 12:41:45 HTTP "GET" "/swagger/favicon-32x32.png" responded 304 in 0.4388 ms
+02/18/2024 12:41:46 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 289.7273 ms
+02/18/2024 12:43:38 Failed to determine the https port for redirect.
+02/18/2024 12:43:40 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 12:43:40 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 12:43:41 HTTP "POST" "/api/User" responded 400 in 2941.2253 ms
+02/18/2024 12:43:57 HTTP "POST" "/api/User" responded 400 in 88.3257 ms
+02/18/2024 12:44:05 HTTP "POST" "/api/User" responded 400 in 182.2573 ms
+02/18/2024 12:44:18 HTTP "POST" "/api/User" responded 400 in 12.0541 ms
+02/18/2024 12:44:26 HTTP "GET" "/swagger/index.html" responded 200 in 1.0382 ms
+02/18/2024 12:44:26 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 41.2957 ms
+02/18/2024 12:44:47 HTTP "POST" "/api/User" responded 400 in 14.7416 ms
+02/18/2024 12:46:08 Приложение запущено
+02/18/2024 12:46:09 HTTP "GET" "/swagger/index.html" responded 200 in 181.6007 ms
+02/18/2024 12:46:10 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 300.1717 ms
+02/18/2024 12:46:37 Failed to determine the https port for redirect.
+02/18/2024 12:46:38 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 12:46:38 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 12:46:40 HTTP "POST" "/api/User" responded 200 in 3336.3922 ms
+02/18/2024 12:53:18 Приложение запущено
+02/18/2024 12:53:19 HTTP "GET" "/swagger/index.html" responded 200 in 190.5020 ms
+02/18/2024 12:53:20 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 373.1190 ms
+02/18/2024 12:54:20 Failed to determine the https port for redirect.
+02/18/2024 12:54:21 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 12:54:21 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 12:54:22 HTTP "GET" "/api/User" responded 200 in 2357.5429 ms
+02/18/2024 13:00:11 Приложение запущено
+02/18/2024 13:00:12 HTTP "GET" "/swagger/index.html" responded 200 in 172.0285 ms
+02/18/2024 13:00:13 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 258.9473 ms
+02/18/2024 13:12:30 Failed to determine the https port for redirect.
+02/18/2024 13:12:31 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:12:31 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:12:32 HTTP "GET" "/api/User" responded 200 in 2246.1837 ms
+02/18/2024 13:12:43 HTTP "GET" "/api/User/52" responded 204 in 283.0645 ms
+02/18/2024 13:14:48 HTTP "GET" "/api/User/2" responded 200 in 172.2486 ms
+02/18/2024 13:17:11 HTTP "POST" "/api/User" responded 200 in 498.8082 ms
+02/18/2024 13:21:45 Приложение запущено
+02/18/2024 13:21:46 HTTP "GET" "/swagger/index.html" responded 200 in 201.2546 ms
+02/18/2024 13:21:46 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 272.1641 ms
+02/18/2024 13:21:57 HTTP "GET" "/swagger/index.html" responded 200 in 1.8035 ms
+02/18/2024 13:21:58 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 33.9996 ms
+02/18/2024 13:22:07 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+webapi.Controllers.UserController.GetUserById (webapi)
+webapi.Controllers.UserController.GetUserByName (webapi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/18/2024 13:22:22 Failed to determine the https port for redirect.
+02/18/2024 13:22:23 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:22:23 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:22:24 HTTP "GET" "/api/User" responded 200 in 2065.5446 ms
+02/18/2024 13:25:23 Приложение запущено
+02/18/2024 13:25:24 HTTP "GET" "/swagger/index.html" responded 200 in 197.0314 ms
+02/18/2024 13:25:24 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 411.4272 ms
+02/18/2024 13:25:45 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+webapi.Controllers.UserController.GetUserById (webapi)
+webapi.Controllers.UserController.GetUserByName (webapi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/18/2024 13:26:00 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+webapi.Controllers.UserController.GetUserById (webapi)
+webapi.Controllers.UserController.GetUserByName (webapi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/18/2024 13:27:43 Приложение запущено
+02/18/2024 13:27:44 HTTP "GET" "/swagger/index.html" responded 200 in 293.1669 ms
+02/18/2024 13:27:45 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 252.0070 ms
+02/18/2024 13:28:03 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+webapi.Controllers.UserController.GetUserById (webapi)
+webapi.Controllers.UserController.GetUserByName (webapi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/18/2024 13:28:47 Приложение запущено
+02/18/2024 13:28:48 HTTP "GET" "/swagger/index.html" responded 200 in 395.5958 ms
+02/18/2024 13:28:50 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 483.7806 ms
+02/18/2024 13:29:17 Приложение запущено
+02/18/2024 13:29:27 HTTP "GET" "/swagger" responded 301 in 59.4360 ms
+02/18/2024 13:29:28 HTTP "GET" "/swagger/index.html" responded 200 in 365.2246 ms
+02/18/2024 13:29:29 HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 468.6338 ms
+02/18/2024 13:29:29 HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 603.1443 ms
+02/18/2024 13:29:29 HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 719.8573 ms
+02/18/2024 13:29:30 HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 0.5980 ms
+02/18/2024 13:29:31 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 678.5643 ms
+02/18/2024 13:29:52 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+webapi.Controllers.UserController.GetUserById (webapi)
+webapi.Controllers.UserController.GetUserByName (webapi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/18/2024 13:30:39 Приложение запущено
+02/18/2024 13:30:41 HTTP "GET" "/swagger/index.html" responded 200 in 274.6874 ms
+02/18/2024 13:30:41 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 323.9336 ms
+02/18/2024 13:31:09 Приложение запущено
+02/18/2024 13:31:15 HTTP "GET" "/swagger/index.html" responded 200 in 249.3381 ms
+02/18/2024 13:31:17 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 285.3334 ms
+02/18/2024 13:31:33 An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+webapi.Controllers.UserController.GetUserById (webapi)
+webapi.Controllers.UserController.GetUserByName (webapi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/18/2024 13:33:50 Приложение запущено
+02/18/2024 13:33:53 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'string' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/18/2024 13:33:54 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'string' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+02/18/2024 13:34:18 Приложение запущено
+02/18/2024 13:34:19 HTTP "GET" "/swagger/index.html" responded 200 in 286.1213 ms
+02/18/2024 13:34:20 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 286.8794 ms
+02/18/2024 13:34:32 Failed to determine the https port for redirect.
+02/18/2024 13:34:34 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:34:34 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:34:35 HTTP "GET" "/api/User/Marina" responded 200 in 2570.7548 ms
+02/18/2024 13:50:25 Приложение запущено
+02/18/2024 13:50:26 HTTP "GET" "/swagger/index.html" responded 200 in 188.2707 ms
+02/18/2024 13:50:27 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 272.4682 ms
+02/18/2024 13:53:13 Failed to determine the https port for redirect.
+02/18/2024 13:53:14 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:53:14 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:53:15 HTTP "GET" "/api/User" responded 200 in 2213.2909 ms
+02/18/2024 13:53:54 HTTP "PUT" "/api/User/PutUserName/1" responded 400 in 145.2503 ms
+02/18/2024 13:54:13 HTTP "PUT" "/api/User/PutUserName/3" responded 400 in 182.5223 ms
+02/18/2024 13:54:17 HTTP "GET" "/swagger/index.html" responded 200 in 3.8999 ms
+02/18/2024 13:54:18 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 44.1579 ms
+02/18/2024 13:54:34 HTTP "PUT" "/api/User/PutUserName/3" responded 400 in 62.9645 ms
+02/18/2024 13:55:25 HTTP "PUT" "/api/User/PutUserName/3" responded 400 in 203.7791 ms
+02/18/2024 13:55:48 HTTP "PUT" "/api/User/PutUserName/3" responded 400 in 67.7193 ms
+02/18/2024 13:58:36 Приложение запущено
+02/18/2024 13:58:37 HTTP "GET" "/swagger/index.html" responded 200 in 179.6439 ms
+02/18/2024 13:58:37 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 276.3094 ms
+02/18/2024 13:59:00 Failed to determine the https port for redirect.
+02/18/2024 13:59:01 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:59:01 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 13:59:03 HTTP "PUT" "/api/User/PutUserName/3" responded 200 in 3120.3697 ms
+02/18/2024 14:10:09 Приложение запущено
+02/18/2024 14:10:10 HTTP "GET" "/swagger/index.html" responded 200 in 179.9965 ms
+02/18/2024 14:10:10 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 302.3617 ms
+02/18/2024 14:29:54 Failed to determine the https port for redirect.
+02/18/2024 14:29:55 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 14:29:55 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 14:29:56 HTTP "PUT" "/api/User/PutUserPassword/3" responded 200 in 2509.1891 ms
+02/18/2024 14:30:11 HTTP "GET" "/api/User" responded 200 in 77.4515 ms
+02/18/2024 14:33:25 HTTP "PUT" "/api/User/PutUserPassword/3" responded 400 in 267.0084 ms
+02/18/2024 14:35:59 Приложение запущено
+02/18/2024 14:36:00 HTTP "GET" "/swagger/index.html" responded 200 in 206.8240 ms
+02/18/2024 14:36:01 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 318.5060 ms
+02/18/2024 14:36:13 Failed to determine the https port for redirect.
+02/18/2024 14:36:14 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 14:36:14 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 14:36:15 HTTP "GET" "/api/User" responded 200 in 2247.6413 ms
+02/18/2024 14:36:46 HTTP "PUT" "/api/User/PutUserPassword/2" responded 200 in 428.0079 ms
+02/18/2024 14:42:23 HTTP "GET" "/api/User" responded 200 in 250.1735 ms
+02/18/2024 14:43:04 HTTP "GET" "/swagger/index.html" responded 200 in 3.0224 ms
+02/18/2024 14:43:05 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 39.1696 ms
+02/18/2024 14:45:57 Приложение запущено
+02/18/2024 14:45:58 HTTP "GET" "/swagger/index.html" responded 200 in 188.2874 ms
+02/18/2024 14:45:58 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 313.9683 ms
+02/18/2024 14:46:10 Failed to determine the https port for redirect.
+02/18/2024 14:46:11 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 14:46:11 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 14:46:13 HTTP "GET" "/api/User" responded 200 in 2833.7944 ms
+02/18/2024 14:46:49 HTTP "PUT" "/api/User/PutUserName/2" responded 200 in 545.3664 ms
+02/18/2024 14:48:33 HTTP "GET" "/api/User" responded 200 in 194.4299 ms
+02/18/2024 14:53:20 Приложение запущено
+02/18/2024 14:53:24 HTTP "GET" "/swagger/index.html" responded 200 in 264.6866 ms
+02/18/2024 14:53:26 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 442.8481 ms
+02/18/2024 14:53:40 Failed to determine the https port for redirect.
+02/18/2024 14:53:42 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 14:53:42 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 14:53:44 HTTP "GET" "/api/User" responded 200 in 3562.5027 ms
+02/18/2024 15:21:45 Приложение запущено
+02/18/2024 15:21:47 HTTP "GET" "/swagger/index.html" responded 200 in 207.8964 ms
+02/18/2024 15:21:47 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 417.6973 ms
+02/18/2024 15:24:39 Failed to determine the https port for redirect.
+02/18/2024 15:24:40 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:24:40 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:24:41 HTTP "GET" "/api/User" responded 200 in 2309.4373 ms
+02/18/2024 15:25:17 HTTP "PUT" "/api/User/PutUserName/2" responded 400 in 358.1731 ms
+02/18/2024 15:26:29 Приложение запущено
+02/18/2024 15:26:30 HTTP "GET" "/swagger/index.html" responded 200 in 173.4869 ms
+02/18/2024 15:26:30 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 363.3999 ms
+02/18/2024 15:27:02 Failed to determine the https port for redirect.
+02/18/2024 15:27:04 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:27:04 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:27:05 HTTP "PUT" "/api/User/PutUserName/2" responded 400 in 3554.8457 ms
+02/18/2024 15:30:26 Приложение запущено
+02/18/2024 15:30:28 HTTP "GET" "/swagger/index.html" responded 200 in 176.7192 ms
+02/18/2024 15:30:28 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 280.7377 ms
+02/18/2024 15:30:57 Failed to determine the https port for redirect.
+02/18/2024 15:30:58 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:30:58 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:30:59 HTTP "PUT" "/api/User/PutUserName/2" responded 400 in 2252.8280 ms
+02/18/2024 15:31:22 HTTP "GET" "/api/User" responded 200 in 186.4064 ms
+02/18/2024 15:33:07 Приложение запущено
+02/18/2024 15:33:08 HTTP "GET" "/swagger/index.html" responded 200 in 176.5645 ms
+02/18/2024 15:33:09 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 265.2368 ms
+02/18/2024 15:33:37 Failed to determine the https port for redirect.
+02/18/2024 15:33:38 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:33:38 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:33:40 HTTP "PUT" "/api/User/PutUserName/2" responded 400 in 3342.0415 ms
+02/18/2024 15:40:57 Приложение запущено
+02/18/2024 15:40:58 HTTP "GET" "/swagger/index.html" responded 200 in 206.8019 ms
+02/18/2024 15:40:59 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 309.3724 ms
+02/18/2024 15:41:23 Failed to determine the https port for redirect.
+02/18/2024 15:41:24 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:41:24 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:41:25 HTTP "PUT" "/api/User/PutUserName/2" responded 200 in 2482.0048 ms
+02/18/2024 15:43:58 Приложение запущено
+02/18/2024 15:43:59 HTTP "GET" "/swagger/index.html" responded 200 in 210.1471 ms
+02/18/2024 15:44:00 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 357.5976 ms
+02/18/2024 15:44:51 Failed to determine the https port for redirect.
+02/18/2024 15:44:52 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:44:52 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:44:54 HTTP "PUT" "/api/User/PutUserPassword/2" responded 200 in 2728.8509 ms
+02/18/2024 15:50:43 Приложение запущено
+02/18/2024 15:50:44 HTTP "GET" "/swagger/index.html" responded 200 in 184.1054 ms
+02/18/2024 15:50:45 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 212.0869 ms
+02/18/2024 15:54:33 Failed to determine the https port for redirect.
+02/18/2024 15:54:34 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:54:34 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 15:54:35 HTTP "DELETE" "/api/User/2" responded 200 in 2504.7923 ms
+02/18/2024 15:54:43 HTTP "GET" "/api/User" responded 200 in 106.0285 ms
+02/18/2024 16:14:26 Приложение запущено
+02/18/2024 16:14:27 HTTP "GET" "/swagger/index.html" responded 200 in 178.4723 ms
+02/18/2024 16:14:28 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 285.8812 ms
+02/18/2024 16:14:58 Failed to determine the https port for redirect.
+02/18/2024 16:14:59 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 16:14:59 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/18/2024 16:15:01 HTTP "POST" "/api/User" responded 200 in 2930.0278 ms
+02/18/2024 16:15:17 HTTP "POST" "/api/User/IsUserNameAndUserPasswordCorrect" responded 200 in 316.4913 ms
+02/18/2024 16:15:46 HTTP "POST" "/api/User/IsUserNameAndUserPasswordCorrect" responded 400 in 308.0832 ms
