@@ -1,8 +1,13 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authentication.OAuth;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query.Internal;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using webapi.Authentication;
 using webapi.Data;
 using webapi.Models.User;
 using webapi.Services;
@@ -23,7 +28,52 @@ namespace webapi.Controllers
         }
 
         //Аутентификация пользователя
-        //[HttpPost]
-        //public async Task<ActionResult<User>> AuthUser
+        [HttpPost]
+        public async Task<ActionResult<User>> AuthUser(User user) {
+            List<Claim> identity;
+            try {
+                identity = await GetIdentity(user);
+            }
+            catch (Exception exception) {
+                return Problem(exception.Message);
+            }
+
+            var now = DateTime.UtcNow;
+
+            //Создаем JWT-токен
+
+            var jwt = new JwtSecurityToken(
+                issuer: AuthOptions.ISSUER,
+                audience: AuthOptions.AUDINCE,
+                notBefore: now,
+                claims: identity,
+                expires: now.Add(TimeSpan.FromMinutes(AuthOptions.LIFETIME)),
+                signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256)
+                );
+
+            var encodedJwt = new JwtSecurityTokenHandler().WriteToken(jwt);
+
+            var response = new
+            {
+                access_token = encodedJwt,
+                userId = identity[0].Value.ToString(),
+                userName = identity[1].Value.ToString(),
+                userRole = identity[2].Value.ToString()
+            };
+            return Ok(response);
+        }
+
+        //Идентификация пользователя
+        private async Task<List<Claim>> GetIdentity(User user)
+        {
+            await _userService.IsUserNameAndUserPasswordCorrect(user);
+            var userDb = await _userService.ReadUserByName(user.UserName);
+            var claims = new List<Claim> {
+                new Claim(nameof(userDb.Id), $"{userDb.Id}"),
+                new Claim(nameof(userDb.UserName), $"{userDb.UserName}"),
+                new Claim(nameof(userDb.UserRole), $"{userDb.UserRole}")
+            };
+            return claims;
+        }
     }
 }

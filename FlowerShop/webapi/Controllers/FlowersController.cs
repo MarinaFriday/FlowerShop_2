@@ -13,45 +13,76 @@ namespace webapi.Controllers
     public class FlowersController : ControllerBase
     {
         private readonly DataContext _context;
+        private FlowerService fs;
+
         public FlowersController(DataContext context) {
-            _context=context;
+            _context = context;
+            fs = new FlowerService(context);
         }
 
         //GET
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Flower>>> GetFlowers() {
-            FlowerService fs = new FlowerService(_context);
-            return await fs.ListFlowers();
+            try
+            {
+                var flowerList = await fs.ListFlowers();
+                if (flowerList != null) return Ok(flowerList);
+                else return NoContent();
+            }
+            catch (Exception exception) {
+                Console.WriteLine(exception);
+                return BadRequest(exception.Message);
+            }
         }
+
         //GET {id}
         [HttpGet("{id}")]
         public async Task<ActionResult<Flower>> GetFlower(int id) {
-            FlowerService fs = new FlowerService(_context);
-            if (fs == null) NotFound();
-            return await fs.GetFlower(id);
+            try
+            {
+                var result = await fs.GetFlowerById(id);
+                return Ok(result);
+            }
+            catch (Exception exception) {
+                Console.WriteLine(exception);
+                return BadRequest(exception.Message);
+            }
         }
+
         //POST
         [HttpPost]
         public async Task<ActionResult<Flower>> PostFlower(FlowerDTO flowerDTO) {
-            FlowerService fs = new FlowerService(_context);
-            var result = fs.AddFlower(flowerDTO);
-            return await result == null ? BadRequest("Ошибка в цветке") : await result;
+            var result = await fs.AddFlower(flowerDTO);
+            return result == null ? BadRequest("Ошибка в добавлении цветка") : Ok(result);
         }
+
         //PUT {id}
         [HttpPut ("{id}")]
-        public async Task<IActionResult> PutFlower(int id, FlowerDTO flowerDTO) {
-            FlowerService fs = new FlowerService(_context);
-            var result = fs.UpdateFlower(id, flowerDTO);
-            if (result == null) return NotFound("Flower is not found");
-            return Ok();
+        public async Task<ActionResult<Flower>> PutFlower(int id, FlowerDTO flowerDTO) {
+            try
+            {
+                var result = await fs.EditFlower(id, flowerDTO);
+                return Ok(result);
+            }
+            catch (Exception exception) {
+                Console.WriteLine(exception);
+                return BadRequest(exception.Message);
+            }        
         }
+
         //DELETE {id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteFlower(int id) {
-            FlowerService fs = new FlowerService(_context);
-            var flower = fs.DeleteFlower(id);
-            if (flower != null) return Ok();
-            return NoContent();                
+            try
+            {
+                await fs.DeleteFlower(id);
+                return Ok("Цветок удален");
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                return BadRequest(exception.Message);
+            }
         }
     }
 }

@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20022024 203817photo_5287686246044390461_y.jpg",
+      "PackagePath": "staticwebassets\\images\\20022024 203817photo_5287686246044390461_y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\20022024 203818photo_5287686246044390462_y.jpg",
+      "PackagePath": "staticwebassets\\images\\20022024 203818photo_5287686246044390462_y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\23022024 132824kokorina1.JPG",
+      "PackagePath": "staticwebassets\\images\\23022024 132824kokorina1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\23022024 132825Снимок.JPG",
+      "PackagePath": "staticwebassets\\images\\23022024 132825Снимок.JPG"
+    },
+    {
       "Id": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\text.html",
       "PackagePath": "staticwebassets\\text.html"
     },

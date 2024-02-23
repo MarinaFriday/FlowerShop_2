@@ -8,10 +8,7 @@ namespace webapi.Models.Flowers
         public int Id { get; set; }
         public string Title { get; set; }
         public int Price { get; set; }
-        //количество
-        public int Count { get; set; }
-        //public int? ImageId { get; set; }
-
+        public int Count { get; set; }       
         public ICollection<Image>? Images { get; set; }
         public int ColorId { get; set; }      
         public Color? Color { get; set; } 

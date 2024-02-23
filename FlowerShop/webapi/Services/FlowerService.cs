@@ -7,35 +7,40 @@ using webapi.Models.Flowers;
 using System.Threading.Tasks;
 using webapi.Models.DTO;
 using webapi.Controllers;
+using Microsoft.AspNetCore.Server.IIS.Core;
+using webapi.Models.User;
 
 namespace webapi.Services
 {
     public class FlowerService
     {
-        private DataContext _context;
+        private readonly DataContext _context;
         public FlowerService(DataContext context) {
             _context=context;
         }       
 
         //Добавление цветка через DTO
-        public async Task<ActionResult<Flower>> AddFlower(FlowerDTO flowerDTO) {
+        public async Task<Flower> AddFlower(FlowerDTO flowerDTO) {
             var flower = new Flower();              
             flower.Title = flowerDTO.Title.Trim();
             flower.Price = flowerDTO.Price;
             flower.Count = flowerDTO.Count;
-            
+            if (flowerDTO.ImagesId != null)
+            {
                 flower.Images = new List<Image>();
                 foreach (var imageId in flowerDTO.ImagesId)
-                {
-                    Console.WriteLine(imageId);
+                {                    
                     try
                     {
                         var image = await _context.Images.FindAsync(imageId);
                         if (image != null) flower.Images.Add(image);
                     }
-                    catch { Console.WriteLine("Возникло исключение"); }
+                    catch
+                    {
+                        throw new Exception("Неудалось загрузить изображение");
+                    }
                 }
-            
+            }            
             flower.ColorId = flowerDTO.ColorId;
             var color = await _context.Colors.FindAsync(flower.ColorId);
                 if (color != null) flower.Color = color;
@@ -51,7 +56,7 @@ namespace webapi.Services
         }
 
         //Получение списка цветов
-        public async Task<ActionResult<IEnumerable<Flower>>> ListFlowers() 
+        public async Task<IEnumerable<Flower>> ListFlowers() 
         {
             return await _context.Flowers
                 .Include(flower=>flower.Color)
@@ -60,19 +65,21 @@ namespace webapi.Services
                 .Include(flower => flower.Images)
                 .ToListAsync();
         }
+
         //Получение цветка по id
-        public async Task<ActionResult<Flower>> GetFlower(int id) {            
+        public async Task<Flower> GetFlowerById(int id) {            
             var flower = await _context.Flowers.FindAsync(id);
-            if (id != flower.Id) return null;
+            if (flower == null) throw new Exception("Цветка с данным id не существует");
             List<Image> images =  _context.Images.Where(i => i.FlowerId == flower.Id).ToList();
             flower.Images = images;
             return flower;  
         }
 
         //Обновление цветка 
-        public async Task<ActionResult<Flower>> UpdateFlower(int id, FlowerDTO flowerDTO) {
+        public async Task<Flower> EditFlower(int id, FlowerDTO flowerDTO) {
+            if (id != flowerDTO.Id) throw new Exception("Переданные Id и Id цветка не совпадают! Проверьте отправляемые данные");
             var flowerDb = _context.Flowers.FirstOrDefault(flowerDb => flowerDb.Id == id);
-            if (flowerDb == null) return null;
+            if (flowerDb == null) throw new Exception("Цветок не найден");
             flowerDb.Title = flowerDTO.Title.Trim();
             flowerDb.Price = flowerDTO.Price;
             flowerDb.Count = flowerDTO.Count;
@@ -84,19 +91,17 @@ namespace webapi.Services
             if (category != null) flowerDb.Category = category;
             flowerDb.CountryId = flowerDTO.CountryId;
             var country = _context.Countries.FirstOrDefault(country => country.Id == flowerDb.CountryId);
-            if (country != null) flowerDb.Country = country;       
-            //_context.Entry(flowerDb).State = EntityState.Modified;
+            if (country != null) flowerDb.Country = country;                   
             await _context.SaveChangesAsync();  
             return flowerDb;  
 
         }
+
         //Удаление цветка
-        public Flower DeleteFlower(int id) {
-            var flower =  _context.Flowers.Find(id);
-            if (flower == null) return null;
+        public async Task DeleteFlower(int id) {
+            var flower = await GetFlowerById(id);            
             _context.Flowers.Remove(flower);
-            _context.SaveChanges();
-            return flower;
+            await _context.SaveChangesAsync();           
         }
 
         

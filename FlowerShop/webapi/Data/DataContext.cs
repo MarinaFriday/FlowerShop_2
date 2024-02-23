@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using webapi.Models.Bouquet;
+using webapi.Models.Composition;
 using webapi.Models.Expanses;
 using webapi.Models.Flowers;
 using webapi.Models.Sales;
@@ -30,6 +32,8 @@ namespace webapi.Data
         public DbSet<Models.Sales.Category> SalesCategories { get; set; }  
         public DbSet<Sale> Sales { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Bouquet> Bouquets { get; set; }
+        public DbSet<Composition> Compositions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

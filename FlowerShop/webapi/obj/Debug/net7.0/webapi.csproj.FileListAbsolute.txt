@@ -672,3 +672,5 @@ C:\Users\marin\OneDrive\Desktop\fs7\FlowerShop_2\FlowerShop\webapi\obj\Debug\net
 C:\Users\marin\OneDrive\Desktop\fs7\FlowerShop_2\FlowerShop\webapi\obj\Debug\net7.0\webapi.pdb
 C:\Users\marin\OneDrive\Desktop\fs7\FlowerShop_2\FlowerShop\webapi\obj\Debug\net7.0\webapi.genruntimeconfig.cache
 C:\Users\marin\OneDrive\Desktop\fs7\FlowerShop_2\FlowerShop\webapi\obj\Debug\net7.0\ref\webapi.dll
+C:\Users\marin\OneDrive\Desktop\fs7\FlowerShop_2\FlowerShop\webapi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\marin\OneDrive\Desktop\fs7\FlowerShop_2\FlowerShop\webapi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll

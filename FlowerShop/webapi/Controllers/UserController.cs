@@ -29,14 +29,8 @@ namespace webapi.Controllers
             try
             {
                 var userList = await userService.ReadAllUsers();
-                if (userList != null)
-                {
-                    return Ok(userList);
-                }
-                else
-                {
-                    return NoContent();
-                }
+                if (userList != null) return Ok(userList);                
+                else return NoContent();                
             }
             catch (Exception exception)
             {
@@ -50,8 +44,7 @@ namespace webapi.Controllers
         {
             try {
                 var result = await userService.ReadUserById(id);
-                if (result != null) return Ok(result);
-                else return NoContent();
+                return Ok(result);                
             }
             catch (Exception exception)
             {
@@ -66,8 +59,7 @@ namespace webapi.Controllers
             try
             {
                 var result = await userService.ReadUserByName(name);
-                if (result != null) return Ok(result);
-                else return NoContent();
+                return Ok(result);                
             }
             catch (Exception exception)
             {
@@ -106,6 +98,7 @@ namespace webapi.Controllers
         }
 
         [HttpPut("PutUserPassword/{id}")]
+
         public async Task<ActionResult<User>> PutUserPassword(int id, User user)
         {
             try

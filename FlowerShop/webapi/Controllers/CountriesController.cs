@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Metrics;
 using webapi.Data;
@@ -17,12 +18,14 @@ namespace webapi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<Country>>> GetFlowerCounties()
         {
             return await _context.Countries.ToListAsync();
         }
 
         [HttpGet("{id}")]
+        
         public async Task<ActionResult<Country>> GetFlowerCountry(int id)
         {
             var country = await _context.Countries.FindAsync(id);

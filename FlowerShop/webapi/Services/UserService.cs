@@ -48,8 +48,8 @@ namespace webapi.Services
             if (user != null)
             {
                 return user;
-            }            
-            else return null;
+            }
+            else throw new Exception("Пользователь с данным именем не найден");
         }
 
         public async Task<User> EditUserName(int id, User user) {
@@ -75,7 +75,7 @@ namespace webapi.Services
         }
 
         public async Task DeleteUserById(int id) {
-            var user = await ReadUserById(id);
+            var user = await ReadUserById(id);           
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();  
         }
