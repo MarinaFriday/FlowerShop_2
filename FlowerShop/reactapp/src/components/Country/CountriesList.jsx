@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import { urlCountries, urlCountryById } from "../../urls/urlList";
 
-const CountriesList = () => {
+const CountriesList = ({ update }) => {
 
     const [countries, setData] = useState([]);
     const [isEditing, setIsEditing] = useState(false);
@@ -12,7 +12,7 @@ const CountriesList = () => {
 
     useEffect(
         () => { (async () => await GetAllCountries())() }        
-        , []);
+        , [update]);
 
     async function GetAllCountries() {
         const fetchData = async () => {
@@ -25,7 +25,6 @@ const CountriesList = () => {
     
     async function editCountry (e)  {
         e.preventDefault()   
-        //console.log(currentCountry.id)
         var country = {
             id: currentCountry.id,
             title: modifiedCountry.title

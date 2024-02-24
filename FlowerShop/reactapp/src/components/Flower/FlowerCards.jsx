@@ -50,8 +50,7 @@ const FlowerCards = () => {
                     </Card.Body>
                 </Card>
             ))
-                }
-                
+                }                
         </Row>
         </>
     );

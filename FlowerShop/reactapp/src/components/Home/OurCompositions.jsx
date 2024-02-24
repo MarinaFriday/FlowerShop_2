@@ -1,8 +1,9 @@
 ﻿import React from 'react';
+import CompositionCards from '../Composition/CompositionCards';
 
 const OurCompositions = () => {
     return (
-        <h1>Композиции</h1>
+        <CompositionCards/>
     );
 }
 export default OurCompositions

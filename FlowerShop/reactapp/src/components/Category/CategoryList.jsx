@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import { urlCategories, urlCategoryById } from "../../urls/urlList";
 
-const CategoriesList = () => {
+const CategoriesList = ({ update }) => {
 
     const [categories, setData] = useState([]);
     const [isEditing, setIsEditing] = useState(false);
@@ -11,8 +11,10 @@ const CategoriesList = () => {
     const [modifiedCategory, setModifiedCategory] = useState({ title: '' });
 
     useEffect(
-        () => { (async () => await getAllCategories())() }
-        , []);
+        () => {
+            (async () => await getAllCategories())()            
+        }
+        , [update]);
 
     async function getAllCategories() {
         const fetchData = async () => {
@@ -48,7 +50,7 @@ const CategoriesList = () => {
    
     async function deleteCategory(id) {
         try {
-            await axios.delete(urlCategoryById + '/' + id);
+            await axios.delete(urlCategoryById + id);
             alert("Категория удалена");
             setModifiedCategory({ title: '' });
             getAllCategories();

@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import { urlColors, urlColorById } from "../../urls/urlList";
 
-const ColorList1 = () => {
+const ColorList = ({ update }) => {
 
     const [colors, setData] = useState([]);
     const [isEditing, setIsEditing] = useState(false);
@@ -12,7 +12,7 @@ const ColorList1 = () => {
 
     useEffect(
         () => { (async () => await getAllColors())() }
-        , []);
+        , [update]);
 
     async function getAllColors() {
         const fetchData = async () => {
@@ -114,4 +114,4 @@ const ColorList1 = () => {
     );
 }
 
-export default ColorList1;
+export default ColorList;

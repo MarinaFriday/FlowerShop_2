@@ -27,7 +27,7 @@ const FlowerUpdateModal = ({ active, setActive, currentFlowerData }) => {
         console.log("id country")
         console.log(dBCountry.dataset.idcountry)
         var flower = {
-            //id: currentFlowerData.id,
+            id: currentFlowerData.id,
             title: modifiedFlowerTitle.title,
             price: modifiedFlowerPrice.price,
             count: modifiedFlowerCount.count,
@@ -43,7 +43,8 @@ const FlowerUpdateModal = ({ active, setActive, currentFlowerData }) => {
 
         }
         catch (error) {
-            alert(error);
+            console.log(error);
+            alert(error.response.data);
         }
         setActive(false)
     }

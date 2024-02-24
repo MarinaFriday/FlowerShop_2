@@ -8,6 +8,20 @@ const ColorAddTools = () => {
     const [inputValue, setInputValue] = useState({
         colorName: ''
     });
+    const [isDataUpdated, setDataUpdated] = useState(false);
+
+    const postColor = async () => {
+        try {
+            await axios.post(urlColors, inputValue);
+            setDataUpdated(!isDataUpdated)
+            alert('Успешно!')
+        }
+        catch (error) {
+            console.log(error.response.data);
+            alert(error.response.data);
+        }
+    }
+
     return (        
             <Container>
             <h2 className="text-center">Настройки цвета</h2>                           
@@ -21,15 +35,9 @@ const ColorAddTools = () => {
                     />
             </InputGroup>
             <Button disabled={inputValue.colorName.length === 0}
-                onClick={async () => {
-                    try {                       
-                        await axios.post(urlColors, inputValue);
-                        alert('Успешно!')
-                    }
-                    catch (e) { alert('Ошибка добавления цвета', e) }
-                }}
+                onClick={postColor}
             >Добавить</Button>
-            <ColorList/>
+            <ColorList update={isDataUpdated} />
             </Container>           
     );
 }

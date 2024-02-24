@@ -21,9 +21,11 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nar">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/flowers">Flower List</Nav.Link>
-                        <Nav.Link href="/statistics">Statistics</Nav.Link>
+                        <Nav.Link href="/">Главная</Nav.Link>
+                        <Nav.Link href="/flowers">Каталог цветов</Nav.Link>
+                        <Nav.Link href="/bouquets">Каталог букетов</Nav.Link>
+                        <Nav.Link href="/compositions">Каталог композиций</Nav.Link>
+                        {/*<Nav.Link href="/statistics">Statistics</Nav.Link>*/}
                         <Nav.Link href="/tools">Настройки</Nav.Link>
                     </Nav>
                     {/*<Form className="d-flex">*/}

@@ -9,13 +9,18 @@ const CategoryAddTools = () => {
     const [inputValue, setInputValue] = useState({
         title: ''
     });
+    const [isDataUpdated, setDataUpdated] = useState(false);
 
     const postCategory = async () => {
         try {
-            await axios.post(urlCategories, inputValue)
+            await axios.post(urlCategories, inputValue);
+            setDataUpdated(!isDataUpdated)
             alert('Успешно!')
         }
-        catch (e) { alert('Ошибка добавления категории', e) }
+        catch (error) {
+            console.log(error.response.data);
+            alert(error.response.data);
+        }
     }
 
     return (
@@ -33,7 +38,7 @@ const CategoryAddTools = () => {
             <Button disabled={inputValue.title.length === 0}
                 onClick={postCategory}
             >Добавить</Button>
-            <CategoryList/>
+            <CategoryList update={isDataUpdated} />
         </Container>
     );
 }

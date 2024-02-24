@@ -23,4 +23,10 @@ export const urlCountryById = BASE_URL + '/api/Countries/'
 export const urlUploadImages = BASE_URL + '/api/UploadImages'
 export const urlUploadImagesId = BASE_URL + '/api/UploadImages/'
 
-//
+//Bouquets
+export const urlBouquets = BASE_URL + '/api/Bouquets'
+export const urlBouquetById = BASE_URL + '/api/Bouquets/'
+
+//Compositions
+export const urlCompositions = BASE_URL + '/api/Compositions'
+export const urlCompositionById = BASE_URL + '/api/Compositions/'

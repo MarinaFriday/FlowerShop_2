@@ -1,5 +1,4 @@
 ﻿import { Container, InputGroup, Form, Button } from 'react-bootstrap';
-/*import DropdownButtonCountry from './DropdownButtonCountry';*/
 import React, { useState } from 'react';
 import axios from 'axios';
 import { urlCountries } from "../../urls/urlList";
@@ -10,10 +9,25 @@ const CountryAddTools = () => {
     const [inputValue, setInputValue] = useState({
         title: ''
     });
+    const [isDataUpdated, setDataUpdated] = useState(false);
+
+
+
+    const postCountry = async () => {
+        try {
+            await axios.post(urlCountries, inputValue);
+            setDataUpdated(!isDataUpdated)
+            alert('Успешно!')
+        }
+        catch (error) {
+            console.log(error.response.data);
+            alert(error.response.data);
+        }
+    }
+
     return (
         <Container>
             <h2 className="text-center">Настройки стран</h2>
-            {/*<DropdownButtonCountry />*/}
             <InputGroup size="sm" className="mb-3">
                 <InputGroup.Text id="inputGroup-sizing-sm">Введите название</InputGroup.Text>
                 <Form.Control
@@ -24,14 +38,9 @@ const CountryAddTools = () => {
                 />
             </InputGroup>
             <Button disabled={inputValue.title.length === 0}
-                onClick={async () => {
-                    try {
-                        await axios.post(urlCountries, inputValue)
-                    }
-                    catch (e) { console.log('Ошибка добавления страны', e) }
-                }}
+                onClick={postCountry}
             >Добавить</Button>
-            <CountriesList />
+            <CountriesList update={isDataUpdated} />
 
         </Container>
     );

@@ -4,8 +4,8 @@ import FlowerAddTools from "../Flower/FlowerAddTools"
 import ColorAddTools from "../Color/ColorAddTools"
 import CategoryAddTools from "../Category/CategoryAddTools"
 import CountryAddTools from "../Country/CountryAddTools"
-
-
+import CompositionAddTools from "../Composition/CompositionAddTools"
+import BouquetAddTools from "../Bouquet/BouquetAddTools"
 
 const Tools =() => {    
     return (
@@ -19,7 +19,7 @@ const Tools =() => {
                         <Col sm={3}>
                             <Nav variant="pills" className="flex-column mt-2">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Настройки цветка</Nav.Link>
+                                    <Nav.Link eventKey="first">Добавление цветка</Nav.Link>
                                 </Nav.Item>                                                              
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">Настройки категорий</Nav.Link>
@@ -30,7 +30,12 @@ const Tools =() => {
                                 <Nav.Item>
                                     <Nav.Link eventKey="fourth">Настройки стран</Nav.Link>
                                 </Nav.Item>                              
-                             
+                                <Nav.Item>
+                                    <Nav.Link eventKey="fifth">Добавление композиции</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="sixth">Добавление букета</Nav.Link>
+                                </Nav.Item>
                             </Nav>
                         </Col>
                         <Col sm={9}>
@@ -53,7 +58,17 @@ const Tools =() => {
                                 <Tab.Pane eventKey="fourth">
                                     <CountryAddTools />
                                 </Tab.Pane>
-                            </Tab.Content>                          
+                            </Tab.Content> 
+                            <Tab.Content>
+                                <Tab.Pane eventKey="fifth">
+                                    <CompositionAddTools />
+                                </Tab.Pane>
+                            </Tab.Content> 
+                            {/*<Tab.Content>*/}
+                            {/*    <Tab.Pane eventKey="sixth">*/}
+                            {/*        <BouquetAddTools />*/}
+                            {/*    </Tab.Pane>*/}
+                            {/*</Tab.Content> */}
                         </Col>
                     </Row>                
                 </Tab.Container>

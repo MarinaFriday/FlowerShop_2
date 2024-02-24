@@ -4,26 +4,19 @@ import { urlFlowers, urlFlowersById, urlUploadImagesId } from "../../urls/urlLis
 import { Carousel, Image, Col, Button } from 'react-bootstrap';
 import { BASE_URL } from "../../urls/urlList";
 import noimage from "../../img/noimage.jpg";
-import DropdownButtonCategory from "../Category/DropdownButtonCategory";
-import DropdownButtonColor from "../Color/DropdownButtonColor";
-import DropdownButtonCountry from "../Country/DropdownButtonCountry";
 import FlowerUpdateModal from './FlowerUpdateModal';
 
 
 const FlowerCatalogList = () => {
 
-    const [flowers, setData] = useState([]);  
-
-    //const [isEditing, setIsEditing] = useState(false);
+    const [flowers, setData] = useState([]);      
     const [currentFlower, setCurrentFlower] = useState();
-    //const [modifiedFlowerTitle, setModifiedFlowerTitle] = useState({ flowerTitle: "" });
-    //const [modifiedFlowerPrice, setModifiedFlowerPrice] = useState({ flowerPrice: "" });
-    //const [modifiedFlowerCount, setModifiedFlowerCount] = useState({ flowerCount: "" });
     const [modalActive, setModalActive] = useState(false);
 
     useEffect(
         () => { (async () => await getAllFlowers())() }
-        , []);
+        , [modalActive]);
+
     async function getAllFlowers() {
         const fetchData = async () => {
             const result = await axios.get(urlFlowers);
@@ -31,8 +24,7 @@ const FlowerCatalogList = () => {
             console.log(result.data);
         };
         fetchData();
-    }
-    
+    }    
 
     async function deleteImage(f) {
         try {
@@ -90,7 +82,7 @@ const FlowerCatalogList = () => {
                                 <td>{index + 1}</td>
                                     <td>
                                         <Carousel>
-                                        {(f.images !== undefined) ? f.images.map((i, x) =>
+                                        {(f.images !== null) ? f.images.map((i, x) =>
                                             <Carousel.Item>
                                                 <Col xs={6} md={4}>
                                                     <Image
