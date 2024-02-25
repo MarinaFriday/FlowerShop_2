@@ -92,7 +92,7 @@ const Flower = () => {
             <div style={{ marginTop: '50px'}} className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
 
                 <div className="col p-4 d-flex flex-column position-static">                    
-                    <h3 className="mb-0">Название цветка: {flower.title}</h3>
+                    <h3 className="mb-0">{flower.title}</h3>
                     <p className="card-text mb-auto">Цена:  {flower.price} руб.</p>
                     <p className="card-text mb-auto">Страна:  {country.title} </p>
                     <p className="card-text mb-auto">Цвет:  {color.colorName} </p>

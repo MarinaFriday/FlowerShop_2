@@ -21,8 +21,6 @@ const CompositionUpdateModal = ({ active, setActive, currentCompositionData }) =
             compositionName: modifiedCompositionName.compositionName,
             compositionDescription: modifiedCompositionDescription.compositionDescription,
             compositionPrice: modifiedCompositionPrice.compositionPrice,
-            compositionAvailability: true,
-            imagesId: currentCompositionData.imagesId
         };
         console.log(composition);
         try {

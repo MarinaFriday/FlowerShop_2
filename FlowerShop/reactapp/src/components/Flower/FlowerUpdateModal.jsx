@@ -14,8 +14,8 @@ const FlowerUpdateModal = ({ active, setActive, currentFlowerData }) => {
     const [modifiedFlowerTitle, setModifiedFlowerTitle] = useState();
     const [modifiedFlowerPrice, setModifiedFlowerPrice] = useState();
     const [modifiedFlowerCount, setModifiedFlowerCount] = useState();
-
-
+    console.log("currentFlowerData")
+    console.log(currentFlowerData)
     async function editFlower() {
         var dBcategory = document.getElementById("dropdownButtonCategory")
         var dBcolor = document.getElementById("dropdownButtonColor")
@@ -83,9 +83,9 @@ const FlowerUpdateModal = ({ active, setActive, currentFlowerData }) => {
                                     placeholder={currentFlowerData.title}
                                     onChange={e => setModifiedFlowerTitle({ ...modifiedFlowerTitle, title: e.target.value })}                                />
                             </InputGroup>
-                            <DropdownButtonCategory id="dropdownButtonCategory" currentFlowerDataCategory={currentFlowerData.category.title} />
-                            <DropdownButtonColor id="dropdownButtonColor" currentFlowerDataColor={currentFlowerData.color.colorName} />
-                            <DropdownButtonCountry id="dropdownButonCountry" currentFlowerDataCountry={currentFlowerData.country.title}  />
+                            <DropdownButtonCategory id="dropdownButtonCategory" currentFlowerDataCategory={(currentFlowerData.category !== null) ? currentFlowerData.category.title : null} />
+                            <DropdownButtonColor id="dropdownButtonColor" currentFlowerDataColor={(currentFlowerData.color !== null) ? currentFlowerData.color.colorName : null} />
+                            <DropdownButtonCountry id="dropdownButonCountry" currentFlowerDataCountry={(currentFlowerData.country !== null) ? currentFlowerData.country.title : null}  />
                             <InputGroup size="sm" className="mb-3">
                                 <InputGroup.Text id="inputGroup-sizing-sm">Стоимость</InputGroup.Text>
                                 <Form.Control

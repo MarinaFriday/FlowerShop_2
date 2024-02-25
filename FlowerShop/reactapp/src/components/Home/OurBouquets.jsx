@@ -1,8 +1,9 @@
 ﻿import React from 'react';
+import BouquetCards from '../Bouquet/BouquetCards';
 
 const OurBouquets = () => {
     return (
-        <h1>Букеты</h1>
+        <BouquetCards />
     );
 }
 export default OurBouquets

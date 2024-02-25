@@ -4,16 +4,18 @@ import axios from "axios";
 import { urlColors } from "../../urls/urlList";
 import ColorList from './ColorList';
 
-const ColorAddTools = () => {
+const ColorAddTools = ({ updateColor }) => {
     const [inputValue, setInputValue] = useState({
         colorName: ''
     });
+
     const [isDataUpdated, setDataUpdated] = useState(false);
 
     const postColor = async () => {
         try {
             await axios.post(urlColors, inputValue);
             setDataUpdated(!isDataUpdated)
+            updateColor(!isDataUpdated)
             alert('Успешно!')
         }
         catch (error) {

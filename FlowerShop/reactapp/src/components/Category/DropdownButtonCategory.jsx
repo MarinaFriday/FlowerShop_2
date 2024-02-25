@@ -4,11 +4,11 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import axios from "axios";
 import { urlCategories } from "../../urls/urlList";
 
-const DropdownButtonCategory = ({ currentFlowerDataCategory }) => {
-    (currentFlowerDataCategory !== undefined ? console.log(currentFlowerDataCategory) : console.log("Категория") ) ;
+const DropdownButtonCategory = ({ currentFlowerDataCategory, isDataUpdatedCategory }) => {
+    //(currentFlowerDataCategory !== undefined ? console.log(currentFlowerDataCategory) : console.log("Категория") ) ;
     
     const [categories, setData] = useState([]);
-    const [titleDropdownBtn, setTitle] = useState((currentFlowerDataCategory !== undefined ?  currentFlowerDataCategory  : "Категория"));
+    const [titleDropdownBtn, setTitle] = useState((currentFlowerDataCategory !== undefined ? currentFlowerDataCategory : "Категория"));
     const [idCategory, setIdCategoryData] = useState("Категория");
 
     useEffect(() => {
@@ -17,7 +17,7 @@ const DropdownButtonCategory = ({ currentFlowerDataCategory }) => {
             setData(result.data);
         };
         fetchData();
-    }, []);
+    }, [isDataUpdatedCategory]);
 
     return (
         <div id="dropdownButtonCategory" data-idCategory={idCategory}>

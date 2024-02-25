@@ -42,7 +42,9 @@ namespace webapi.Services
 
         //Чтение списка композиций
         public async Task<IEnumerable<Composition>> ReadAllCompositions() {
-            return await _context.Compositions.ToListAsync();
+            return await _context.Compositions
+                .Include(composition => composition.Images)
+                .ToListAsync();
         }
 
         //Чтение композиции по id

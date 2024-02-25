@@ -5,7 +5,7 @@ import { urlCategories } from "../../urls/urlList";
 import CategoryList from './CategoryList';
 
 
-const CategoryAddTools = () => {
+const CategoryAddTools = ({ updateCategory }) => {
     const [inputValue, setInputValue] = useState({
         title: ''
     });
@@ -15,6 +15,7 @@ const CategoryAddTools = () => {
         try {
             await axios.post(urlCategories, inputValue);
             setDataUpdated(!isDataUpdated)
+            updateCategory(!isDataUpdated)
             alert('Успешно!')
         }
         catch (error) {

@@ -10,11 +10,11 @@ namespace webapi.Models.Flowers
         public int Price { get; set; }
         public int Count { get; set; }       
         public ICollection<Image>? Images { get; set; }
-        public int ColorId { get; set; }      
+        public int? ColorId { get; set; }      
         public Color? Color { get; set; } 
-        public int CategoryId { get; set; } 
+        public int? CategoryId { get; set; } 
         public FlowerCategory? Category { get; set; } 
-        public int CountryId { get; set; }
+        public int? CountryId { get; set; }
         public Country? Country { get; set; }
         public ICollection<FlowersProviders>? FlowersProviders { get; set; }  
         public ICollection<FlowersShipments>? FlowersShipments { get; set; }

@@ -5,7 +5,7 @@ import { urlCountries } from "../../urls/urlList";
 import CountriesList from './CountriesList';
 
 
-const CountryAddTools = () => {
+const CountryAddTools = ({ updateCountry }) => {
     const [inputValue, setInputValue] = useState({
         title: ''
     });
@@ -17,6 +17,7 @@ const CountryAddTools = () => {
         try {
             await axios.post(urlCountries, inputValue);
             setDataUpdated(!isDataUpdated)
+            updateCountry(!isDataUpdated)
             alert('Успешно!')
         }
         catch (error) {

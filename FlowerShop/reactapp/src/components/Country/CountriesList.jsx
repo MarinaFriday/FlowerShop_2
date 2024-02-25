@@ -46,7 +46,7 @@ const CountriesList = ({ update }) => {
     }
     async function deleteCountry(id) {
         try {
-            await axios.delete(urlCountryById + '/' + id);
+            await axios.delete(urlCountryById + id);
             alert("Страна удалена");
             setModifiedCountry({ title: '' });  
             GetAllCountries();

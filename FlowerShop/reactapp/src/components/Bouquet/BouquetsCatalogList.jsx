@@ -4,7 +4,7 @@ import { urlBouquets, urlBouquetById, urlUploadImagesId } from "../../urls/urlLi
 import { Carousel, Image, Col, Button } from 'react-bootstrap';
 import { BASE_URL } from "../../urls/urlList";
 import noimage from "../../img/noimage.jpg";
-
+import BouquetUpdateModal from './BouquetUpdateModal'
 
 
 const BouquetsCatalogList = () => {
@@ -15,7 +15,7 @@ const BouquetsCatalogList = () => {
 
     useEffect(
         () => { (async () => await getAllBouquets())() }
-        , []);
+        , [modalActive]);
 
     async function getAllBouquets() {
         const fetchData = async () => {
@@ -48,11 +48,14 @@ const BouquetsCatalogList = () => {
                 await deleteImage(b);
             }
             await axios.delete(urlBouquetById + b.id);
-            console.log("букет удален");
+            console.log("Букет удален");
             alert("Букет удален");
             getAllBouquets();
         }
-        catch (error) { alert(error) }
+        catch (error) {
+            console.log(error);
+            alert(error.response.data);
+        }
     }
 
     return (
@@ -113,9 +116,8 @@ const BouquetsCatalogList = () => {
                     </tbody>
                 </table>
             </div>
-            
+            <BouquetUpdateModal active={modalActive} setActive={setModalActive} currentBouquetData={currentBouquet} />
         </>
     );
 }
-/*<FlowerUpdateModal active={modalActive} setActive={setModalActive} currentFlowerData={currentFlower} />*/
 export default BouquetsCatalogList;

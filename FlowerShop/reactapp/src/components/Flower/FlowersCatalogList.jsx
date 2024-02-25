@@ -1,7 +1,7 @@
 ﻿import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { urlFlowers, urlFlowersById, urlUploadImagesId } from "../../urls/urlList";
-import { Carousel, Image, Col, Button } from 'react-bootstrap';
+import { Carousel, Image, Col, Button, Container } from 'react-bootstrap';
 import { BASE_URL } from "../../urls/urlList";
 import noimage from "../../img/noimage.jpg";
 import FlowerUpdateModal from './FlowerUpdateModal';
@@ -56,7 +56,7 @@ const FlowerCatalogList = () => {
     }
 
         return (
-            <>               
+            <Container>               
                 <h1> </h1> <br />
                 <h1> </h1> <br />
                 <h1>Каталог цветов</h1>                
@@ -79,8 +79,8 @@ const FlowerCatalogList = () => {
                         <tbody>                            
                             {flowers.map((f, index) => (
                              <tr key={f.id}>
-                                <td>{index + 1}</td>
-                                    <td>
+                                    <td key={"0-" + f.id}>{index + 1}</td>
+                                    <td key={"1-" + f.id}>
                                         <Carousel>
                                         {(f.images !== null) ? f.images.map((i, x) =>
                                             <Carousel.Item>
@@ -93,20 +93,20 @@ const FlowerCatalogList = () => {
                                         ) : <Image src={noimage} style={{ height: 50, width: 50, marginTop: '50px' }} />}
                                         </Carousel>
                                     </td>
-                                <td>{f.title}</td>
-                                <td>{f.category.title}</td>
-                                <td>{f.color.colorName}</td>
-                                <td>{f.country.title}</td>
-                                <td>{f.price}</td>
-                                <td>{f.count}</td>
-                                <td>
+                                    <td key={"2-" + f.id}>{f.title}</td>
+                                    <td key={"3-" + f.id}>{(f.category !== null) ? f.category.title : "-"}</td>
+                                    <td key={"4-" + f.id}>{(f.color !== null) ? f.color.colorName : "-"}</td>
+                                    <td key={"5-" + f.id}>{(f.country !== null) ? f.country.title : "-"}</td>
+                                    <td key={"6-" + f.id}>{f.price}</td>
+                                    <td key={"7-" + f.id}>{f.count}</td>
+                                <td key={"8-" + f.id}>
                                     <Button onClick={() => {
                                        setCurrentFlower(f)
                                        setModalActive(true)
                                             }}>Редактировать
                                     </Button>    
                                 </td>
-                                <td>
+                                <td key={"9-" + f.id}>
                                     <Button onClick={() => {
                                        deleteFlower(f)
                                     }}>Удалить</Button>
@@ -118,7 +118,7 @@ const FlowerCatalogList = () => {
                     </table>
                 </div>
                 <FlowerUpdateModal active={modalActive} setActive={setModalActive} currentFlowerData={currentFlower}  />
-            </>
+            </Container>
         );    
 }
 

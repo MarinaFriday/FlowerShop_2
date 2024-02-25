@@ -4,7 +4,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import axios from "axios";
 import { urlCountries } from "../../urls/urlList";
 
-const DropdownButtonCountry = ({ currentFlowerDataCountry }) => {
+const DropdownButtonCountry = ({ currentFlowerDataCountry, isDataUpdatedCountry }) => {
     const [countries, setData] = useState([]);
     const [titleDropdownBtn, setTitle] = useState((currentFlowerDataCountry !== undefined ? currentFlowerDataCountry : "Страна"));
     const [idCountry, setIdCountryData] = useState();
@@ -15,7 +15,8 @@ const DropdownButtonCountry = ({ currentFlowerDataCountry }) => {
             setData(result.data);
         };
         fetchData();
-    }, []);
+        console.log("isDataUpdatedCountry ", isDataUpdatedCountry );
+    }, [isDataUpdatedCountry]);
 
     return (
         <div id="dropdownButonCountry" data-IdCountry={ idCountry }>

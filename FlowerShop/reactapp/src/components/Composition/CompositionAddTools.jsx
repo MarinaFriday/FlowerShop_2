@@ -69,10 +69,11 @@ const CompositionTools = () => {
             axios.post(urlCompositions, composition);
             setDataUpdated(!isDataUpdated)
         }
-        catch (e) {
-            alert('Ошибка добавления цветка')
+        catch (error) {
+            console.log(error);
+            alert(error.response.data);
         }
-        alert('Композиция успешно добавлена')
+        
     }
     async function addComposition() {
         await postImages();
@@ -84,7 +85,7 @@ const CompositionTools = () => {
 
     return (
         <Container>
-            <h2 className="text-center">Добавление цветка</h2>
+            <h2 className="text-center">Добавление композиции</h2>
             <h1>  </h1>
             <ImagesUpload arrayImages={handleDataImages} />
             <h1>  </h1>
@@ -114,8 +115,8 @@ const CompositionTools = () => {
                 <Form.Control
                     aria-label="Small"
                     aria-describedby="inputGroup-sizing-sm"
-                    value={inputValueComposition.count}
-                    onChange={e => setInputValueComposition({ ...inputValueComposition, count: e.target.value })}
+                    value={inputValueComposition.compositionDescription}
+                    onChange={e => setInputValueComposition({ ...inputValueComposition, compositionDescription: e.target.value })}
                 />
             </InputGroup>
             <Button

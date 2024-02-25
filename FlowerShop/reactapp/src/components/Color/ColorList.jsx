@@ -48,7 +48,7 @@ const ColorList = ({ update }) => {
 
     async function deleteColor(id) {
         try {
-            await axios.delete(urlColorById + '/' + id);
+            await axios.delete(urlColorById + id);
             alert("Цвет удален");
             setModifiedColor({ colorName: '' });
             getAllColors();

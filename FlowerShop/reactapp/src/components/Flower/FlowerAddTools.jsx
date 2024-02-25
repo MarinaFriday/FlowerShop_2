@@ -9,7 +9,8 @@ import { urlUploadImages } from '../../urls/urlList';
 import ImagesUpload from '../ImagesUpload/ImagesUpload';
 
 
-const FlowerTools = () => {
+const FlowerTools = ({ isDataUpdatedColor, isDataUpdatedCountry, isDataUpdatedCategory }) => {
+    console.log("isDataUpdatedCountry", isDataUpdatedCountry)
     const [inputValueFlower, setInputValueFlower] = useState({
         title: '',
         price: '',
@@ -98,9 +99,9 @@ const FlowerTools = () => {
             <h1>  </h1>
             <ImagesUpload arrayImages={handleDataImages} />            
             <h1>  </h1>
-            <DropdownButtonCategory id="dropdownButtonCategory" /><h1> </h1>            
-            <DropdownButtonColor /><h1> </h1>                        
-            <DropdownButtonCountry /><h1> </h1> 
+            <DropdownButtonCategory id="dropdownButtonCategory" isDataUpdatedCategory={isDataUpdatedCategory} /><h1> </h1>            
+            <DropdownButtonColor isDataUpdatedColor={isDataUpdatedColor} /><h1> </h1>                        
+            <DropdownButtonCountry isDataUpdatedCountry={isDataUpdatedCountry} /><h1> </h1> 
             {/*ВВОДИМ НАЗВАНИЕ ЦВЕТКА*/}
             <InputGroup size="sm" className="mb-3">                
                 <InputGroup.Text id="inputGroup-sizing-sm">Hазвание цветка</InputGroup.Text>

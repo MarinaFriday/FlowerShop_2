@@ -22,7 +22,7 @@ namespace webapi.Services
             bouquet.BouquetName = bouquetDTO.BouquetName;
             bouquet.BouquetDescription = bouquetDTO.BouquetDescription;
             bouquet.BouquetAvailability = bouquetDTO.BouquetAvailability;
-            bouquet.BouquetDescription = bouquetDTO.BouquetDescription;
+            bouquet.BouquetPrice= bouquetDTO.BouquetPrice;
             if (bouquetDTO.ImagesId != null)
             {
                 bouquet.Images = new List<Image>();
@@ -47,7 +47,9 @@ namespace webapi.Services
         //Чтение списка букетов
         public async Task<IEnumerable<Bouquet>> ReadAllBouquets()
         {
-            return await _context.Bouquets.ToListAsync();
+            return await _context.Bouquets
+                .Include(bouquet => bouquet.Images)
+                .ToListAsync();
         }
 
         //Чтение букета по id
@@ -69,7 +71,7 @@ namespace webapi.Services
             bouquet.BouquetName = bouquetDTO.BouquetName;
             bouquet.BouquetDescription = bouquetDTO.BouquetDescription;
             bouquet.BouquetAvailability = bouquetDTO.BouquetAvailability;
-            bouquet.BouquetPrice = bouquet.BouquetPrice;
+            bouquet.BouquetPrice = bouquetDTO.BouquetPrice;
             await _context.SaveChangesAsync();
             return bouquet;
         }

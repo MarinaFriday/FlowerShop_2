@@ -56,8 +56,8 @@ namespace webapi.Controllers
         {
             try
             {
-                var result = compositionService.AddComposition(compositionDTO);
-                return await result == null ? BadRequest("Ошибка в добавлении композиции") : Ok(result);
+                var result = await compositionService.AddComposition(compositionDTO);
+                return result == null ? BadRequest("Ошибка в добавлении композиции") : Ok(result);
             }
             catch (Exception exception)
             {

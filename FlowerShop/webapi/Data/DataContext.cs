@@ -46,19 +46,22 @@ namespace webapi.Data
                 //что является "одним"
                 .HasOne(f => f.Category)
                 //что является многими
-                .WithMany(c => c.Flowers)
+                .WithMany(c => c.Flowers)                
                 //по какому внешнему ключу связывать сущности
-                .HasForeignKey(f=>f.CategoryId);
+                .HasForeignKey(f=>f.CategoryId)
+                .OnDelete(DeleteBehavior.SetNull);
             //многие цветы к одному цвету
            modelBuilder.Entity<Models.Flowers.Flower>()
                 .HasOne(f => f.Color)
                 .WithMany(c => c.Flowers)
-                .HasForeignKey(f => f.ColorId);
+                .HasForeignKey(f => f.ColorId)
+                .OnDelete(DeleteBehavior.SetNull);
             //много цветов одна страна
             modelBuilder.Entity<Models.Flowers.Flower>()
                 .HasOne(f => f.Country)
                 .WithMany(c => c.Flowers)
-                .HasForeignKey(f => f.CountryId);
+                .HasForeignKey(f => f.CountryId)
+                .OnDelete(DeleteBehavior.SetNull);
             //много цветов много поставщиков
             modelBuilder.Entity<Models.Flowers.FlowersProviders>()
                 .HasKey(fp => new { fp.ProviderId, fp.FlowerId });

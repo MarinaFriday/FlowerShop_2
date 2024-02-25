@@ -26,8 +26,8 @@ namespace webapi.Controllers
         {
             try
             {
-                var result = bouquetService.AddBouquet(bouquetDTO);
-                return await result == null ? BadRequest("Ошибка в добавлении букета") : Ok(result);
+                var result = await bouquetService.AddBouquet(bouquetDTO);
+                return result == null ? BadRequest("Ошибка в добавлении букета") : Ok(result);
             }
             catch (Exception exception)
             {
