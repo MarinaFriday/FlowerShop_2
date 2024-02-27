@@ -4,15 +4,19 @@ import { BASE_URL } from "../../urls/urlList";
 import noimage from "../../img/noimage.jpg";
 import axios from 'axios';
 import { urlCompositionById } from "../../urls/urlList";
+import Cookies from 'universal-cookie';
+
 
 
 const CompositionUpdateModal = ({ active, setActive, currentCompositionData }) => {
 
     const [modifiedCompositionName, setModifiedCompositionName] = useState();
     const [modifiedCompositionDescription, setModifiedCompositionDescription] = useState();
-    //const [modifiedCompositionAvailability, setModifiedCompositionAvailability] = useState();
     const [modifiedCompositionPrice, setModifiedCompositionPrice] = useState();
-
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     async function editComposition() {        
 
@@ -25,7 +29,7 @@ const CompositionUpdateModal = ({ active, setActive, currentCompositionData }) =
         console.log(composition);
         try {
             console.log(urlCompositionById + currentCompositionData.id);
-            await axios.put(urlCompositionById + currentCompositionData.id, composition)
+            await axios.put(urlCompositionById + currentCompositionData.id, composition, config)
             alert("Редактирование успешно");
         }
         catch (error) {

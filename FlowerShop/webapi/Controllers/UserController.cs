@@ -1,4 +1,5 @@
 ﻿//using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -29,8 +30,8 @@ namespace webapi.Controllers
             try
             {
                 var userList = await userService.ReadAllUsers();
-                if (userList != null) return Ok(userList);                
-                else return NoContent();                
+                if (userList != null) return Ok(userList);
+                else return NoContent();
             }
             catch (Exception exception)
             {
@@ -44,7 +45,7 @@ namespace webapi.Controllers
         {
             try {
                 var result = await userService.ReadUserById(id);
-                return Ok(result);                
+                return Ok(result);
             }
             catch (Exception exception)
             {
@@ -59,7 +60,7 @@ namespace webapi.Controllers
             try
             {
                 var result = await userService.ReadUserByName(name);
-                return Ok(result);                
+                return Ok(result);
             }
             catch (Exception exception)
             {
@@ -69,6 +70,7 @@ namespace webapi.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<User>> PostUser(User user)
         {
             try {
@@ -83,6 +85,7 @@ namespace webapi.Controllers
         }
 
         [HttpPut("PutUserName/{id}")]
+        [Authorize]
         public async Task<ActionResult<User>> PutUserName(int id, User user)
         {
             try
@@ -98,7 +101,7 @@ namespace webapi.Controllers
         }
 
         [HttpPut("PutUserPassword/{id}")]
-
+        [Authorize]
         public async Task<ActionResult<User>> PutUserPassword(int id, User user)
         {
             try
@@ -114,6 +117,7 @@ namespace webapi.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteUser(int id)
         {
             try

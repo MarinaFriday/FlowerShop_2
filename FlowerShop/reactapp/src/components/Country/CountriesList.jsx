@@ -2,6 +2,10 @@
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import { urlCountries, urlCountryById } from "../../urls/urlList";
+import Cookies from 'universal-cookie';
+
+
+
 
 const CountriesList = ({ update }) => {
 
@@ -9,6 +13,10 @@ const CountriesList = ({ update }) => {
     const [isEditing, setIsEditing] = useState(false);
     const [currentCountry, setCurrentCountry] = useState();
     const [modifiedCountry, setModifiedCountry] = useState({ title: '' });
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     useEffect(
         () => { (async () => await GetAllCountries())() }        
@@ -30,7 +38,7 @@ const CountriesList = ({ update }) => {
             title: modifiedCountry.title
         }
         try {
-            await axios.put(urlCountryById + currentCountry.id, country);
+            await axios.put(urlCountryById + currentCountry.id, country, config);
             alert("Страна изменена");
             setModifiedCountry({ title: '' });            
             GetAllCountries();
@@ -46,7 +54,7 @@ const CountriesList = ({ update }) => {
     }
     async function deleteCountry(id) {
         try {
-            await axios.delete(urlCountryById + id);
+            await axios.delete(urlCountryById + id, config);
             alert("Страна удалена");
             setModifiedCountry({ title: '' });  
             GetAllCountries();

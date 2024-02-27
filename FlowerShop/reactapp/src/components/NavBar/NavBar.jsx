@@ -1,9 +1,13 @@
-﻿import React from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Navbar, Container, Nav} from 'react-bootstrap';
 import logo from "../../img/logo_myata.png";
-
+import Cookies from 'universal-cookie';
 
 const NavBar = () => {
+    const cookies = new Cookies();
+    const [role, setRole] = useState(false);
+
+    useEffect(() => { setRole(cookies.get('userRole')) }, []);
 
     return (
         <>
@@ -21,21 +25,16 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nar">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/">Главная</Nav.Link>
+                            <Nav.Link href="/">Главная</Nav.Link>
+                            {(role !== false && role !== undefined) ? (
+                                <>
                         <Nav.Link href="/flowers">Каталог цветов</Nav.Link>
                         <Nav.Link href="/bouquets">Каталог букетов</Nav.Link>
-                        <Nav.Link href="/compositions">Каталог композиций</Nav.Link>
-                        {/*<Nav.Link href="/statistics">Statistics</Nav.Link>*/}
+                        <Nav.Link href="/compositions">Каталог композиций</Nav.Link>                       
                         <Nav.Link href="/tools">Настройки</Nav.Link>
+                            </>) : null}
                     </Nav>
-                    {/*<Form className="d-flex">*/}
-                    {/*    <FormControl*/}
-                    {/*        type="text"*/}
-                    {/*        placeholder="Поиск"*/}
-                    {/*        className="me-sm-2"*/}
-                    {/*    />*/}
-                    {/*    <Button variant="outline-info">Поиск</Button>*/}
-                    {/*</Form>*/}
+                    
                 </Navbar.Collapse>
             </Container>
             </Navbar>

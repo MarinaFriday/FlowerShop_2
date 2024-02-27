@@ -2,6 +2,9 @@
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import { urlColors, urlColorById } from "../../urls/urlList";
+import Cookies from 'universal-cookie';
+
+
 
 const ColorList = ({ update }) => {
 
@@ -9,6 +12,10 @@ const ColorList = ({ update }) => {
     const [isEditing, setIsEditing] = useState(false);
     const [currentColor, setCurrentColor] = useState();
     const [modifiedColor, setModifiedColor] = useState({colorName: ""});
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     useEffect(
         () => { (async () => await getAllColors())() }
@@ -30,7 +37,7 @@ const ColorList = ({ update }) => {
                 id: currentColor.id,
                 colorName: modifiedColor.colorName
             }
-            await axios.put(urlColorById + currentColor.id, color)
+            await axios.put(urlColorById + currentColor.id, color, config)
             alert("Цвет изменен");
             setModifiedColor({ colorName: '' });
             getAllColors();
@@ -48,7 +55,7 @@ const ColorList = ({ update }) => {
 
     async function deleteColor(id) {
         try {
-            await axios.delete(urlColorById + id);
+            await axios.delete(urlColorById + id, config);
             alert("Цвет удален");
             setModifiedColor({ colorName: '' });
             getAllColors();

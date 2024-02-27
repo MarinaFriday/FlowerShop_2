@@ -4,9 +4,14 @@ import { Container, Form, InputGroup, Button } from 'react-bootstrap';
 import { urlBouquets } from '../../urls/urlList';
 import { urlUploadImages } from '../../urls/urlList';
 import ImagesUpload from '../ImagesUpload/ImagesUpload';
+import Cookies from 'universal-cookie';
 
 
 const BouquetsTools = () => {
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
     const [inputValueBouquet, setInputValueBouquet] = useState({
         bouquetName: '',
         bouquetDescription: '',
@@ -35,16 +40,10 @@ const BouquetsTools = () => {
             }
         }
         try {
-            await axios.post(urlUploadImages, formData)
-                .then((res) => {
-                    //выводим ответ от сервера (массив id изображений)
-                    //console.log("выводим ответ от сервера (массив id изображений)");
-                    //console.log(res.data);                   
-                    imagesArray = res.data;
-                    //console.log("выводи что лежит в ответе (массиве imagesArray1)");
-                    //console.log(imagesArray);
-                })
-            console.log('Изображения успешно добавлены');
+            await axios.post(urlUploadImages, formData, config)
+                .then((res) => {                                    
+                    imagesArray = res.data;                
+                })            
         }
         catch (e) {
             console.log('Ошибка добавления изображений')
@@ -60,7 +59,7 @@ const BouquetsTools = () => {
                 imagesId: imagesArray
             };
             console.log(bouquet);
-            axios.post(urlBouquets, bouquet);
+            axios.post(urlBouquets, bouquet, config);
         }
         catch (error) {
             console.log(error);

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using webapi.Data;
 using webapi.Models.Composition;
 using webapi.Models.DTO;
@@ -51,6 +52,7 @@ namespace webapi.Controllers
         }
 
         //POST 
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<Composition>> PostComposition(CompositionDTO compositionDTO)
         {
@@ -67,6 +69,7 @@ namespace webapi.Controllers
         }
 
         //PUT
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult<Composition>> PutCompositon(int id, CompositionDTO compositionDTO)
         {
@@ -81,6 +84,7 @@ namespace webapi.Controllers
         }
 
         //DELETE
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComposition(int id)
         {

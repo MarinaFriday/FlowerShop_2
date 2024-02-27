@@ -2,6 +2,8 @@
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import { urlCategories, urlCategoryById } from "../../urls/urlList";
+import Cookies from 'universal-cookie';
+
 
 const CategoriesList = ({ update }) => {
 
@@ -9,6 +11,10 @@ const CategoriesList = ({ update }) => {
     const [isEditing, setIsEditing] = useState(false);
     const [currentCategory, setCurrentCategory] = useState();
     const [modifiedCategory, setModifiedCategory] = useState({ title: '' });
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     useEffect(
         () => {
@@ -32,7 +38,7 @@ const CategoriesList = ({ update }) => {
             title: modifiedCategory.title
         }
         try {
-            await axios.put(urlCategoryById + currentCategory.id, category);
+            await axios.put(urlCategoryById + currentCategory.id, category, config);
             alert("Категория изменена");
             setModifiedCategory({ title: '' });
             getAllCategories();
@@ -50,7 +56,7 @@ const CategoriesList = ({ update }) => {
    
     async function deleteCategory(id) {
         try {
-            await axios.delete(urlCategoryById + id);
+            await axios.delete(urlCategoryById + id, config);
             alert("Категория удалена");
             setModifiedCategory({ title: '' });
             getAllCategories();

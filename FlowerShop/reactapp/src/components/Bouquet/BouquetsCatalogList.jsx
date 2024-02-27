@@ -5,13 +5,17 @@ import { Carousel, Image, Col, Button } from 'react-bootstrap';
 import { BASE_URL } from "../../urls/urlList";
 import noimage from "../../img/noimage.jpg";
 import BouquetUpdateModal from './BouquetUpdateModal'
-
+import Cookies from 'universal-cookie';
 
 const BouquetsCatalogList = () => {
 
     const [bouquets, setData] = useState([]);
     const [currentBouquet, setCurrentBouquet] = useState();
     const [modalActive, setModalActive] = useState(false);
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     useEffect(
         () => { (async () => await getAllBouquets())() }
@@ -31,7 +35,7 @@ const BouquetsCatalogList = () => {
             for (const image of b.images) {
                 console.log(image);
                 console.log(urlUploadImagesId + image.id);
-                await axios.delete(urlUploadImagesId + image.id);
+                await axios.delete(urlUploadImagesId + image.id, config);
                 console.log("изображение удалено");
 
             }
@@ -47,7 +51,7 @@ const BouquetsCatalogList = () => {
             if (b.images !== undefined) {
                 await deleteImage(b);
             }
-            await axios.delete(urlBouquetById + b.id);
+            await axios.delete(urlBouquetById + b.id, config);
             console.log("Букет удален");
             alert("Букет удален");
             getAllBouquets();

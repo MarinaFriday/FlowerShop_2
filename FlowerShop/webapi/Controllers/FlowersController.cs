@@ -4,6 +4,7 @@ using webapi.Models.Flowers;
 using webapi.Services;
 using System.Threading.Tasks;
 using webapi.Models.DTO;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace webapi.Controllers
@@ -51,6 +52,7 @@ namespace webapi.Controllers
 
         //POST
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<Flower>> PostFlower(FlowerDTO flowerDTO) {
             var result = await fs.AddFlower(flowerDTO);
             return result == null ? BadRequest("Ошибка в добавлении цветка") : Ok(result);
@@ -58,6 +60,7 @@ namespace webapi.Controllers
 
         //PUT {id}
         [HttpPut ("{id}")]
+        [Authorize]
         public async Task<ActionResult<Flower>> PutFlower(int id, FlowerDTO flowerDTO) {
             try
             {
@@ -72,6 +75,7 @@ namespace webapi.Controllers
 
         //DELETE {id}
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteFlower(int id) {
             try
             {

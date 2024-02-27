@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DnbX+sjKJ7jX7vIaMDOYhGNPtzWTuVTF60lBLx721VE=",
+  "Hash": "FE0QWmlQsqwR9CU50zfYSVXqoRWvNaADs+awKAjgPOo=",
   "Source": "webapi",
   "BasePath": "_content/webapi",
   "Mode": "Default",
@@ -509,25 +509,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\25022024 2007052-92de09b519c6a326a658c434c40251bb.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\images\\25022024 200732m40lek5fphxj88h8aqahsswz3ei1yqs2.jpg",
-      "SourceId": "webapi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\",
-      "BasePath": "_content/webapi",
-      "RelativePath": "images/25022024 200732m40lek5fphxj88h8aqahsswz3ei1yqs2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\25022024 200732m40lek5fphxj88h8aqahsswz3ei1yqs2.jpg"
     },
     {
       "Identity": "C:\\Users\\marin\\OneDrive\\Desktop\\fs7\\FlowerShop_2\\FlowerShop\\webapi\\wwwroot\\text.html",

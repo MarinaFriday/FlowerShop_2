@@ -13,10 +13,7 @@ const CarouselBox = () => {
                     src={flower1}
                     alt="Flower1"
                 />
-                <Carousel.Caption>
-                    <h3>FlowerShop</h3>
-                    <p>lorem</p>
-                </Carousel.Caption>
+                
             </Carousel.Item>
             <Carousel.Item>
                 <img
@@ -24,10 +21,7 @@ const CarouselBox = () => {
                     src={flower2}
                     alt="Flower2"
                 />
-                <Carousel.Caption>
-                    <h3>FlowerShop</h3>
-                    <p>lorem</p>
-                </Carousel.Caption>
+              
             </Carousel.Item>
             <Carousel.Item>
                 <img
@@ -35,10 +29,7 @@ const CarouselBox = () => {
                     src={flower3}
                     alt="Flower3"
                 />
-                <Carousel.Caption>
-                    <h3>FlowerShop</h3>
-                    <p>lorem</p>
-                </Carousel.Caption>
+             
             </Carousel.Item>
         </Carousel>
     );

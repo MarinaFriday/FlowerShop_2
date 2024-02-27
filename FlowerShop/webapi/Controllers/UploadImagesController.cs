@@ -8,6 +8,7 @@ using System.Diagnostics.Metrics;
 using System.Net;
 using Microsoft.AspNetCore.Hosting.Server;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Microsoft.AspNetCore.Authorization;
 
 namespace webapi.Controllers
 {
@@ -33,6 +34,7 @@ namespace webapi.Controllers
 
         //POST
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<int>>> PostUploadImages(IEnumerable<IFormFile> images)
         {
             List<int> imgId = new List<int>();
@@ -69,6 +71,7 @@ namespace webapi.Controllers
 
         //DELETE
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteImage(int id)
         {
             var image = await _context.Images.FindAsync(id);
@@ -80,12 +83,7 @@ namespace webapi.Controllers
             {
                 Console.WriteLine("Путь из FileInfo");
                 Console.WriteLine(deletedFile);
-                string deleteFileString = deletedFile.ToString();
-                //deleteFileString = deleteFileString.Replace("\\", string.Empty);
-                //deleteFileString = deleteFileString.Replace(":", string.Empty);
-                //deleteFileString = deleteFileString.Replace(".", string.Empty);
-                //string imagePathReplace = image.ImagePath.Replace("/", string.Empty);
-                //imagePathReplace = imagePathReplace.Replace(".", string.Empty);
+                string deleteFileString = deletedFile.ToString();               
                 deleteFileString = deleteFileString.Replace("\\","/");
                 Console.WriteLine("Измененный путь из FileInfo");
                 Console.WriteLine(deleteFileString);
@@ -110,10 +108,7 @@ namespace webapi.Controllers
                 }
             }                                        
             _context.Images.Remove(image);
-            await _context.SaveChangesAsync();
-            //code 204
-            //return NoContent();
-            //code 200
+            await _context.SaveChangesAsync();           
             return Ok("Изображение удалено из базы данных");
         }
     }

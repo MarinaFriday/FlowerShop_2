@@ -7,6 +7,8 @@ import DropdownButtonColor from '../Color/DropdownButtonColor';
 import DropdownButtonCountry from '../Country/DropdownButtonCountry';
 import axios from 'axios';
 import { urlFlowersById } from "../../urls/urlList";
+import Cookies from 'universal-cookie';
+
 
 
 const FlowerUpdateModal = ({ active, setActive, currentFlowerData }) => {
@@ -14,8 +16,11 @@ const FlowerUpdateModal = ({ active, setActive, currentFlowerData }) => {
     const [modifiedFlowerTitle, setModifiedFlowerTitle] = useState();
     const [modifiedFlowerPrice, setModifiedFlowerPrice] = useState();
     const [modifiedFlowerCount, setModifiedFlowerCount] = useState();
-    console.log("currentFlowerData")
-    console.log(currentFlowerData)
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
+
     async function editFlower() {
         var dBcategory = document.getElementById("dropdownButtonCategory")
         var dBcolor = document.getElementById("dropdownButtonColor")
@@ -38,7 +43,7 @@ const FlowerUpdateModal = ({ active, setActive, currentFlowerData }) => {
         console.log(flower);
         try {
             console.log(urlFlowersById + currentFlowerData.id);
-            await axios.put(urlFlowersById + currentFlowerData.id, flower)
+            await axios.put(urlFlowersById + currentFlowerData.id, flower, config)
             alert("Редактирование успешно");
 
         }

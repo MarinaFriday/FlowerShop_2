@@ -4,6 +4,8 @@ import { Container, Form, InputGroup, Button } from 'react-bootstrap';
 import { urlCompositions } from '../../urls/urlList';
 import { urlUploadImages } from '../../urls/urlList';
 import ImagesUpload from '../ImagesUpload/ImagesUpload';
+import Cookies from 'universal-cookie';
+
 
 
 const CompositionTools = () => {
@@ -14,7 +16,10 @@ const CompositionTools = () => {
     });
     const [dataResponseImage, setDataResponseImage] = useState([]);
     const [isDataUpdated, setDataUpdated] = useState(false);
-
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     var imagesArray;
     const handleDataImages = (data) => {
@@ -40,7 +45,7 @@ const CompositionTools = () => {
             }
         }
         try {
-            await axios.post(urlUploadImages, formData)
+            await axios.post(urlUploadImages, formData, config)
                 .then((res) => {
                     //выводим ответ от сервера (массив id изображений)
                     //console.log("выводим ответ от сервера (массив id изображений)");
@@ -66,7 +71,7 @@ const CompositionTools = () => {
                 imagesId: imagesArray
             };
             console.log(composition);
-            axios.post(urlCompositions, composition);
+            axios.post(urlCompositions, composition, config);
             setDataUpdated(!isDataUpdated)
         }
         catch (error) {

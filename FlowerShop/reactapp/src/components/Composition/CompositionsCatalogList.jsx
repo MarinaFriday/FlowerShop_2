@@ -5,6 +5,8 @@ import { Carousel, Image, Col, Button } from 'react-bootstrap';
 import { BASE_URL } from "../../urls/urlList";
 import noimage from "../../img/noimage.jpg";
 import CompositionUpdateModal from './CompositionUpdateModal';
+import Cookies from 'universal-cookie';
+
 
 
 const CompositionsCatalogList = () => {
@@ -12,6 +14,10 @@ const CompositionsCatalogList = () => {
     const [compositions, setData] = useState([]);
     const [currentComposition, setCurrentComposition] = useState();
     const [modalActive, setModalActive] = useState(false);
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     useEffect(
         () => {
@@ -35,7 +41,7 @@ const CompositionsCatalogList = () => {
             for (const image of c.images) {
                 console.log(image);
                 console.log(urlUploadImagesId + image.id);
-                await axios.delete(urlUploadImagesId + image.id);
+                await axios.delete(urlUploadImagesId + image.id, config);
                 console.log("изображение удалено");
             }
         } catch (error) {
@@ -50,7 +56,7 @@ const CompositionsCatalogList = () => {
             if (c.images !== undefined) {
                 await deleteImage(c);
             }
-            await axios.delete(urlCompositionById + c.id);
+            await axios.delete(urlCompositionById + c.id, config);
             console.log("Композиция удалена");
             alert("Композиция удалена");
             getAllCompositions();

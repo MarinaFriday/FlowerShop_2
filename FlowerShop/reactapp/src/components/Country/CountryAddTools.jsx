@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { urlCountries } from "../../urls/urlList";
 import CountriesList from './CountriesList';
+import Cookies from 'universal-cookie';
+
 
 
 const CountryAddTools = ({ updateCountry }) => {
@@ -10,12 +12,15 @@ const CountryAddTools = ({ updateCountry }) => {
         title: ''
     });
     const [isDataUpdated, setDataUpdated] = useState(false);
-
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
 
     const postCountry = async () => {
         try {
-            await axios.post(urlCountries, inputValue);
+            await axios.post(urlCountries, inputValue, config);
             setDataUpdated(!isDataUpdated)
             updateCountry(!isDataUpdated)
             alert('Успешно!')

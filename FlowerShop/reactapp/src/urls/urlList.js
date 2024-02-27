@@ -1,7 +1,7 @@
 export const BASE_URL = 'https://localhost:7241';
 
 //Authentication
-//export const urlAuth = BASE_URL + '/api/Authentication'
+export const urlAuth = BASE_URL + '/api/Authentication'
 
 //Flowers
 export const urlFlowers = BASE_URL + '/api/Flowers'

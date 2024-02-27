@@ -7,6 +7,8 @@ import DropdownButtonCountry from '../Country/DropdownButtonCountry';
 import { urlFlowers } from '../../urls/urlList';
 import { urlUploadImages } from '../../urls/urlList';
 import ImagesUpload from '../ImagesUpload/ImagesUpload';
+import Cookies from 'universal-cookie';
+
 
 
 const FlowerTools = ({ isDataUpdatedColor, isDataUpdatedCountry, isDataUpdatedCategory }) => {
@@ -18,7 +20,10 @@ const FlowerTools = ({ isDataUpdatedColor, isDataUpdatedCountry, isDataUpdatedCa
     });
     const [dataResponseImage, setDataResponseImage] = useState([]);
     const [isDataUpdated, setDataUpdated] = useState(false);
-
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
     
     var imagesArray;
     const handleDataImages = (data) => {
@@ -29,7 +34,8 @@ const FlowerTools = ({ isDataUpdatedColor, isDataUpdatedCountry, isDataUpdatedCa
         //console.log(dataResponseImage)
     }
 
-    async function postImages()  {
+    async function postImages() {
+        console.log("config", config)
         const formData = new FormData();
         for (const data of dataResponseImage) {
             console.log(data);
@@ -42,7 +48,7 @@ const FlowerTools = ({ isDataUpdatedColor, isDataUpdatedCountry, isDataUpdatedCa
             console.log(data);
         }
         try {
-            await axios.post(urlUploadImages, formData)
+            await axios.post(urlUploadImages, formData, config)
                 .then((res) => {
                     //выводим ответ от сервера (массив id изображений)
                     //console.log("выводим ответ от сервера (массив id изображений)");
@@ -77,7 +83,7 @@ const FlowerTools = ({ isDataUpdatedColor, isDataUpdatedCountry, isDataUpdatedCa
                 imagesId: imagesArray
             };
             console.log(flower);
-            axios.post(urlFlowers, flower);
+            axios.post(urlFlowers, flower, config);
             setDataUpdated(!isDataUpdated)
         }
         catch (e) {

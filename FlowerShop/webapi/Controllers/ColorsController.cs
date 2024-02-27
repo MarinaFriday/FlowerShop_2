@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 //using Microsoft.OpenApi.Validations;
 using webapi.Data;
 using webapi.Models.Flowers;
@@ -17,6 +18,7 @@ namespace webapi.Controllers
         }
 
         //POST
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<Color>> PostColor(Color color) {
             ColorService cs = new ColorService(_context);
@@ -39,6 +41,7 @@ namespace webapi.Controllers
             return Ok(color);
         }
         //PUT {id}
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult<Color>> PutColor(int id, Color color)
         {
@@ -49,6 +52,7 @@ namespace webapi.Controllers
         }
 
         //DELETE {id}
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteColor(int id) {
             ColorService cs = new ColorService(_context);

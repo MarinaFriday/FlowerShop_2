@@ -17,17 +17,8 @@ const ImagesUpload = ({arrayImages}) => {
 
     async function handleImages (imageList, addUpdateIndex) {
         // data for submit
-        console.log(imageList, addUpdateIndex);
-        console.log("начало цикла")
-
-        for (const file of imageList) {
-            console.log(file.file)
-        }
-        console.log("конец цикла")
         await setImages(imageList);
     };
-    console.log("images");
-    console.log(images);
     dataImagesFunction();
 
 

@@ -3,17 +3,21 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { urlCategories } from "../../urls/urlList";
 import CategoryList from './CategoryList';
-
+import Cookies from 'universal-cookie';
 
 const CategoryAddTools = ({ updateCategory }) => {
     const [inputValue, setInputValue] = useState({
         title: ''
     });
     const [isDataUpdated, setDataUpdated] = useState(false);
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     const postCategory = async () => {
         try {
-            await axios.post(urlCategories, inputValue);
+            await axios.post(urlCategories, inputValue, config);
             setDataUpdated(!isDataUpdated)
             updateCategory(!isDataUpdated)
             alert('Успешно!')

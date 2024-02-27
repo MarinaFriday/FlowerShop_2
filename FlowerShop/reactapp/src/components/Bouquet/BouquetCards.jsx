@@ -5,6 +5,7 @@ import { urlBouquets } from "../../urls/urlList";
 import { BASE_URL } from "../../urls/urlList";
 import noimage from "../../img/noimage.jpg";
 
+
 const BouquetCards = () => {
     const [bouquets, setData] = useState([]);
 

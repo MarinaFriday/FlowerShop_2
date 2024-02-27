@@ -3,6 +3,7 @@ import { Container, InputGroup, Form, Button } from 'react-bootstrap';
 import axios from "axios";
 import { urlColors } from "../../urls/urlList";
 import ColorList from './ColorList';
+import Cookies from 'universal-cookie';
 
 const ColorAddTools = ({ updateColor }) => {
     const [inputValue, setInputValue] = useState({
@@ -10,10 +11,14 @@ const ColorAddTools = ({ updateColor }) => {
     });
 
     const [isDataUpdated, setDataUpdated] = useState(false);
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     const postColor = async () => {
         try {
-            await axios.post(urlColors, inputValue);
+            await axios.post(urlColors, inputValue, config);
             setDataUpdated(!isDataUpdated)
             updateColor(!isDataUpdated)
             alert('Успешно!')

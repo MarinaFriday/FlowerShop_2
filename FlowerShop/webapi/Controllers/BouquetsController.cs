@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using webapi.Data;
 using webapi.Models.Bouquet;
 using webapi.Models.Composition;
@@ -21,6 +22,7 @@ namespace webapi.Controllers
         }
 
         //POST 
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<Bouquet>> PostBouquet(BouquetDTO bouquetDTO)
         {
@@ -71,6 +73,7 @@ namespace webapi.Controllers
         }
 
         //PUT
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult<Bouquet>> PutBouquet(int id, BouquetDTO bouquetDTO)
         {
@@ -87,6 +90,7 @@ namespace webapi.Controllers
         }
 
         //DELETE
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBouquet(int id)
         {

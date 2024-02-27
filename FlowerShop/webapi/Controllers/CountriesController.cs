@@ -33,6 +33,7 @@ namespace webapi.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> PutFlowerCountry(int id, Country country)
         {           
             var countryDb = await _context.Countries.FirstOrDefaultAsync(countryDb => countryDb.Id == id);
@@ -47,14 +48,18 @@ namespace webapi.Controllers
 
             return Ok("Country is successfully updated!");
         }
+
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<Country>> PostFlowerCountry(Country country)
         {
             await _context.Countries.AddAsync(country);
             await _context.SaveChangesAsync();
             return country;
         }
+
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteFlowerCountry(int id)
         {
             var country = await _context.Countries.FindAsync(id);

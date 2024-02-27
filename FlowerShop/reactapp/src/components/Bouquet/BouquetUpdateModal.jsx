@@ -4,15 +4,17 @@ import { BASE_URL } from "../../urls/urlList";
 import noimage from "../../img/noimage.jpg";
 import axios from 'axios';
 import { urlBouquetById } from "../../urls/urlList";
-
+import Cookies from 'universal-cookie';
 
 const BouquetUpdateModal = ({ active, setActive, currentBouquetData }) => {
 
     const [modifiedBouquetName, setModifiedBouquetName] = useState();
     const [modifiedBouquetDescription, setModifiedBouquetDescription] = useState();
-    //const [modifiedBouquetAvailability, setModifiedBouquetAvailability] = useState();
     const [modifiedBouquetPrice, setModifiedBouquetPrice] = useState();
-
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     async function editBouquet() {
 
@@ -25,7 +27,7 @@ const BouquetUpdateModal = ({ active, setActive, currentBouquetData }) => {
         console.log(bouquet);
         try {
             console.log(urlBouquetById + currentBouquetData.id);
-            await axios.put(urlBouquetById + currentBouquetData.id, bouquet)
+            await axios.put(urlBouquetById + currentBouquetData.id, bouquet, config)
             alert("Редактирование успешно");
         }
         catch (error) {

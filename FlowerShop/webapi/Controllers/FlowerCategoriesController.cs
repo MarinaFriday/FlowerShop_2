@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Metrics;
 using webapi.Data;
@@ -16,7 +17,6 @@ namespace webapi.Controllers
         }
 
         [HttpGet]
-        //?????????
         public async Task<ActionResult<IEnumerable<FlowerCategory>>> GetFlowerCategories() {
             return await _context.FlowersCategories.ToListAsync();
         }
@@ -30,6 +30,7 @@ namespace webapi.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> PutFlowerCategory(int id, FlowerCategory category) {  
             
             var categoryDb = await _context.FlowersCategories.FirstOrDefaultAsync(categoryDb => categoryDb.Id == id);            
@@ -44,13 +45,17 @@ namespace webapi.Controllers
 
             return Ok("Category is successfully updated!");
         }
+
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<FlowerCategory>> PostFlowerCategory(FlowerCategory category) { 
             await _context.FlowersCategories.AddAsync(category);
             await _context.SaveChangesAsync();
             return category;
         }
+
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteFlowerCategory(int id) {
             var category = await _context.FlowersCategories.FindAsync(id);
             if (category == null) return NotFound();

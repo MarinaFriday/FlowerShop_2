@@ -32664,3 +32664,446 @@ Error Number:547,State:0,Class:16
 02/25/2024 20:14:56 HTTP "GET" "/api/Compositions" responded 200 in 66.3474 ms
 02/25/2024 20:14:56 HTTP "GET" "/api/Compositions" responded 200 in 18.9382 ms
 02/25/2024 20:14:56 HTTP "GET" "/images/25022024 2007052-92de09b519c6a326a658c434c40251bb.jpg" responded 304 in 1.8001 ms
+02/26/2024 20:14:36 Приложение запущено
+02/26/2024 20:14:44 HTTP "GET" "/swagger/index.html" responded 200 in 468.4771 ms
+02/26/2024 20:14:46 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 821.6232 ms
+02/26/2024 20:17:47 Приложение запущено
+02/26/2024 20:17:54 HTTP "GET" "/swagger/index.html" responded 200 in 349.8351 ms
+02/26/2024 20:17:56 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 442.0777 ms
+02/26/2024 20:19:22 Приложение запущено
+02/26/2024 20:19:27 HTTP "GET" "/swagger/index.html" responded 200 in 790.2223 ms
+02/26/2024 20:19:39 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 447.7789 ms
+02/26/2024 20:20:11 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:20:11 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:20:14 HTTP "GET" "/api/Flowers" responded 200 in 7176.5667 ms
+02/26/2024 20:20:14 HTTP "GET" "/api/Flowers" responded 200 in 83.7701 ms
+02/26/2024 20:22:11 Приложение запущено
+02/26/2024 20:22:17 HTTP "GET" "/swagger/index.html" responded 200 in 421.9083 ms
+02/26/2024 20:22:21 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 261.7207 ms
+02/26/2024 20:22:26 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:22:26 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:22:28 HTTP "GET" "/api/Flowers" responded 200 in 4279.4696 ms
+02/26/2024 20:23:07 Приложение запущено
+02/26/2024 20:23:12 HTTP "GET" "/swagger/index.html" responded 200 in 421.6362 ms
+02/26/2024 20:23:23 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 502.2153 ms
+02/26/2024 20:24:18 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:24:18 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:24:21 HTTP "GET" "/api/Flowers" responded 200 in 4452.9549 ms
+02/26/2024 20:24:21 HTTP "GET" "/api/Flowers" responded 200 in 198.4860 ms
+02/26/2024 20:24:24 HTTP "GET" "/api/Flowers" responded 200 in 316.3713 ms
+02/26/2024 20:24:24 HTTP "GET" "/api/Flowers" responded 200 in 17.8970 ms
+02/26/2024 20:24:30 HTTP "GET" "/api/Flowers" responded 200 in 16.0130 ms
+02/26/2024 20:24:30 HTTP "GET" "/api/Flowers" responded 200 in 18.0692 ms
+02/26/2024 20:24:52 HTTP "GET" "/swagger/index.html" responded 200 in 3.4133 ms
+02/26/2024 20:24:53 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 83.9748 ms
+02/26/2024 20:25:02 HTTP "GET" "/api/Bouquets" responded 200 in 259.1771 ms
+02/26/2024 20:26:14 Приложение запущено
+02/26/2024 20:26:18 HTTP "GET" "/swagger/index.html" responded 200 in 522.6306 ms
+02/26/2024 20:26:20 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 437.1272 ms
+02/26/2024 20:26:56 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:26:56 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:27:00 HTTP "GET" "/api/Flowers" responded 200 in 6461.4121 ms
+02/26/2024 20:27:00 HTTP "GET" "/api/Flowers" responded 200 in 789.7305 ms
+02/26/2024 20:27:01 HTTP "GET" "/api/Flowers" responded 200 in 345.4021 ms
+02/26/2024 20:28:18 Приложение запущено
+02/26/2024 20:28:24 HTTP "GET" "/swagger/index.html" responded 200 in 431.1022 ms
+02/26/2024 20:28:29 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 589.9002 ms
+02/26/2024 20:29:35 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:29:35 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:29:37 HTTP "GET" "/api/Flowers" responded 200 in 4528.9650 ms
+02/26/2024 20:29:37 HTTP "GET" "/api/Flowers" responded 200 in 53.3835 ms
+02/26/2024 20:29:50 HTTP "GET" "/api/Flowers" responded 200 in 405.2171 ms
+02/26/2024 20:29:50 HTTP "GET" "/api/Flowers" responded 200 in 10.8472 ms
+02/26/2024 20:29:58 HTTP "GET" "/api/Bouquets" responded 200 in 470.3646 ms
+02/26/2024 20:29:58 HTTP "GET" "/api/Bouquets" responded 200 in 27.3901 ms
+02/26/2024 20:29:59 HTTP "GET" "/images/25022024 2006423.JPG" responded 200 in 61.0904 ms
+02/26/2024 20:29:59 HTTP "GET" "/images/25022024 200546nick-karvounis-464708-unsplash.jpg" responded 200 in 830.1310 ms
+02/26/2024 20:30:04 HTTP "GET" "/api/Compositions" responded 200 in 141.3537 ms
+02/26/2024 20:30:04 HTTP "GET" "/api/Compositions" responded 200 in 25.1892 ms
+02/26/2024 20:30:04 HTTP "GET" "/images/25022024 2007052-92de09b519c6a326a658c434c40251bb.jpg" responded 200 in 24.3875 ms
+02/26/2024 20:30:17 HTTP "GET" "/api/Flowers" responded 200 in 46.7753 ms
+02/26/2024 20:30:17 HTTP "GET" "/api/Flowers" responded 200 in 21.6284 ms
+02/26/2024 20:34:56 Приложение запущено
+02/26/2024 20:35:00 HTTP "GET" "/swagger/index.html" responded 200 in 1541.6304 ms
+02/26/2024 20:35:03 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 283.4655 ms
+02/26/2024 20:35:12 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:35:12 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/26/2024 20:35:14 HTTP "GET" "/api/Flowers" responded 200 in 3463.2345 ms
+02/26/2024 20:35:14 HTTP "GET" "/api/Flowers" responded 200 in 50.7203 ms
+02/26/2024 20:38:10 HTTP "POST" "/api/User" responded 200 in 992.4654 ms
+02/26/2024 20:50:40 HTTP "POST" "/api/Authentication" responded 200 in 2495.0028 ms
+02/27/2024 20:12:49 Приложение запущено
+02/27/2024 20:13:00 HTTP "GET" "/swagger/index.html" responded 200 in 250.6974 ms
+02/27/2024 20:13:01 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 480.5073 ms
+02/27/2024 20:13:28 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 20:13:28 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 20:13:30 HTTP "POST" "/api/Authentication" responded 200 in 4784.4934 ms
+02/27/2024 20:21:29 Приложение запущено
+02/27/2024 20:21:32 HTTP "GET" "/swagger/index.html" responded 200 in 342.1866 ms
+02/27/2024 20:21:32 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 318.1263 ms
+02/27/2024 20:24:29 HTTP "OPTIONS" "/api/Authentication" responded 204 in 4.5055 ms
+02/27/2024 20:24:30 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 20:24:30 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 20:24:31 HTTP "POST" "/api/Authentication" responded 400 in 2211.2655 ms
+02/27/2024 20:24:49 HTTP "POST" "/api/Authentication" responded 500 in 661.4383 ms
+02/27/2024 20:25:03 HTTP "OPTIONS" "/api/Authentication" responded 204 in 1.8143 ms
+02/27/2024 20:25:04 HTTP "POST" "/api/Authentication" responded 400 in 197.8841 ms
+02/27/2024 20:31:19 Приложение запущено
+02/27/2024 20:31:23 HTTP "GET" "/swagger/index.html" responded 200 in 574.8276 ms
+02/27/2024 20:31:29 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 403.2620 ms
+02/27/2024 20:32:03 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 20:32:03 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 20:32:05 HTTP "GET" "/api/Flowers" responded 200 in 4278.0553 ms
+02/27/2024 20:32:05 HTTP "GET" "/api/Flowers" responded 200 in 74.0504 ms
+02/27/2024 20:32:58 HTTP "OPTIONS" "/api/Authentication" responded 204 in 1.5736 ms
+02/27/2024 20:32:58 HTTP "POST" "/api/Authentication" responded 500 in 512.3602 ms
+02/27/2024 20:33:02 HTTP "POST" "/api/Authentication" responded 200 in 465.1822 ms
+02/27/2024 20:33:04 HTTP "GET" "/api/Flowers" responded 200 in 34.9452 ms
+02/27/2024 20:33:04 HTTP "GET" "/api/Flowers" responded 200 in 10.3149 ms
+02/27/2024 20:42:38 HTTP "GET" "/api/Flowers" responded 200 in 1407.1582 ms
+02/27/2024 20:42:38 HTTP "GET" "/api/Flowers" responded 200 in 27.7372 ms
+02/27/2024 20:42:42 HTTP "GET" "/api/Flowers" responded 200 in 13.9605 ms
+02/27/2024 20:42:42 HTTP "GET" "/api/Flowers" responded 200 in 16.7827 ms
+02/27/2024 20:43:20 HTTP "GET" "/api/Flowers" responded 200 in 35.6594 ms
+02/27/2024 20:43:20 HTTP "GET" "/api/Flowers" responded 200 in 14.7188 ms
+02/27/2024 20:44:03 HTTP "GET" "/api/Flowers" responded 200 in 97.6237 ms
+02/27/2024 20:44:03 HTTP "GET" "/api/Flowers" responded 200 in 11.3709 ms
+02/27/2024 20:44:07 HTTP "GET" "/api/Bouquets" responded 200 in 172.7844 ms
+02/27/2024 20:44:07 HTTP "GET" "/api/Bouquets" responded 200 in 12.6149 ms
+02/27/2024 20:44:07 HTTP "GET" "/images/25022024 2006423.JPG" responded 304 in 35.0418 ms
+02/27/2024 20:44:07 HTTP "GET" "/images/25022024 200546nick-karvounis-464708-unsplash.jpg" responded 304 in 41.8223 ms
+02/27/2024 20:44:09 HTTP "GET" "/api/Compositions" responded 200 in 141.0606 ms
+02/27/2024 20:44:09 HTTP "GET" "/api/Compositions" responded 200 in 14.5208 ms
+02/27/2024 20:44:09 HTTP "GET" "/images/25022024 2007052-92de09b519c6a326a658c434c40251bb.jpg" responded 304 in 1.7598 ms
+02/27/2024 20:44:10 HTTP "GET" "/api/Flowers" responded 200 in 12.3087 ms
+02/27/2024 20:44:10 HTTP "GET" "/api/Flowers" responded 200 in 9.6737 ms
+02/27/2024 20:44:33 HTTP "OPTIONS" "/api/Authentication" responded 204 in 0.5164 ms
+02/27/2024 20:44:34 HTTP "POST" "/api/Authentication" responded 200 in 154.9245 ms
+02/27/2024 20:44:35 HTTP "GET" "/api/Flowers" responded 200 in 102.8919 ms
+02/27/2024 20:44:35 HTTP "GET" "/api/Flowers" responded 200 in 15.9703 ms
+02/27/2024 20:47:27 HTTP "GET" "/api/Flowers" responded 200 in 59.0254 ms
+02/27/2024 20:47:27 HTTP "GET" "/api/Flowers" responded 200 in 13.8755 ms
+02/27/2024 20:48:00 HTTP "GET" "/api/Flowers" responded 200 in 157.6838 ms
+02/27/2024 20:48:00 HTTP "GET" "/api/Flowers" responded 200 in 24.3482 ms
+02/27/2024 20:48:25 HTTP "GET" "/api/Flowers" responded 200 in 103.3554 ms
+02/27/2024 20:48:25 HTTP "GET" "/api/Flowers" responded 200 in 12.6182 ms
+02/27/2024 20:48:26 HTTP "GET" "/api/Bouquets" responded 200 in 15.3057 ms
+02/27/2024 20:48:26 HTTP "GET" "/api/Bouquets" responded 200 in 12.9174 ms
+02/27/2024 20:48:26 HTTP "GET" "/images/25022024 2006423.JPG" responded 200 in 35.8942 ms
+02/27/2024 20:48:26 HTTP "GET" "/images/25022024 200546nick-karvounis-464708-unsplash.jpg" responded 200 in 649.5534 ms
+02/27/2024 20:48:26 HTTP "GET" "/api/Flowers" responded 200 in 36.9153 ms
+02/27/2024 20:48:26 HTTP "GET" "/api/Flowers" responded 200 in 19.1154 ms
+02/27/2024 20:48:27 HTTP "GET" "/api/Compositions" responded 200 in 15.8776 ms
+02/27/2024 20:48:27 HTTP "GET" "/api/Compositions" responded 200 in 10.6876 ms
+02/27/2024 20:48:27 HTTP "GET" "/images/25022024 2007052-92de09b519c6a326a658c434c40251bb.jpg" responded 200 in 27.0016 ms
+02/27/2024 20:50:05 HTTP "GET" "/api/Flowers" responded 200 in 50.2983 ms
+02/27/2024 20:50:05 HTTP "GET" "/api/Flowers" responded 200 in 9.6734 ms
+02/27/2024 20:51:46 HTTP "GET" "/api/Flowers" responded 200 in 98.2540 ms
+02/27/2024 20:51:46 HTTP "GET" "/api/Flowers" responded 200 in 15.5445 ms
+02/27/2024 20:52:10 HTTP "GET" "/api/Flowers" responded 200 in 7.9842 ms
+02/27/2024 20:52:10 HTTP "GET" "/api/Flowers" responded 200 in 9.2068 ms
+02/27/2024 20:52:44 HTTP "GET" "/api/Flowers" responded 200 in 415.8582 ms
+02/27/2024 20:52:47 HTTP "GET" "/api/Flowers" responded 200 in 457.1266 ms
+02/27/2024 20:52:48 HTTP "GET" "/api/Flowers" responded 200 in 439.9790 ms
+02/27/2024 20:52:50 HTTP "GET" "/api/Flowers" responded 200 in 228.4357 ms
+02/27/2024 20:52:52 HTTP "GET" "/api/Flowers" responded 200 in 507.4597 ms
+02/27/2024 20:52:54 HTTP "GET" "/api/Flowers" responded 200 in 144.0439 ms
+02/27/2024 20:52:54 HTTP "GET" "/api/Flowers" responded 200 in 192.2913 ms
+02/27/2024 20:53:00 HTTP "GET" "/api/Flowers" responded 200 in 162.2713 ms
+02/27/2024 20:53:00 HTTP "GET" "/api/Flowers" responded 200 in 111.1352 ms
+02/27/2024 21:01:12 HTTP "GET" "/api/Flowers" responded 200 in 151.5549 ms
+02/27/2024 21:01:12 HTTP "GET" "/api/Flowers" responded 200 in 8.1902 ms
+02/27/2024 21:01:22 HTTP "GET" "/api/Flowers" responded 200 in 693.0400 ms
+02/27/2024 21:01:23 HTTP "GET" "/api/Flowers" responded 200 in 51.3936 ms
+02/27/2024 21:01:23 HTTP "GET" "/api/Flowers" responded 200 in 11.2712 ms
+02/27/2024 21:01:50 HTTP "GET" "/api/FlowerCategories" responded 200 in 542.2701 ms
+02/27/2024 21:01:50 HTTP "GET" "/api/Countries" responded 200 in 143.8238 ms
+02/27/2024 21:01:50 HTTP "GET" "/api/Colors" responded 200 in 394.2815 ms
+02/27/2024 21:01:52 HTTP "GET" "/api/Flowers" responded 200 in 60.5212 ms
+02/27/2024 21:01:52 HTTP "GET" "/api/Flowers" responded 200 in 28.7857 ms
+02/27/2024 21:02:13 HTTP "GET" "/api/Flowers" responded 200 in 160.8848 ms
+02/27/2024 21:02:13 HTTP "GET" "/api/Flowers" responded 200 in 65.6757 ms
+02/27/2024 21:09:30 Приложение запущено
+02/27/2024 21:09:38 HTTP "GET" "/swagger/index.html" responded 200 in 709.3630 ms
+02/27/2024 21:09:41 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 805.4853 ms
+02/27/2024 21:09:55 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 21:09:55 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 21:09:57 HTTP "GET" "/api/Flowers" responded 200 in 4735.6792 ms
+02/27/2024 21:09:57 HTTP "GET" "/api/Flowers" responded 200 in 39.4939 ms
+02/27/2024 21:10:01 HTTP "GET" "/api/Flowers" responded 200 in 436.0930 ms
+02/27/2024 21:10:01 HTTP "GET" "/api/Flowers" responded 200 in 96.1068 ms
+02/27/2024 21:11:05 HTTP "GET" "/api/Flowers" responded 200 in 76.2324 ms
+02/27/2024 21:11:05 HTTP "GET" "/api/Flowers" responded 200 in 10.3397 ms
+02/27/2024 21:11:06 HTTP "GET" "/api/Flowers" responded 200 in 133.2404 ms
+02/27/2024 21:11:07 HTTP "GET" "/api/Flowers" responded 200 in 340.3509 ms
+02/27/2024 21:11:07 HTTP "GET" "/api/Flowers" responded 200 in 96.3327 ms
+02/27/2024 21:11:08 HTTP "GET" "/api/Flowers" responded 200 in 170.6359 ms
+02/27/2024 21:11:08 HTTP "GET" "/api/Flowers" responded 200 in 112.1105 ms
+02/27/2024 21:11:08 HTTP "GET" "/api/Flowers" responded 200 in 138.6917 ms
+02/27/2024 21:11:09 HTTP "GET" "/api/Flowers" responded 200 in 172.9569 ms
+02/27/2024 21:11:10 HTTP "GET" "/api/Flowers" responded 200 in 97.4601 ms
+02/27/2024 21:11:10 HTTP "GET" "/api/Flowers" responded 200 in 58.4867 ms
+02/27/2024 21:11:10 HTTP "GET" "/api/Flowers" responded 200 in 62.5173 ms
+02/27/2024 21:11:10 HTTP "GET" "/api/Flowers" responded 200 in 50.6040 ms
+02/27/2024 21:11:11 HTTP "GET" "/api/Flowers" responded 200 in 48.2597 ms
+02/27/2024 21:11:11 HTTP "GET" "/api/Flowers" responded 200 in 55.0144 ms
+02/27/2024 21:11:12 HTTP "GET" "/api/Flowers" responded 200 in 24.1493 ms
+02/27/2024 21:11:12 HTTP "GET" "/api/Flowers" responded 200 in 73.7180 ms
+02/27/2024 21:11:12 HTTP "GET" "/api/Flowers" responded 200 in 48.3595 ms
+02/27/2024 21:11:13 HTTP "GET" "/api/Flowers" responded 200 in 86.9002 ms
+02/27/2024 21:11:13 HTTP "GET" "/api/Flowers" responded 200 in 52.1436 ms
+02/27/2024 21:11:14 HTTP "GET" "/api/Flowers" responded 200 in 62.3225 ms
+02/27/2024 21:11:14 HTTP "GET" "/api/Flowers" responded 200 in 57.1346 ms
+02/27/2024 21:11:15 HTTP "GET" "/api/Flowers" responded 200 in 151.4576 ms
+02/27/2024 21:11:15 HTTP "GET" "/api/Flowers" responded 200 in 56.5266 ms
+02/27/2024 21:11:16 HTTP "GET" "/api/Flowers" responded 200 in 66.0559 ms
+02/27/2024 21:11:17 HTTP "GET" "/api/Flowers" responded 200 in 163.7004 ms
+02/27/2024 21:11:17 HTTP "GET" "/api/Flowers" responded 200 in 45.5848 ms
+02/27/2024 21:11:17 HTTP "GET" "/api/Flowers" responded 200 in 27.1027 ms
+02/27/2024 21:11:18 HTTP "GET" "/api/Flowers" responded 200 in 46.3584 ms
+02/27/2024 21:11:18 HTTP "GET" "/api/Flowers" responded 200 in 22.5605 ms
+02/27/2024 21:11:18 HTTP "GET" "/api/Flowers" responded 200 in 58.8922 ms
+02/27/2024 21:11:19 HTTP "GET" "/api/Flowers" responded 200 in 167.9102 ms
+02/27/2024 21:11:20 HTTP "GET" "/api/Flowers" responded 200 in 130.2740 ms
+02/27/2024 21:11:20 HTTP "GET" "/api/Flowers" responded 200 in 38.5764 ms
+02/27/2024 21:11:20 HTTP "GET" "/api/Flowers" responded 200 in 27.4005 ms
+02/27/2024 21:11:21 HTTP "GET" "/api/Flowers" responded 200 in 15.3271 ms
+02/27/2024 21:11:21 HTTP "GET" "/api/Flowers" responded 200 in 138.5744 ms
+02/27/2024 21:11:22 HTTP "GET" "/api/Flowers" responded 200 in 19.7394 ms
+02/27/2024 21:11:22 HTTP "GET" "/api/Flowers" responded 200 in 164.7733 ms
+02/27/2024 21:11:23 HTTP "GET" "/api/Flowers" responded 200 in 109.9738 ms
+02/27/2024 21:11:23 HTTP "GET" "/api/Flowers" responded 200 in 145.3317 ms
+02/27/2024 21:11:24 HTTP "GET" "/api/Flowers" responded 200 in 70.4332 ms
+02/27/2024 21:11:25 HTTP "GET" "/api/Flowers" responded 200 in 50.5733 ms
+02/27/2024 21:11:25 HTTP "GET" "/api/Flowers" responded 200 in 48.4638 ms
+02/27/2024 21:11:26 HTTP "GET" "/api/Flowers" responded 200 in 57.2826 ms
+02/27/2024 21:11:26 HTTP "GET" "/api/Flowers" responded 200 in 55.3577 ms
+02/27/2024 21:11:27 HTTP "GET" "/api/Flowers" responded 200 in 131.9364 ms
+02/27/2024 21:11:27 HTTP "GET" "/api/Flowers" responded 200 in 22.9441 ms
+02/27/2024 21:11:28 HTTP "GET" "/api/Flowers" responded 200 in 21.6438 ms
+02/27/2024 21:11:28 HTTP "GET" "/api/Flowers" responded 200 in 23.1826 ms
+02/27/2024 21:11:28 HTTP "GET" "/api/Flowers" responded 200 in 26.2815 ms
+02/27/2024 21:11:29 HTTP "GET" "/api/Flowers" responded 200 in 32.6929 ms
+02/27/2024 21:11:29 HTTP "GET" "/api/Flowers" responded 200 in 206.4016 ms
+02/27/2024 21:11:30 HTTP "GET" "/api/Flowers" responded 200 in 18.0937 ms
+02/27/2024 21:11:31 HTTP "GET" "/api/Flowers" responded 200 in 187.6722 ms
+02/27/2024 21:11:32 HTTP "GET" "/api/Flowers" responded 200 in 233.7671 ms
+02/27/2024 21:11:32 HTTP "GET" "/api/Flowers" responded 200 in 114.1175 ms
+02/27/2024 21:11:33 HTTP "GET" "/api/Flowers" responded 200 in 65.6177 ms
+02/27/2024 21:11:33 HTTP "GET" "/api/Flowers" responded 200 in 339.3581 ms
+02/27/2024 21:11:34 HTTP "GET" "/api/Flowers" responded 200 in 280.9140 ms
+02/27/2024 21:11:35 HTTP "GET" "/api/Flowers" responded 200 in 180.5298 ms
+02/27/2024 21:11:35 HTTP "GET" "/api/Flowers" responded 200 in 74.5484 ms
+02/27/2024 21:11:35 HTTP "GET" "/api/Flowers" responded 200 in 172.0827 ms
+02/27/2024 21:11:41 HTTP "GET" "/api/Flowers" responded 200 in 135.5251 ms
+02/27/2024 21:11:41 HTTP "GET" "/api/Flowers" responded 200 in 10.1931 ms
+02/27/2024 21:11:50 HTTP "GET" "/api/Flowers" responded 200 in 27.2057 ms
+02/27/2024 21:11:50 HTTP "GET" "/api/Flowers" responded 200 in 13.5106 ms
+02/27/2024 21:12:19 HTTP "OPTIONS" "/api/Authentication" responded 204 in 3.0576 ms
+02/27/2024 21:12:20 HTTP "POST" "/api/Authentication" responded 200 in 478.1341 ms
+02/27/2024 21:12:20 HTTP "GET" "/api/Flowers" responded 200 in 32.5589 ms
+02/27/2024 21:12:20 HTTP "GET" "/api/Flowers" responded 200 in 15.0878 ms
+02/27/2024 21:12:24 HTTP "GET" "/api/Countries" responded 200 in 148.3974 ms
+02/27/2024 21:12:24 HTTP "GET" "/api/FlowerCategories" responded 200 in 155.1696 ms
+02/27/2024 21:12:24 HTTP "GET" "/api/Colors" responded 200 in 219.2739 ms
+02/27/2024 21:12:24 HTTP "GET" "/api/Flowers" responded 200 in 15.5817 ms
+02/27/2024 21:12:24 HTTP "GET" "/api/Flowers" responded 200 in 10.4729 ms
+02/27/2024 21:12:30 HTTP "GET" "/api/Countries" responded 200 in 14.2716 ms
+02/27/2024 21:12:30 HTTP "GET" "/api/Colors" responded 200 in 63.9809 ms
+02/27/2024 21:12:30 HTTP "GET" "/api/FlowerCategories" responded 200 in 78.5853 ms
+02/27/2024 21:12:30 HTTP "GET" "/api/Countries" responded 200 in 84.9921 ms
+02/27/2024 21:12:31 HTTP "GET" "/api/Flowers" responded 200 in 13.5885 ms
+02/27/2024 21:12:31 HTTP "GET" "/api/Flowers" responded 200 in 16.2952 ms
+02/27/2024 21:13:17 HTTP "GET" "/api/Countries" responded 200 in 146.4145 ms
+02/27/2024 21:13:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 184.2024 ms
+02/27/2024 21:13:17 HTTP "GET" "/api/Colors" responded 200 in 182.6536 ms
+02/27/2024 21:13:17 HTTP "GET" "/api/Countries" responded 200 in 31.3598 ms
+02/27/2024 21:13:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 51.1549 ms
+02/27/2024 21:13:17 HTTP "GET" "/api/Colors" responded 200 in 80.9882 ms
+02/27/2024 21:13:17 HTTP "GET" "/api/Countries" responded 200 in 78.5345 ms
+02/27/2024 21:13:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 33.2498 ms
+02/27/2024 21:13:18 HTTP "GET" "/api/Colors" responded 200 in 43.7932 ms
+02/27/2024 21:13:18 HTTP "GET" "/api/Colors" responded 200 in 7.5271 ms
+02/27/2024 21:13:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 61.9594 ms
+02/27/2024 21:13:18 HTTP "GET" "/api/Countries" responded 200 in 69.5117 ms
+02/27/2024 21:14:13 HTTP "GET" "/api/Flowers" responded 200 in 123.0376 ms
+02/27/2024 21:14:13 HTTP "GET" "/api/Flowers" responded 200 in 8.8009 ms
+02/27/2024 21:14:20 HTTP "GET" "/api/FlowerCategories" responded 200 in 26.0314 ms
+02/27/2024 21:14:20 HTTP "GET" "/api/Countries" responded 200 in 17.7856 ms
+02/27/2024 21:14:20 HTTP "GET" "/api/Colors" responded 200 in 26.1536 ms
+02/27/2024 21:14:20 HTTP "GET" "/api/Countries" responded 200 in 9.4973 ms
+02/27/2024 21:14:20 HTTP "GET" "/api/FlowerCategories" responded 200 in 68.2629 ms
+02/27/2024 21:14:20 HTTP "GET" "/api/Countries" responded 200 in 22.5081 ms
+02/27/2024 21:14:20 HTTP "GET" "/api/Colors" responded 200 in 71.1260 ms
+02/27/2024 21:14:20 HTTP "GET" "/api/Countries" responded 200 in 51.2304 ms
+02/27/2024 21:14:21 HTTP "GET" "/api/Flowers" responded 200 in 19.5881 ms
+02/27/2024 21:14:21 HTTP "GET" "/api/Flowers" responded 200 in 17.5777 ms
+02/27/2024 21:14:40 HTTP "GET" "/api/Flowers" responded 200 in 102.2706 ms
+02/27/2024 21:14:40 HTTP "GET" "/api/Flowers" responded 200 in 40.9025 ms
+02/27/2024 21:15:02 HTTP "OPTIONS" "/api/Authentication" responded 204 in 0.3657 ms
+02/27/2024 21:15:02 HTTP "POST" "/api/Authentication" responded 200 in 182.6016 ms
+02/27/2024 21:15:02 HTTP "GET" "/api/Flowers" responded 200 in 21.7886 ms
+02/27/2024 21:15:02 HTTP "GET" "/api/Flowers" responded 200 in 9.3253 ms
+02/27/2024 21:15:11 HTTP "GET" "/api/Countries" responded 200 in 23.2307 ms
+02/27/2024 21:15:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 39.6366 ms
+02/27/2024 21:15:11 HTTP "GET" "/api/Colors" responded 200 in 35.1545 ms
+02/27/2024 21:15:11 HTTP "GET" "/api/Countries" responded 200 in 205.5823 ms
+02/27/2024 21:15:11 HTTP "GET" "/api/FlowerCategories" responded 200 in 27.4099 ms
+02/27/2024 21:15:11 HTTP "GET" "/api/Flowers" responded 200 in 27.8015 ms
+02/27/2024 21:15:11 HTTP "GET" "/api/Flowers" responded 200 in 17.3163 ms
+02/27/2024 21:15:41 HTTP "GET" "/api/Flowers" responded 200 in 77.6061 ms
+02/27/2024 21:15:41 HTTP "GET" "/api/Flowers" responded 200 in 8.8215 ms
+02/27/2024 21:15:51 HTTP "GET" "/api/FlowerCategories" responded 200 in 19.6950 ms
+02/27/2024 21:15:51 HTTP "GET" "/api/Colors" responded 200 in 23.1558 ms
+02/27/2024 21:15:51 HTTP "GET" "/api/Countries" responded 200 in 23.1840 ms
+02/27/2024 21:15:51 HTTP "GET" "/api/FlowerCategories" responded 200 in 31.6481 ms
+02/27/2024 21:15:51 HTTP "GET" "/api/Countries" responded 200 in 34.6528 ms
+02/27/2024 21:15:51 HTTP "GET" "/api/Colors" responded 200 in 41.0452 ms
+02/27/2024 21:15:51 HTTP "GET" "/api/Flowers" responded 200 in 17.3554 ms
+02/27/2024 21:15:51 HTTP "GET" "/api/Flowers" responded 200 in 19.1843 ms
+02/27/2024 21:16:16 HTTP "GET" "/api/FlowerCategories" responded 200 in 238.6014 ms
+02/27/2024 21:16:16 HTTP "GET" "/api/Colors" responded 200 in 252.6898 ms
+02/27/2024 21:16:16 HTTP "GET" "/api/Countries" responded 200 in 161.2254 ms
+02/27/2024 21:16:19 HTTP "GET" "/api/Flowers" responded 200 in 124.2357 ms
+02/27/2024 21:16:19 HTTP "GET" "/api/Flowers" responded 200 in 25.6421 ms
+02/27/2024 21:17:21 HTTP "GET" "/api/Flowers" responded 200 in 230.6774 ms
+02/27/2024 21:17:21 HTTP "GET" "/api/Flowers" responded 200 in 54.7926 ms
+02/27/2024 21:17:25 HTTP "GET" "/api/Colors" responded 200 in 118.8754 ms
+02/27/2024 21:17:25 HTTP "GET" "/api/FlowerCategories" responded 200 in 275.2825 ms
+02/27/2024 21:17:25 HTTP "GET" "/api/Countries" responded 200 in 210.3532 ms
+02/27/2024 21:17:28 HTTP "GET" "/api/Flowers" responded 200 in 143.9047 ms
+02/27/2024 21:17:28 HTTP "GET" "/api/Flowers" responded 200 in 13.6021 ms
+02/27/2024 21:17:35 HTTP "GET" "/api/FlowerCategories" responded 200 in 402.0168 ms
+02/27/2024 21:17:35 HTTP "GET" "/api/Countries" responded 200 in 488.5025 ms
+02/27/2024 21:17:35 HTTP "GET" "/api/Colors" responded 200 in 565.6683 ms
+02/27/2024 21:17:37 HTTP "GET" "/api/Flowers" responded 200 in 155.8199 ms
+02/27/2024 21:17:37 HTTP "GET" "/api/Flowers" responded 200 in 8.6814 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 250.0997 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/Colors" responded 200 in 148.1917 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/Countries" responded 200 in 46.8221 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 115.6496 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/Colors" responded 200 in 120.2855 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/Countries" responded 200 in 83.1555 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 51.5204 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/FlowerCategories" responded 200 in 78.9514 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/Colors" responded 200 in 66.7816 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/Colors" responded 200 in 71.6563 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/Countries" responded 200 in 53.7229 ms
+02/27/2024 21:18:17 HTTP "GET" "/api/Countries" responded 200 in 72.9085 ms
+02/27/2024 21:18:38 HTTP "GET" "/api/Flowers" responded 200 in 272.3108 ms
+02/27/2024 21:18:38 HTTP "GET" "/api/Flowers" responded 200 in 11.7762 ms
+02/27/2024 21:18:41 HTTP "GET" "/api/Colors" responded 200 in 254.9638 ms
+02/27/2024 21:18:41 HTTP "GET" "/api/FlowerCategories" responded 200 in 297.7355 ms
+02/27/2024 21:18:41 HTTP "GET" "/api/Countries" responded 200 in 244.8357 ms
+02/27/2024 21:18:42 HTTP "GET" "/api/Colors" responded 200 in 95.3059 ms
+02/27/2024 21:18:42 HTTP "GET" "/api/FlowerCategories" responded 200 in 338.3704 ms
+02/27/2024 21:18:42 HTTP "GET" "/api/Countries" responded 200 in 329.6599 ms
+02/27/2024 21:18:42 HTTP "GET" "/api/Colors" responded 200 in 53.2526 ms
+02/27/2024 21:18:42 HTTP "GET" "/api/FlowerCategories" responded 200 in 99.6376 ms
+02/27/2024 21:18:42 HTTP "GET" "/api/Colors" responded 200 in 108.2086 ms
+02/27/2024 21:18:42 HTTP "GET" "/api/FlowerCategories" responded 200 in 226.5786 ms
+02/27/2024 21:18:42 HTTP "GET" "/api/Countries" responded 200 in 215.2156 ms
+02/27/2024 21:18:42 HTTP "GET" "/api/Countries" responded 200 in 203.0687 ms
+02/27/2024 21:19:18 HTTP "POST" "/api/UploadImages" responded 401 in 26.4561 ms
+02/27/2024 21:19:18 HTTP "OPTIONS" "/api/Flowers" responded 204 in 0.0807 ms
+02/27/2024 21:19:19 HTTP "POST" "/api/Flowers" responded 401 in 8.9053 ms
+02/27/2024 21:34:14 HTTP "GET" "/api/Countries" responded 200 in 496.0318 ms
+02/27/2024 21:34:14 HTTP "GET" "/api/FlowerCategories" responded 200 in 727.8652 ms
+02/27/2024 21:34:14 HTTP "GET" "/api/Colors" responded 200 in 712.9879 ms
+02/27/2024 21:34:18 HTTP "GET" "/api/FlowerCategories" responded 200 in 203.2422 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/Colors" responded 200 in 70.0652 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/Countries" responded 200 in 93.4860 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/FlowerCategories" responded 200 in 85.8847 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/Countries" responded 200 in 83.2381 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/Colors" responded 200 in 162.1048 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/Countries" responded 200 in 16.3817 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/Countries" responded 200 in 17.6488 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/FlowerCategories" responded 200 in 12.2129 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/Colors" responded 200 in 8.9647 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/FlowerCategories" responded 200 in 10.8661 ms
+02/27/2024 21:34:19 HTTP "GET" "/api/Colors" responded 200 in 10.5379 ms
+02/27/2024 21:34:35 HTTP "OPTIONS" "/api/UploadImages" responded 204 in 0.1280 ms
+02/27/2024 21:34:36 HTTP "POST" "/api/UploadImages" responded 401 in 127.3159 ms
+02/27/2024 21:34:36 HTTP "OPTIONS" "/api/Flowers" responded 204 in 0.1731 ms
+02/27/2024 21:34:36 HTTP "POST" "/api/Flowers" responded 401 in 3.6386 ms
+02/27/2024 21:36:19 HTTP "OPTIONS" "/api/UploadImages" responded 204 in 0.4805 ms
+02/27/2024 21:36:19 HTTP "POST" "/api/UploadImages" responded 401 in 0.9463 ms
+02/27/2024 21:36:20 HTTP "OPTIONS" "/api/Flowers" responded 204 in 0.0934 ms
+02/27/2024 21:36:20 HTTP "POST" "/api/Flowers" responded 401 in 0.5920 ms
+02/27/2024 21:36:37 HTTP "OPTIONS" "/api/UploadImages" responded 204 in 0.3781 ms
+02/27/2024 21:36:37 HTTP "POST" "/api/UploadImages" responded 401 in 1.6527 ms
+02/27/2024 21:36:37 HTTP "OPTIONS" "/api/Flowers" responded 204 in 0.0711 ms
+02/27/2024 21:36:37 HTTP "POST" "/api/Flowers" responded 401 in 2.0689 ms
+02/27/2024 21:37:43 HTTP "OPTIONS" "/api/UploadImages" responded 204 in 0.0720 ms
+02/27/2024 21:37:43 HTTP "POST" "/api/UploadImages" responded 401 in 1.1540 ms
+02/27/2024 21:37:43 HTTP "OPTIONS" "/api/Flowers" responded 204 in 0.0925 ms
+02/27/2024 21:37:43 HTTP "POST" "/api/Flowers" responded 401 in 0.4829 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/Colors" responded 200 in 261.1394 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/Colors" responded 200 in 8.9076 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/Colors" responded 200 in 12.6528 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/Countries" responded 200 in 279.6595 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 306.9103 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/Countries" responded 200 in 13.3516 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/Countries" responded 200 in 14.2964 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/Colors" responded 200 in 47.8994 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/Countries" responded 200 in 21.1183 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 22.6803 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 50.3566 ms
+02/27/2024 21:37:53 HTTP "GET" "/api/FlowerCategories" responded 200 in 61.6052 ms
+02/27/2024 21:38:07 HTTP "OPTIONS" "/api/UploadImages" responded 204 in 0.1019 ms
+02/27/2024 21:38:07 HTTP "POST" "/api/UploadImages" responded 401 in 1.3715 ms
+02/27/2024 21:38:08 HTTP "OPTIONS" "/api/Flowers" responded 204 in 0.0785 ms
+02/27/2024 21:38:08 HTTP "POST" "/api/Flowers" responded 401 in 5.4338 ms
+02/27/2024 21:39:12 Приложение запущено
+02/27/2024 21:39:20 HTTP "GET" "/swagger/index.html" responded 200 in 585.8480 ms
+02/27/2024 21:39:21 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 706.1986 ms
+02/27/2024 21:39:40 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 21:39:40 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 21:39:43 HTTP "GET" "/api/Countries" responded 200 in 1643.3891 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 1653.7662 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/Colors" responded 200 in 1639.2554 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/Flowers" responded 200 in 4474.1136 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/Countries" responded 200 in 204.7349 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/Countries" responded 200 in 10.0143 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 267.5220 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/Countries" responded 200 in 11.6579 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/Colors" responded 200 in 270.8343 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/Colors" responded 200 in 19.8065 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 22.7762 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 10.4243 ms
+02/27/2024 21:39:43 HTTP "GET" "/api/Colors" responded 200 in 11.1104 ms
+02/27/2024 21:39:50 HTTP "OPTIONS" "/api/FlowerCategories" responded 204 in 0.9094 ms
+02/27/2024 21:39:50 HTTP "POST" "/api/FlowerCategories" responded 401 in 243.8536 ms
+02/27/2024 21:40:28 HTTP "POST" "/api/Authentication" responded 200 in 400.2162 ms
+02/27/2024 21:41:00 HTTP "POST" "/api/Countries" responded 401 in 7.4751 ms
+02/27/2024 21:44:23 HTTP "POST" "/api/Countries" responded 401 in 5.7254 ms
+02/27/2024 21:44:33 HTTP "POST" "/api/Authentication" responded 200 in 211.9082 ms
+02/27/2024 21:44:58 HTTP "POST" "/api/Countries" responded 401 in 0.7946 ms
+02/27/2024 21:51:56 HTTP "POST" "/api/Authentication" responded 200 in 305.7195 ms
+02/27/2024 21:52:24 HTTP "DELETE" "/api/Colors/1" responded 401 in 0.8088 ms
+02/27/2024 21:54:47 Приложение запущено
+02/27/2024 21:54:55 HTTP "GET" "/swagger/index.html" responded 200 in 580.1593 ms
+02/27/2024 21:54:56 HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 577.9473 ms
+02/27/2024 21:55:08 No store type was specified for the decimal property '"Cost"' on entity type '"Shipment"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 21:55:08 No store type was specified for the decimal property '"Cost"' on entity type '"Sale"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+02/27/2024 21:55:09 HTTP "GET" "/api/Colors" responded 200 in 2330.0745 ms
+02/27/2024 21:55:44 HTTP "POST" "/api/Authentication" responded 200 in 667.2700 ms
+02/27/2024 21:56:22 HTTP "POST" "/api/Bouquets" responded 200 in 647.6906 ms
+02/27/2024 21:56:39 HTTP "GET" "/api/Flowers" responded 200 in 248.1585 ms
+02/27/2024 21:56:39 HTTP "GET" "/api/Flowers" responded 200 in 7.8974 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/Colors" responded 200 in 32.5011 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 98.6009 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/Colors" responded 200 in 109.0732 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/Countries" responded 200 in 156.5182 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 67.9926 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/Colors" responded 200 in 78.1309 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/Colors" responded 200 in 86.8962 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 30.6055 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/Countries" responded 200 in 71.0615 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/FlowerCategories" responded 200 in 17.3511 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/Countries" responded 200 in 24.0042 ms
+02/27/2024 21:56:43 HTTP "GET" "/api/Countries" responded 200 in 12.3960 ms
+02/27/2024 21:56:51 HTTP "OPTIONS" "/api/Colors" responded 204 in 1.1673 ms
+02/27/2024 21:56:51 HTTP "POST" "/api/Colors" responded 200 in 66.9716 ms
+02/27/2024 21:56:52 HTTP "GET" "/api/Colors" responded 200 in 9.1679 ms
+02/27/2024 21:56:52 HTTP "GET" "/api/Colors" responded 200 in 11.4200 ms

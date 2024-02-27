@@ -5,6 +5,8 @@ import { Carousel, Image, Col, Button, Container } from 'react-bootstrap';
 import { BASE_URL } from "../../urls/urlList";
 import noimage from "../../img/noimage.jpg";
 import FlowerUpdateModal from './FlowerUpdateModal';
+import Cookies from 'universal-cookie';
+
 
 
 const FlowerCatalogList = () => {
@@ -12,6 +14,10 @@ const FlowerCatalogList = () => {
     const [flowers, setData] = useState([]);      
     const [currentFlower, setCurrentFlower] = useState();
     const [modalActive, setModalActive] = useState(false);
+    const cookies = new Cookies();
+    const config = {
+        headers: { Authorization: `Bearer ${cookies.get('access_token')}` }
+    };
 
     useEffect(
         () => { (async () => await getAllFlowers())() }
@@ -31,7 +37,7 @@ const FlowerCatalogList = () => {
             for (const image of f.images) {
                 console.log(image);
                 console.log(urlUploadImagesId + image.id);
-                await axios.delete(urlUploadImagesId + image.id);
+                await axios.delete(urlUploadImagesId + image.id, config);
                 console.log("изображение удалено");
                 
             }            
@@ -47,7 +53,7 @@ const FlowerCatalogList = () => {
             if (f.images !== undefined) {
                await deleteImage(f);
             }
-            await axios.delete(urlFlowersById + f.id);
+            await axios.delete(urlFlowersById + f.id, config);
             console.log("цветок удален");
             alert("Цветок удален");
             getAllFlowers();

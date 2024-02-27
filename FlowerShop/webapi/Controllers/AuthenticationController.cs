@@ -9,6 +9,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using webapi.Authentication;
 using webapi.Data;
+using webapi.Models.DTO;
 using webapi.Models.User;
 using webapi.Services;
 using webapi.Services.Criptographer;
@@ -29,10 +30,10 @@ namespace webapi.Controllers
 
         //Аутентификация пользователя
         [HttpPost]
-        public async Task<ActionResult<User>> AuthUser(User user) {
+        public async Task<ActionResult<User>> AuthUser(UserDTO userDTO) {
             List<Claim> identity;
             try {
-                identity = await GetIdentity(user);
+                identity = await GetIdentity(userDTO);
             }
             catch (Exception exception) {
                 return Problem(exception.Message);
@@ -64,8 +65,12 @@ namespace webapi.Controllers
         }
 
         //Идентификация пользователя
-        private async Task<List<Claim>> GetIdentity(User user)
+        private async Task<List<Claim>> GetIdentity(UserDTO userDTO)
         {
+            var user = new User() {
+                UserName = userDTO.Name,
+                UserPassword = userDTO.Password
+            };
             await _userService.IsUserNameAndUserPasswordCorrect(user);
             var userDb = await _userService.ReadUserByName(user.UserName);
             var claims = new List<Claim> {
